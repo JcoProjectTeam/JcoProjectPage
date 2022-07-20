@@ -1,11 +1,11 @@
 # The J-Co Query Language Specification
 
 The J-Co QueryLanguage is developed in Java using the ANTLR package.  
-The following specification describes the syntax and semantics of the J-Co langauge, 
+The following specification describes the syntax and semantics of the J-Co Query Langauge, 
 using both [EBNF Notation](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) 
 and a [Syntax Diagrams](https://en.wikipedia.org/wiki/Syntax_diagram). 
 
-A J-Co Query Language script is a list of the following Jco instructions.
+A J-Co Query Language script is a list of the following Jco instructions:
 | Instruction | Description |
 | -------- | ----------- | 
 | **I/O instructions** | |
@@ -28,7 +28,7 @@ A J-Co Query Language script is a list of the following Jco instructions.
 | **Spatial instructions** ||
 | [Spatial Join Of Collections**](/languageSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
 
-Here is the complete [EBNF specification of the JCo Query Language](/languageSpecification/JCoQL.g) according to ANTLR notation.  
+Here is the complete [EBNF specification of the JCo Query Language](/languageSpecification/JCoQL.g) according to the [ANTLR notation]().  
 Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
 
 ** Page currently missing
