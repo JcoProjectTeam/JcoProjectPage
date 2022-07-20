@@ -28,7 +28,7 @@ A J-Co language script is a list of the following Jco instructions.
 | **Spatial instructions** ||
 | [Spatial Join Of Collections**](/languageSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
 
-Here is the complete [EBNF specification of the Jco Language](/languageSpecification/GecoLanguage.bnf).  
+Here is the complete [EBNF specification of the JCo Query Language](/languageSpecification/JCoQL.g) according to ANTLR notation.  
 Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
 
 ** Page currently missing
