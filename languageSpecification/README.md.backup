@@ -21,12 +21,14 @@ A J-Co language script is a list of the following Jco instructions.
 | [Group](/languageSpecification/group.md) |   Groups documents in the current collection    |
 | [Expand](/languageSpecification/expand.md) |  Expands documents with array fields in the current collection       |  
 | **Associative instructions** | | 
-| [Join Of Collections](/languageSpecification/joinOfCollections.md) |  Joins two collections of documents in order to create a new one   |
+| [Join Of Collections**](/languageSpecification/joinOfCollections.md) |  Joins two collections of documents in order to create a new one   |
 | [Merge Collections](/languageSpecification/mergeCollections.md) | Merges two or more collections into a single one    | 
-| [Intersect Collections](/languageSpecification/intersectCollections.md) | Creates a new collection as the set intersection of two collections   |
-| [Subtract Collections](/languageSpecification/subtractCollections.md) | Creates a new collection as the set subtraction of two collections    | 
+| [Intersect Collections**](/languageSpecification/intersectCollections.md) | Creates a new collection as the set intersection of two collections   |
+| [Subtract Collections**](/languageSpecification/subtractCollections.md) | Creates a new collection as the set subtraction of two collections    | 
 | **Spatial instructions** ||
-| [Spatial Join Of Collections](/languageSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
+| [Spatial Join Of Collections**](/languageSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
 
 Here is the complete [EBNF specification of the Jco Language](/languageSpecification/GecoLanguage.bnf).  
 Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
+
+** Page curently missing
