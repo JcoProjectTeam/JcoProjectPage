@@ -3,9 +3,11 @@ The _J-CO-Framework_ is the result of a research work conducted at University of
 The core of the framework is _J-CO-QL_, a novel query language specifically designed to query heterogeneous JSON data sets, by natively supporting geo-spatial aggregations of geo-tagged documents.
 
 ## Latest New
-  * _25.06.2022_ : The repository has been restructured. The _java code_ and the _executable code_ have been relocated
-    *  _code_ : https://github.com/JcoProjectTeam/JcoFrameworkCode;
-    * _executable code_ : https://github.com/JcoProjectTeam/JcoFrameworkExecutable;
+  * _21.07.2022_ : The repository has been restructured. The _java code_ and the _executable code_ have been relocated
+    *  _code_ : https://github.com/JcoProjectTeam/JcoFrameworkCode;  
+    * _executable code_ : https://github.com/JcoProjectTeam/JcoFrameworkExecutable;  
+    * _JCoQL Specification_ : https://github.com/JcoProjectTeam/JcoQL/;  
+    * _GeoSoft Specification_ : https://github.com/JcoProjectTeam/JcoGeoSoft;  
 
 For any information contact the authors at:
   * Paolo Fosci : paolo.fosci@unibg.it
