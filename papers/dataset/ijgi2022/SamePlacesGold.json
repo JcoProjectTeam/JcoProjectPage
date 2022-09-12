@@ -1,0 +1,3236 @@
+[
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388224"),
+        "distance" : 47.4207764424688,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.48420898,
+            "fbLongitude" : -2.245497252,
+            "fbName" : "Only Fingers + Toes, Harvey Nichols Manchester",
+            "fbStreet" : "",
+            "fbZip" : "M3 1",
+            "id" : NumberLong(364),
+            "idLink" : "pages/Only-Fingers-Toes-Harvey-Nichols-Manchester/1485295525056111"
+        },
+        "g" : {
+            "gAddress" : "Harvey Nichols, New Cathedral Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJkxIv91MHdkgRdvyrsBcshJ4",
+            "gLatitude" : 53.483872,
+            "gLongitude" : -2.245058,
+            "gName" : "Only Fingers + Toes"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388225"),
+        "distance" : 6.96535506964317,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.43822076,
+            "fbLongitude" : -2.27933172,
+            "fbName" : "Beech Road Fish & Chip Shop",
+            "fbStreet" : "",
+            "fbZip" : "M21 9",
+            "id" : NumberLong(907),
+            "idLink" : "pages/Beech-Road-Fish-Chip-Shop/207694365961275"
+        },
+        "g" : {
+            "gAddress" : "42 Beech Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJwYdIFuyte0gRy5JB3f49t14",
+            "gLatitude" : 53.4382821,
+            "gLongitude" : -2.2793104,
+            "gName" : "Beech Road Fish & Chip Shop"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388226"),
+        "distance" : 25.7602406463305,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.50509,
+            "fbLongitude" : -2.17636,
+            "fbName" : "MK fitness",
+            "fbStreet" : "morton street, morton mill",
+            "fbZip" : "M35 0bn",
+            "id" : NumberLong(1694),
+            "idLink" : "MK-fitness-385585404870504"
+        },
+        "g" : {
+            "gAddress" : "Morton Street, Failsworth, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJYWlo69mwe0gRR-B8c62afYs",
+            "gLatitude" : 53.5048717,
+            "gLongitude" : -2.1762296,
+            "gName" : "Mk Fitness"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388227"),
+        "distance" : 7.03848435222415,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4545109,
+            "fbLongitude" : -2.2449051,
+            "fbName" : "Coffee Nubia",
+            "fbStreet" : "155B Princess Road",
+            "fbZip" : "M14 4RE",
+            "id" : NumberLong(772),
+            "idLink" : "CoffeeNubia"
+        },
+        "g" : {
+            "gAddress" : "155B, Princess Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJtaE9lh2ye0gRWuxEKCplIck",
+            "gLatitude" : 53.4545694,
+            "gLongitude" : -2.2448645,
+            "gName" : "Coffee Nubia"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388228"),
+        "distance" : 25.833363611117,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4838117,
+            "fbLongitude" : -2.231435,
+            "fbName" : "Golden Tandoori",
+            "fbStreet" : "40 Great Ancoats Street",
+            "fbZip" : "M4 5AB",
+            "id" : NumberLong(3646),
+            "idLink" : "pages/Golden-Tandoori/101708256559038"
+        },
+        "g" : {
+            "gAddress" : "40-42 Great Ancoats Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJd2iB-ruxe0gRUDISkm2nKxk",
+            "gLatitude" : 53.4836332,
+            "gLongitude" : -2.2311851,
+            "gName" : "Golden Tandoori"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388229"),
+        "distance" : 5.56838556580097,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.470939,
+            "fbLongitude" : -2.237549,
+            "fbName" : "Archie's",
+            "fbStreet" : "117A Oxford Rd",
+            "fbZip" : "M1 5",
+            "id" : NumberLong(720),
+            "idLink" : "lovearchies"
+        },
+        "g" : {
+            "gAddress" : "115 Oxford Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJMXjRNJOxe0gRtTdRSVb6rb8",
+            "gLatitude" : 53.4709418,
+            "gLongitude" : -2.237465,
+            "gName" : "Archie's - Burgers Shakes Waffles"
+        },
+        "rank" : 0.934128345760202,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.934128345760202,
+            "SameLocation" : 0.835320864400506,
+            "SimilarAddress" : 0.700583389819102,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38822a"),
+        "distance" : 41.421852071702,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47895,
+            "fbLongitude" : -2.25045,
+            "fbName" : "Bannatyne Health Club & Spa Manchester Quay Street",
+            "fbStreet" : "Quay street",
+            "fbZip" : "M1 3",
+            "id" : NumberLong(4279),
+            "idLink" : "BannatyneQuayStreet"
+        },
+        "g" : {
+            "gAddress" : "Sunlight House, Quay Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJG8RsuMKxe0gRfFTw4waPu4g",
+            "gLatitude" : 53.4785783,
+            "gLongitude" : -2.2504914,
+            "gName" : "Bannatyne Health Club"
+        },
+        "rank" : 0.876068359404541,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.876068359404541,
+            "SameLocation" : 0.690170898511352,
+            "SimilarAddress" : 0.436674360929731,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38822b"),
+        "distance" : 39.1786663733369,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.49365657,
+            "fbLongitude" : -2.24293942,
+            "fbName" : "UK Nail & Beauty Supply",
+            "fbStreet" : "51 Knowsley Street, Unit 2",
+            "fbZip" : "M8 8JF",
+            "id" : NumberLong(3814),
+            "idLink" : "uknailandbeautysupply"
+        },
+        "g" : {
+            "gAddress" : "2, 51 Knowsley Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJGYhoKsqxe0gRvs44uFEzRBI",
+            "gLatitude" : 53.4939001,
+            "gLongitude" : -2.2425114,
+            "gName" : "UK Nail & Beauty Supply"
+        },
+        "rank" : 0.956487558818757,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.956487558818757,
+            "SameLocation" : 0.891218897046892,
+            "SimilarAddress" : 0.802216176448894,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38822c"),
+        "distance" : 10.7240650416979,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4213295,
+            "fbLongitude" : -2.2427173,
+            "fbName" : "Elegance Hair & Beauty Didsbury",
+            "fbStreet" : "106 Barlow Moor Road",
+            "fbZip" : "M20 2PN",
+            "id" : NumberLong(539),
+            "idLink" : "elegancedidsbury"
+        },
+        "g" : {
+            "gAddress" : "106 Barlow Moor Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJmQuRrmWye0gR6qOT2MTimiE",
+            "gLatitude" : 53.421405,
+            "gLongitude" : -2.242818,
+            "gName" : "Elegance Hair and Beauty Didsbury Manchester"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38822d"),
+        "distance" : 11.2313070900182,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4549868,
+            "fbLongitude" : -2.2247565,
+            "fbName" : "SPICE KITCHENS",
+            "fbStreet" : "117 Wilmslow Road",
+            "fbZip" : "m145an",
+            "id" : NumberLong(4598),
+            "idLink" : "spicekitchensrusholme"
+        },
+        "g" : {
+            "gAddress" : "117 Wilmslow Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJG8povyeye0gRXUWrIPo_5cM",
+            "gLatitude" : 53.4548872,
+            "gLongitude" : -2.2247847,
+            "gName" : "Spice Kitchens"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38822e"),
+        "distance" : 15.6867062780798,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4828825,
+            "fbLongitude" : -2.2346987,
+            "fbName" : "Body Northern Quarter",
+            "fbStreet" : "10-14 Hilton Street, Stevenson Square, Northern Quarter",
+            "fbZip" : "M1 1JF",
+            "id" : NumberLong(4153),
+            "idLink" : "BodyNorthernQuarter"
+        },
+        "g" : {
+            "gAddress" : "10-14 Hilton Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ0-Uy0r6xe0gRv65DAxzAPRM",
+            "gLatitude" : 53.4829846,
+            "gLongitude" : -2.2348623,
+            "gName" : "Body Northern Quarter"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38822f"),
+        "distance" : 127.230431104312,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4819944,
+            "fbLongitude" : -2.2343598,
+            "fbName" : "Manchester's Finest",
+            "fbStreet" : "Manchester's Finest, 22 Lever Street",
+            "fbZip" : "M1 1EA",
+            "id" : NumberLong(628),
+            "idLink" : "MCRfinest"
+        },
+        "g" : {
+            "gAddress" : "33 Oldham Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJFUWoO7-xe0gR5rJNuod-Pdo",
+            "gLatitude" : 53.4823029,
+            "gLongitude" : -2.2362114,
+            "gName" : "Manchester Coffee Co"
+        },
+        "rank" : 0.818369806833646,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.742565235971897,
+            "MatchingPlaces" : 0.818369806833646,
+            "SameLocation" : 0.545924517084116,
+            "SimilarAddress" : 0.385036656175931,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388230"),
+        "distance" : 6.36017371509,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4562382,
+            "fbLongitude" : -2.2253216,
+            "fbName" : "Ziya Restaurant",
+            "fbStreet" : "65-67 Wilmslow Road",
+            "fbZip" : "M14 5TB",
+            "id" : NumberLong(1750),
+            "idLink" : "ziyarestaurant"
+        },
+        "g" : {
+            "gAddress" : "65-67 Wilmslow Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJBZYniieye0gRlRSIvlK06vA",
+            "gLatitude" : 53.4562315,
+            "gLongitude" : -2.225417,
+            "gName" : "Ziya Asian Grill"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388231"),
+        "distance" : 2.59497392772736,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4799092,
+            "fbLongitude" : -2.2437007,
+            "fbName" : "Lifestyle Holidays",
+            "fbStreet" : "16 Kennedy Street",
+            "fbZip" : "M2 4BY",
+            "id" : NumberLong(4675),
+            "idLink" : "Lifestyle-Holidays-41918296694"
+        },
+        "g" : {
+            "gAddress" : "16 Kennedy Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ-TYhnMGxe0gRLw0jwma40As",
+            "gLatitude" : 53.4799243,
+            "gLongitude" : -2.2436708,
+            "gName" : "Lifestyle Holidays"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388232"),
+        "distance" : 4.48010375932652,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4811147,
+            "fbLongitude" : -2.2260961,
+            "fbName" : "Murs Entertainment Travel",
+            "fbStreet" : "83 Ducie St",
+            "fbZip" : "M1 2JQ",
+            "id" : NumberLong(4087),
+            "idLink" : "metravel.co.uk"
+        },
+        "g" : {
+            "gAddress" : "83 Ducie Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJSc9N4IPqeEgR1Ymf6ZCfUIY",
+            "gLatitude" : 53.4811142,
+            "gLongitude" : -2.2260284,
+            "gName" : "Murs Entertainment Travel"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388233"),
+        "distance" : 26.4057544512112,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4778817,
+            "fbLongitude" : -2.245963812,
+            "fbName" : "STA Travel Education",
+            "fbStreet" : "56 Peter Street",
+            "fbZip" : "M2 3NQ",
+            "id" : NumberLong(4139),
+            "idLink" : "STATravelEducation"
+        },
+        "g" : {
+            "gAddress" : "Saint Georges House, St George's House, Peter Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJq6r6CcKxe0gRsCB62rfYzi4",
+            "gLatitude" : 53.4776449,
+            "gLongitude" : -2.2459338,
+            "gName" : "STA Travel Education"
+        },
+        "rank" : 0.860870368361933,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.860870368361933,
+            "SameLocation" : 0.652175920904833,
+            "SimilarAddress" : 0.367592583463332,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388234"),
+        "distance" : 14.717056611305,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4738979,
+            "fbLongitude" : -2.2371876,
+            "fbName" : "Factory Manchester",
+            "fbStreet" : "112 -118 Princess Street",
+            "fbZip" : "M1 5",
+            "id" : NumberLong(3516),
+            "idLink" : "factorymanchester"
+        },
+        "g" : {
+            "gAddress" : "118 Princess Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJizMxyZSxe0gRARYEzCJoTQY",
+            "gLatitude" : 53.473997,
+            "gLongitude" : -2.237335,
+            "gName" : "FAC251 - Factory Manchester"
+        },
+        "rank" : 0.949691767035422,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.949691767035422,
+            "SameLocation" : 0.874229417588556,
+            "SimilarAddress" : 0.771326213797375,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388235"),
+        "distance" : 26.8525029949422,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.49340312,
+            "fbLongitude" : -2.239716889,
+            "fbName" : "Alif Grill",
+            "fbStreet" : "105 Cheetham Hill Road",
+            "fbZip" : "M8 8PZ",
+            "id" : NumberLong(1022),
+            "idLink" : "AlifGrill"
+        },
+        "g" : {
+            "gAddress" : "105 Cheetham Hill Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ00Fo8Mmxe0gRPmnqDg1YaA4",
+            "gLatitude" : 53.4933208,
+            "gLongitude" : -2.2400985,
+            "gName" : "Alif Grill"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388236"),
+        "distance" : 28.0877042738755,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4107645,
+            "fbLongitude" : -2.2768678,
+            "fbName" : "ROB'S   Cafe & Shakes",
+            "fbStreet" : "105 Sale Road",
+            "fbZip" : "M23 0",
+            "id" : NumberLong(3427),
+            "idLink" : "ROBS-Cafe-Shakes-1433738680225599"
+        },
+        "g" : {
+            "gAddress" : "United Kingdom",
+            "gCity" : "Wythenshawe",
+            "gId" : "ChIJj9QUa3ate0gRjIS-uJQCcIs",
+            "gLatitude" : 53.4106995,
+            "gLongitude" : -2.2772773,
+            "gName" : "Rob's Cafe & Shakes"
+        },
+        "rank" : 0.833455432127853,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.833455432127853,
+            "SameLocation" : 0.583638580319634,
+            "SimilarAddress" : 0.242979236944788,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388237"),
+        "distance" : 17.0300787813776,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4561607,
+            "fbLongitude" : -2.1992801,
+            "fbName" : "Venus Hair & Beauty Salon",
+            "fbStreet" : "581 Stockport Road",
+            "fbZip" : "M130RX",
+            "id" : NumberLong(3905),
+            "idLink" : "Venus-Hair-Beauty-Salon-860527840687037"
+        },
+        "g" : {
+            "gAddress" : "581 Stockport Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ6X6f7Neze0gRsx5BFqs7Tv4",
+            "gLatitude" : 53.456023,
+            "gLongitude" : -2.1991675,
+            "gName" : "Venus Hair & Beauty Ltd"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388238"),
+        "distance" : 4.61663146032584,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.43700624,
+            "fbLongitude" : -2.1594,
+            "fbName" : "Retreat Beauty Salon Reddish Stockport",
+            "fbStreet" : "Retreat 412 Reddish Road",
+            "fbZip" : "SK5 7AA",
+            "id" : NumberLong(4018),
+            "idLink" : "retreatstockport"
+        },
+        "g" : {
+            "gAddress" : "412 Reddish Road, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJ75faIPWze0gR1DzkTCccP-A",
+            "gLatitude" : 53.4370224,
+            "gLongitude" : -2.1593358,
+            "gName" : "Retreat"
+        },
+        "rank" : 0.902222215301457,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.902222215301457,
+            "SameLocation" : 0.755555538253643,
+            "SimilarAddress" : 0.555555524097534,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388239"),
+        "distance" : 20.2600689003791,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4545731,
+            "fbLongitude" : -2.2946713,
+            "fbName" : "Cookhouse",
+            "fbStreet" : "239 Talbot Road",
+            "fbZip" : "M32 0YW",
+            "id" : NumberLong(4837),
+            "idLink" : "Cookhouse-179964905908039"
+        },
+        "g" : {
+            "gAddress" : "239 Talbot Road, Stretford, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ1yYfWt-te0gRJEmkmUulW0U",
+            "gLatitude" : 53.4546441,
+            "gLongitude" : -2.2943895,
+            "gName" : "Cookhouse"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38823a"),
+        "distance" : 3.48871566728361,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.46147844,
+            "fbLongitude" : -2.2483778,
+            "fbName" : "Bru coffee shop",
+            "fbStreet" : "42 Hulme High Sreet",
+            "fbZip" : "M15 5JP",
+            "id" : NumberLong(4584),
+            "idLink" : "BruHulme"
+        },
+        "g" : {
+            "gAddress" : "42 Hulme High Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJAT6uzPCxe0gReFf6lT7qljI",
+            "gLatitude" : 53.4614998,
+            "gLongitude" : -2.2484164,
+            "gName" : "Bru Coffee Shop"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38823b"),
+        "distance" : 27.980627083158,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.40265863,
+            "fbLongitude" : -2.148960532,
+            "fbName" : "PureGym Stockport",
+            "fbStreet" : "Victoria Works, Hempshaw Lane",
+            "fbZip" : "SK1 4LG",
+            "id" : NumberLong(1635),
+            "idLink" : "puregymstockport"
+        },
+        "g" : {
+            "gAddress" : "Victoria Works, Hempshaw Lane, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJq0pLxJy0e0gRlnv3NVRrncQ",
+            "gLatitude" : 53.4028903,
+            "gLongitude" : -2.1491253,
+            "gName" : "PureGym Stockport"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38823c"),
+        "distance" : 158.594302022899,
+        "f" : {
+            "fbCity" : "",
+            "fbCountry" : "",
+            "fbLatitude" : 53.5132134,
+            "fbLongitude" : -2.25658536,
+            "fbName" : "Clowes Park, Salford.",
+            "fbStreet" : "",
+            "fbZip" : "",
+            "id" : NumberLong(5463),
+            "idLink" : "pages/Clowes-Park-Salford/185044044874796"
+        },
+        "g" : {
+            "gAddress" : "Salford",
+            "gCity" : "Salford",
+            "gId" : "ChIJpwGA9SSwe0gR-ZArf0R9LXY",
+            "gLatitude" : 53.5130228,
+            "gLongitude" : -2.2589624,
+            "gName" : "Clowes Park"
+        },
+        "rank" : 0.855207600453787,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.638019001134467,
+            "MatchingPlaces" : 0.855207600453787,
+            "SameLocation" : 0.638019001134467,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38823d"),
+        "distance" : 11.0209785594973,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.42789538,
+            "fbLongitude" : -2.241500616,
+            "fbName" : "Sip West Didsbury",
+            "fbStreet" : "156 Burton Road",
+            "fbZip" : "M20 1LH",
+            "id" : NumberLong(1210),
+            "idLink" : "SipWestDidsbury"
+        },
+        "g" : {
+            "gAddress" : "156 Burton Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJXbP7uW6ye0gResoDK4NMVt4",
+            "gLatitude" : 53.4279907,
+            "gLongitude" : -2.2415462,
+            "gName" : "Sip West Didsbury"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38823e"),
+        "distance" : 16.1876963327136,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4553461,
+            "fbLongitude" : -2.2036201,
+            "fbName" : "Falcon express travel services",
+            "fbStreet" : "2 Albert Place",
+            "fbZip" : "m13 0sq",
+            "id" : NumberLong(5475),
+            "idLink" : "Falcon-express-travel-services-1410128845935161"
+        },
+        "g" : {
+            "gAddress" : "2 Albert Place, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJMyDEd9aze0gRd6HxEKf3u7E",
+            "gLatitude" : 53.4552288,
+            "gLongitude" : -2.2034753,
+            "gName" : "Falcon Express Travel Services"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38823f"),
+        "distance" : 15.1857050054727,
+        "f" : {
+            "fbCity" : "Salford",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47078226,
+            "fbLongitude" : -2.289142327,
+            "fbName" : "Agecroft Rowing Club",
+            "fbStreet" : "15 The Quays",
+            "fbZip" : "M50 3SQ",
+            "id" : NumberLong(4950),
+            "idLink" : "Agecroft.Rowing.Club"
+        },
+        "g" : {
+            "gAddress" : "15 The Quays, Salford",
+            "gCity" : "Salford",
+            "gId" : "ChIJ7-lBXBOue0gR7OCq7ZgdgVY",
+            "gLatitude" : 53.4709107,
+            "gLongitude" : -2.2892203,
+            "gName" : "Agecroft Rowing Club"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388240"),
+        "distance" : 31.5056388149647,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.44654427,
+            "fbLongitude" : -2.277425579,
+            "fbName" : "Unicorn Grocery",
+            "fbStreet" : "89 Albany Road",
+            "fbZip" : "M21 9",
+            "id" : NumberLong(5098),
+            "idLink" : "unicorngrocery"
+        },
+        "g" : {
+            "gAddress" : "89 Albany Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJQ1GJE-Wte0gRUVGsXFRp4DY",
+            "gLatitude" : 53.446308,
+            "gLongitude" : -2.277163,
+            "gName" : "Unicorn Grocery"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388241"),
+        "distance" : 114.805995277337,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4018037,
+            "fbLongitude" : -2.1661588,
+            "fbName" : "Cozy Cafe",
+            "fbStreet" : "81 Castle Street",
+            "fbZip" : "SK3 9AT",
+            "id" : NumberLong(583),
+            "idLink" : "Cozy-Cafe-476271302506846"
+        },
+        "g" : {
+            "gAddress" : "107 Castle Street, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJ60Egl2-ze0gR6CejS9iBRL0",
+            "gLatitude" : 53.4014955,
+            "gLongitude" : -2.1678116,
+            "gName" : "Cozy Cafe"
+        },
+        "rank" : 0.961116403860043,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.783980021444684,
+            "MatchingPlaces" : 0.961116403860043,
+            "SameLocation" : 0.902791009650108,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388242"),
+        "distance" : 30.3760970944491,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47602914,
+            "fbLongitude" : -2.25159194,
+            "fbName" : "Upper Campfield",
+            "fbStreet" : "Campfield Arcade, Deansgate",
+            "fbZip" : "M3 4",
+            "id" : NumberLong(4321),
+            "idLink" : "pages/Campfield-Market-Hall/1695990950659896?hc_ref=ARRUhMBJCj1tgQ_256gaqIgM3fL2MjZioMbQ2I3FAEdaNlxhIYfiviAwuvBgQdWLVcQ"
+        },
+        "g" : {
+            "gAddress" : "Barton Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJee775-exe0gRG0uQDnLaoKo",
+            "gLatitude" : 53.476162,
+            "gLongitude" : -2.251993,
+            "gName" : "Upper Campfield Market Hall"
+        },
+        "rank" : 0.865902173057661,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.865902173057661,
+            "SameLocation" : 0.664755432644151,
+            "SimilarAddress" : 0.390464422989366,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388243"),
+        "distance" : 13.7507261073223,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4052424,
+            "fbLongitude" : -2.2616951,
+            "fbName" : "East Cook Chinese Takeaway",
+            "fbStreet" : "",
+            "fbZip" : "M22 4",
+            "id" : NumberLong(5640),
+            "idLink" : "pages/East-Cook-Chinese-Takeaway/157875347590141"
+        },
+        "g" : {
+            "gAddress" : "34 Longley Lane, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJXWunTHyte0gRvAb6kb9SBVQ",
+            "gLatitude" : 53.4052769,
+            "gLongitude" : -2.2618943,
+            "gName" : "East Cook"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388244"),
+        "distance" : 5.79716258325036,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.40179391,
+            "fbLongitude" : -2.166615857,
+            "fbName" : "Sir Robert Peel",
+            "fbStreet" : "83 Castle Street",
+            "fbZip" : "SK3 9AR",
+            "id" : NumberLong(3837),
+            "idLink" : "SirBobbyPeel"
+        },
+        "g" : {
+            "gAddress" : "83 Castle Street, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJW4k3l2-ze0gRdM5xgQ4NgDw",
+            "gLatitude" : 53.40175,
+            "gLongitude" : -2.166663,
+            "gName" : "Sir Robert Peel Hotel"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388245"),
+        "distance" : 4.61855096729048,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4994941,
+            "fbLongitude" : -2.180906,
+            "fbName" : "MEE CHEN Fish & Chips and Chinese meals",
+            "fbStreet" : "84 Crawford street",
+            "fbZip" : "M40 1",
+            "id" : NumberLong(1779),
+            "idLink" : "Meechenfishandchips"
+        },
+        "g" : {
+            "gAddress" : "84 Crawford Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJU5G3TCexe0gRZuTtEt0ai0w",
+            "gLatitude" : 53.499487,
+            "gLongitude" : -2.1808372,
+            "gName" : "Mee Chen Chinese Meals"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388246"),
+        "distance" : 11.8245164020018,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.48341721,
+            "fbLongitude" : -2.229892015,
+            "fbName" : "Squid Ink",
+            "fbStreet" : "Unit 4 - Nuovo, 65 Great Ancoats Street",
+            "fbZip" : "M4 5AB",
+            "id" : NumberLong(5152),
+            "idLink" : "SquidInkMCR"
+        },
+        "g" : {
+            "gAddress" : "4, 67 Great Ancoats Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ-dSlK6Oxe0gRH_SWjYNGDAQ",
+            "gLatitude" : 53.483378,
+            "gLongitude" : -2.2297259,
+            "gName" : "Squid Ink"
+        },
+        "rank" : 0.939595791334603,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.939595791334603,
+            "SameLocation" : 0.848989478336509,
+            "SimilarAddress" : 0.725435415157288,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388247"),
+        "distance" : 8.41199109039991,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.44243733,
+            "fbLongitude" : -2.280965464,
+            "fbName" : "The Lloyds",
+            "fbStreet" : "617 Wilbraham Road",
+            "fbZip" : "m21 9an",
+            "id" : NumberLong(3578),
+            "idLink" : "thelloydschorlton"
+        },
+        "g" : {
+            "gAddress" : "617 Wilbraham Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJJ9fyIu-te0gRM6HS73z5zuo",
+            "gLatitude" : 53.4424039,
+            "gLongitude" : -2.2810794,
+            "gName" : "The Lloyds"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388248"),
+        "distance" : 23.1780146167484,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4239107,
+            "fbLongitude" : -2.182036,
+            "fbName" : "The Retreat Hair Salon. Heaton moor",
+            "fbStreet" : "52B Heaton Moor Road",
+            "fbZip" : "sk4 4nz",
+            "id" : NumberLong(1441),
+            "idLink" : "theretreathairsalon"
+        },
+        "g" : {
+            "gAddress" : "52A Heaton Moor Road, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJ2fcDu6aze0gRQDTQPQReDTU",
+            "gLatitude" : 53.4237556,
+            "gLongitude" : -2.1822697,
+            "gName" : "The Retreat Hair Salon"
+        },
+        "rank" : 0.990398186637294,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.990398186637294,
+            "SameLocation" : 0.975995466593236,
+            "SimilarAddress" : 0.956355393805883,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388249"),
+        "distance" : 19.2886318291351,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4846257,
+            "fbLongitude" : -2.229204,
+            "fbName" : "SecondCity Bar",
+            "fbStreet" : "37 Blossom Street",
+            "fbZip" : "M4 6AJ",
+            "id" : NumberLong(11),
+            "idLink" : "secondcitybarancoats"
+        },
+        "g" : {
+            "gAddress" : "37 Blossom Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ2a37n7uxe0gRHYwNSfmRGNI",
+            "gLatitude" : 53.4845924,
+            "gLongitude" : -2.2289179,
+            "gName" : "Second City"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38824a"),
+        "distance" : 453.912169396545,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.5211,
+            "fbLongitude" : -2.20444,
+            "fbName" : "Boggart Hole Clough",
+            "fbStreet" : "Charlestown Rd",
+            "fbZip" : "M9 4",
+            "id" : NumberLong(5652),
+            "idLink" : "pages/Boggart-Hole-Clough/141117709248725"
+        },
+        "g" : {
+            "gAddress" : "Charlestown Road, Blackley, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ3zcdmfKwe0gROrrVJV9QRd8",
+            "gLatitude" : 53.5227739,
+            "gLongitude" : -2.1981775,
+            "gName" : "Boggart Hole Clough"
+        },
+        "rank" : 0.864295812598984,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.246087847772134,
+            "MatchingPlaces" : 0.864295812598984,
+            "SameLocation" : 0.66073953149746,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38824b"),
+        "distance" : 9.16630300944576,
+        "f" : {
+            "fbCity" : "Oldham",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.52018986,
+            "fbLongitude" : -2.146310782,
+            "fbName" : "La Via",
+            "fbStreet" : "Railway Rd",
+            "fbZip" : "OL9 7LG",
+            "id" : NumberLong(3741),
+            "idLink" : "La-Via-169718079741903"
+        },
+        "g" : {
+            "gAddress" : "Railway Road, Failsworth, Oldham",
+            "gCity" : "Oldham",
+            "gId" : "ChIJcV-P_zi3e0gRz2Ow2XNvH68",
+            "gLatitude" : 53.5201076,
+            "gLongitude" : -2.1463198,
+            "gName" : "La Via"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38824c"),
+        "distance" : 393.100137213472,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47165401,
+            "fbLongitude" : -2.242200654,
+            "fbName" : "The Courtyard",
+            "fbStreet" : "Chester Street, Manchester",
+            "fbZip" : "M1 5SH",
+            "id" : NumberLong(427),
+            "idLink" : "courtyardpubmanchester"
+        },
+        "g" : {
+            "gAddress" : "Boundary Street West, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJfw7rE-2xe0gRbZP_QMF-4fU",
+            "gLatitude" : 53.4684928,
+            "gLongitude" : -2.2395419,
+            "gName" : "The Bar"
+        },
+        "rank" : 0.834923980091456,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.306899876557071,
+            "MatchingPlaces" : 0.834923980091456,
+            "SameLocation" : 0.587309950228639,
+            "SimilarAddress" : 0.81673637414174,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38824d"),
+        "distance" : 40.7708340369936,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47925803,
+            "fbLongitude" : -2.249716436,
+            "fbName" : "Nando's Spinningfields",
+            "fbStreet" : "2 Hardman Street",
+            "fbZip" : "M3 3HF",
+            "id" : NumberLong(3627),
+            "idLink" : "spinningfieldsnandos"
+        },
+        "g" : {
+            "gAddress" : "2 Hardman St, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJt55CHd2xe0gRcPhC6mMS-cc",
+            "gLatitude" : 53.4792945,
+            "gLongitude" : -2.2503295,
+            "gName" : "Nando's Manchester - Spinningfields"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38824e"),
+        "distance" : 22.8710221758433,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4772393,
+            "fbLongitude" : -2.2395923,
+            "fbName" : "Cruz 101 Manchester",
+            "fbStreet" : "101 Princess Street",
+            "fbZip" : "M1 6DD",
+            "id" : NumberLong(889),
+            "idLink" : "cruz101manchester"
+        },
+        "g" : {
+            "gAddress" : "101 Princess Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ3Tnjuuqxe0gRCryf4peQUPQ",
+            "gLatitude" : 53.4772382,
+            "gLongitude" : -2.2392467,
+            "gName" : "Cruz 101"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38824f"),
+        "distance" : 79.8351051328037,
+        "f" : {
+            "fbCity" : "Salford",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.499596,
+            "fbLongitude" : -2.2701222,
+            "fbName" : "FLAWLESS BEAUTY",
+            "fbStreet" : "302 Lower Broughton Road",
+            "fbZip" : "M7 2hq",
+            "id" : NumberLong(1120),
+            "idLink" : "flawlessbeautysalford"
+        },
+        "g" : {
+            "gAddress" : "302 Lower Broughton Road, Salford",
+            "gCity" : "Salford",
+            "gId" : "ChIJ080rrS2we0gRpUxpmpHAjH4",
+            "gLatitude" : 53.500298,
+            "gLongitude" : -2.269869,
+            "gName" : "Flawless Beauty"
+        },
+        "rank" : 0.982098937634099,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.900549653522773,
+            "MatchingPlaces" : 0.982098937634099,
+            "SameLocation" : 0.955247344085248,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388250"),
+        "distance" : 9.38171608131391,
+        "f" : {
+            "fbCity" : "Salford",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.470234,
+            "fbLongitude" : -2.294222,
+            "fbName" : "Virgin Active UK",
+            "fbStreet" : "Unit F31 Lowry Outlet Mall, The Quays",
+            "fbZip" : "M50 3AH",
+            "id" : NumberLong(3591),
+            "idLink" : "Virgin-Active-UK-686028161605214"
+        },
+        "g" : {
+            "gAddress" : "Unit F31, The Lowry Outlet Mall, The Quays, Salford",
+            "gCity" : "Salford",
+            "gId" : "ChIJXwZ3hmyue0gR10WPoLb4DNw",
+            "gLatitude" : 53.4701615,
+            "gLongitude" : -2.2941495,
+            "gName" : "Virgin Active"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388251"),
+        "distance" : 20.8913477881969,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.42176,
+            "fbLongitude" : -2.16426,
+            "fbName" : "Zestus Fitness",
+            "fbStreet" : "Stanbank Street, The Rope Works, 1st Floor",
+            "fbZip" : "SK4 1PX",
+            "id" : NumberLong(4713),
+            "idLink" : "zestusfitness"
+        },
+        "g" : {
+            "gAddress" : "Unit 5, The Ropeworks, Stanbank Street, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJAQDPT4Sze0gRmZQY_Bn55q4",
+            "gLatitude" : 53.4218159,
+            "gLongitude" : -2.163959,
+            "gName" : "Zestus Fitness"
+        },
+        "rank" : 0.985540553747454,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.985540553747454,
+            "SameLocation" : 0.963851384368635,
+            "SimilarAddress" : 0.93427524430661,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388252"),
+        "distance" : 22.4681852389237,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.48018499,
+            "fbLongitude" : -2.172000772,
+            "fbName" : "Strawberry Duck, Clayton",
+            "fbStreet" : "",
+            "fbZip" : "M11 4",
+            "id" : NumberLong(3883),
+            "idLink" : "pages/Strawberry-Duck-Clayton/179707085552868"
+        },
+        "g" : {
+            "gAddress" : "Strawberry Duck, 76 Crabtree Lane, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJwa2R8Texe0gRxMcwaOY5Tug",
+            "gLatitude" : 53.4800032,
+            "gLongitude" : -2.172149,
+            "gName" : "Strawberry Duck"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388253"),
+        "distance" : 9.89496511519476,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4782737,
+            "fbLongitude" : -2.2402735,
+            "fbName" : "Ho's Bakery",
+            "fbStreet" : "46 Faulkner Street",
+            "fbZip" : "M1 4FH",
+            "id" : NumberLong(872),
+            "idLink" : "pages/Hos-Bakery/165767900111808"
+        },
+        "g" : {
+            "gAddress" : "46 Faulkner Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJSVP897qxe0gRbPwlwvzi7JE",
+            "gLatitude" : 53.4782688,
+            "gLongitude" : -2.2401242,
+            "gName" : "Ho's Bakery"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388254"),
+        "distance" : 17.1202683903108,
+        "f" : {
+            "fbCity" : "Salford",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.49707491,
+            "fbLongitude" : -2.277124595,
+            "fbName" : "Big Boss Diner",
+            "fbStreet" : "",
+            "fbZip" : "",
+            "id" : NumberLong(3756),
+            "idLink" : "pages/Big-Boss-Diner/1787541271515509"
+        },
+        "g" : {
+            "gAddress" : "117 Gerald Road, Salford",
+            "gCity" : "Salford",
+            "gId" : "ChIJw0RYFS2ue0gReqBgLPtNwJQ",
+            "gLatitude" : 53.4972242,
+            "gLongitude" : -2.2771879,
+            "gName" : "Big Boss Diner"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388255"),
+        "distance" : 15.8190702923924,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.50621804,
+            "fbLongitude" : -2.238224468,
+            "fbName" : "Dera",
+            "fbStreet" : "433 Cheetham Hill Road",
+            "fbZip" : "M8 0PF",
+            "id" : NumberLong(1669),
+            "idLink" : "deramanchester"
+        },
+        "g" : {
+            "gAddress" : "433 Cheetham Hill Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJxcssvkmwe0gR4U3eCFm7Piw",
+            "gLatitude" : 53.5060954,
+            "gLongitude" : -2.2383457,
+            "gName" : "Dera"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388256"),
+        "distance" : 0.369640545211325,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.5109574,
+            "fbLongitude" : -2.2150339,
+            "fbName" : "Chickadoo",
+            "fbStreet" : "676 Rochdale Road",
+            "fbZip" : "M95TT",
+            "id" : NumberLong(1776),
+            "idLink" : "ChickadooCo"
+        },
+        "g" : {
+            "gAddress" : "676 Rochdale Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJt7L_A1iwe0gRWLBtvkS7U14",
+            "gLatitude" : 53.510959,
+            "gLongitude" : -2.215029,
+            "gName" : "Chickadoo"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388257"),
+        "distance" : 3.05879296885929,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.5230346,
+            "fbLongitude" : -2.2880272,
+            "fbName" : "Butterstile Beauty & Electrolysis Salon",
+            "fbStreet" : "",
+            "fbZip" : "",
+            "id" : NumberLong(3434),
+            "idLink" : "pages/Butterstile-Beauty-Electrolysis-Salon/1546330962326716?nr"
+        },
+        "g" : {
+            "gAddress" : "148 Butterstile La, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJeZtyK-qve0gRxCYaPV_D-yA",
+            "gLatitude" : 53.5230089,
+            "gLongitude" : -2.2880437,
+            "gName" : "Butterstile Beauty & Electrolysis"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388258"),
+        "distance" : 15.1911913841388,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4817453,
+            "fbLongitude" : -2.2343974,
+            "fbName" : "Twenty Twenty Two",
+            "fbStreet" : "20 Dale Street",
+            "fbZip" : "M1 1EZ",
+            "id" : NumberLong(4617),
+            "idLink" : "TTTMCR"
+        },
+        "g" : {
+            "gAddress" : "20 Dale Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJKWsI576xe0gRTuMln0Gs3Bs",
+            "gLatitude" : 53.4816588,
+            "gLongitude" : -2.2342197,
+            "gName" : "Twenty Twenty Two"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388259"),
+        "distance" : 8.92208340741,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.43015821,
+            "fbLongitude" : -2.248598134,
+            "fbName" : "The Boulevard Deli",
+            "fbStreet" : "22 The Boulevard, Didsbury Point",
+            "fbZip" : "M20 2EU",
+            "id" : NumberLong(3956),
+            "idLink" : "TheBoulevardDeli"
+        },
+        "g" : {
+            "gAddress" : "24 The Boulevard, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJm2uCFHKye0gRQFhQLhRnZGc",
+            "gLatitude" : 53.4302328,
+            "gLongitude" : -2.2485485,
+            "gName" : "The Boulevard Deli"
+        },
+        "rank" : 0.997053567061468,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.997053567061468,
+            "SameLocation" : 0.99263391765367,
+            "SimilarAddress" : 0.986607123006673,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38825a"),
+        "distance" : 195.499384970594,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4052424,
+            "fbLongitude" : -2.2616951,
+            "fbName" : "East Cook Chinese Takeaway",
+            "fbStreet" : "",
+            "fbZip" : "M22 4",
+            "id" : NumberLong(5640),
+            "idLink" : "pages/East-Cook-Chinese-Takeaway/157875347590141"
+        },
+        "g" : {
+            "gAddress" : "436 Palatine Rd, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJaa5u332te0gRzIxTDNjpe5U",
+            "gLatitude" : 53.4069168,
+            "gLongitude" : -2.2607956,
+            "gName" : "The Chu's Chinese Takeaway"
+        },
+        "rank" : 0.804742068734713,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.515002059808578,
+            "MatchingPlaces" : 0.804742068734713,
+            "SameLocation" : 0.515002059808578,
+            "SimilarName" : 0.99790207468547
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38825b"),
+        "distance" : 13.9551250452232,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.507746,
+            "fbLongitude" : -2.2405287,
+            "fbName" : "Chesters Cheetham Hill",
+            "fbStreet" : "368 Cheetham Hill Road",
+            "fbZip" : "M89LS",
+            "id" : NumberLong(1652),
+            "idLink" : "chesterschickencheethamhill"
+        },
+        "g" : {
+            "gAddress" : "Cheetham hill Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJT59UKkiwe0gR1f4DpakqLkY",
+            "gLatitude" : 53.507653,
+            "gLongitude" : -2.240387,
+            "gName" : "Chesters Cheetham Hill"
+        },
+        "rank" : 0.9412163818747,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.9412163818747,
+            "SameLocation" : 0.85304095468675,
+            "SimilarAddress" : 0.732801735794091,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38825c"),
+        "distance" : 5.48665853132905,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4862183,
+            "fbLongitude" : -2.228896,
+            "fbName" : "Fusion English & Carribbean Takeway",
+            "fbStreet" : "88 Oldham Road Ancoats",
+            "fbZip" : "M4 5EB",
+            "id" : NumberLong(5599),
+            "idLink" : "Fusion-English-Carribbean-Takeway-531792783678078"
+        },
+        "g" : {
+            "gAddress" : "88 Oldham Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJGSRC-7qxe0gRPfYBFB83DmE",
+            "gLatitude" : 53.4862454,
+            "gLongitude" : -2.2289653,
+            "gName" : "Fusion English & Carribbean Takeway"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38825d"),
+        "distance" : 26.8295364198584,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.5313113,
+            "fbLongitude" : -2.274230107,
+            "fbName" : "HuntersGrill",
+            "fbStreet" : "99 Heywood Road",
+            "fbZip" : "M25 1LP",
+            "id" : NumberLong(5194),
+            "idLink" : "HuntersGrillandsteak"
+        },
+        "g" : {
+            "gAddress" : "99 Heywood Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJm_3fsvyve0gRE1gjL8k6Law",
+            "gLatitude" : 53.5313538,
+            "gLongitude" : -2.2746297,
+            "gName" : "Hunters grill and steak house"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38825e"),
+        "distance" : 5.78398586779089,
+        "f" : {
+            "fbCity" : "Droylsden",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4784941,
+            "fbLongitude" : -2.1462805,
+            "fbName" : "Purple Flame Droylsden",
+            "fbStreet" : "65 - 67 Market Street",
+            "fbZip" : "M43 6DQ",
+            "id" : NumberLong(4242),
+            "idLink" : "purpleflamedroylsden"
+        },
+        "g" : {
+            "gAddress" : "65-67 Market Street, Droylsden, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ8_7MHbi2e0gRXG0-VlZNV5U",
+            "gLatitude" : 53.4784452,
+            "gLongitude" : -2.1462507,
+            "gName" : "Purple Flame Droylsden"
+        },
+        "rank" : 0.940634928024006,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.940634928024006,
+            "SameLocation" : 0.851587320060015,
+            "SimilarAddress" : 0.730158763745482,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38825f"),
+        "distance" : 79.5824786819262,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47050549,
+            "fbLongitude" : -2.239901137,
+            "fbName" : "Manchester Metropolitan University Business School",
+            "fbStreet" : "MMU Business School, All Saints Campus, Oxford Road",
+            "fbZip" : "M15 6BH",
+            "id" : NumberLong(1547),
+            "idLink" : "mmubusiness"
+        },
+        "g" : {
+            "gAddress" : "All Saints, All Saints Campus, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ3SfsSb6xe0gRulstjxyUbyM",
+            "gLatitude" : 53.4709725,
+            "gLongitude" : -2.23899,
+            "gName" : "Manchester Metropolitan University Business School"
+        },
+        "rank" : 0.908151997947055,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.901391741679817,
+            "MatchingPlaces" : 0.908151997947055,
+            "SameLocation" : 0.770379994867636,
+            "SimilarAddress" : 0.663188565657671,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388260"),
+        "distance" : 26.46197583329,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4209456,
+            "fbLongitude" : -2.2114103,
+            "fbName" : "Glamour Beauticians",
+            "fbStreet" : "680 Burnage Lane",
+            "fbZip" : "M19 1NA",
+            "id" : NumberLong(4142),
+            "idLink" : "Glamour-Beauticians-421163544737158"
+        },
+        "g" : {
+            "gAddress" : "680 Burnage Lane, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJA-a-YgSye0gRtlTaMQRyak4",
+            "gLatitude" : 53.4211387,
+            "gLongitude" : -2.2111769,
+            "gName" : "Glamour Beauticians"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388261"),
+        "distance" : 5.08212746274193,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.48094643,
+            "fbLongitude" : -2.232820988,
+            "fbName" : "beauty and bubbles",
+            "fbStreet" : "47 Dale Street",
+            "fbZip" : "M1 2HF",
+            "id" : NumberLong(8),
+            "idLink" : "beautyandbubs"
+        },
+        "g" : {
+            "gAddress" : "47 Dale Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJM6Q7j76xe0gRfjs-_l23_Ko",
+            "gLatitude" : 53.480902,
+            "gLongitude" : -2.232839,
+            "gName" : "beauty and bubbles"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388262"),
+        "distance" : 0.00612952280955868,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47960085,
+            "fbLongitude" : -2.233978361,
+            "fbName" : "The Waldorf",
+            "fbStreet" : "12 Gore Street",
+            "fbZip" : "M1 3AQ",
+            "id" : NumberLong(4773),
+            "idLink" : "WaldorfMCR"
+        },
+        "g" : {
+            "gAddress" : "12 Gore Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJdd6xRb6xe0gRApBB4lIbF7k",
+            "gLatitude" : 53.4796008,
+            "gLongitude" : -2.2339784,
+            "gName" : "The Waldorf"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388263"),
+        "distance" : 22.62580868245,
+        "f" : {
+            "fbCity" : "Salford",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47254292,
+            "fbLongitude" : -2.297753842,
+            "fbName" : "The Dockyard",
+            "fbStreet" : "Media City",
+            "fbZip" : "M50 2",
+            "id" : NumberLong(951),
+            "idLink" : "thedockyardmcuk"
+        },
+        "g" : {
+            "gAddress" : "DockHouse, Media City, Salford",
+            "gCity" : "Salford",
+            "gId" : "ChIJ5SP2aGmue0gRHg0kpBn0jPo",
+            "gLatitude" : 53.4727441,
+            "gLongitude" : -2.2977026,
+            "gName" : "The Dockyard"
+        },
+        "rank" : 0.921777778142028,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.921777778142028,
+            "SameLocation" : 0.804444445355069,
+            "SimilarAddress" : 0.644444446100126,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388264"),
+        "distance" : 14.9924397401897,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47624733,
+            "fbLongitude" : -2.250768526,
+            "fbName" : "Lal Qila Deansgate",
+            "fbStreet" : "310 Tonman Street",
+            "fbZip" : "M3 4HE",
+            "id" : NumberLong(4604),
+            "idLink" : "LQDeansgate"
+        },
+        "g" : {
+            "gAddress" : "310 Deansgate, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJU-dZCuixe0gRcFnnqp83J_w",
+            "gLatitude" : 53.4762923,
+            "gLongitude" : -2.2509821,
+            "gName" : "Lal Qila Deansgate"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388265"),
+        "f" : {
+            "fbCity" : "",
+            "fbCountry" : "",
+            "fbName" : "The Gaskell Garden Project",
+            "fbStreet" : "Bethnall Drive Allotments, Shawfield Close,",
+            "fbZip" : "M14 7FL",
+            "id" : NumberLong(5034),
+            "idLink" : "TheGaskellGardenProject"
+        },
+        "g" : {
+            "gAddress" : "7 Shawfield Close, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJK2adRxaye0gRNZJcO4yta9E",
+            "gLatitude" : 53.4417873,
+            "gLongitude" : -2.236955,
+            "gName" : "Gaskell Garden Project"
+        },
+        "rank" : 0.846808181225425,
+        "~fuzzysets" : {
+            "MatchingPlaces" : 0.846808181225425,
+            "SameLocation" : 0.625412094717053,
+            "SimilarAddress" : 0.625412094717053,
+            "SimilarName" : 0.994405572231006
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388266"),
+        "distance" : 15.8639270914022,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4352684,
+            "fbLongitude" : -2.1658317,
+            "fbName" : "The Grey Horse",
+            "fbStreet" : "",
+            "fbZip" : "",
+            "id" : NumberLong(5352),
+            "idLink" : "pages/Grey-Horse/483478371850426"
+        },
+        "g" : {
+            "gAddress" : "99 Broadstone Road, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJWe_Dzoyze0gRuX2fYMc1B1A",
+            "gLatitude" : 53.4351494,
+            "gLongitude" : -2.1659638,
+            "gName" : "Grey Horse"
+        },
+        "rank" : 0.925714293548038,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.925714293548038,
+            "SameLocation" : 1.0,
+            "SimilarName" : 0.87619048924673
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388267"),
+        "distance" : 69.9077027747807,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4054412,
+            "fbLongitude" : -2.1612529,
+            "fbName" : "Cafelito",
+            "fbStreet" : "20 Railway Road",
+            "fbZip" : "SK1 3SW",
+            "id" : NumberLong(257),
+            "idLink" : "cafelitobistro"
+        },
+        "g" : {
+            "gAddress" : "Railway Road, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJ6f7wdHuze0gRn2eR6lTaM9Y",
+            "gLatitude" : 53.405995,
+            "gLongitude" : -2.1617521,
+            "gName" : "Cafelito Cafe (Stockport Exchange)"
+        },
+        "rank" : 0.894741364040438,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.933640994223084,
+            "MatchingPlaces" : 0.894741364040438,
+            "SameLocation" : 0.736853410101096,
+            "SimilarAddress" : 0.57584538672856,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388268"),
+        "distance" : 19.6415563869529,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4237408,
+            "fbLongitude" : -2.1823607,
+            "fbName" : "Back's Deli",
+            "fbStreet" : "62 Heaton Moor Road",
+            "fbZip" : "SK4 4NZ",
+            "id" : NumberLong(1819),
+            "idLink" : "backsdeli"
+        },
+        "g" : {
+            "gAddress" : "62 Heaton Moor Road, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJhWWkvqKze0gRoL0VIpIcMJ8",
+            "gLatitude" : 53.4236113,
+            "gLongitude" : -2.1825623,
+            "gName" : "Back's Deli"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388269"),
+        "distance" : 1.61434244568866,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4746559,
+            "fbLongitude" : -2.2450556,
+            "fbName" : "Rain Bar",
+            "fbStreet" : "80 Great Bridgewater Street",
+            "fbZip" : "M1 5JG",
+            "id" : NumberLong(843),
+            "idLink" : "RainBarMCR"
+        },
+        "g" : {
+            "gAddress" : "80 Great Bridgewater Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJwbPkfumxe0gR-5BD8fshBow",
+            "gLatitude" : 53.47466,
+            "gLongitude" : -2.245079,
+            "gName" : "Rain Bar"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38826a"),
+        "distance" : 10.8984909038493,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.3995002,
+            "fbLongitude" : -2.1538036,
+            "fbName" : "SK PIZZA",
+            "fbStreet" : "269 Wellington road  south",
+            "fbZip" : "SK2 6NG",
+            "id" : NumberLong(4551),
+            "idLink" : "skpizzastockport"
+        },
+        "g" : {
+            "gAddress" : "269 Wellington Road South, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJaR_IcmKze0gR0P0ZtYqnirA",
+            "gLatitude" : 53.3995707,
+            "gLongitude" : -2.1539178,
+            "gName" : "SK Pizza"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38826b"),
+        "distance" : 9.291613341193,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.45752262,
+            "fbLongitude" : -2.22646707,
+            "fbName" : "Toro's Steakhouse Manchester",
+            "fbStreet" : "13 - 15 Wimslow Road",
+            "fbZip" : "M14 5TB",
+            "id" : NumberLong(1186),
+            "idLink" : "torosmanchester"
+        },
+        "g" : {
+            "gAddress" : "13-15 Wilmslow Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ798bJ4ixe0gRrXQTztrrVW4",
+            "gLatitude" : 53.4575426,
+            "gLongitude" : -2.2263308,
+            "gName" : "Toro's Steakhouse Manchester"
+        },
+        "rank" : 0.984222749881227,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.984222749881227,
+            "SameLocation" : 0.960556874703067,
+            "SimilarAddress" : 0.928285226732849,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38826c"),
+        "distance" : 71.040121849553,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.44993,
+            "fbLongitude" : -2.23782,
+            "fbName" : "Lloyd Street Chippy",
+            "fbStreet" : "35 Lloyd Street South",
+            "fbZip" : "M14 7HS",
+            "id" : NumberLong(4492),
+            "idLink" : "pages/Lloyd-Street-Chippy/279181148850841"
+        },
+        "g" : {
+            "gAddress" : "35 Lloyd Street South, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJnfgN0hiye0gRuDnfj6uPY-s",
+            "gLatitude" : 53.4504363,
+            "gLongitude" : -2.2384743,
+            "gName" : "Lloyd Street Chippy"
+        },
+        "rank" : 0.987375927525416,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.929866264030091,
+            "MatchingPlaces" : 0.987375927525416,
+            "SameLocation" : 0.968439818813541,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38826d"),
+        "distance" : 60.499865664916,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.54438906,
+            "fbLongitude" : -2.290814779,
+            "fbName" : "Salon Guzelim",
+            "fbStreet" : "13 Victoria Square",
+            "fbZip" : "M45 6AL",
+            "id" : NumberLong(959),
+            "idLink" : "Salonguzelim15"
+        },
+        "g" : {
+            "gAddress" : "13 Victoria Lane, Whitefield, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJJzXx016le0gRrWFdrIz_IJE",
+            "gLatitude" : 53.5447516,
+            "gLongitude" : -2.290132,
+            "gName" : "Salon Guzelim Beauty Lounge & Nails"
+        },
+        "rank" : 0.993700081141961,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.965000450788674,
+            "MatchingPlaces" : 0.993700081141961,
+            "SameLocation" : 0.984250202854903,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38826e"),
+        "distance" : 72.9033898704693,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4022506,
+            "fbLongitude" : -2.1655133,
+            "fbName" : "Hair and Beauty Lounge",
+            "fbStreet" : "28/30 Castle street, Edgeley",
+            "fbZip" : "SK39ad",
+            "id" : NumberLong(5391),
+            "idLink" : "Hairandbeautyloungestockport"
+        },
+        "g" : {
+            "gAddress" : "28 Castle Street, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJmVVJQmWze0gRxvGYtpMAO1s",
+            "gLatitude" : 53.4024336,
+            "gLongitude" : -2.1644573,
+            "gName" : "Hair and Beauty Lounge"
+        },
+        "rank" : 0.986257966729525,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.923655370719586,
+            "MatchingPlaces" : 0.986257966729525,
+            "SameLocation" : 0.965644916823814,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38826f"),
+        "distance" : 7.78186355857682,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.5138947,
+            "fbLongitude" : -2.2010693,
+            "fbName" : "Sharon Hair & Beauty Products/Saloon",
+            "fbStreet" : "277 Moston Lane",
+            "fbZip" : "M40 9wj",
+            "id" : NumberLong(712),
+            "idLink" : "Sharon-Hair-Beauty-ProductsSaloon-1614845682065066"
+        },
+        "g" : {
+            "gAddress" : "277 Moston Lane, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ3_PqLe6we0gRcbHXu-qnXQ4",
+            "gLatitude" : 53.5138577,
+            "gLongitude" : -2.2009694,
+            "gName" : "Sharon Hair & Beauty"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388270"),
+        "distance" : 292.127851455584,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4763812,
+            "fbLongitude" : -2.2317376,
+            "fbName" : "The Star and Garter",
+            "fbStreet" : "18-20 Fairfield Street",
+            "fbZip" : "M1 2QF",
+            "id" : NumberLong(3833),
+            "idLink" : "StarAndGarterManchester"
+        },
+        "g" : {
+            "gAddress" : "18-20 Fairfield Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJix8-g5exe0gRFATdkEHFYPI",
+            "gLatitude" : 53.4760312,
+            "gLongitude" : -2.2273627,
+            "gName" : "Star & Garter"
+        },
+        "rank" : 0.805279348341173,
+        "~fuzzysets" : {
+            "ClosePlaces" : 0.407872156672693,
+            "MatchingPlaces" : 0.805279348341173,
+            "SameLocation" : 0.733542470502712,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 0.853103933566813
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388271"),
+        "distance" : 11.9044198189407,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.5334084,
+            "fbLongitude" : -2.2126929,
+            "fbName" : "Glam Hair & Beauty",
+            "fbStreet" : "231 Hill Lane",
+            "fbZip" : "M9 6RG",
+            "id" : NumberLong(3412),
+            "idLink" : "Glam-Hair-Beauty-611382448945339"
+        },
+        "g" : {
+            "gAddress" : "231 Hill Lane, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJnadwK4awe0gRKfH7e-64oBU",
+            "gLatitude" : 53.533319,
+            "gLongitude" : -2.212792,
+            "gName" : "Glam Hair & Beauty"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388272"),
+        "distance" : 31.9884892079411,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.48533946,
+            "fbLongitude" : -2.234081364,
+            "fbName" : "Band on the Wall",
+            "fbStreet" : "25 Swan Street",
+            "fbZip" : "M4 5JZ",
+            "id" : NumberLong(264),
+            "idLink" : "bandonthewall"
+        },
+        "g" : {
+            "gAddress" : "Swan Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJoXDnDrmxe0gRwQubz6qM2k8",
+            "gLatitude" : 53.4855037,
+            "gLongitude" : -2.2344783,
+            "gName" : "Band on the Wall"
+        },
+        "rank" : 0.90336093208177,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.90336093208177,
+            "SameLocation" : 0.758402330204425,
+            "SimilarAddress" : 0.560731509462592,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388273"),
+        "distance" : 46.0789163766445,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.41033569,
+            "fbLongitude" : -2.143931137,
+            "fbName" : "MSA Stockport Muay Thai",
+            "fbStreet" : "1st floor woodbank works, woodbank industrial estate, Turncroft lane, Offerton",
+            "fbZip" : "SK1 4AR",
+            "id" : NumberLong(2031),
+            "idLink" : "msastockportmuaythai"
+        },
+        "g" : {
+            "gAddress" : "first floor woodbank works woodbank industrial estate, Turncroft Lane, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJI7QeXYa0e0gRssQP6FgtAoA",
+            "gLatitude" : 53.410712,
+            "gLongitude" : -2.14364,
+            "gName" : "MSA Stockport Muay Thai"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388274"),
+        "distance" : 13.7292373860811,
+        "f" : {
+            "fbCity" : "Reddish",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.44542872,
+            "fbLongitude" : -2.157410561,
+            "fbName" : "Fir Tree",
+            "fbStreet" : "257 Gorton Road",
+            "fbZip" : "SK5 6LL",
+            "id" : NumberLong(5302),
+            "idLink" : "thefirtree"
+        },
+        "g" : {
+            "gAddress" : "257 Gorton Road, Reddish, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJ4XRw2feze0gRfzQIuX8O8E0",
+            "gLatitude" : 53.4454337,
+            "gLongitude" : -2.1576177,
+            "gName" : "The Fir Tree"
+        },
+        "rank" : 0.956666665275893,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.956666665275893,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 0.927777775459821
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388275"),
+        "distance" : 10.6905489526969,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4018578,
+            "fbLongitude" : -2.1659449,
+            "fbName" : "Deep Pan Express",
+            "fbStreet" : "",
+            "fbZip" : "SK3 9",
+            "id" : NumberLong(4833),
+            "idLink" : "pages/Deep-Pan-Express/147639862027936"
+        },
+        "g" : {
+            "gAddress" : "65 Castle Street, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJG7DqZ2Wze0gR4dfuomstSD0",
+            "gLatitude" : 53.4019272,
+            "gLongitude" : -2.1658333,
+            "gName" : "Deep Pan Express"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388276"),
+        "distance" : 2.63561947533635,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.43415,
+            "fbLongitude" : -2.2279624,
+            "fbName" : "Al-Jumeiràh",
+            "fbStreet" : "461-463 Wilmslow Road",
+            "fbZip" : "M20 4an",
+            "id" : NumberLong(3780),
+            "idLink" : "aljumeirah.mcr"
+        },
+        "g" : {
+            "gAddress" : "461-463 Wilmslow Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ8-QQqTiye0gRrZcj-GgmXQA",
+            "gLatitude" : 53.4341737,
+            "gLongitude" : -2.2279618,
+            "gName" : "Al Jumeirah Restaurant"
+        },
+        "rank" : 0.970909085273745,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.970909085273745,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 0.951515142122908
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388277"),
+        "distance" : 25.9598349205609,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.44684503,
+            "fbLongitude" : -2.237577658,
+            "fbName" : "Pizza Browa",
+            "fbStreet" : "",
+            "fbZip" : "M14 7",
+            "id" : NumberLong(1662),
+            "idLink" : "pages/Pizza-Browa/168109529867445"
+        },
+        "g" : {
+            "gAddress" : "312 Platt Lane, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ73T-Qhiye0gRtRBLYwtMIvo",
+            "gLatitude" : 53.447009,
+            "gLongitude" : -2.2378567,
+            "gName" : "Pizza Browa"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388278"),
+        "distance" : 0.172714749505729,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.539501,
+            "fbLongitude" : -2.201467,
+            "fbName" : "Kids Praise Theatre Workshop",
+            "fbStreet" : "Manchester New Rd",
+            "fbZip" : "M24 1LB",
+            "id" : NumberLong(5509),
+            "idLink" : "pages/Kids-Praise-Theatre-Workshop/1724857311124874"
+        },
+        "g" : {
+            "gAddress" : "Manchester New Road, Middleton, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ9dyx7Zywe0gRXTdO41fZPjQ",
+            "gLatitude" : 53.539502,
+            "gLongitude" : -2.201465,
+            "gName" : "Kids Praise Theatre Workshop"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388279"),
+        "distance" : 8.71797137760181,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.47165401,
+            "fbLongitude" : -2.242200654,
+            "fbName" : "The Courtyard",
+            "fbStreet" : "Chester Street, Manchester",
+            "fbZip" : "M1 5SH",
+            "id" : NumberLong(427),
+            "idLink" : "courtyardpubmanchester"
+        },
+        "g" : {
+            "gAddress" : "2 Chester Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJPRn0beyxe0gRTlyY47houMQ",
+            "gLatitude" : 53.4717179,
+            "gLongitude" : -2.242277,
+            "gName" : "The Courtyard"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38827a"),
+        "distance" : 21.8477971784153,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.48757285,
+            "fbLongitude" : -2.15580779,
+            "fbName" : "Heavenly Beaute",
+            "fbStreet" : "",
+            "fbZip" : "",
+            "id" : NumberLong(5261),
+            "idLink" : "pages/Heavenly-Beaute/182711858411852"
+        },
+        "g" : {
+            "gAddress" : "252-254 Greenside Lane, Droylsden, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJDQcetc22e0gRNuF10Z8qt4Q",
+            "gLatitude" : 53.4874423,
+            "gLongitude" : -2.155561,
+            "gName" : "Heavenly Beaute"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38827b"),
+        "f" : {
+            "fbCity" : "",
+            "fbCountry" : "",
+            "fbName" : "Italian Express",
+            "fbStreet" : "Higher Cambridge Street Manchester, Morston Close Ellenbrook, 28 London Road Stockton Heath",
+            "fbZip" : "",
+            "id" : NumberLong(4077),
+            "idLink" : "italianexpress1"
+        },
+        "g" : {
+            "gAddress" : "4, Manchester, First Street North, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJAQBQB8Cxe0gRndtyJZh8d5o",
+            "gLatitude" : 53.4729761,
+            "gLongitude" : -2.2469884,
+            "gName" : "Pizza Express"
+        },
+        "rank" : 0.825405946691711,
+        "~fuzzysets" : {
+            "MatchingPlaces" : 0.825405946691711,
+            "SameLocation" : 0.563514866729277,
+            "SimilarAddress" : 0.563514866729277,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38827c"),
+        "distance" : 7.22242706371362,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4613596,
+            "fbLongitude" : -2.288701,
+            "fbName" : "Lou Macari's Fish and Chip Shop",
+            "fbStreet" : "684 Chester Rd",
+            "fbZip" : "M32 0SF",
+            "id" : NumberLong(5598),
+            "idLink" : "pages/Lou-Macaris-Fish-and-Chip-Shop/166303566715395"
+        },
+        "g" : {
+            "gAddress" : "684 Chester Road, Stretford, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJiaI8sAyue0gRR6yiHjyBxqQ",
+            "gLatitude" : 53.4612947,
+            "gLongitude" : -2.2886966,
+            "gName" : "Lou Macari"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38827d"),
+        "distance" : 10.5628096309737,
+        "f" : {
+            "fbCity" : "Manchester, Greater Manchester",
+            "fbCountry" : "",
+            "fbLatitude" : 53.5176366,
+            "fbLongitude" : -2.2395934,
+            "fbName" : "Freshfields Sandwich Bar",
+            "fbStreet" : "64 Crumpsall Lane",
+            "fbZip" : "M8 5",
+            "id" : NumberLong(5192),
+            "idLink" : "pages/Freshfields-Sandwich-Bar/147452961960081"
+        },
+        "g" : {
+            "gAddress" : "64 Crumpsall Lane, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJLdYl8kCwe0gRD3KFI3i8v8c",
+            "gLatitude" : 53.5175785,
+            "gLongitude" : -2.239467,
+            "gName" : "Freshfields Deli"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38827e"),
+        "distance" : 10.4410377515262,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4828409,
+            "fbLongitude" : -2.2339224,
+            "fbName" : "Eastern Bloc",
+            "fbStreet" : "5A Stevenson Square",
+            "fbZip" : "M1 1DN",
+            "id" : NumberLong(1682),
+            "idLink" : "EasternBlocRecords"
+        },
+        "g" : {
+            "gAddress" : "5a Stevenson Square, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJF8mpyb6xe0gRIgMyMjieGh0",
+            "gLatitude" : 53.4827493,
+            "gLongitude" : -2.2338877,
+            "gName" : "Eastern Bloc Records"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38827f"),
+        "distance" : 24.9802345446545,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4375367,
+            "fbLongitude" : -2.1598649,
+            "fbName" : "Prestige Hair and Beauty • 0161 443 2362 • 0161 975 0110",
+            "fbStreet" : "5-7 Gorton road",
+            "fbZip" : "SK5 6AZ",
+            "id" : NumberLong(905),
+            "idLink" : "Www.prestige.co.uk"
+        },
+        "g" : {
+            "gAddress" : "5-7 Gorton Road, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJI13U4veze0gRTd0TSHiVW3c",
+            "gLatitude" : 53.4377612,
+            "gLongitude" : -2.159851,
+            "gName" : "Prestige hair and beauty"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388280"),
+        "distance" : 5.24303399196193,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4178814,
+            "fbLongitude" : -2.2328354,
+            "fbName" : "A Front For Something",
+            "fbStreet" : "25 Barlow Moor Road",
+            "fbZip" : "M20 6TN",
+            "id" : NumberLong(181),
+            "idLink" : "A-Front-For-Something-127031407993777"
+        },
+        "g" : {
+            "gAddress" : "25 Barlow Moor Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJn6iPA16ye0gRRXGybQ_pmTY",
+            "gLatitude" : 53.4179141,
+            "gLongitude" : -2.2328924,
+            "gName" : "A Front For Something"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388281"),
+        "distance" : 26.7651513958775,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.46547811,
+            "fbLongitude" : -2.228817473,
+            "fbName" : "The Michael Smith Building",
+            "fbStreet" : "Upper Brook Street",
+            "fbZip" : "M13 9PT",
+            "id" : NumberLong(1467),
+            "idLink" : "TheMichaelSmithBuilding"
+        },
+        "g" : {
+            "gAddress" : "Dover Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJpaRuaI6xe0gRSkMMTXCdblY",
+            "gLatitude" : 53.4653015,
+            "gLongitude" : -2.2290922,
+            "gName" : "Michael Smith Building"
+        },
+        "rank" : 0.861481479457867,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.861481479457867,
+            "SameLocation" : 0.653703698644668,
+            "SimilarAddress" : 0.370370361172123,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388282"),
+        "distance" : 2.37275273416047,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4786475,
+            "fbLongitude" : -2.233406,
+            "fbName" : "Store Street Manchester",
+            "fbStreet" : "One Piccadilly Place, 1 Auburn St",
+            "fbZip" : "M1 3DG",
+            "id" : NumberLong(2024),
+            "idLink" : "StoreStreetManchester"
+        },
+        "g" : {
+            "gAddress" : "1, Auburn Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ9zFsPb6xe0gRp0YSGkVrfqc",
+            "gLatitude" : 53.4786275,
+            "gLongitude" : -2.2334185,
+            "gName" : "Store Street Exchange"
+        },
+        "rank" : 0.849629627900359,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 0.849629627900359,
+            "SameLocation" : 0.624074069750898,
+            "SimilarAddress" : 0.316498308637996,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388283"),
+        "distance" : 16.4488006935199,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4265883,
+            "fbLongitude" : -2.2430252,
+            "fbName" : "West Village, Didsbury",
+            "fbStreet" : "220 Burton Road",
+            "fbZip" : "M20 2LW",
+            "id" : NumberLong(3753),
+            "idLink" : "westvillagedidsbury"
+        },
+        "g" : {
+            "gAddress" : "220 Burton Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJM3S14m6ye0gRxEYdPOG42po",
+            "gLatitude" : 53.42645,
+            "gLongitude" : -2.2431133,
+            "gName" : "West Village"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388284"),
+        "distance" : 4.4042466203061,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4103959,
+            "fbLongitude" : -2.2557638,
+            "fbName" : "Sagor Balti",
+            "fbStreet" : "277 Palatine Road",
+            "fbZip" : "M22 4ET",
+            "id" : NumberLong(4240),
+            "idLink" : "pages/Sagor-Balti/160441073970231"
+        },
+        "g" : {
+            "gAddress" : "277 Palatine Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ8RekV4Cye0gRFY_mAL9Sab4",
+            "gLatitude" : 53.4104044,
+            "gLongitude" : -2.2556989,
+            "gName" : "Sagor Balti"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388285"),
+        "distance" : 6.94354850323695,
+        "f" : {
+            "fbCity" : "Prestwich",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.53299577,
+            "fbLongitude" : -2.285210762,
+            "fbName" : "Railway & Naturalist",
+            "fbStreet" : "464 Bury New Road",
+            "fbZip" : "M25 1AX",
+            "id" : NumberLong(1638),
+            "idLink" : "RailwayandNaturalist"
+        },
+        "g" : {
+            "gAddress" : "464 Bury New Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJbU_OU_Cve0gRdJFLiIUq7NQ",
+            "gLatitude" : 53.5329364,
+            "gLongitude" : -2.2851782,
+            "gName" : "Railway & Naturalist"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388286"),
+        "distance" : 41.7444945205147,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.5225277,
+            "fbLongitude" : -2.2227306,
+            "fbName" : "The Star Grill",
+            "fbStreet" : "95, Old Market Street, Blackley",
+            "fbZip" : "M9 8DX",
+            "id" : NumberLong(3785),
+            "idLink" : "The-Star-Grill-1220836737932396"
+        },
+        "g" : {
+            "gAddress" : "95 Old Market Street, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJEXpFNWewe0gRHclqCxHRUl4",
+            "gLatitude" : 53.5227231,
+            "gLongitude" : -2.2221914,
+            "gName" : "The Star Grill"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388287"),
+        "distance" : 18.7401197485173,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4533983,
+            "fbLongitude" : -2.2230942,
+            "fbName" : "Uncle B’s Fish and Chips",
+            "fbStreet" : "189 Wilmslow Road",
+            "fbZip" : "M14 5AQ",
+            "id" : NumberLong(69),
+            "idLink" : "pages/Uncle-Bs-Fish-and-Chips/149887862333212"
+        },
+        "g" : {
+            "gAddress" : "189 Wilmslow Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJj-TCKyaye0gR55T4rJNpYnA",
+            "gLatitude" : 53.453405,
+            "gLongitude" : -2.223377,
+            "gName" : "Uncle B's Fish & Chips"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388288"),
+        "distance" : 15.4258150923859,
+        "f" : {
+            "fbCity" : "Oldham",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.51518222,
+            "fbLongitude" : -2.150187128,
+            "fbName" : "kellie-ann's beauty",
+            "fbStreet" : "",
+            "fbZip" : "",
+            "id" : NumberLong(1266),
+            "idLink" : "pages/kellie-anns-beauty/121552311280186"
+        },
+        "g" : {
+            "gAddress" : "662 Oldham Road, Failsworth, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ_XkrkDC3e0gR8DQOB8kK3Rg",
+            "gLatitude" : 53.515267,
+            "gLongitude" : -2.1503718,
+            "gName" : "Kellie Ann Beauty Salon"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce388289"),
+        "distance" : 20.9336981559965,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4427549,
+            "fbLongitude" : -2.2809177,
+            "fbName" : "Junipers Coffee Shop",
+            "fbStreet" : "514 Wilbraham Road",
+            "fbZip" : "M21 9AW",
+            "id" : NumberLong(373),
+            "idLink" : "juniperscoffeeshop"
+        },
+        "g" : {
+            "gAddress" : "514 Wilbraham Road, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJG_XBMO-te0gRYg7osi1BaIo",
+            "gLatitude" : 53.4427394,
+            "gLongitude" : -2.2806027,
+            "gName" : "Junipers Coffee Shop"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38828a"),
+        "distance" : 24.8176201572708,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4098314,
+            "fbLongitude" : -2.155061829,
+            "fbName" : "Robinsons Brewery Visitors Centre",
+            "fbStreet" : "Apsley Street",
+            "fbZip" : "SK1 1JJ",
+            "id" : NumberLong(1173),
+            "idLink" : "visitrobinsonsbrewery"
+        },
+        "g" : {
+            "gAddress" : "Apsley Street, Stockport, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ7ySfHH6ze0gRlE9w2CS3sP4",
+            "gLatitude" : 53.409891,
+            "gLongitude" : -2.154701,
+            "gName" : "Robinsons Brewery Visitors Centre"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38828b"),
+        "distance" : 4.03352231016157,
+        "f" : {
+            "fbCity" : "Stockport",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.4104732,
+            "fbLongitude" : -2.1579081,
+            "fbName" : "Al Pacino",
+            "fbStreet" : "12 St Petersgate",
+            "fbZip" : "SK1 1HD",
+            "id" : NumberLong(4429),
+            "idLink" : "pages/Al-Pacino/118497114872353"
+        },
+        "g" : {
+            "gAddress" : "12 Saint Petersgate, Stockport",
+            "gCity" : "Stockport",
+            "gId" : "ChIJU27m8n6ze0gR5lene81fVu4",
+            "gLatitude" : 53.4104498,
+            "gLongitude" : -2.1578616,
+            "gName" : "Al Pacino"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    },
+    {
+        "_id" : ObjectId("62a8afc6fe180359ce38828c"),
+        "distance" : 1.78336181377276,
+        "f" : {
+            "fbCity" : "Manchester",
+            "fbCountry" : "United Kingdom",
+            "fbLatitude" : 53.48151146,
+            "fbLongitude" : -2.243442535,
+            "fbName" : "1847 Manchester",
+            "fbStreet" : "Chapel Walks",
+            "fbZip" : "M2 1HN",
+            "id" : NumberLong(299),
+            "idLink" : "1847Manchester"
+        },
+        "g" : {
+            "gAddress" : "Chapel Walks, Manchester",
+            "gCity" : "Manchester",
+            "gId" : "ChIJ40D6RcCxe0gR0n2iBXOU1ag",
+            "gLatitude" : 53.481527,
+            "gLongitude" : -2.2434492,
+            "gName" : "1847 - Manchester"
+        },
+        "rank" : 1.0,
+        "~fuzzysets" : {
+            "ClosePlaces" : 1.0,
+            "MatchingPlaces" : 1.0,
+            "SameLocation" : 1.0,
+            "SimilarAddress" : 1.0,
+            "SimilarName" : 1.0
+        }
+    }
+]
