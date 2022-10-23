@@ -109,6 +109,7 @@ generateSectionRule
       ( alphaCutRule  )? 
       ( buildActionRule )? 
       ( keepDropFuzzySetsRule )?
+      ( dropGeometryRule )?
   ;
 
 
@@ -342,10 +343,15 @@ alphaCutRule
 keepDropFuzzySetsRule
   :
     DEFUZZIFY
-  | DROPPING ALL FUZZY SETS
   | KEEPING ALL FUZZY SETS
   | DROPPING FUZZY SETS ID (  COMMA ID  )*
   | KEEPING FUZZY SETS ID ( COMMA ID  )*
+  ;
+
+
+dropGeometryRule 
+  :
+	  DROPPING GEOMETRY																								
   ;
 
 

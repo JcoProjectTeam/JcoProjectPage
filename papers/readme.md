@@ -2,6 +2,7 @@
 This folder contains papers published around the J-Co Project
 | #  | Year | Authors | Title | Scholar | Test Dataset |
 | -- | ---- | ------- | ----- | ------- | ------------ |
+| 8 | 2022 | Fosci, Psaila | [`Soft Integration of Geo-Tagged Data Sets in J-CO-QL+`](/papers/IJGI 2022 - Soft Integration of Geo-Tagged Data Sets in J-CO-QL+.pdf) | [link](https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=IJGI+2022+-+Soft+Integration+of+Geo-Tagged+Data+Sets+in+J-CO-QL&btnG=) | ... |
 | 7 | 2021 | Fosci, Psaila | [`Towards Flexible Retrieval, Integration and Analysis of JSON Data Sets through Fuzzy Sets: A Case Study`](/papers/paper3.pdf) | [link](https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=Towards+Flexible+Retrieval%2C+Integration+and+Analysis+of+JSON+Data+Sets+through+Fuzzy+Sets%3A+A+Case+Study&btnG=) | ... |
 | 6 | 2021 | Psaila, Fosci | [`J-CO: A Platform-Independent Framework for Managing Geo-Referenced JSON Data Sets`](/papers/paper3.pdf) | [link](https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=J-CO%3A+A+Platform-Independent+Framework+for+Managing+Geo-Referenced+JSON+Data+Sets&btnG=) | ... |
 | 5 | 2020 | Psaila, Marrara, Fosci | [`Soft Querying GeoJSON Documents within the J-CO Framework`](/papers/paper3.pdf) | [link](https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=Soft+Querying+GeoJSON+Documents+within+the+J-CO+Framework&btnG=) | ... |
