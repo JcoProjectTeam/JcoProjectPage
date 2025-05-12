@@ -1,11 +1,11 @@
 # The J-Co Query Language Specification
 
-The J-Co QueryLanguage is developed in Java using the ANTLR package.  
-The following specification describes the syntax and semantics of the J-Co Query Langauge, 
+The J-Co QueryLanguage Plus (JCoQL+) is developed in Java using the ANTLR package.  
+The following specification describes the syntax and semantics of the JCoQL+, version 4.0.10, 
 using both [EBNF Notation](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) 
 and a [Syntax Diagrams](https://en.wikipedia.org/wiki/Syntax_diagram). 
 
-A J-Co Query Language script is a list of the following Jco instructions:
+A JCoQL+ script is a list of the following JCoQL+ instructions:
 | Instruction | Description |
 | -------- | ----------- | 
 | **I/O instructions** | |
