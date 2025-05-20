@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![Create JavaScript Function instruction Syntax!](/languageSpecification/assets/rules/createJavaScriptFunction.png "Create JavaScript Function Syntax Diagram") 
+![Create JavaScript Function instruction Syntax!](/languageSpecification/assets/rules/create_javascript_function.png "Create JavaScript Function Syntax Diagram") 
 
 
 ## Semantics
