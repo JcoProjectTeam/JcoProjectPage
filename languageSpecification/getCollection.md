@@ -12,8 +12,8 @@ Substitutes the *current collection* with a new collection retrieved:
                        SC 
 
 
-## Syntax Diagram
-(/languageSpecification/assets/rules/getCollection.jpg "Get Collection Syntax Diagram") 
+## Syntax Diagram 
+![Get Collection instruction Syntax!](/languageSpecification/assets/rules/getDictionary.png "Get Collection Syntax Diagram") 
 
 
 ## Semantics
