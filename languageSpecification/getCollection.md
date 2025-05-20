@@ -13,7 +13,7 @@ Substitutes the *current collection* with a new collection retrieved:
 
 
 ## Syntax Diagram 
-![Get Collection instruction Syntax!](/languageSpecification/assets/rules/getDictionary.png "Get Collection Syntax Diagram") 
+![Get Collection instruction Syntax!](/languageSpecification/assets/rules/get_collection.jpg "Get Collection Syntax Diagram") 
 
 
 ## Semantics
