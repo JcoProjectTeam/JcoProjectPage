@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![Group instruction Syntax!](/languageSpecification/assets/rules/group.png "Group Syntax Diagram") 
+![Group instruction Syntax!](/languageSpecification/assets/rules/group_.png "Group Syntax Diagram") 
 
 
 ## Semantics
