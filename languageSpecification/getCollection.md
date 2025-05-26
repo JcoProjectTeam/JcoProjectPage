@@ -10,15 +10,13 @@ Retrieves a *collection* from a connected database that becomes the new *current
 <div class="ebnf">
   <pre><code>
     <span class="terminal" color = red >getCollection</span> ::= GET COLLECTION (
-      <span class="nonterminal">ID<sub>1</sub></span> ( AT <span class="nonterminal">ID<sub>2</sub></span> )?
+      <span class="nonterminal">ID<sub>1</sub></span> [ AT <span class="nonterminal">ID<sub>2</sub></span> ]?
       | FROM WEB ( APEX_VALUE | QUOTED_VALUE )
     )
     SC
   </code></pre>
 </div>
-    getCollection ::= GET COLLECTION ( ID₁ ( AT ID₂ )?  
-                              	     | FROM WEB ( APEX_VALUE | QUOTED_VALUE ) )
-                       SC 
+
 
 
 
