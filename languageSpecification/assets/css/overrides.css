@@ -1,0 +1,8 @@
+.ebnf .terminal {
+    color: red;
+    font-weight: bold;
+  }
+  .ebnf {
+    font-family: monospace;
+  }
+  
