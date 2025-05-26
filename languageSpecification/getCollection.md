@@ -1,5 +1,5 @@
 # Get Collection instruction
-Substitutes the *current collection* with a new collection retrieved:
+Retrieves a *collection* from a connected database that becomes the new *current collection*:
  1. from the Intermediate Results database;
  2. from a NoSQL repository previuosly declared by means of the [Use DB](/languageSpecification/useDb.md) instruction;
  3. from the Internet.  
@@ -7,8 +7,16 @@ Substitutes the *current collection* with a new collection retrieved:
 
 
 ## EBNF Notation
-    getCollection ::= GET COLLECTION ( ID ( AT ID )?  
-                              	     | FROM WEB ( APEX_VALUE | QUOTED_VALUE ) )
+<div class="ebnf">
+  <pre><code>
+    <span class="terminal">getCollection</span> ::= GET COLLECTION (
+      <span class="nonterminal">ID<sub>1</sub></span> ( AT <span class="nonterminal">ID<sub>2</sub></span> )?
+      | FROM WEB ( APEX_VALUE | QUOTED_VALUE )
+    )
+    SC
+  </code></pre>
+</div>
+
                        SC 
 
 
