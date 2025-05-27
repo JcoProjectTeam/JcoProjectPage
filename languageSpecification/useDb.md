@@ -1,4 +1,5 @@
 # Use DB instruction
+Connects to a NOSql database.
 Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/languageSpecification/getCollection.md), [Save As](/languageSpecification/saveAs.md) or [Get Dictionary](/languageSpecification/getDictionary.md) instructions.
 
 

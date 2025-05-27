@@ -1,7 +1,5 @@
 # Group instruction
-
-Bla bla bla  
-bla bla bla
+Groups documents of the current collection into one, with an array of the originals.
 
 
 ## EBNF Notation

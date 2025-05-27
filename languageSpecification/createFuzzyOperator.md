@@ -1,7 +1,6 @@
 # Create Fuzzy Operator instruction
 
-Bla bla bla  
-bla bla bla
+Create an operator that returns a fuzzy value from crips values.
 
 
 ## EBNF Notation

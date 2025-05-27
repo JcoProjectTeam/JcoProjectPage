@@ -1,7 +1,6 @@
 # Create JavaScript Function instruction
 
-Bla bla bla  
-bla bla bla
+Create a Javascript function that returns a value from parameters.
 
 
 ## EBNF Notation

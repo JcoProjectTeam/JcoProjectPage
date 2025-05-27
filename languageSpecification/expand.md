@@ -1,7 +1,6 @@
 # Expand instruction
 
-Bla bla bla  
-bla bla bla
+Extracts new documents from field arrays.  
 
 
 ## EBNF Notation

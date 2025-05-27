@@ -1,5 +1,5 @@
 # Save As instruction
-Allows to save the *current collection*:
+Saves the *current collection* to a *connected database*:
  1. in the Intermediate Results database;
  2. in a NoSQL repository previuosly declared by means of the [Use DB](/languageSpecification/useDb.md) instruction.
 
