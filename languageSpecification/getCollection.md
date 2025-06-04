@@ -10,7 +10,7 @@ Retrieves a *collection* from a connected database that becomes the new *current
 
 <div class="ebnf">
   <pre>
-    <span class="terminal">getCollection</span> ::= <span style="color:red;"> GET COLLECTION </span>(
+    <span class="pippo">getCollection</span> ::= <span style="color:red;"> GET COLLECTION </span>(
       <span class="nonterminal">ID<sub>1</sub></span> ( AT <span class="nonterminal">ID<sub>2</sub></span> )?
       | FROM WEB ( APEX_VALUE | QUOTED_VALUE )
     )
