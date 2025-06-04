@@ -1,0 +1,4 @@
+# _config.yml
+theme: minima # tema base di GitHub Pages
+kramdown:
+parse_block_html: true # abilita &lt;div&gt;, &lt;span&gt;, &lt;sub&gt;, ecc. nei .md
