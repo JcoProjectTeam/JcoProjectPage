@@ -7,16 +7,16 @@ Retrieves a *collection* from a connected database that becomes the new *current
 
 
 ## EBNF Notation
+
 <div class="ebnf">
-  <pre><code>
-    <span class="terminal" color = red >getCollection</span> ::= GET COLLECTION (
-      <span class="nonterminal">ID<sub>1</sub></span> [ AT <span class="nonterminal">ID<sub>2</sub></span> ]?
+  <pre>
+    <span class="terminal">getCollection</span> ::= GET COLLECTION (
+      <span class="nonterminal">ID<sub>1</sub></span> ( AT <span class="nonterminal">ID<sub>2</sub></span> )?
       | FROM WEB ( APEX_VALUE | QUOTED_VALUE )
     )
     SC
-  </code></pre>
+  </pre>
 </div>
-
 
 
 
