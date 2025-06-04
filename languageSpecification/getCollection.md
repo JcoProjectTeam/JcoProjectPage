@@ -1,4 +1,5 @@
 # Get Collection instruction
+
 Retrieves a *collection* from a connected database that becomes the new *current collection*:
  1. from the Intermediate Results database;
  2. from a NoSQL repository previuosly declared by means of the [Use DB](/languageSpecification/useDb.md) instruction;
