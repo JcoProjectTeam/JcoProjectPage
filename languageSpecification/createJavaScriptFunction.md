@@ -5,10 +5,10 @@ bla bla bla
 
 
 ## EBNF Notation
-    createJavaScriptFunction ::= CREATE JAVASCRIPT FUNCTITON ID₁ 
+    createJavaScriptFunction ::= CREATE JAVASCRIPT FUNCTITON ID¹ 
                                     PARAMETERS param**
                                     [PRECONDITION condition]
-                                    CLASS ID₂ [IMPORT string]
+                                    CLASS ID² [IMPORT string]
                                     BODY
                                         functionScript
                                     END BODY 
