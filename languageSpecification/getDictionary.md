@@ -7,7 +7,7 @@ Retrieves a dictionary from a NoSQL repository in order to perfom the  the **TRA
 
 
 ## Syntax Diagram
-![GetDictionary instruction Syntax!](/languageSpecification/.assets/images/rules/get_dictionary.png "Get Dictionary Syntax Diagram") 
+![GetDictionary instruction Syntax!](/languageSpecification/.assets/images/get_dictionary.png "Get Dictionary Syntax Diagram") 
 
 
 ## Semantics
