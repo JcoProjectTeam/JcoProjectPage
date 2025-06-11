@@ -12,7 +12,7 @@ bla bla bla
                                     BODY
                                         functionScript
                                     END BODY 
-                        SC
+                                SC
 
 ## Syntax Diagram
 ![Create JavaScript Function instruction Syntax!](/languageSpecification/.assets/images/create_javascript_function.png "Create JavaScript Function Syntax Diagram") 
