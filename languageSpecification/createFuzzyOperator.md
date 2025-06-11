@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![CreateFuzzyOperator instruction Syntax!](/languageSpecification/rules/create_fuzzy_operator.png "Create Fuzzy Operator Syntax Diagram") 
+![CreateFuzzyOperator instruction Syntax!](/languageSpecification/.assets/images/create_fuzzy_operator.png "Create Fuzzy Operator Syntax Diagram") 
 
 
 ## Semantics

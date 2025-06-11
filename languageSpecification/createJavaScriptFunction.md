@@ -15,7 +15,7 @@ bla bla bla
                         SC
 
 ## Syntax Diagram
-![Create JavaScript Function instruction Syntax!](/languageSpecification/rules/create_javascript_function.png "Create JavaScript Function Syntax Diagram") 
+![Create JavaScript Function instruction Syntax!](/languageSpecification/.assets/images/create_javascript_function.png "Create JavaScript Function Syntax Diagram") 
 
 
 ## Semantics
