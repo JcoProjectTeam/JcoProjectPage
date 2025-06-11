@@ -11,7 +11,7 @@ Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/l
   
 
 ## Syntax Diagram
-![UseDb instruction Syntax!](/languageSpecification/assets/rules/useDb.png "Use DB Syntax Diagram") 
+![UseDb instruction Syntax!](/languageSpecification/.assets/images/useDb.png "Use DB Syntax Diagram") 
 
 
 ## Semantics
