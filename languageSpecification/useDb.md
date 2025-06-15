@@ -3,10 +3,10 @@ Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/l
 
 
 ## EBNF Notation
-	useDb ::= USE DB (ID | APEX_VALUE) (AS (ID | APEX_VALUE))? 
-        		( COMMA DB (ID | APEX_VALUE) (AS (ID | APEX_VALUE))? )*
+	useDb ::= USE DB (ID¹ | APEX_VALUE) [AS (ID¹ | APEX_VALUE)] 
+        		( COMMA DB (ID¹ | APEX_VALUE) [AS (ID¹ | APEX_VALUE)] )*
 		    ON ( DEFAULT SERVER 
-		       | SERVER (ID | APEX_VALUE) ( (ID | APEX_VALUE))? )
+		       | SERVER (ID¹ | APEX_VALUE) [ (ID¹ | APEX_VALUE)] )
 		    SC
   
 
@@ -16,7 +16,7 @@ Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/l
 
 ## Semantics
 With a Use DB instruction can be declared more NoSQL Databases from the same server.  
-A database name can be and `ID` or `APEX_VALUE`, and it is possible to associate to it an alias after the `AS` keyword.  
+A database name can be and `ID¹` or `APEX_VALUE`, and it is possible to associate to it an alias after the `AS` keyword.  
 A server can be the one from `DEFAULT` (defined in the properties of the J-Co platform), or defined by a logical name followed, possibly, by the address to retrieve it.
 
 
