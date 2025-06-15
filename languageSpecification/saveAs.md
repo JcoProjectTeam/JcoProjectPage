@@ -9,7 +9,7 @@ Allows to save the *current collection*:
 
 
 ## Syntax Diagram
-![SaveAs instruction Syntax!](/languageSpecification/.assets/images/save_as.pdf "Group Syntax Diagram") 
+![SaveAs instruction Syntax!](/languageSpecification/.assets/images/save_as.jpg "Group Syntax Diagram") 
 
 
 ## Examples
