@@ -5,14 +5,14 @@ bla bla bla
 
 
 ## EBNF Notation
-    createJavaScriptFunction ::= CREATE JAVASCRIPT FUNCTITON ID¹ 
+    createJavaScriptFunction ::= CREATE JAVASCRIPT FUNCTION ID¹ 
                                     PARAMETERS param**
                                     [PRECONDITION condition]
                                     CLASS ID² [IMPORT string]
                                     BODY
                                         functionScript
                                     END BODY 
-                        SC
+                                SC
 
 ## Syntax Diagram
 ![Create JavaScript Function instruction Syntax!](/languageSpecification/.assets/images/create_javascript_function.png "Create JavaScript Function Syntax Diagram") 
