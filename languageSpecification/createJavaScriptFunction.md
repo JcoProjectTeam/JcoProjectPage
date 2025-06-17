@@ -18,10 +18,11 @@ Create a Javascript function that returns a value from parameters.
 
 ## Semantics
 
-    * The 'ID¹' token represent the name assigned at the Javascript funtion to create
-    * The 'param' token specify the parameter, or the list of parameter, that the function accept
-    * The 'condition' token if is present, define a preliminary condition that must be true before the execution of the function
-    * the 'functionScript' token between 'BODY' and 'END BODY', contains the Javascript code of the function
+   * The `ID¹` token represents the name assigned to the JavaScript function to create.
+* The `param` token specifies the parameter, or the list of parameters, that the function accepts.
+* The optional `condition` token, if present, defines a preliminary condition that must be true before the function is executed.
+* The `functionScript` token, located between `BODY` and `END BODY`, contains the JavaScript code for the function.
+
 
 ## Examples
 
