@@ -17,8 +17,8 @@ Substitutes the *current collection* with a new collection retrieved:
 
 
 ## Semantics
- * The `ID₁` token is present, it represents the name of the collection to retrieve.
- * The `ID₂` token is present after the `AT`(@) character, it represents the logical name of the database from which retrieve the collection. Otherwise the collection is retrieved from the Intermediate Results database.
+ * The `ID₁` token if is present, it represents the name of the collection to retrieve.
+ * The `ID₂` token if is present after the `AT`(@) character, it represents the logical name of the database from which retrieve the collection. Otherwise the collection is retrieved from the Intermediate Results database.
  * The `FROM WEB` alternative is present, the following `APEX_VALUE` or `QUOTED_VALUE` represents the _URL_ string to retrieve the collection from the Internet.
 
 
