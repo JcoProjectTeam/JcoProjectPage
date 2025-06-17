@@ -1,14 +1,12 @@
 # Create JavaScript Function instruction
 
-Bla bla bla  
-bla bla bla
+Create a Javascript function that returns a value from parameters.
 
 
 ## EBNF Notation
     createJavaScriptFunction ::= CREATE JAVASCRIPT FUNCTION ID¹ 
                                     PARAMETERS param**
                                     [PRECONDITION condition]
-                                    CLASS ID² [IMPORT string]
                                     BODY
                                         functionScript
                                     END BODY 
