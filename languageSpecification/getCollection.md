@@ -7,7 +7,7 @@ Substitutes the *current collection* with a new collection retrieved:
 
 
 ## EBNF Notation
-    getCollection ::= GET COLLECTION ( ID₁ [ AT ID₂ ]  
+    getCollection ::= GET COLLECTION ( ID₁ [ @ ID₂ ]  
                               	     | FROM WEB ( APEX_VALUE | QUOTED_VALUE ) )
                        SC 
 
