@@ -5,7 +5,7 @@ Create a Javascript function that returns a value from parameters.
 
 ## EBNF Notation
     createJavaScriptFunction ::= CREATE JAVASCRIPT FUNCTION ID¹ 
-                                    PARAMETERS param**
+                                    PARAMETERS parameter**
                                     [PRECONDITION condition]
                                     BODY
                                         functionScript
