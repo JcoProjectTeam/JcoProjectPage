@@ -31,10 +31,10 @@ Groups documents of the current collection into one, with an array of the origin
 * The optional `KEEP | DROP OTHERS` directive specifies whether to retain or discard fields not explicitly mentioned in the grouping instruction.
 
 ## Examples
-1. GROUP PARTITION TRUE BY category INTO categoryGroup;
-2. GROUP PARTITION TRUE BY region, product INTO salesGroup DROP GROUPING FIELDS ORDER BY product KEEP UNCOMPARABLE;
-3. GROUP PARTITION TRUE BY salesRep INTO repTotals GENERATE SECTION KEEP repTotals, saleDate DROP OTHERS;
-4. GROUP PARTITION saleDate >= '2025-01-01' BY region, product INTO regionalProductGroup DROP GROUPING FIELDS ORDER BY region, product KEEP UNCOMPARABLE GENERATE SECTION KEEP regionalProductGroup, saleDate DROP OTHERS;
+    1. GROUP PARTITION TRUE BY category INTO categoryGroup;
+    2. GROUP PARTITION TRUE BY region, product INTO salesGroup DROP GROUPING FIELDS ORDER BY product KEEP UNCOMPARABLE;
+    3. GROUP PARTITION TRUE BY salesRep INTO repTotals GENERATE SECTION KEEP repTotals, saleDate DROP OTHERS;
+    4. GROUP PARTITION saleDate >= '2025-01-01' BY region, product INTO regionalProductGroup DROP GROUPING FIELDS ORDER BY     region, product KEEP UNCOMPARABLE GENERATE SECTION KEEP regionalProductGroup, saleDate DROP OTHERS;
 
 ## Issues
 
