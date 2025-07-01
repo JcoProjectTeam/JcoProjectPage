@@ -4,7 +4,7 @@ Create an operator tht returns a fuzzy value form crips values.
 
 
 ## EBNF Notation
-createFuzzyOperator ::= CREATE FUZZY OPERATOR id¹ 
+    createFuzzyOperator ::= CREATE FUZZY OPERATOR id¹ 
                                 PARAMETERS parameter**
                                 [PRECONDITION condition]
                                 EVALUATE expression
