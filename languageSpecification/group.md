@@ -14,7 +14,7 @@ Groups documents of the current collection into one, with an array of the origin
                 [ KEEP UNCOMPARABLE ] ]
               [ GENERATE SECTION ] )+
               [ ( KEEP | DROP ) OTHERS ]
-            SC       
+            ;      
 
 ## Syntax Diagram
 ![Group instruction Syntax!](/languageSpecification/.assets/images/group_.jpg "Group Syntax Diagram") 
