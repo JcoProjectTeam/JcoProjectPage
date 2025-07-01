@@ -11,7 +11,7 @@ Retrieves a dictionary from a NoSQL repository in order to perfom the  the **TRA
 
 
 ## Semantics
- * The `id¹ ` token represents a collection in a NoSQL repository;
+ * The `id¹` token represents a collection in a NoSQL repository;
  * The `id²` token represents a NoSQL repository (that should be previously declared by means of the [Use DB](/languageSpecification/useDb.md) instruction);
  * The`id³` token, after the `AS` keyword, represents the _logical name_ by means the dictionary can be subsequently referenced. 
 
