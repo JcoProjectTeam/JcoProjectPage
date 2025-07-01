@@ -25,9 +25,9 @@ createFuzzyOperator ::= CREATE FUZZY OPERATOR id¹
 * The `x¹` and the `y¹` token, if present, compose the polyline or the list of polyline that the operator value used to return the fuzzy value.
 
 ## Examples
-1. CREATE FUZZY EVALUATOR linearEval PARAMETERS x TYPE FLOAT EVALUATE x / 10;
-2.CREATE FUZZY EVALUATOR boundedEval PARAMETERS x TYPE FLOAT PRECONDITION ( x >= 0 AND x <= 10 ) EVALUATE 1 - ABS(x - 5)/5;
-3. CREATE FUZZY EVALUATOR triangularEval PARAMETERS x TYPE FLOAT EVALUATE x POLYLINE[ (0,0), (5,1), (10,0) ];
+      CREATE FUZZY EVALUATOR linearEval PARAMETERS x TYPE FLOAT EVALUATE x / 10;
+      CREATE FUZZY EVALUATOR boundedEval PARAMETERS x TYPE FLOAT PRECONDITION ( x >= 0 AND x <= 10 ) EVALUATE 1 - ABS(x - 5)/5;
+      CREATE FUZZY EVALUATOR triangularEval PARAMETERS x TYPE FLOAT EVALUATE x POLYLINE[ (0,0), (5,1), (10,0) ];
 
 ## Issues
 
