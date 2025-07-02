@@ -19,7 +19,7 @@ With a Use DB instruction can be declared more NoSQL Databases from the same ser
 * The `id¹` specifies the name of the Database to be used
 * The `id²`specifies the alias of the name of the database specified in `id¹`
 * The `id³` specifies the server name where the database is contained
-* The `id³` specifies the server url where the database is contained
+* The `id⁴` specifies the server url where the database is contained
 
 
 ## Examples
