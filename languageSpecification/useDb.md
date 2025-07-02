@@ -7,7 +7,7 @@ Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/l
         		( COMMA DB (id¹ | apex_value) [AS (id² | apex_value)] )*
 		    ON ( DEFAULT SERVER 
 		       | SERVER (id³ | apex_value) [ (id⁴ | apex_value)] )
-		    SC
+		    ;
   
 
 ## Syntax Diagram
