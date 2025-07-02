@@ -10,7 +10,7 @@ Create an operator tht returns a fuzzy value form crips values.
                                 EVALUATE expression
                                 [POLYLINE '[(' 
                                     (x¹, y¹) **
-                                          ')]' 
+                                          ')]' ]
                           ;
 
 ## Syntax Diagram

@@ -3,21 +3,23 @@ Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/l
 
 
 ## EBNF Notation
-	useDb ::= USE DB (ID¹ | APEX_VALUE) [AS (ID¹ | APEX_VALUE)] 
-        		( COMMA DB (ID¹ | APEX_VALUE) [AS (ID¹ | APEX_VALUE)] )*
+	useDb ::= USE DB (id¹ | apex_value) [AS (id² | apex_value)] 
+        		( COMMA DB (id¹ | apex_value) [AS (id² | apex_value)] )*
 		    ON ( DEFAULT SERVER 
-		       | SERVER (ID¹ | APEX_VALUE) [ (ID¹ | APEX_VALUE)] )
+		       | SERVER (id³ | apex_value) [ (id⁴ | apex_value)] )
 		    SC
   
 
 ## Syntax Diagram
-![UseDb instruction Syntax!](/languageSpecification/.assets/images/useDb.png "Use DB Syntax Diagram") 
+![UseDb instruction Syntax!](/languageSpecification/.assets/images/use_db.jpg "Use DB Syntax Diagram") 
 
 
 ## Semantics
 With a Use DB instruction can be declared more NoSQL Databases from the same server.  
-A database name can be and `ID¹` or `APEX_VALUE`, and it is possible to associate to it an alias after the `AS` keyword.  
-A server can be the one from `DEFAULT` (defined in the properties of the J-Co platform), or defined by a logical name followed, possibly, by the address to retrieve it.
+* The `id¹` specifies the name of the Database to be used
+* The `id²`specifies the alias of the name of the database specified in `id¹`
+* The `id³` specifies the server name where the database is contained
+* The `id³` specifies the server url where the database is contained
 
 
 ## Examples
