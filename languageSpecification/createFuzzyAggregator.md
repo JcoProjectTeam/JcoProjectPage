@@ -7,6 +7,8 @@ Create an aggregator tht returns a fuzzy value form crips values.
     createFuzzyAggregator ::= CREATE FUZZY AGGREGATOR id¹ 
                                 PARAMETERS parameter**
                                 [PRECONDITION condition]
+                                [SortRule]
+                                (ForAllRule | DeriveRule)**
                                 EVALUATE expression
                                 [POLYLINE '[(' 
                                     (x¹, y¹) **
@@ -25,9 +27,6 @@ Create an aggregator tht returns a fuzzy value form crips values.
 * The `x¹` and the `y¹` token, if present, compose the polyline or the list of polyline that the aggregator value used to return the fuzzy value.
 
 ## Examples
-      CREATE FUZZY AGGREGATOR linearEval PARAMETERS x TYPE FLOAT EVALUATE x / 10;
-      CREATE FUZZY AGGREGATOR boundedEval PARAMETERS x TYPE FLOAT PRECONDITION ( x >= 0 AND x <= 10 ) EVALUATE 1 - ABS(x - 5)/5;
-      CREATE FUZZY AGGREGATOR triangularEval PARAMETERS x TYPE FLOAT EVALUATE x POLYLINE[ (0,0), (5,1), (10,0) ];
 
 ## Issues
 
