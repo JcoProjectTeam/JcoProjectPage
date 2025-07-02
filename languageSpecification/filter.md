@@ -15,7 +15,7 @@ Filters and/or transforms documents in the current collection.
             ;
 
 ## Syntax Diagram
-![Filter instruction Syntax!](/languageSpecification/assets/rules/filter.jpg "Filter Syntax Diagram") 
+![Filter instruction Syntax!](/languageSpecification/.assets/images/filter.jpg "Filter Syntax Diagram") 
 
 
 ## Semantics
