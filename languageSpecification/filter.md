@@ -7,7 +7,7 @@ Filters and/or transforms documents in the current collection.
 
     filter ::=  FILTER 
                 (
-                    ((CASE | CASES) WHERE conditionRule [generateSectionRule] )+  
+                    (CASES WHERE conditionRule [generateSectionRule] )+  
                                 [(KEEP | DROP ) OTHERS]
                     |  generateSectionRule
                 )
