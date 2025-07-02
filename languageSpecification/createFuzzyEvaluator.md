@@ -8,9 +8,9 @@ Create an evaluator that returns a fuzzy value form crips values.
                                 PARAMETERS parameter**
                                 [PRECONDITION condition]
                                 EVALUATE expression
-                                [POLYLINE '[(' 
-                                    (x¹, y¹) **
-                                          ')]' ]
+                                [POLYLINE '[' 
+                                    ( '(' x¹, y¹ ')' ) **
+                                          ']' ]
                           ;
 
 ## Syntax Diagram
