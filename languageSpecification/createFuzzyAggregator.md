@@ -5,13 +5,13 @@ Create an aggregator tht returns a fuzzy value form crips values.
 
 ## EBNF Notation
     createFuzzyAggregator ::= CREATE FUZZY AGGREGATOR id¹ 
-                                PARAMETERS parameter**
+                                PARAMETERS parameter++
                                 [PRECONDITION condition]
                                 [SortRule]
                                 (ForAllRule | DeriveRule)**
                                 EVALUATE expression
                                 [POLYLINE '[(' 
-                                    (x¹, y¹) **
+                                    (x¹, n²) **
                                           ')]' ]
                           ;
 

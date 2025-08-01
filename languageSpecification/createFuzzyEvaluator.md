@@ -5,12 +5,13 @@ Create an evaluator that returns a fuzzy value form crips values.
 
 ## EBNF Notation
     createFuzzyEvaluator ::= CREATE FUZZY EVALUATOR id¹ 
-                                PARAMETERS parameter**
-                                [PRECONDITION condition]
+                                PARAMETERS parameter++
+                                [PRECONDITION condition]*
+                                [ arraySortRule | deriveRule | forAllRule ]*  
                                 EVALUATE expression
                                 [POLYLINE '[(' 
-                                    (x¹, y¹) **
-                                          ')]' ]
+                                    (n¹, n²) **
+                                          ')]' ]*
                           ;
 
 ## Syntax Diagram

@@ -5,11 +5,11 @@ Create an operator tht returns a fuzzy value form crips values.
 
 ## EBNF Notation
     createFuzzyOperator ::= CREATE FUZZY OPERATOR id¹ 
-                                PARAMETERS parameter**
+                                PARAMETERS parameter++
                                 [PRECONDITION condition]
                                 EVALUATE expression
                                 [POLYLINE '[(' 
-                                    (x¹, y¹) **
+                                    (n¹, n²) **
                                           ')]' ]
                           ;
 
