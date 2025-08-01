@@ -10,9 +10,9 @@ Create an aggregator tht returns a fuzzy value form crips values.
                                 [SortRule]
                                 (ForAllRule | DeriveRule)**
                                 EVALUATE expression
-                                [POLYLINE '[(' 
-                                    (x¹, n²) **
-                                          ')]' ]
+                                [POLYLINE '[' 
+                                    ( '(' n¹, n² ')' )++
+                                          ']' ]*
                           ;
 
 ## Syntax Diagram

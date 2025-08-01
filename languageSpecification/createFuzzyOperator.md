@@ -8,9 +8,9 @@ Create an operator tht returns a fuzzy value form crips values.
                                 PARAMETERS parameter++
                                 [PRECONDITION condition]
                                 EVALUATE expression
-                                [POLYLINE '[(' 
-                                    (n¹, n²) **
-                                          ')]' ]
+                                [POLYLINE '[' 
+                                    ( '(' n¹, n² ')' )++
+                                          ']' ]*
                           ;
 
 ## Syntax Diagram
