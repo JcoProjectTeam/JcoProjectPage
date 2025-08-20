@@ -10,11 +10,11 @@ Once calculated, independent degrees must satisfy the constraint of the multi-gr
 
 ## EBNF Notation
     createGenericFuzzyEvaluator ::= CREATE id¹ FUZZY EVALUATOR id² 
-                                        PARAMETERS param**
-                                        [PRECONDITION condition]
-                                        ( arraySortClause
+                                        PARAMETERS param++
+                                        [PRECONDITION condition]*
+                                        [ arraySortClause
                                         | deriveClause  
-                                        | forAllClause )*
+                                        | forAllClause ]*
                                         ( EVALUATE id¹ AS expression
                                             [POLYLINE '[' 
                                                 ( '(' n¹, n² ')' )++
