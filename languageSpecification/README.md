@@ -31,7 +31,7 @@ A JCoQL+ script is a list of the following JCoQL+ instructions:
 |	[Create Fuzzy Operator](/languageSpecification/createFuzzyOperator.md) | Allows to define a Fuzzy Set Operator |
 |	[Create Fuzzy Aggregator](/languageSpecification/createFuzzyAggregator.md) |Allows to define a Fuzzy Set Aggregator |
 | **Advanced Fuzzy Handling** ||
-| [Create Fuzzy Set Model**](/languageSpecification/createFuzzySetModel.md) | Defines a multi-grade fuzzy set   |
+| [Create Fuzzy Set Model](/languageSpecification/createFuzzySetModel.md) | Defines a multi-grade fuzzy set   |
 | [Create generic Fuzzy Set Evaluator](/languageSpecification/createGenericFuzzySetEvaluator.md) | Defines rules to evaluate multi-grade fuzzy expressions   |
 | [Create generic Fuzzy Set Operator](/languageSpecification/createGenericFuzzySetOperator.md) | Defines rules to evaluate multi-grade fuzzy operations   |
 
