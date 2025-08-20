@@ -15,11 +15,11 @@ A JCoQL+ script is a list of the following JCoQL+ instructions:
 | [Save As](/languageSpecification/saveAs.md) | Saves a collection of documents in a repository    |  
 | **Menaging Collection** | | 
 | [Merge Collections](/languageSpecification/mergeCollections.md) | Merges two or more collections into a single one    | 
-| [Intersect Collections**](/languageSpecification/intersectCollections.md) | Creates a new collection as the set intersection of two collections   |
-| [Subtract Collections**](/languageSpecification/subtractCollections.md) | Creates a new collection as the set subtraction of two collections    | 
+| [Intersect Collections](/languageSpecification/intersectCollections.md) | Creates a new collection as the set intersection of two collections   |
+| [Subtract Collections](/languageSpecification/subtractCollections.md) | Creates a new collection as the set subtraction of two collections    | 
 | **Filter and Trasformation** | | 
 | [Filter](/languageSpecification/filter.md) | Filters and transforms documents in the current collection |  
-| [Join Of Collections**](/languageSpecification/joinOfCollections.md) |  Joins two collections of documents in order to create a new one   |
+| [Join Of Collections](/languageSpecification/joinOfCollections.md) |  Joins two collections of documents in order to create a new one   |
 | **Grouping and Expanding** | |
 | [Group](/languageSpecification/group.md) |   Groups documents in the current collection    |
 | [Expand](/languageSpecification/expand.md) |  Expands documents with array fields in the current collection       |  
@@ -32,8 +32,8 @@ A JCoQL+ script is a list of the following JCoQL+ instructions:
 |	[Create Fuzzy Aggregator](/languageSpecification/createFuzzyAggregator.md) |Allows to define a Fuzzy Set Aggregator |
 | **Advanced Fuzzy Handling** ||
 | [Create Fuzzy Set Model**](/languageSpecification/createFuzzySetModel.md) | Defines a multi-grade fuzzy set   |
-| [Create generic Fuzzy Set Evaluator**](/languageSpecification/createGenericFuzzySetEvaluator.md) | Defines rules to evaluate multi-grade fuzzy expressions   |
-| [Create generic Fuzzy Set Operator**](/languageSpecification/createGenericFuzzySetOperator.md) | Defines rules to evaluate multi-grade fuzzy operations   |
+| [Create generic Fuzzy Set Evaluator](/languageSpecification/createGenericFuzzySetEvaluator.md) | Defines rules to evaluate multi-grade fuzzy expressions   |
+| [Create generic Fuzzy Set Operator](/languageSpecification/createGenericFuzzySetOperator.md) | Defines rules to evaluate multi-grade fuzzy operations   |
 
 Here is the complete [EBNF specification of the JCo Query Language](/languageSpecification/JCoQL.g) according to the [ANTLR notation](https://www.antlr.org/).  
 Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
