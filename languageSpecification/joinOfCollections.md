@@ -4,7 +4,7 @@ Joins two collections via cartesian product, with optional filtering and transfo
 
 The first collection is said as *left collection*, and second collection is *right collection*.
 
-Given a couple *(l, r)* where *l* is the alias of a document the left collection, and *r* is the alias of a document from the right collection, the instruction create a new document with the fields *l* and *r* whose value is, respectively, the document *l*, and the document *l*.
+Given a couple *(l, r)* where *l* is the alias of a document the left collection, and *r* is the alias of a document from the right collection, the instruction create a new document with the fields *l* and *r* whose value is, respectively, the document *l*, and the document *r*.
 
 ## EBNF Notation
     joinOfCollections ::= JOIN OF COLLECTIONS 
