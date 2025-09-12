@@ -12,7 +12,7 @@ Given a couple *(l, r)* where *l* is the alias of a document the left collection
                             [ON GEOMETRY spatialFunctionRule]*
                             [SET GEOMETRY (INTERSECTION|RIGHT|LEFT|ALL)]*
                             [addFieldsRule]*
-                            [setFuzzySetsRule]*
+                            [setFuzzySetsRule]*                
                             [caseClauseRule|generateSectionRule]*
                             [REMOVE DUPLICATES]* ;
 
