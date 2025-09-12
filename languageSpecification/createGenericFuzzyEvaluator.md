@@ -14,7 +14,7 @@ Once calculated, independent degrees must satisfy the constraint of the multi-gr
                                         [PRECONDITION condition]*
                                         [ arraySortClause
                                         | deriveClause  
-                                        | forAllClause ]*
+                                        | forAllClause ]*          
                                         ( EVALUATE id¹ AS expression
                                             [POLYLINE '[' 
                                                 ( '(' n¹, n² ')' )++
