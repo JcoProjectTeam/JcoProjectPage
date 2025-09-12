@@ -32,8 +32,8 @@ A JCoQL+ script is a list of the following JCoQL+ instructions:
 |	[Create Fuzzy Aggregator](/languageSpecification/createFuzzyAggregator.md) |Allows to define a Fuzzy Set Aggregator |
 | **Advanced Fuzzy Handling** ||
 | [Create Fuzzy Set Model](/languageSpecification/createFuzzySetModel.md) | Defines a multi-grade fuzzy set   |
-| [Create generic Fuzzy Set Evaluator](/languageSpecification/createGenericFuzzySetEvaluator.md) | Defines rules to evaluate multi-grade fuzzy expressions   |
-| [Create generic Fuzzy Set Operator](/languageSpecification/createGenericFuzzySetOperator.md) | Defines rules to evaluate multi-grade fuzzy operations   |
+| [Create generic Fuzzy Set Evaluator](/languageSpecification/createGenericFuzzyEvaluator.md) | Defines rules to evaluate multi-grade fuzzy expressions   |
+| [Create generic Fuzzy Set Operator](/languageSpecification/createGenericFuzzyOperator.md) | Defines rules to evaluate multi-grade fuzzy operations   |
 
 Here is the complete [EBNF specification of the JCo Query Language](/languageSpecification/JCoQL.g) according to the [ANTLR notation](https://www.antlr.org/).  
 Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
