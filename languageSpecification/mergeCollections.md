@@ -17,7 +17,7 @@ The option REMOVE DUPLICATES eliminates duplicate documents.
 * The `id¹` token represents the collection name.
 * The `id²` token represents the database name.
 * The `id³` token represents the alias name.
-* Multiple collections can be specified, separated by commas.
+* Multiple collections can be specified, separated by commas.                        
 * The optional `REMOVE DUPLICATES` clause eliminates duplicate documents from the result.
 * The merged collection becomes the new current collection.
 
