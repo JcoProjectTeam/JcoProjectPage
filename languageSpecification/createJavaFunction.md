@@ -10,7 +10,7 @@ Create a Java function that returns a value from parameters.
                               CLASS id²
                               [IMPORT " classPath "]
                               CLASS BODY
-                                  javaCode
+                                  javaCode              
                               END_BODY ;
 
 ## Syntax Diagram
