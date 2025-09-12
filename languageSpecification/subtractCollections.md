@@ -1,7 +1,7 @@
 # Subtract Collections instruction
 
 Performs subtraction between collections.
-
+  
 The new current collection keeps documents from the first, excluding those in the second.
 
 ## EBNF Notation
