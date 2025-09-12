@@ -12,7 +12,7 @@ The final KEEP/DROP options works as for the Case Clause.
     expand ::= EXPAND 
                 (UNPACK condition 
                     ARRAY (id¹)+
-                    TO (id²)+ )+
+                    TO (id²)+ )+                          
                 [(KEEP | DROP) OTHERS] ;
 
 ## Syntax Diagram
