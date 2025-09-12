@@ -7,7 +7,7 @@ It is possible to define derived degrees and validating constraint.
 It is also define how to calculate the basic NOT, AND and OR operators according to the predicates:
 
 • NOT x
-• x AND y  
+• x AND y   
 • x OR y
 
 Where x is the actual multigrade fuzzyset and y is another multigrade fuzzy set of the same type. For further operators a generic FUZZY EVALUATOR must be used.
