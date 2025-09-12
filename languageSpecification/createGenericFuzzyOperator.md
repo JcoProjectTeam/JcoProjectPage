@@ -6,7 +6,7 @@ A generic fuzzy operator can be used to implement custom NOT, AND, OR, or other 
 
 ## EBNF Notation
     createGenericFuzzyOperator ::= CREATE id¹ FUZZY OPERATOR id² 
-                                      PARAMETERS param++
+                                      PARAMETERS param++              
                                       [PRECONDITION condition]
                                       ( EVALUATE id³ AS expression
                                           [POLYLINE '[' 
