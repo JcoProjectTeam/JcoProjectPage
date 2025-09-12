@@ -11,7 +11,7 @@ The new current collection keeps only those documents present in both source col
 ![IntersectCollections instruction Syntax!](/languageSpecification/.assets/images/intersect_collections.jpg "Intersect Collections Syntax Diagram") 
 
 ## Semantics
-* The `id¹` token represents the collection name.
+* The `id¹` token represents the collection name.                
 * The `id²` token represents the database name (optional).
 * The `id³` token represents the alias name (optional).
 * The operation keeps only documents that are present in both collections.
