@@ -1,14 +1,21 @@
 # Filter instruction
 
-Bla bla bla  
-bla bla bla
+Filters and/or transforms documents in the current collection.
 
 
 ## EBNF Notation
 
+    filter ::=  FILTER 
+                (
+                    CASES (WHERE conditionRule [generateSectionRule] )+  
+                                [(KEEP | DROP ) OTHERS]
+                    |  generateSectionRule
+                )
+                [REMOVE DUPLICATES]
+            ;
 
 ## Syntax Diagram
-![Filter instruction Syntax!](/languageSpecification/assets/rules/filter.png "Filter Syntax Diagram") 
+![Filter instruction Syntax!](/languageSpecification/.assets/images/filter.jpg "Filter Syntax Diagram") 
 
 
 ## Semantics

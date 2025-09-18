@@ -3,17 +3,17 @@ Retrieves a dictionary from a NoSQL repository in order to perfom the  the **TRA
 
 
 ## EBNF Notation
-    getDictionary ::= GET DICTIONARY ID AT ID AS ID SC 
+    getDictionary ::= GET DICTIONARY id¹ @ id² AS id³ ;
 
 
 ## Syntax Diagram
-![GetDictionary instruction Syntax!](/languageSpecification/assets/rules/get_dictionary.png "Get Dictionary Syntax Diagram") 
+![GetDictionary instruction Syntax!](/languageSpecification/.assets/images/get_dictionary.jpg "Get Dictionary Syntax Diagram") 
 
 
 ## Semantics
- * The 1st `ID` token represents a collection in a NoSQL repository;
- * The 2nd `ID` token, after the `AT`(@) character, represents a NoSQL repository (that should be previously declared by means of the [Use DB](/languageSpecification/useDb.md) instruction);
- * The 3rd `ID` token, after the `AS` keyword, represents the _logical name_ by means the dictionary can be subsequently referenced. 
+ * The `id¹` token represents a collection in a NoSQL repository;
+ * The `id²` token represents a NoSQL repository (that should be previously declared by means of the [Use DB](/languageSpecification/useDb.md) instruction);
+ * The`id³` token, after the `AS` keyword, represents the _logical name_ by means the dictionary can be subsequently referenced. 
 
 
 ## Examples

@@ -5,11 +5,11 @@ Allows to save the *current collection*:
 
 
 ## EBNF Notation
-    saveAs ::= SAVE AS ID ( AT ID )? SC
+    saveAs ::= SAVE AS id¹ [ @ id² ] ;
 
 
 ## Syntax Diagram
-![SaveAs instruction Syntax!](/languageSpecification/assets/rules/save_as.png "SAVE AS Syntax Diagram") 
+![SaveAs instruction Syntax!](/languageSpecification/.assets/images/save_as.jpg "Group Syntax Diagram") 
 
 
 ## Examples
@@ -23,8 +23,8 @@ Allows to save the *current collection*:
 
 
 ## Semantics
- * The 1st `ID` token represents the name under which the collection is saved.
- * If the 2nd `ID` token is present after the `AT`(@) character, it represents the repository database where to save the collection. Otherwise the collection is saved in the _Intermediate Results_ database.
+ * The `id¹` token represents the name under which the collection is saved.
+ * The `id²` token if is present after the `AT`(@) character, it represents the repository database where to save the collection. Otherwise the collection is saved in the _Intermediate Results_ database.
 
 
 ## Issues

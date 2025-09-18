@@ -7,19 +7,19 @@ Substitutes the *current collection* with a new collection retrieved:
 
 
 ## EBNF Notation
-    getCollection ::= GET COLLECTION ( ID₁ [ AT ID₂ ]  
+    getCollection ::= GET COLLECTION ( id¹  [ @ id² ]  
                               	     | FROM WEB ( APEX_VALUE | QUOTED_VALUE ) )
-                       SC 
+                       ;
 
 
 ## Syntax Diagram 
-![Get Collection instruction Syntax!](/languageSpecification/rules/get_collection.png "Get Collection Syntax Diagram") 
+![Get Collection instruction Syntax!](/languageSpecification/.assets/images/get_collection.jpg "Get Collection Syntax Diagram") 
 
 
 ## Semantics
- * If the 1st `ID₁` token is present, it represents the name of the collection to retrieve.
- * If the 2nd `ID₂` token is present after the `AT`(@) character, it represents the logical name of the database from which retrieve the collection. Otherwise the collection is retrieved from the Intermediate Results database.
- * If the `FROM WEB` alternative is present, the following `APEX_VALUE` or `QUOTED_VALUE` represents the _URL_ string to retrieve the collection from the Internet.
+ * The `id¹ ` token if is present, it represents the name of the collection to retrieve.
+ * The `id²` token if is present after the `AT`(@) character, it represents the logical name of the database from which retrieve the collection. Otherwise the collection is retrieved from the Intermediate Results database.
+ * The `FROM WEB` alternative is present, the following `APEX_VALUE` or `QUOTED_VALUE` represents the _URL_ string to retrieve the collection from the Internet.
 
 
 ## Examples
