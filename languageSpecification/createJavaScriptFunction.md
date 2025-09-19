@@ -26,8 +26,8 @@ Create a Javascript function that returns a value from parameters.
 
 ## Examples
 
-1. CREATE JAVASCRIPT FUNCTION CalculateSum PARAMETERS num1, num2 BODY return num1 + num2; END BODY;
-2. CREATE JAVASCRIPT FUNCTION CheckAdultAge PARAMETERS age PRECONDITION age >= 0 BODY if (age >= 18) return true; else return false; END BODY;
+    CREATE JAVASCRIPT FUNCTION CalculateSum PARAMETERS num1, num2 BODY return num1 + num2; END BODY;
+    CREATE JAVASCRIPT FUNCTION CheckAdultAge PARAMETERS age PRECONDITION age >= 0 BODY if (age >= 18) return true; else return false; END BODY;
 
 ## Issues
 
