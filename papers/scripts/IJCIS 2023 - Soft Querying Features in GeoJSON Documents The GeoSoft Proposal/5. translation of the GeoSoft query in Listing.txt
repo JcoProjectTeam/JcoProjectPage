@@ -1,0 +1,27 @@
+GET COLLECTION towns@geosoftDb;
+
+EXPAND
+    UNPACK WITH ARRAY .features
+    ARRAY .features TO .feature;
+
+FILTER
+    CASE WHERE WITH .feature.item
+        GENERATE
+            SETTING GEOMETRY .feature.item.geometry
+            BUILD {
+                    .type : .feature.item.type,
+                    .properties : .feature.item.properties };
+
+FILTER
+    CASE WHERE WITH .type, .properties
+            AND ( WITH .properties.nome_com, .properties.nome_pro )
+            AND ( .properties.nome_pro = "MILANO" )
+        GENERATE
+            CHECK FOR FUZZY SET MediumTowns
+                USING MediumTownOp(TO_FLOAT(.properties.shape_area))
+            BUILD {
+                    .type : "Feature",
+                    .properties.town : .properties.nome_com,
+                    .properties.province : .properties.nome_pro };
+
+SAVE AS GeoSoftIntermediate_0_t;

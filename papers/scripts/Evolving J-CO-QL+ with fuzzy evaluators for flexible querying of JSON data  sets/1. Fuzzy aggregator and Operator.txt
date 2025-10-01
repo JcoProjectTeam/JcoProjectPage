@@ -1,0 +1,29 @@
+CREATE FUZZY OPERATOR Has_Increasing_GDP
+    PARAMETERS  GDP1 TYPE Float,
+                GDP2 TYPE Float
+    PRECONDITION GDPI > 0
+                AND GDP2 > 0
+    EVALUATE 100* (GDP2-GDP1) / GDP1
+    POLYLINE [ ( 0, 0.0), ( 2, 0.1), ( 4, 0.5),
+                ( 7, 0.8), (10, 0.9), ( 15, 1.0) ];
+
+CREATE FUZZY AGGREGATOR owaRain
+    PARAMETERS rainData TYPE ARRAY
+    SORT rd IN rainData
+        BY rd TYPE NUMERIC ASC AS sRainData
+    FOR ALL srd IN sRainData
+        LOCALLY ( POS*2 - (POS-1) *2 )
+                / (COUNT (sRainData) *2) AS W
+        AGGREGATE srd * w AS av
+    EVALUATE av
+    POLYLINE [(0.00, 0.0), (0.10, 0.0), (0.15, 0.7),
+                (0.20, 0.8), (0.50, 0.9), (0.80, 1.0)];
+    
+
+
+
+
+
+
+
+

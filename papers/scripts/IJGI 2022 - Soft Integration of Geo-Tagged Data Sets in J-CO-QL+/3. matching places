@@ -1,0 +1,18 @@
+FILTER
+    CASE
+        WHERE   WITH .f.fbName, .g.gName AND
+                KNOWN FUZZY SETS SameLocation
+            GENERATE
+                CHECK FOR
+                    FUZZY SET   SimilarName USING Similar( .f.fbName, .g.gName ),
+                    FUZZY SET   MatchingPlaces USING
+                                WeightedAggregationBeta (   MEMBERSHIP_OF (SimilarName),
+                                                            MEMBERSHIP_OF (SameLocation), 0.60)
+                ALPHACUT 0.8 ON MatchingPlaces
+                BUILD{
+                        .f : .f,
+                        .g : .g,
+                        .rank: MEMBERSHIP_OF(MatchingPlaces) }
+                DEFUZZIFY;
+
+SAVE AS RelevantPairs@ijgiDb;

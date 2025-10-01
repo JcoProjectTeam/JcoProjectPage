@@ -1,0 +1,12 @@
+CREATE FUZZY EVALUATOR hasIncreasingGdpFE
+    PARAMETERS  gdp1 TYPE NUMERIC,
+                gdp0 TYPE NUMERIC
+    PRECONDITION gdpl>0 AND gdp0>0    
+    EVALUATE 100* (gdp1-gdp0) /gdp0
+    POLYLINE [ (0.0, 0.0), ( 4.0, 0.2),
+                (6.0, 0.8), (10.0, 1.0) ];
+
+
+
+
+

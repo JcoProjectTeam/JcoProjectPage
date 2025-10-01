@@ -1,0 +1,2 @@
+USE DB geosoftDb
+    ON SERVER jcods 'http://127.0.0.1:17017';

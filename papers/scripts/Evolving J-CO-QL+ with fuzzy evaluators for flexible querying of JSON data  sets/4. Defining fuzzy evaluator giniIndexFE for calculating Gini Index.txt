@@ -1,0 +1,20 @@
+CREATE FUZZY EVALUATOR giniIndexFE
+    PARAMETERS  popTot TYPE NUMERIC,
+                gdpTot TYPE NUMERIC,
+                pop TYPE ARRAY,
+                gdp TYPE ARRAY,
+                gdpPc TYPE ARRAY
+    PRECONDITION    COUNT (pop) = COUNT (gdp)
+                AND COUNT (gdp) = COUNT (gdpPc)
+    SORT            (i1 IN gdpPc, i2 IN gdp, i3 IN pop)
+                BY  i1 TYPE NUMERIC ASC
+                AS  (sGdpPc, sGdp, sPop)
+    DERIVE          CUMULATE (sPop) AS cPop
+    DERIVE          CUMULATE (sGdp) AS cGdp
+    FOR ALL         p IN cPop
+        LOCALLY     
+            (p-IF_ERROR (cPop[POS-1], 0) ) /popTot AS dp,
+            (cGdp[POS]+IF_ERROR (cGdp[POS-1], 0) )
+                                    / (2*gdpTot) AS dg
+        AGGREGATE dp*dg AS 1ca
+    EVALUATE 2*(0.5-Ica);

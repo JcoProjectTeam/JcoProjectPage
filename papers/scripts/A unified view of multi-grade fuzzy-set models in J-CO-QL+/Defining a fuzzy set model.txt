@@ -1,0 +1,18 @@
+CREATE FUZZY SET MODEL neutrosophic
+DEGREES mu, nu, pi
+DERIVED DEGREES
+    muc AS 1-mu,
+    nuc AS 1-nu,
+    pic AS 1-pi
+OPERATOR NOT
+    EVALUATE mu AS x.muc
+    EVALUATE nu AS x.nuc
+    EVALUATE pi AS x.pic
+OPERATOR AND
+    EVALUATE mu AS x.mu * y.mu
+    EVALUATE nu AS x.nu * y.nu
+    EVALUATE pi AS x.pi * y.pi
+OPERATOR OR
+    EVALUATE mu AS x.mu + y.mu - x.mu * y.mu
+    EVALUATE nu AS x.nu + y.nu - x.nu * y.nu
+    EVALUATE pi AS x.pi + y.pi - x.pi * y.pi

@@ -1,0 +1,31 @@
+CREATE neutrosophic FUZZY OPERATOR Neutrosophify
+    PARAMETERS
+        m TYPE FLOAT,
+        n TYPE FLOAT,
+        P TYPE FLOAT
+    PRECONDITION
+        m >= 0 AND m <= 100 AND
+        n >= 0 AND n <= 100 AND
+        p >= 0 AND p <= 100
+    EVALUATE mu AS m/100
+    EVALUATE nu AS n/100
+    EVALUATE pi AS p/100
+
+CREATE neutrosophic FUZZY OPERATOR ExclusiveOR
+    PARAMETERS
+        x TYPE neutrosophic,
+        y TYPE neutrosophic
+    EVALUATE mu AS x.mu*y.muc + y.mu*x.muc
+                    - x.mu*y.mu*x.muc*y.muc
+    EVALUATE nu AS x.nu*y.nuc + y.nu*x.nuc
+                    - x.nu*y.nu*x.nuc*y.nuc
+    EVALUATE pi AS x.pi*y.pic + y.pi*x.pic
+                    - x.pi*y.pi*x.pic*y.pic
+
+CREATE FUZZY OPERATOR FuzzifyNeutrosophic
+    PARAMETERS
+        x TYPE neutrosophic
+    EVALUATE x.mu * x.mu * x.nuc * y.pic
+        POLYLINE
+            [ (0.0, 0.0), (0.3, 0.1),
+                (0.7, 0.9), (1.0, 1.0) ]

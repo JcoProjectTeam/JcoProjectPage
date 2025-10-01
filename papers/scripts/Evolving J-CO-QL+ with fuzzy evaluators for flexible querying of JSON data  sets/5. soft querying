@@ -1,0 +1,67 @@
+USE DB Neurocomputing2024
+    ON SERVER MongoDB 'http://127.0.0.1:27017';
+
+GET COLLECTION EUData@Neurocomputing2024;
+
+GROUP
+    PARTITION WITH .year
+        BY      .year
+        INTO    .euData
+        DROP GROUPING FIELDS
+    GENERATE BUILD {
+        .year           : .year,
+        .euData         : .euData,
+        .euPopulation   : SUM ARRAY (.euData,
+                            NUMERIC, .population ),
+        .euGdp          : SUM ARRAY (.euData,
+                            NUMERIC, .gdp) ,
+    .euPopulationArray : EXTRACT_ARRAY (
+                            .population
+                            FROM ARRAY . euData ),
+    .euGdpArray         : EXTRACT ARRAY ( .gdp
+                            FROM ARRAY .euData ),
+    .euGdpPcArray       : EXTRACT_ARRAY ( .gdpPc
+                            FROM ARRAY .euData )
+
+FILTER
+    CASE WHERE WITH .year
+        GENERATE
+            CHECK FOR
+                FUZZY SET inequality
+                    USING giniIndexFE (.euPopulation,
+                            .euGdp, .euPopulationArray,
+                            .euGdpArray, .euGdpPcArray ) ;
+
+JOIN OF COLLECTIONS temporary AS t1,
+                    temporary AS t0
+    SET FUZZY SETS
+        LEFT  inequality    AS newInequality,
+        RIGHT inequality    AS oldInequality
+    CASE WHERE .t1.year = .t0.year+1
+    GENERATE
+        CHECK FOR
+            FUZZY SET fairness
+                USING fairnessFE (
+                        EXTENT (newInequality) ,
+                        EXTENT (oldInequality) ),
+            FUZZY SET increasingGDP
+                USING hasIncreasingGdpFE (
+                        .t1.euGdp, .t0.euGdp ),
+            FUZZY SET goodYear
+                USING fairness AND increasingGDP
+        ALPHA CUT 0.10 ON goodYear
+        BUILD {
+            . year      : .tl.year,
+            .fairness   : EXTENT (fairness) ,
+            .incGdp     : EXTENT (increasingGDP),
+            .goodYear   : EXTENT (goodYear)
+        }
+    DEFUZZIFY;
+
+SAVE AS EUDataAnalyzed@Neurocomputing2024;
+                    
+
+
+
+
+

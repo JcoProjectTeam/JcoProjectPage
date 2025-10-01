@@ -1,0 +1,10 @@
+CREATE FUZZY OPERATOR RelevantPortionOp
+    PARAMETERS
+        lengthInTown TYPE Float, // in meters
+        totalLength TYPE Float // in meters
+    PRECONDITION lengthInTown > 0.0
+                AND totalLength > 0.0
+    EVALUATE 100 * lengthInTown / totalLength
+    POLYLINE
+            [ (0, 0.0), (1, 0.0),
+            (3, 0.3), (5, 1.0) ];

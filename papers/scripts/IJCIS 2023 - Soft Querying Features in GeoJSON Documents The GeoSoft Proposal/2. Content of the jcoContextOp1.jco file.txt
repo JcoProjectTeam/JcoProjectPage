@@ -1,0 +1,8 @@
+CREATE FUZZY OPERATOR MediumLengthHighwayOp
+    PARAMETERS length TYPE Float // in meters
+    PRECONDITION length > 0.0
+    EVALUATE length
+    POLYLINE
+        [ ( 0, 0.0), (10000, 0.0), (15000, 0.3),
+        (20000, 1.0), (40000, 1.0), (50000, 0.3),
+        (60000, 0.0) ];

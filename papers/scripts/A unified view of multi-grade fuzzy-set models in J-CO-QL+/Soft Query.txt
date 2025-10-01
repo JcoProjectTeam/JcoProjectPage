@@ -1,0 +1,31 @@
+USE DB MarketSurvey
+    ON SERVER jcods 'http://127.0.0.1:17017';
+
+GET COLLECTION ProductReviews@MarketSurvey;
+
+FILTER
+    CASE WHERE WITH. evalFancy, . evalSporty,
+                    .evalCommercial
+    GENERATE
+        CHECK FOR
+            neutrosophic FUZZY SET fancy
+                USING Neutrosophify ( .evalFancy.yes,
+                                        .evalFancy.no,
+                                        .evalFancy.idk ),
+            neutrosophic FUZZY SET sporty
+                USING Neutrosophify ( .evalSporty.yes,
+                                        .evalSporty.no,
+                                        .evalSporty. idk ),
+            neutrosophic FUZZY SET appreciation
+                USING Neutrosophify ( .evalCommercial.yes,
+                                        .evalCommercial.no,
+                                        .evalCommercial.idk ),
+            neutrosophic FUZZY SET efficacy
+                USING appreciation AND
+                    ExclusiveOR (EXTENT (fancy) , EXTENT (sporty) )
+            FUZZY SET wanted
+                USING FuzzifyNeutrosophic (EXTENT (efficacy) )
+        ALPHACUT
+            0.70 ON wanted
+
+SAVE AS ProductEvaluations@MarketSurvey;

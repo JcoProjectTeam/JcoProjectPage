@@ -1,0 +1,8 @@
+CREATE FUZZY OPERATOR MediumTownOp
+    PARAMETERS area TYPE Float // in square meters
+    PRECONDITION area > 0
+    EVALUATE area / 1000000 // to square kilometers
+    POLYLINE
+        [ ( 0, 0.0), ( 5, 0.0), ( 10, 0.3),
+        ( 15, 1.0), (70, 1.0), (110, 0.3),
+        (111, 0.0) ];
