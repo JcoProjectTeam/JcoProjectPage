@@ -318,7 +318,9 @@ numericRule
 
 checkForFuzzySetRule
 	:
-		CHECK_FOR ID? FUZZY SET ID USING usingOrConditionRule (	COMMA ID? FUZZY SET ID USING usingOrConditionRule	)*
+		CHECK_FOR 
+			ID? FUZZY SET ID USING usingOrConditionRule 
+			(	COMMA ID? FUZZY SET ID USING usingOrConditionRule	)*
 	;
 
 
@@ -366,7 +368,8 @@ keepDropFuzzySetsRule
 
 addFieldsRule
 	:
-		ADD_ST FIELDS LBR fieldRefRule COLON insertFieldRule (	COMMA fieldRefRule COLON insertFieldRule	)* RBR
+		ADD_ST FIELDS LBR fieldRefRule COLON insertFieldRule (
+			COMMA fieldRefRule COLON insertFieldRule	)* RBR
 	;
 
 
@@ -412,11 +415,9 @@ addFuzzySetRule
 		(	LEFT
 		|	RIGHT	) (	ALL
 		|	ID (	AS ID	)?	)
-	|	HOWINCLUDE LP (	LEFT
-			|	RIGHT	) RP AS ID
-	|	HOWMEET LP (	LEFT
-			|	RIGHT	) RP AS ID
-	|	HOWINTERSECT LP RP AS ID
+		|	HOWINCLUDE LP (	LEFT |	RIGHT	) RP AS ID
+		|	HOWMEET LP (	LEFT |	RIGHT	) RP AS ID
+		|	HOWINTERSECT LP RP AS ID
 	;
 
 
@@ -454,11 +455,16 @@ forEachRule
 
 joinOfCollectionsRule
 	:
-		JOIN OF COLLECTIONS collectionReferenceRule COMMA collectionReferenceRule (	ON GEOMETRY spatialFunctionRule	)? (	SET GEOMETRY (	INTERSECTION
+		JOIN OF COLLECTIONS collectionReferenceRule COMMA collectionReferenceRule 
+			(	ON GEOMETRY spatialFunctionRule	)? 
+			(	SET GEOMETRY (	INTERSECTION
 				|	RIGHT
 				|	LEFT
-				|	ALL	)	)? (	addFieldsRule	)? (	setFuzzySetsRule	)? (	caseClauseRule
-		|	generateSectionRule	)? (	REMOVE DUPLICATES	)? SC
+				|	ALL	)	)? 
+			(	addFieldsRule	)? 
+			(	setFuzzySetsRule	)? 
+			(	caseClauseRule|	generateSectionRule	)? 
+			(	REMOVE DUPLICATES	)? SC
 	;
 
 
@@ -471,13 +477,20 @@ filterRule
 
 groupRule
 	:
-		GROUP (	groupPartitionRule	)+ (	othersRule	)? SC
+		GROUP (	groupPartitionRule	)+ 
+			(	othersRule	)? SC
 	;
 
 
 groupPartitionRule
 	:
-		PARTITION orConditionRule BY fieldRefRule (	COMMA fieldRefRule	)* INTO fieldRefRule (	DROP GROUPING FIELDS	)? (	ORDER BY sortingFieldRule (	COMMA sortingFieldRule	)* (	KEEP UNCOMPARABLE	)?	)? (	generateSectionRule	)?
+		PARTITION orConditionRule 
+			BY fieldRefRule (	COMMA fieldRefRule	)* 
+			INTO fieldRefRule 
+			(	DROP GROUPING FIELDS	)? 
+			(	ORDER BY sortingFieldRule (	COMMA sortingFieldRule	)* 
+				(	KEEP UNCOMPARABLE	)?	)? 
+			(	generateSectionRule	)?
 	;
 
 
@@ -501,7 +514,8 @@ unpackRule
 
 mergeCollectionsRule
 	:
-		MERGE COLLECTIONS collectionReferenceRule (	COMMA collectionReferenceRule	)+ (	REMOVE DUPLICATES	)? SC
+		MERGE COLLECTIONS collectionReferenceRule (	COMMA collectionReferenceRule	)+ 
+		(	REMOVE DUPLICATES	)? SC
 	;
 
 
@@ -556,7 +570,12 @@ parameterRule
 
 createJavaScriptFunctionRule
 	:
-		CREATE JAVASCRIPT FUNCTION ID PARAMETERS parameterRule (	COMMA parameterRule	)* (	PRECONDITION jfOrConditionRule	)? BODY END_BODY SC
+		CREATE JAVASCRIPT FUNCTION ID 
+			PARAMETERS parameterRule (	COMMA parameterRule	)* 
+			(	PRECONDITION jfOrConditionRule	)? 
+			BODY 
+				// javascript code
+			END_BODY SC
 	;
 
 
@@ -568,9 +587,14 @@ createFuzzyOperatorRule
 
 createFuzzyEvaluatorRule
 	:
-		CREATE FUZZY EVALUATOR ID PARAMETERS feParameterRule (	COMMA feParameterRule	)* (	PRECONDITION jfOrConditionRule	)? (	feArraySortRule
-		|	feDeriveRule
-		|	feForAllRule	)* EVALUATE feExpressionRule (	POLYLINE LB LP numericRule COMMA numericRule RP (	COMMA LP numericRule COMMA numericRule RP	)+ RB	)? SC
+		CREATE FUZZY EVALUATOR ID 
+			PARAMETERS feParameterRule (	COMMA feParameterRule	)* 
+			(	PRECONDITION jfOrConditionRule	)? 
+			(	feArraySortRule
+			|	feDeriveRule
+			|	feForAllRule	)* 
+			EVALUATE feExpressionRule 
+			(	POLYLINE LB LP numericRule COMMA numericRule RP (	COMMA LP numericRule COMMA numericRule RP	)+ RB	)? SC
 	;
 
 

@@ -28,7 +28,7 @@ Create an evaluator that returns a fuzzy value form crips values.
 ## Examples
       CREATE FUZZY EVALUATOR linearEval PARAMETERS x TYPE FLOAT EVALUATE x / 10;
       CREATE FUZZY EVALUATOR boundedEval PARAMETERS x TYPE FLOAT PRECONDITION ( x >= 0 AND x <= 10 ) EVALUATE 1 - ABS(x - 5)/5;
-      CREATE FUZZY EVALUATOR triangularEval PARAMETERS x TYPE FLOAT EVALUATE x POLYLINE[ (0,0), (5,1), (10,0) ];
+      CREATE FUZZY EVALUATOR triangularEval PARAMETERS x TYPE FLOAT EVALUATE x;
 
 ## Issues
 
