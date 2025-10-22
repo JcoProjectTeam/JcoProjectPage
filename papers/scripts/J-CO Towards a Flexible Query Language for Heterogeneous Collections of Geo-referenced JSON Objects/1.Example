@@ -1,0 +1,24 @@
+GET COLLECTION ToyDB.Buildings;
+
+FILTER
+    CASE city="city A" WITH geometry
+    DROP OTHERS;
+
+SET INTERMEDIATE AS BuildingsCityA;
+
+OVERLAY COLLECTIONS BuildingsCityA,
+                    ToyDB.WaterLines
+    KEEP INTERSECTION;
+
+SET INTERMEDIATE AS BWCityA;
+
+JOIN COLLECTIONS BWCityA,
+                ToyDB.Restaurants
+    ON BWCityA.BuildingsCityA.address = Restaurants.address;
+
+FILTER
+    CASE WITH name
+        PROJECT Restaurant.name
+    DROP OTHERS;
+    
+SAVE AS ToyDB.RestaurantsWL;

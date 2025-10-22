@@ -1,0 +1,62 @@
+USE DB geosoftDb
+    ON SERVER jcods 'http://127.0.0.1:17017';
+
+CREATE FUZZY OPERATOR MediumLengthHighwayOp
+    PARAMETERS      length TYPE Float
+    PRECONDITION    length > 0.0
+    EVALUATE        length
+    POLYLINE    
+        [(0, 0.0), (10000, 0.0), (15000, 0.3),
+         (20000, 1.0) , (40000, 1.0), (50000, 0.3),
+         (60000, 0.0) ];
+
+CREATE FUZZY OPERATOR RelevantPortionOp 
+   PARAMETERS  
+     lengthInTown TYPE Float,                 // in meters 
+     totalLength    TYPE Float                  // in meters 
+   PRECONDITION   lengthInTown > 0.0 
+               AND totalLength    > 0.0  
+   EVALUATE         100 * lengthInTown / totalLength  
+   POLYLINE  
+     [ (0, 0.0),    (1, 0.0),  
+      (3, 0.3),     (5, 1.0) ];
+
+
+CREATE FUZZY OPERATOR MediumTownOp 
+   PARAMETERS      area TYPE Float     // in square meters 
+   PRECONDITION   area > 0 
+   EVALUATE        area / 1000000     // to square kilometers 
+   POLYLINE 
+     [  (  0, 0.0), ( 5, 0.0),  ( 10, 0.3),       
+        ( 15, 1.0),  (70, 1.0),  (110, 0.3), 
+        (111, 0.0)  ];  
+
+GET COLLECTION towns@geosoftDb; 
+ 
+EXPAND 
+ UNPACK WITH ARRAY .features 
+ ARRAY .features TO .feature; 
+ 
+FILTER 
+ CASE WHERE WITH .feature.item 
+  GENERATE 
+    SETTING GEOMETRY .feature.item.geometry 
+    BUILD { 
+      .type       : .feature.item.type, 
+      .properties : .feature.item.properties }; 
+ 
+FILTER 
+ CASE WHERE WITH .type, .properties 
+      AND ( WITH .properties.nome_com, .properties.nome_pro ) 
+      AND ( .properties.nome_pro = "MILANO" ) 
+  GENERATE 
+    CHECK FOR FUZZY SET MediumTowns  
+USING MediumTownOp(TO_FLOAT(.properties.shape_area)) 
+    BUILD { 
+      .type                 : "Feature",  
+      .properties.town      : .properties.nome_com,  
+      .properties.province : .properties.nome_pro }; 
+ 
+SAVE AS GeoSoftIntermediate_0_t; 
+
+

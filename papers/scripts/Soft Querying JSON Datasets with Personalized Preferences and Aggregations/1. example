@@ -1,0 +1,76 @@
+CREATE FUZZY EVALUATOR highCumulativeRain 
+  PARAMETERS   rainData TYPE ARRAY  
+  FOR ALL      rd      IN rainData 
+    AGGREGATE  rd      AS av 
+  EVALUATE     av 
+POLYLINE [ (  0, 0.0),  ( 50, 0.0),  (100, 0.1),  
+(200, 0.7),  (300, 0.9),  (400, 1.0) ]; 
+
+CREATE FUZZY EVALUATOR owaRain
+PARAMETERS  rainData TYPE ARRAY
+SORT        rd       IN rainData
+BY          rd       TYPE NUMERIC ASC AS sRainData
+FOR ALL     srd      IN sRainData
+    LOCALLY ( POS^2 - (POS-1) ^2 )
+            / (COUNT (sRainData) ^2) AS w
+    AGGREGATE   srd * w AS av
+EVALUATE    av
+POLYLINE    [(0.00, 0.0), (0.10, 0.0), (0.15, 0.7),
+            (0.20, 0.8), (0.50, 0.9), (0.80, 1.0)];
+
+
+CREATE FUZZY EVALUATOR pNormAND
+    PARAMETERS
+        p           TYPE NUMERIC,
+        importances TYPE ARRAY,
+        memberships TYPE ARRAY,
+    PRECONDITION    p >= 1
+        AND         COUNT (memberships) = COUNT (importances)
+    FOR ALL         m IN memberships
+        LOCALLY     (1-m) ^p                AS X,
+                    importances [POS]^p     AS i
+        AGGREGATE   importances .......     AS numerator,
+                    importances .......     AS denominator
+        EVALUATE    1 - (numerator/denominator) ^ (1/p);
+
+ USE DB webist2023 
+ON SERVER MongoDB 'http://127.0.0.1:27017'; 
+ 
+GET COLLECTION MesauredRain@webist2023; 
+ 
+FILTER  
+  CASE WHERE WITH .rainData 
+    GENERATE  
+      CHECK FOR 
+        FUZZY SET SignificantRain  
+            USING highCumulativeRain(EXTRACT_ARRAY( 
+                        .value FROM ARRAY .rainData)), 
+        FUZZY SET PeaksOfRain 
+            USING owaRain(EXTRACT_ARRAY( 
+                        .value FROM ARRAY .rainData)); 
+ 
+JOIN OF COLLECTIONS     temporary                   AS t, 
+                        Configurations@webist2023   AS c 
+  SET FUZZY SETS KEEP LEFT 
+  CASE WHERE   
+        KNOWN FUZZY SETS SignificantRain, PeaksOfRain 
+    GENERATE  
+      CHECK FOR 
+        FUZZY SET Wanted  
+            USING pNormAND (.c.p, .c.importances, 
+                MEMBERSHIP_ARRAY( [ PeaksOfRain,  
+                                SignificantRain ]) ) 
+      ALPHACUT 0.80 ON Wanted        
+      BUILD { 
+        .city      : .t.city, 
+        .province   : .t.province, 
+        .sensorId   : .t.sensorId, 
+        .dateStart : MIN_ARRAY(.t.rainData, STRING, 
+                        .timestamp),    
+        .dateEnd   : MAX_ARRAY(.t.rainData, STRING, 
+                        .timestamp),    
+        .label     : .c.label, 
+        .ranking   : MEMBERSHIP_TO (Wanted)  } 
+    DEFUZZIFY;        
+ 
+SAVE AS Results@webist2023;

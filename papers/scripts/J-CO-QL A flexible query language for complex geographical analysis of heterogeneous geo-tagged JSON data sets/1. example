@@ -1,0 +1,117 @@
+SPATIAL JOIN OF COLLECTIONS
+Buildings@ToyDB, WaterLines@ToyDB
+ON INTERSECT
+SET GEOMETRY INTERSECTION
+CASE
+    WHERE WITH STRING .Buildings.City
+        AND .Buildings.City = "City A"
+    WHERE WITH STRING .Buildings.CityName
+        AND .Buildings.CityName = "City A"
+DROP OTHERS;
+
+SPATIAL JOIN OF COLLECTIONS
+Buildings@ToyDB, WaterLines@ToyDB
+ON INTERSECT
+SET GEOMETRY INTERSECTION
+CASE
+    WHERE WITH STRING .Buildings.City
+        AND .Buildings.City = "City A"
+        GENERATE {.City: .Buildings.City,
+                    .Building: .Buildings.name,
+                    .Waterline: .WaterLine.name}
+                KEEPING GEOMETRY
+WHERE WITH STRING .Buildings.CityName
+    AND .Buildings.CityName = "City A"
+    GENERATE {.City: .Buildings.CityName,
+                    .Building: .Buildings.name,
+                    .Waterline: .WaterLine.name}
+                KEEPING GEOMETRY
+DROP OTHERS;
+
+SPATIAL JOIN OF COLLECTIONS
+Buildings@ToyDB AS B1, Buildings@ToyDB AS B2
+ON DISTANCE(M) < 50
+SET GEOMETRY ALL
+CASE
+    WHERE WITH STRING .B1.City
+        AND .B1.City = "City C"
+    WHERE WITH STRING .B1.CityName
+        AND .B1.CityName = "City C"
+DROP OTHERS;
+
+SET INTERMEDIATE AS BWCityA;
+
+JOIN OF COLLECTIONS Buildings@ToyDB AS B,
+                    Restaurants@ToyDB AS R
+CASE
+    WHERE   WITH STRING .B.City, .B.Address,
+                        .R.City, .R.Address AND
+            WITH GEOMETRY .R.geometry AND
+                        .B.City=.R.City AND
+                        .B.Address=.R.Address
+        GENERATE {BuildingName: .B.Name,
+                RestaurantName: .R.Name,
+                City: .B.City,
+                Address: .B.Address}
+                SETTING GEOMETRTY .B.geometry
+    WHERE   WITH STRING .B.CityName, .B.Address,
+                        .R.City, .R.Address AND
+            WITH GEOMETRY .R.geometry AND
+                        .B.CityName=.R.City AND
+                        .B.Address=.R.Address
+        GENERATE {BuildingName: .B.Name,
+                RestaurantName: .R.Name,
+                City: .B.CityName,
+                Address: .B.Address}
+            SETTING GEOMETRTY .B.geometry
+DROP OTHERS;
+
+FILTER caseClause;
+
+GET COLLECTION Restaurants@ToyDB;
+FILTER
+    CASE
+        WHERE WITH LOAT .lat, .lng AND
+            WITHOUT .geometry
+        GENERATE SETTING GEOMETRY
+                POINT(.lat, .lng)
+KEEP OTHERS;
+
+GET COLLECTION WaterLines@ToyDB;
+GROUP
+    PARTITION WITH STRING .city
+    BY .city
+    INTO waterLineCity
+DROP OTHERS;
+
+GET COLLECTION WaterLines@ToyDB;
+    GROUP
+    PARTITION WITH STRING .city
+    BY .city
+    INTO waterLineCity
+    GENERATE SETTING GEOMETRY
+        AGGREGATE(.waterLineCity)
+DROP OTHERS;
+
+GROUP
+    PARTITION
+        WITH .RailwayOwner, .Type, .maxSpeed
+        BY .RailwayOwner, .Type
+        INTO groupedRailways
+        ORDERED BY .maxSpeed
+    PARTITION
+        WITH STRING .countyName, .townName AND
+            WITH FLOAT .width
+    BY .countyName, .townName,
+    INTO groupedRoads
+DROP OTHERS;
+
+EXPAND
+    UNPACK  WITH STRING .city AND
+            WITH ARRAY .waterLineCity
+    TO tmp
+        GENERATE {.tmp.name, .tmp.city}
+            SETTING GEOMETRY .tmp.geometry
+DROP OTHERS;
+
+SAVE AS RestaurantsWL@ToyDB;
