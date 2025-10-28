@@ -1,0 +1,17 @@
+//1.
+GET COLLECTION NUTSCollection_Geojson@NUTS_Info;
+
+//2.
+EXPAND
+UNPACK WITH ARRAY .features
+            ARRAY .features TO .feature
+DROP OTHERS;
+
+//3.
+FILTER
+    CASE WHERE WITH .feature.item
+    GENERATE {
+        .type : .feature.item.type,
+        .properties : .feature.item.properties,
+        .geometry : .feature.item.geometry }
+    DROP OTHERS;

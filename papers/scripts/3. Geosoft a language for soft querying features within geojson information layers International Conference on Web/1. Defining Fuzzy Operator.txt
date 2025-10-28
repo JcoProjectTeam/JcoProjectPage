@@ -1,0 +1,31 @@
+//1.
+CREATE FUZZY OPERATOR Has_Decreasing_Population
+    PARAMETERS
+        Pop1 TYPE Float,
+        Pop2 TYPE Float
+    PRECONDITION
+        Pop1 > 0
+        AND Pop2 > 0
+    EVALUATE 100*(Pop2-Pop1) / Pop1
+    POLYLINE
+        [   (-2.0, 1.0),
+            (-1.0, 0.7),
+            (-0.5, 0.1),
+            ( 0.0, 0.0) ];
+
+//2.
+CREATE FUZZY OPERATOR Has_Increasing_GDP
+    PARAMETERS
+        GDP1 TYPE Float,
+        GDP2 TYPE Float
+    PRECONDITION
+        GDP1 > 0
+        AND GDP2 > 0
+    EVALUATE 100*(GDP2-GDP1) / GDP1
+    POLYLINE
+        [ ( 0, 0.0),
+        ( 2, 0.1),
+        ( 4, 0.5),
+        ( 7, 0.8),
+        ( 10, 0.9),
+        ( 15, 1.0) ];

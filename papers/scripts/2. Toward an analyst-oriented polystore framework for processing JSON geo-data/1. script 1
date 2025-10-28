@@ -1,19 +1,25 @@
+//1.
 USE DB AuthoritativeData
     ON SERVER J-CO-DS "http://10.0.0.12:6001";
 
+//2.
 USE DB SocialMedia
     ON SERVER MongoDB "http://10.0.0.11:2707";
 
+//3.
 USE DB Portal
     ON SERVER ELASTICSEARCH "http://10.0.0.13:9200";
 
+//4.
 GET COLLECTION CountryBoundaries@AuthoritativeData;
 
+//5.
 EXPAND
     UNPACK WITH .features AND .name="EU_Boundaries"
         ARRAY .features TO .feature
 DROP OTHERS;
 
+//6.
 FIND
     CASE WHERE WITH .feature.item.properties.name,
                     .feature.item. geometry
@@ -21,6 +27,7 @@ FIND
         SETTING GEOMETRY .feature.item.geometry
     DROP OTHERS;
 
+//7.
 SPATIAL JOIN OF COLLECTIONS Messages@SocialMedia AS M, TEMPORARY AS C
     ON INCLUDED (LEFT)
     SET GEOMETRY LEFT

@@ -1,0 +1,35 @@
+//3.
+USE DB NUTS_Info
+    ON SERVER MongoDB 'http://127.0.0.1:27017';
+
+//4.
+GET COLLECTION NUTSCollection@NUTS_Info;
+
+//5.
+FILTER
+    CASE
+        WHERE WITH .Pop2017, .Pop2018, .GDP2017, .GDP2018
+            CHECK FOR FUZZY SET Decreasing_Population
+                USING Has_Decreasing_Population (.Pop2017, .Pop2018)
+            CHECK FOR FUZZY SET Increasing_GDP
+                USING Has_Increasing_GDP (.GDP2017, .GDP2018)
+            CHECK FOR FUZZY SET Wanted
+                USING ( Decreasing_Population AND Increasing_GDP )
+            ALPHA-CUT 0.8 ON Wanted
+        DROP OTHERS;
+
+//6.
+FILTER
+    CASE
+        WHERE KNOWN FUZZY SETS Wanted
+            GENERATE
+                { .NUTSName : .NUTSName,
+                .NUTSCode : .NUTSCode,
+                .NUTSLevel : .NUTSLevel,
+                .CountryCode : .CountryCode,
+                .rank : MEMBERSHIP_OF (Wanted) }
+            DROPPING ALL FUZZY SETS
+    DROP OTHERS;
+
+//7.
+SAVE AS DetectedNUTS@NUTS_Info;

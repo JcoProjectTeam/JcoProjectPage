@@ -1,0 +1,168 @@
+[{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3abf"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO312",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Calarasi",
+  "rank": 0.8398403020058687
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac0"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO212",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Botosani",
+  "rank": 0.8253673557830736
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac1"
+  },
+  "CountryCode": "BG",
+  "NUTSCode": "BG313",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Vratsa",
+  "rank": 0.9544589969343078
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac2"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO222",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Buzau",
+  "rank": 0.8284295576596357
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac3"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO314",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Giurgiu",
+  "rank": 0.8317102726547093
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac4"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO225",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Tulcea",
+  "rank": 0.8695966233552621
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac5"
+  },
+  "CountryCode": "BG",
+  "NUTSCode": "BG321",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Veliko Tarnovo",
+  "rank": 0.8088076367732844
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac6"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO317",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Teleorman",
+  "rank": 0.8518353063660314
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac7"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO414",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Olt",
+  "rank": 0.893384439933136
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac8"
+  },
+  "CountryCode": "BG",
+  "NUTSCode": "BG415",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Kyustendil",
+  "rank": 0.8941135094384828
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3ac9"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO413",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Mehedinti",
+  "rank": 0.8792719871137198
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3aca"
+  },
+  "CountryCode": "EE",
+  "NUTSCode": "EE007",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Kirde-Eesti (NUTS 2016)",
+  "rank": 0.8674373466388059
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3acb"
+  },
+  "CountryCode": "RO",
+  "NUTSCode": "RO221",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Braila",
+  "rank": 0.856520352931422
+},
+{
+  "_id": {
+    "$oid": "617052b103dc7b0b40bf3acc"
+  },
+  "CountryCode": "BG",
+  "NUTSCode": "BG314",
+  "NUTSLevel": {
+    "$numberLong": "3"
+  },
+  "NUTSName": "Pleven",
+  "rank": 0.8728439645617668
+}]
