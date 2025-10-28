@@ -11,7 +11,7 @@ an intuitive execution model that permits to write complex queries; operators ar
 database vision of the problem and suitable for non programmers.
 
 ## PDF
-[J-CO-QL A flexible query language for complex geographical analysis of heterogeneous geo-tagged JSON data sets.pdf](/papers/pdf/J-CO-QL%20A%20flexible%20query%20language%20for%20complex%20geographical%20analysis%20of%20heterogeneous%20geo-tagged%20JSON%20data%20sets.pdf) 
+[J-CO-QL A flexible query language for complex geographical analysis of heterogeneous geo-tagged JSON data sets.pdf](/papers/pdf/1.%20J-CO-QL%20A%20flexible%20query%20language%20for%20complex%20geographical%20analysis%20of%20heterogeneous%20geo-tagged%20JSON%20data%20sets.pdf) 
 
 ## DATASET
 | Dataset | Description |
