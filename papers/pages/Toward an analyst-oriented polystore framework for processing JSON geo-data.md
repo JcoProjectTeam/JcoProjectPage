@@ -19,7 +19,7 @@ effectiveness of the framework itself through an example.
 ## DATASET
 | Dataset | Description |
 | -------- | ----------- | 
-| [Dataset folder](/papers/dataset/2.%20Toward%20an%20analyst-oriented%20polystore%20framework%20for%20processing%20JSON%20geo-data/) | Dedicated dataset folder for polystore framework examples (currently empty - datasets referenced from multiple sources) |
+| [Dataset folder](/papers/dataset/2.%20Toward%20an%20analyst-oriented%20polystore%20framework%20for%20processing%json%20geo-data/) | Dedicated dataset folder for polystore framework examples (currently empty - datasets referenced from multiple sources) |
 
 ## SCRIPTS
 | Script | Description | Last Tested |
