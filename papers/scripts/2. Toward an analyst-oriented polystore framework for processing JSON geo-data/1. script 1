@@ -1,0 +1,35 @@
+USE DB AuthoritativeData
+    ON SERVER J-CO-DS "http://10.0.0.12:6001";
+
+USE DB SocialMedia
+    ON SERVER MongoDB "http://10.0.0.11:2707";
+
+USE DB Portal
+    ON SERVER ELASTICSEARCH "http://10.0.0.13:9200";
+
+GET COLLECTION CountryBoundaries@AuthoritativeData;
+
+EXPAND
+    UNPACK WITH .features AND .name="EU_Boundaries"
+        ARRAY .features TO .feature
+DROP OTHERS;
+
+FIND
+    CASE WHERE WITH .feature.item.properties.name,
+                    .feature.item. geometry
+    GENERATE { .CountryName: .feature. item. properties.name }
+        SETTING GEOMETRY .feature.item.geometry
+    DROP OTHERS;
+
+SPATIAL JOIN OF COLLECTIONS Messages@SocialMedia AS M, TEMPORARY AS C
+    ON INCLUDED (LEFT)
+    SET GEOMETRY LEFT
+    CASE WHERE WITH .M, .C
+    GENERATE { .postID: .M.postID, .userID: .M.userID,
+                .date: .M.date, .text: .M.text,
+                .country: .C.CountryName,
+                .coordinates: .~ geometry. coordinates }
+                DROPPING GEOMETRY
+    DROP OTHERS;
+
+SAVE AS GeoCodedMessages@Portal;
