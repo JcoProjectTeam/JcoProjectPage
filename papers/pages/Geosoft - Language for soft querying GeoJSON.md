@@ -12,7 +12,7 @@ script, which is executed by the J-CO Framework, i.e., the execution engine we
 chose for GeoSoft.
 
 ## PDF
-[Geosoft a language for soft querying features within geojson information layers.pdf](/papers/pdf/Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers.pdf) 
+[Geosoft a language for soft querying features within geojson information layers.pdf](/papers/pdf/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers.pdf) 
 
 ## DATASET
 | Dataset | Description | Last Tested |
