@@ -1,0 +1,8 @@
+GET COLLECTION WaterLines@ToyDB;
+    GROUP
+    PARTITION WITH STRING .city
+    BY .city
+    INTO waterLineCity
+    GENERATE SETTING GEOMETRY
+        AGGREGATE(.waterLineCity)
+DROP OTHERS;

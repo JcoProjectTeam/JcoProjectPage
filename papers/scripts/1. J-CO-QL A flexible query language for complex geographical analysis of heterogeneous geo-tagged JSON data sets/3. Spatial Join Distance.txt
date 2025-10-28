@@ -1,0 +1,10 @@
+SPATIAL JOIN OF COLLECTIONS
+Buildings@ToyDB AS B1, Buildings@ToyDB AS B2
+ON DISTANCE(M) < 50
+SET GEOMETRY ALL
+CASE
+    WHERE WITH STRING .B1.City
+        AND .B1.City = "City C"
+    WHERE WITH STRING .B1.CityName
+        AND .B1.CityName = "City C"
+DROP OTHERS;

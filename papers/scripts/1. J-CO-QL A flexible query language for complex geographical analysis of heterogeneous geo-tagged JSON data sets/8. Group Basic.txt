@@ -1,0 +1,6 @@
+GET COLLECTION WaterLines@ToyDB;
+GROUP
+    PARTITION WITH STRING .city
+    BY .city
+    INTO waterLineCity
+DROP OTHERS;

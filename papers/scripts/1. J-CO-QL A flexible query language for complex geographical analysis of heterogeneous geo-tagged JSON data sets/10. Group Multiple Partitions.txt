@@ -1,0 +1,12 @@
+GROUP
+    PARTITION
+        WITH .RailwayOwner, .Type, .maxSpeed
+        BY .RailwayOwner, .Type
+        INTO groupedRailways
+        ORDERED BY .maxSpeed
+    PARTITION
+        WITH STRING .countyName, .townName AND
+            WITH FLOAT .width
+    BY .countyName, .townName,
+    INTO groupedRoads
+DROP OTHERS;

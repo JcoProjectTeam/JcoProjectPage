@@ -1,0 +1,10 @@
+SPATIAL JOIN OF COLLECTIONS
+Buildings@ToyDB, WaterLines@ToyDB
+ON INTERSECT
+SET GEOMETRY INTERSECTION
+CASE
+    WHERE WITH STRING .Buildings.City
+        AND .Buildings.City = "City A"
+    WHERE WITH STRING .Buildings.CityName
+        AND .Buildings.CityName = "City A"
+DROP OTHERS;

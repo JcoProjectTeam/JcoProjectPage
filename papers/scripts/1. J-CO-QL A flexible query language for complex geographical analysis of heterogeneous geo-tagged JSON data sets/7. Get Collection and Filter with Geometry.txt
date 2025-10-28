@@ -1,0 +1,8 @@
+GET COLLECTION Restaurants@ToyDB;
+FILTER
+    CASE
+        WHERE WITH LOAT .lat, .lng AND
+            WITHOUT .geometry
+        GENERATE SETTING GEOMETRY
+                POINT(.lat, .lng)
+KEEP OTHERS;

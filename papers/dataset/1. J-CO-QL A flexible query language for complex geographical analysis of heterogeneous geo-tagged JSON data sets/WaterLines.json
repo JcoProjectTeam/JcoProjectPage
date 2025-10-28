@@ -1,0 +1,45 @@
+[{ "name":"WaterLineA",
+"city":"city A",
+"geometry":{"type":"GeometryCollection",
+"geometries":[
+{
+"type": "LineString",
+"coordinates":
+[[90.0, 0.0],
+[103.0, 1.0],
+[104.0, 0.0],
+[105.0, 1.0]]
+}
+]
+}
+},
+{ "name":"WaterLineB",
+"city":"city A",
+"geometry":{"type":"GeometryCollection",
+"geometries":[
+{
+"type": "LineString",
+"coordinates":
+[[102.0, 10.0],
+[103.0, 2.0],
+[104.0, 1.0],
+[102.0, -1.0]]
+}
+]
+}
+},
+{ "name":"WaterLineC",
+"city":"city C",
+"geometry":{"type":"GeometryCollection",
+"geometries":[
+{
+"type": "LineString",
+"coordinates":
+[[104.0, 10.0],
+[105.0, 2.0],
+[109.0, 1.0],
+[110.0, -1.0]]
+}
+]
+}
+}]

@@ -1,0 +1,24 @@
+JOIN OF COLLECTIONS Buildings@ToyDB AS B,
+                    Restaurants@ToyDB AS R
+CASE
+    WHERE   WITH STRING .B.City, .B.Address,
+                        .R.City, .R.Address AND
+            WITH GEOMETRY .R.geometry AND
+                        .B.City=.R.City AND
+                        .B.Address=.R.Address
+        GENERATE {BuildingName: .B.Name,
+                RestaurantName: .R.Name,
+                City: .B.City,
+                Address: .B.Address}
+                SETTING GEOMETRTY .B.geometry
+    WHERE   WITH STRING .B.CityName, .B.Address,
+                        .R.City, .R.Address AND
+            WITH GEOMETRY .R.geometry AND
+                        .B.CityName=.R.City AND
+                        .B.Address=.R.Address
+        GENERATE {BuildingName: .B.Name,
+                RestaurantName: .R.Name,
+                City: .B.CityName,
+                Address: .B.Address}
+            SETTING GEOMETRTY .B.geometry
+DROP OTHERS;

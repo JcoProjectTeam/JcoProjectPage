@@ -1,0 +1,7 @@
+EXPAND
+    UNPACK  WITH STRING .city AND
+            WITH ARRAY .waterLineCity
+    TO tmp
+        GENERATE {.tmp.name, .tmp.city}
+            SETTING GEOMETRY .tmp.geometry
+DROP OTHERS;
