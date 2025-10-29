@@ -23,7 +23,7 @@ chose for GeoSoft.
 ## SCRIPTS
 | Script | Description | Last Tested |
 | -------- | ----------- | ----------- |
-| [1. Defining Fuzzy Operator](/papers/scripts/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers%20International%20Conference%20on%20Web/1.%20Defining%20Fuzzy%20Operator.txt) | Definition of fuzzy operators for soft spatial querying in GeoSoft language | |
+| [1. Defining Fuzzy Operator](/papers/scripts/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers%20International%20Conference%20on%20Web/1.%20Defining%20Fuzzy%20Operator.txt) | Definition of fuzzy operators for soft spatial querying in GeoSoft language |10/2025|
 | [2. Soft querying with JcoQl](/papers/scripts/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers%20International%20Conference%20on%20Web/2.%20Soft%20querying%20with%20JcoQl) | Examples of soft querying operations using J-CO-QL integration with GeoSoft | |
 | [3. Translation of the GeoSoft query preamble](/papers/scripts/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers%20International%20Conference%20on%20Web/3.%20Translation%20of%20the%20GeoSoft%20query%20preamble) | Translation of GeoSoft query preamble syntax to executable J-CO-QL code | |
 | [4. Translation of the GeoSoft query core](/papers/scripts/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers%20International%20Conference%20on%20Web/4.%20Translation%20of%20the%20GeoSoft%20query%20core) | Core query translation demonstrating main GeoSoft spatial operations | |
