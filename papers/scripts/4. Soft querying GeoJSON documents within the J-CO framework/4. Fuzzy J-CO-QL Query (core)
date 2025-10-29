@@ -1,0 +1,38 @@
+//10.
+FILTER
+    CASE WHERE
+        WITH .properties.humidity
+        CHECK FOR FUZZY SET High_Humidity
+        USING Has_High_Humidity(
+            .properties.humidity )
+    DROP OTHERS;
+
+//11.
+FILTER
+    CASE WHERE
+        WITH .properties.pressure
+        CHECK FOR FUZZY SET Medium_Pressure
+        USING Has_Medium_Pressure(
+            .properties.pressure )
+    DROP OTHERS;
+
+//12.
+FILTER
+    CASE WHERE
+        WITH .properties.temperature
+        CHECK FOR FUZZY SET Low_Temperature
+        USING Has_Low_Temperature(
+            .properties.temperature )
+    DROP OTHERS;
+
+//13.
+FILTER
+    CASE WHERE KNOWN FUZZY SETS
+                High_Humidity,
+                Low_Temperature,
+                Medium_Pressure
+        CHECK FOR FUZZY SET Wanted
+        USING High_Humidity AND
+                (Low_Temperature OR Medium_Pressure)
+        ALPHA-CUT 0.5 ON Wanted
+    DROP OTHERS

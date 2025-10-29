@@ -1,0 +1,25 @@
+//14.
+FILTER
+    CASE WHERE
+        WITH ." ̃fuzzysets".Wanted
+    GENERATE {  .type: .type,
+                .properties: .properties,
+                .geometry: geometry, .key: 1,
+                .properties.rank:
+                ." ̃fuzzysets".Wanted }
+        DROPPING ALL FUZZY SETS
+    DROP OTHERS;
+
+//15.
+GROUP
+    PARTITION WITH .key
+        BY .key INTO .features
+        DROP GROUPING FIELDS
+        ORDER BY .properties.rank DESC
+        GENERATE
+            {   .type: "FeatureCollection",
+                .features: .features }
+    DROP OTHERS;
+
+//16.
+SAVE AS Filtered@MyDB;

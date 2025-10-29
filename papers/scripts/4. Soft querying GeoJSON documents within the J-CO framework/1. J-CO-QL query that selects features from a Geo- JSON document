@@ -1,0 +1,35 @@
+//1.
+GET COLLECTION Meteo_Measures@MyDB;
+
+//2.
+EXPAND
+    UNPACK WITH ARRAY .features
+    ARRAY .features TO feature
+    DROP OTHERS;
+
+//3.
+FILTER
+    CASE WHERE WITH
+            .feature.item.properties.temperature
+            AND
+            .feature.item.properties.temperature
+            > 30
+        GENERATE {  .type: .feature.item.type,
+                    .properties:
+                    .feature.item.properties,
+                    .geometry: .feature.item.geometry,
+                    .key: "K" }
+    DROP OTHERS;
+
+//4.
+GROUP
+    PARTITION WITH .key
+        BY .key INTO .features
+            DROP GROUPING FIELDS
+            GENERATE {  .features: .features,
+                        .type: "FeatureCollection" }
+    DROP OTHERS;
+
+//5.
+SAVE AS Filtered@MyDB;
+

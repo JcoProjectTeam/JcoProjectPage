@@ -1,0 +1,19 @@
+//7.
+GET COLLECTION Meteo_Measures@MyDB;
+
+//8.
+EXPAND
+    UNPACK WITH ARRAY .features
+        ARRAY .features TO feature
+    DROP OTHERS;
+
+//9.
+FILTER
+    CASE WHERE WITH .feature.item
+    GENERATE
+        { .type: .feature.item.type,
+        .properties:
+        .feature.item.properties,
+        .geometry:
+        .feature.item.geometry }
+    DROP OTHERS;

@@ -1,0 +1,32 @@
+//6.
+CREATE FUZZY OPERATOR
+        Has_Medium_Pressure
+    PARAMETERS pressure TYPE Integer
+    PRECONDITION .pressure >=0
+    EVALUATE .pressure
+    RANGE (700, 1100)
+    POLYLINE    (700,0), (900,0),
+                (950,0.3), (980,1),
+                (1010,1), (1025, 0.9),
+                (1040,0), (1100,0);
+
+//7.
+CREATE FUZZY OPERATOR
+        Has_High_Humidity
+    PARAMETERS humidity TYPE Integer
+    PRECONDITION .humidity >=0
+    EVALUATE .humidity
+    RANGE (0, 100)
+    POLYLINE    (0,0), (70,0),
+                (90,1), (100,1);
+
+//8.
+CREATE FUZZY OPERATOR
+        Has_Low_Temperature
+    PARAMETERS temperature TYPE Integer
+    PRECONDITION .temperature >=-273
+    EVALUATE .temperature
+    RANGE (-30, 50)
+    POLYLINE    (-30,1), (0,1),(10,0.2),
+                (20,0), (50,0);
+    
