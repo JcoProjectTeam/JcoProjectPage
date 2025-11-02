@@ -1,36 +1,45 @@
 //4.
-FILTER
-    CASE WHERE WITH .properties.Pop2017, .properties.Pop2018
-        CHECK FOR FUZZY SET Decreasing_Population
-            USING Has_Decreasing_Population(.properties.Pop2017, .properties.Pop2018)
-    DROP OTHERS;    
+FILTER 
+	CASES
+		WHERE	
+				WITH .properties.Pop2017, .properties.Pop2018 
+			GENERATE	
+				CHECK FOR FUZZY SET Decreasing_Population USING Has_Decreasing_Population(.properties.Pop2017, .properties.Pop2018) 
+		DROP OTHERS;
 
 //5.
-FILTER
-    CASE WHERE WITH .properties.GDP2017, .properties.GDP2018
-        CHECK FOR FUZZY SET Increasing_GDP
-            USING Has_Increasing_GDP(.properties.GDP2017, .properties.GDP2018)
-    DROP OTHERS;
+FILTER 
+	CASES
+		WHERE	
+				WITH .properties.GDP2017, .properties.GDP2018 
+			GENERATE	
+				CHECK FOR FUZZY SET Increasing_GDP USING Has_Increasing_GDP(.properties.GDP2017, .properties.GDP2018) 
+		DROP OTHERS;
 
-//6. 
-FILTER
-    CASE WHERE KNOWN FUZZY SETS Decreasing_Population, Increasing_GDP
-        CHECK FOR FUZZY SET Wanted
-            USING Decreasing_Population AND Increasing_GDP
-        ALPHA-CUT 0.8 ON Wanted
-    DROP OTHERS;
+//6.
+FILTER 
+	CASES
+		WHERE	
+				KNOWN FUZZY SETS Decreasing_Population, Increasing_GDP  
+			GENERATE	
+				CHECK FOR FUZZY SET Wanted USING  Decreasing_Population AND Increasing_GDP  
+				ALPHACUT 0.8 ON Wanted
+		DROP OTHERS;
 
-//7. 
-FILTER
-    CASE WHERE WITH .properties.CountryCode, .properties.NUTSCode,
-                    .properties.NUTSLevel, .properties.NUTSName
-        AND KNOWN FUZZY SETS Wanted
-        GENERATE {
-            .type : .type,
-            .geometry : .geometry,
-            .properties.CountryCode : .properties.CountryCode,
-            .properties.NUTSCode : .properties.NUTSCode,
-            .properties.NUTSLevel : .properties.NUTSLevel,
-            .properties.NUTSName : .properties.NUTSName,
-            .properties.rank : MEMBERSHIP_OF (Wanted) }
-    DROP OTHERS;
+//7.
+FILTER 
+	CASES
+		WHERE	
+					WITH .properties.CountryCode, .properties.NUTSCode, .properties.NUTSLevel, .properties.NUTSName
+				AND	
+					KNOWN FUZZY SETS Wanted   
+			GENERATE	
+				BUILD	{
+					.type: .type, 
+					.geometry: .geometry, 
+					.properties.CountryCode: .properties.CountryCode, 
+					.properties.NUTSCode: .properties.NUTSCode, 
+					.properties.NUTSLevel: .properties.NUTSLevel, 
+					.properties.NUTSName: .properties.NUTSName, 
+					.properties.rank: MEMBERSHIP_TO (Wanted)	}
+		DROP OTHERS;

@@ -1,24 +1,30 @@
 //8.
-FILTER
-    CASE WHERE WITH .type, .geometry, .properties
-        GENERATE {
-            .key : 1,
-            .type : .type,
-            .geometry : .geometry,
-            .properties : .properties }
-        DROPPING ALL FUZZY SETS
-    DROP OTHERS;
+FILTER 
+	CASES
+		WHERE	
+				WITH .type, .geometry, .properties 
+			GENERATE	
+				BUILD	{
+					.key: 1, 
+					.type: .type, 
+					.geometry: .geometry, 
+					.properties: .properties	}
+				DROPPING ALL FUZZY SETS 
+		DROP OTHERS;
 
 //9. 
 GROUP
-    PARTITION WITH .key
-        BY .key INTO .features
-    DROP GROUPING FIELDS
-    ORDER BY .properties.rank DESC
-    GENERATE {
-        .type : "FeatureCollection",
-        .features : .features }
-    DROP OTHERS;
+	PARTITION WITH .key
+		BY .key
+		INTO .features
+		DROP GROUPING FIELDS
+		SORTED BY .properties.rank TYPE NUMERIC DESC 
+		GENERATE	
+			BUILD	{
+				.type: "FeatureCollection", 
+				.features: .features	}
+	DROP OTHERS;
+
 
 //10.
 SAVE AS DetectedNUTS_Geojson@NUTS_Info;
