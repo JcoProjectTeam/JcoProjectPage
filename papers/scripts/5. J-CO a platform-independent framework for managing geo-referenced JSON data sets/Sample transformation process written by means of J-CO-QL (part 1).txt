@@ -1,0 +1,45 @@
+//1.
+USE DB Boundaries
+    ON SERVER jcods ’http://10.0.0.11:17017’;
+
+//2.
+USE DB RegionInfo
+    ON SERVER MongoDB ’http://10.0.0.12:27017’;
+
+//3.
+USE DB ToShare
+    ON SERVER MongoDB ’http://10.0.0.13:27017’;
+//4.
+GET COLLECTION Districts@Boundaries;
+
+//5: 
+FILTER
+    CASE
+        WHERE WITH .Properties.City
+                AND .Properties.City="Milan"
+            GENERATE
+                {.ID, .Name: .Properties.Name}
+                KEEPING GEOMETRY
+        DROP OTHERS;
+//6: 
+SET INTERMEDIATE AS Milan_Districts;
+
+//7: 
+GET COLLECTION BikeLanes@RegionInfo;
+
+//8: 
+FILTER
+    CASE
+        WHERE WITH .City
+                AND .City="Milan"
+            GENERATE {.Name}
+                SETTING GEOMETRY .geometry
+        WHERE WITH .Properties.City
+                AND .Properties.City="Milan"
+            GENERATE
+                {.Name: .Properties.Name}
+                SETTING GEOMETRY .geometry
+        DROP OTHERS;
+        
+//9: 
+SET INTERMEDIATE AS Milan_BikeLanes;

@@ -1,0 +1,42 @@
+//10: 
+SPATIAL JOIN OF COLLECTIONS
+            Milan_Districts AS D, Milan_BikeLanes AS B
+    ON INTERSECT
+    SET GEOMETRY INTERSECTION
+    CASE
+        WHERE WITH .D.ID, .B.Name
+            GENERATE {.DistrictName: .D.Name,
+                    .BikeLaneName: .B.Name}
+                KEEPING GEOMETRY
+            DROP OTHERS
+    REMOVE DUPLICATES;
+
+//11: 
+GROUP
+    PARTITION
+        WITH .BikeLaneName
+        BY .BikeLaneName
+        INTO .DistrictSegs
+        DROP GROUPING FIELDS
+    DROP OTHERS;
+
+//12: 
+FILTER
+    CASE
+        WHERE WITH .BikeLaneName, .DistrictSegs
+            GENERATE {.BikeLaneName,
+                    .NumOfDistricts: COUNT(.DistrictSegs)}
+                SETTING GEOMETRY Aggregate(.DistrictSegs)
+        DROP OTHERS;
+
+//13: 
+FILTER
+    CASE
+        WHERE WITH .BikeLaneName, .NumOfDistricts
+                AND.NumOfDistricts >= 2
+            GENERATE {.BikeLaneName}
+                KEEPING GEOMETRY
+        DROP OTHERS;
+        
+//14: 
+SAVE AS BikeLanesCrossingDistricts@ToShare;
