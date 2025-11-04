@@ -16,11 +16,11 @@ towards soft spatial querying on geo-tagged JSONdata sets.
 
 ## DATASET
 
-| Dataset | Description | Last Tested |
-|---------|-------------|-------------|
+| Dataset | Description | 
+|---------|-------------|
 | [AbdisDb.GeojsonLakes.json](../dataset/9.%20Soft%20spatial%20querying%20on%20json%20data%20sets/AbdisDb.GeojsonLakes.json) | GeoJSON dataset containing lake geometries and attributes, used to demonstrate soft spatial querying on geographical features | |
 | [AbdisDb.NutsInfo.json](../dataset/9.%20Soft%20spatial%20querying%20on%20json%20data%20sets/AbdisDb.NutsInfo.json) | JSON dataset with NUTS (Nomenclature of Territorial Units for Statistics) regional information, used for spatial analysis and soft spatial relations | |
-| [AbdisDb.RankedNuts.json](../dataset/9.%20Soft%20spatial%20querying%20on%20json%20data%20sets/AbdisDb.RankedNuts.json) | Processed NUTS dataset with rankings, representing the result of soft spatial querying operations on territorial units | |
+| [AbdisDb.RankedNuts.json](../dataset/9.%20Soft%20spatial%20querying%20on%20json%20data%20sets/AbdisDb.RankedNuts.json) | Processed NUTS dataset with rankings, representing the result of soft spatial querying operations on territorial units |
 
 ## SCRIPTS
 
