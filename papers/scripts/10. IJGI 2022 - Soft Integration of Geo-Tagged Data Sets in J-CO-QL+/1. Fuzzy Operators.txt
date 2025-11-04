@@ -1,33 +1,37 @@
+//1
 CREATE FUZZY OPERATOR Close
-    PARAMETERS
-        distance TYPE Float
-    PRECONDITION
-        distance >= 0
-    EVALUATE
-        distance
-    POLYLINE
-        [ (0.00, 1.00), (0.05, 1.00), (0.20, 0.50), (0.60, 0.10), (1.00, 0.00) ];
+	PARAMETERS
+		distance TYPE Float
+	PRECONDITION distance >= 0
+	EVALUATE distance
+	POLYLINE
+		[	(0.00, 1.00),
+			(0.05, 1.00),
+			(0.20, 0.50),
+			(0.60, 0.10),
+			(1.00, 0.00)	];
 
-
+//2
 CREATE FUZZY OPERATOR Similar
-    PARAMETERS
-        st1 TYPE String,
-        st2 TYPE String
-    EVALUATE
-        JARO_WINKLER_SIMILARITY(st1, st2)
-    POLYLINE
-        [ (0.00, 0.00), (0.60, 0.40), (0.70, 0.80), (0.80, 1.00), (1.00, 1.00) ];
+	PARAMETERS
+		st1 TYPE String,
+		st2 TYPE String
+	EVALUATE JARO_WINKLER_SIMILARITY(st1, st2)
+	POLYLINE
+		[	(0.00, 0.00),
+			(0.60, 0.40),
+			(0.70, 0.80),
+			(0.80, 1.00),
+			(1.00, 1.00)	];
 
+//3
 CREATE FUZZY OPERATOR WeightedAggregationBeta
-    PARAMETERS
-        f1 TYPE Float,
-        f2 TYPE Float,
-        beta TYPE Float
-    PRECONDITION
-        f1 IN_RANGE [0, 1] AND
-        f2 IN_RANGE [0, 1] AND
-        beta IN_RANGE [0, 1]
-    EVALUATE
-        f1*beta + f2*(1-beta)
-    POLYLINE
-        [ (0.00, 0.00), (1.00, 1.00) ];
+	PARAMETERS
+		f1 TYPE Float,
+		f2 TYPE Float,
+		beta TYPE Float
+	PRECONDITION  f1 IN_RANGE [0.0, 1.0] AND f2 IN_RANGE [0.0, 1.0] AND beta IN_RANGE [0.0, 1.0] 
+	EVALUATE f1*beta+f2*(1-beta)
+	POLYLINE
+		[	(0.00, 0.00),
+			(1.00, 1.00)	];
