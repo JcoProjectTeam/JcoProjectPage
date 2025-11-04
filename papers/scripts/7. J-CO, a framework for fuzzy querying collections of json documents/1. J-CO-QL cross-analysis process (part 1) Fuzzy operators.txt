@@ -1,0 +1,11 @@
+CREATE FUZZY OPERATOR Has_Medium_Temperature
+PARAMETERS temperature TYPE Float, altitude TYPE Integer
+PRECONDITION temperature >= -273 AND altitude >= 0
+EVALUATE temperature + 0.006*altitude
+POLYLINE (-30, 0), (0, 0), (5, 1), (15, 1), (25, 0), (50, 0);
+
+CREATE FUZZY OPERATOR Has_Persistent_Rain
+PARAMETERS rain TYPE Integer
+PRECONDITION rain > 0
+EVALUATE rain
+POLYLINE (0, 0), (0.5, 0), (1, 0.2), (1.5, 0.9), (1.7, 1), (2, 1)

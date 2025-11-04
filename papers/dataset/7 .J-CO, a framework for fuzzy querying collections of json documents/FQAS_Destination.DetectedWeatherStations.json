@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "6155870e6f5b0829d043e386"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:10:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "province": "BG",
+  "rank": 0.9499999761581421,
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna"
+},
+{
+  "_id": {
+    "$oid": "6155870e6f5b0829d043e387"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:20:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "province": "BG",
+  "rank": 0.9499999761581421,
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna"
+},
+{
+  "_id": {
+    "$oid": "6155870e6f5b0829d043e388"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 05:10:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "province": "BG",
+  "rank": 0.7599999934434889,
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita"
+}]

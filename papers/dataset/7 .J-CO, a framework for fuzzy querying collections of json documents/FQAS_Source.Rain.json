@@ -1,0 +1,4786 @@
+[{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e95"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 05:40:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e96"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 14:10:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e97"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 05:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e98"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 10:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e99"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 06:10:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e9a"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 14:40:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e9b"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 15:30:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e9c"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 16:10:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e9d"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 16:30:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e9e"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 13:30:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642e9f"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 14:20:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea0"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 15:00:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea1"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 15:20:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea2"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 14:30:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea3"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 13:00:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea4"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 16:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea5"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 14:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea6"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 18:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea7"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 13:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea8"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 15:40:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ea9"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 15:10:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eaa"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 16:00:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eab"
+  },
+  "altitude": 1138,
+  "dateTime": "06/03/2021 17:20:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eac"
+  },
+  "altitude": 1138,
+  "dateTime": "07/03/2021 11:20:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ead"
+  },
+  "altitude": 1138,
+  "dateTime": "07/03/2021 11:30:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eae"
+  },
+  "altitude": 1138,
+  "dateTime": "07/03/2021 10:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eaf"
+  },
+  "altitude": 1138,
+  "dateTime": "07/03/2021 11:10:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb0"
+  },
+  "altitude": 1138,
+  "dateTime": "07/03/2021 11:50:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb1"
+  },
+  "altitude": 1138,
+  "dateTime": "07/03/2021 12:00:00",
+  "latitude": 45.891193045896635,
+  "longitude": 9.78893967466926,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14018"
+  },
+  "stationId": {
+    "$numberLong": "1077"
+  },
+  "stationName": "Oltre il Colle Zambla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb2"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 06:10:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb3"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb4"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 06:20:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb5"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 06:30:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb6"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 08:30:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb7"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 06:50:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb8"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 07:50:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eb9"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 07:30:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eba"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 07:00:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ebb"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 07:20:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ebc"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 07:10:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ebd"
+  },
+  "altitude": 468,
+  "dateTime": "06/03/2021 09:10:00",
+  "latitude": 45.8147522883702,
+  "longitude": 9.609252582119412,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14499"
+  },
+  "stationId": {
+    "$numberLong": "1371"
+  },
+  "stationName": "Brembilla",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ebe"
+  },
+  "altitude": 564,
+  "dateTime": "06/03/2021 07:00:00",
+  "latitude": 45.88094395586997,
+  "longitude": 9.933128277592514,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14384"
+  },
+  "stationId": {
+    "$numberLong": "1360"
+  },
+  "stationName": "Clusone SP 671",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ebf"
+  },
+  "altitude": 564,
+  "dateTime": "06/03/2021 07:10:00",
+  "latitude": 45.88094395586997,
+  "longitude": 9.933128277592514,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14384"
+  },
+  "stationId": {
+    "$numberLong": "1360"
+  },
+  "stationName": "Clusone SP 671",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec0"
+  },
+  "altitude": 564,
+  "dateTime": "06/03/2021 06:50:00",
+  "latitude": 45.88094395586997,
+  "longitude": 9.933128277592514,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14384"
+  },
+  "stationId": {
+    "$numberLong": "1360"
+  },
+  "stationName": "Clusone SP 671",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec1"
+  },
+  "altitude": 564,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.88094395586997,
+  "longitude": 9.933128277592514,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14384"
+  },
+  "stationId": {
+    "$numberLong": "1360"
+  },
+  "stationName": "Clusone SP 671",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec2"
+  },
+  "altitude": 564,
+  "dateTime": "06/03/2021 06:40:00",
+  "latitude": 45.88094395586997,
+  "longitude": 9.933128277592514,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14384"
+  },
+  "stationId": {
+    "$numberLong": "1360"
+  },
+  "stationName": "Clusone SP 671",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec3"
+  },
+  "altitude": 564,
+  "dateTime": "06/03/2021 07:30:00",
+  "latitude": 45.88094395586997,
+  "longitude": 9.933128277592514,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "14384"
+  },
+  "stationId": {
+    "$numberLong": "1360"
+  },
+  "stationName": "Clusone SP 671",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec4"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 03:40:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec5"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 04:20:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec6"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 03:30:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec7"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 03:00:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec8"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 05:00:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ec9"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 04:40:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eca"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 05:10:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ecb"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 05:30:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ecc"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 06:00:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ecd"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 12:40:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ece"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 13:40:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ecf"
+  },
+  "altitude": 1246,
+  "dateTime": "06/03/2021 13:30:00",
+  "latitude": 45.744156277136966,
+  "longitude": 9.935872972330552,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "24416"
+  },
+  "stationId": {
+    "$numberLong": "1974"
+  },
+  "stationName": "Grone San Fermo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed0"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 03:20:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed1"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 07:00:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed2"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 02:50:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 1.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed3"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 07:30:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed4"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 03:00:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed5"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 08:40:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed6"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 08:10:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed7"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 09:20:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed8"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 05:10:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 1.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ed9"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 05:20:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eda"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 05:30:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642edb"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 05:40:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642edc"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 06:00:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642edd"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 05:50:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ede"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 06:10:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642edf"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 06:20:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee0"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 06:40:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee1"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 06:30:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee2"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee3"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 08:00:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee4"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 10:20:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee5"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 08:20:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee6"
+  },
+  "altitude": 622,
+  "dateTime": "06/03/2021 11:40:00",
+  "latitude": 45.86969089938538,
+  "longitude": 9.639112837494569,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "2278"
+  },
+  "stationId": {
+    "$numberLong": "119"
+  },
+  "stationName": "San Giovanni Bianco Cornalita",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee7"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 03:40:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": {
+    "$numberLong": "1"
+  },
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee8"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 05:10:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ee9"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 04:20:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eea"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 03:30:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eeb"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 02:20:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eec"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 02:40:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eed"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 04:50:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eee"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 02:30:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eef"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 05:20:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef0"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 03:10:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef1"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 04:30:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef2"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 03:50:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef3"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 03:20:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef4"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 04:10:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef5"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 04:40:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef6"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 04:00:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef7"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 05:30:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef8"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 05:40:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642ef9"
+  },
+  "altitude": 185,
+  "dateTime": "06/03/2021 05:50:00",
+  "latitude": 45.6963302062322,
+  "longitude": 10.054220035954822,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "17450"
+  },
+  "stationId": {
+    "$numberLong": "1871"
+  },
+  "stationName": "Tavernola Bergamasca Gallinarga",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642efa"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 05:40:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642efb"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 06:00:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642efc"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 06:20:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642efd"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 08:40:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642efe"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 07:50:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642eff"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 05:30:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f00"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 06:10:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f01"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 09:50:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f02"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 08:10:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f03"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 05:50:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f04"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 08:00:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f05"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 08:20:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f06"
+  },
+  "altitude": 510,
+  "dateTime": "06/03/2021 09:00:00",
+  "latitude": 45.94610999784736,
+  "longitude": 9.672774505299234,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8098"
+  },
+  "stationId": {
+    "$numberLong": "823"
+  },
+  "stationName": "Piazza Brembana vivaio",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f07"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 08:00:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f08"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 08:40:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f09"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 09:10:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f0a"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f0b"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 07:50:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f0c"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 08:50:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f0d"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 09:00:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f0e"
+  },
+  "altitude": 1180,
+  "dateTime": "06/03/2021 09:30:00",
+  "latitude": 45.928445516534396,
+  "longitude": 10.063316766082295,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9092"
+  },
+  "stationId": {
+    "$numberLong": "1212"
+  },
+  "stationName": "Castione della Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f0f"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 02:50:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f10"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 04:00:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f11"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 02:40:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f12"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 02:00:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f13"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 02:10:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f14"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 02:20:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f15"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 03:00:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f16"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 03:40:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f17"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 03:10:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f18"
+  },
+  "altitude": 197,
+  "dateTime": "06/03/2021 03:50:00",
+  "latitude": 45.6659359725519,
+  "longitude": 9.956880147525977,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8135"
+  },
+  "stationId": {
+    "$numberLong": "874"
+  },
+  "stationName": "Sarnico v. Roma",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f19"
+  },
+  "altitude": 192,
+  "dateTime": "06/03/2021 05:30:00",
+  "latitude": 45.82715793876258,
+  "longitude": 10.09706172418631,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "5861"
+  },
+  "stationId": {
+    "$numberLong": "586"
+  },
+  "stationName": "Costa Volpino v.Nazionale",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f1a"
+  },
+  "altitude": 192,
+  "dateTime": "06/03/2021 04:50:00",
+  "latitude": 45.82715793876258,
+  "longitude": 10.09706172418631,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "5861"
+  },
+  "stationId": {
+    "$numberLong": "586"
+  },
+  "stationName": "Costa Volpino v.Nazionale",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f1b"
+  },
+  "altitude": 192,
+  "dateTime": "06/03/2021 05:10:00",
+  "latitude": 45.82715793876258,
+  "longitude": 10.09706172418631,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "5861"
+  },
+  "stationId": {
+    "$numberLong": "586"
+  },
+  "stationName": "Costa Volpino v.Nazionale",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f1c"
+  },
+  "altitude": 192,
+  "dateTime": "06/03/2021 05:40:00",
+  "latitude": 45.82715793876258,
+  "longitude": 10.09706172418631,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "5861"
+  },
+  "stationId": {
+    "$numberLong": "586"
+  },
+  "stationName": "Costa Volpino v.Nazionale",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f1d"
+  },
+  "altitude": 192,
+  "dateTime": "06/03/2021 05:20:00",
+  "latitude": 45.82715793876258,
+  "longitude": 10.09706172418631,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "5861"
+  },
+  "stationId": {
+    "$numberLong": "586"
+  },
+  "stationName": "Costa Volpino v.Nazionale",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f1e"
+  },
+  "altitude": 192,
+  "dateTime": "06/03/2021 08:40:00",
+  "latitude": 45.82715793876258,
+  "longitude": 10.09706172418631,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "5861"
+  },
+  "stationId": {
+    "$numberLong": "586"
+  },
+  "stationName": "Costa Volpino v.Nazionale",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f1f"
+  },
+  "altitude": 192,
+  "dateTime": "06/03/2021 08:30:00",
+  "latitude": 45.82715793876258,
+  "longitude": 10.09706172418631,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "5861"
+  },
+  "stationId": {
+    "$numberLong": "586"
+  },
+  "stationName": "Costa Volpino v.Nazionale",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f20"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:10:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 1.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f21"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f22"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 05:50:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f23"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 10:10:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f24"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 07:30:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f25"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 10:00:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f26"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 05:40:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f27"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:20:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 1.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f28"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:00:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": {
+    "$numberLong": "1"
+  },
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f29"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:30:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 1.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f2a"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 08:40:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f2b"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 07:00:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f2c"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:50:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f2d"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 06:40:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 1.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f2e"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 07:10:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f2f"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 08:10:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f30"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 08:20:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f31"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 07:20:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f32"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 11:00:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f33"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 09:20:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f34"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 07:50:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f35"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 10:30:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f36"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 09:40:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f37"
+  },
+  "altitude": 674,
+  "dateTime": "06/03/2021 15:50:00",
+  "latitude": 45.839840095961094,
+  "longitude": 9.511348909108976,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9123"
+  },
+  "stationId": {
+    "$numberLong": "1209"
+  },
+  "stationName": "Rota d'Imagna",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f38"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 04:50:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f39"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 04:30:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f3a"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 06:50:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f3b"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 07:10:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f3c"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 04:20:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f3d"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 03:50:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f3e"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 04:10:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f3f"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 04:40:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f40"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 07:50:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f41"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 09:00:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f42"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 07:20:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f43"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 07:00:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f44"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 07:30:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f45"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 08:00:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f46"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 08:30:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f47"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 08:10:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f48"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f49"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 09:20:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f4a"
+  },
+  "altitude": 361,
+  "dateTime": "06/03/2021 10:00:00",
+  "latitude": 45.784206920925044,
+  "longitude": 9.821533201834857,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9099"
+  },
+  "stationId": {
+    "$numberLong": "1235"
+  },
+  "stationName": "Cene Ponte",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f4b"
+  },
+  "altitude": 1856,
+  "dateTime": "06/03/2021 11:00:00",
+  "latitude": 45.98117244427475,
+  "longitude": 10.041578002405918,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "32398"
+  },
+  "stationId": {
+    "$numberLong": "1680"
+  },
+  "stationName": "Vilminore di Scalve Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f4c"
+  },
+  "altitude": 1856,
+  "dateTime": "06/03/2021 11:10:00",
+  "latitude": 45.98117244427475,
+  "longitude": 10.041578002405918,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "32398"
+  },
+  "stationId": {
+    "$numberLong": "1680"
+  },
+  "stationName": "Vilminore di Scalve Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f4d"
+  },
+  "altitude": 1856,
+  "dateTime": "06/03/2021 11:30:00",
+  "latitude": 45.98117244427475,
+  "longitude": 10.041578002405918,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "32398"
+  },
+  "stationId": {
+    "$numberLong": "1680"
+  },
+  "stationName": "Vilminore di Scalve Presolana",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f4e"
+  },
+  "altitude": 311,
+  "dateTime": "06/03/2021 02:20:00",
+  "latitude": 45.718977777624474,
+  "longitude": 9.710185460541974,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8161"
+  },
+  "stationId": {
+    "$numberLong": "889"
+  },
+  "stationName": "Torre Boldone",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f4f"
+  },
+  "altitude": 311,
+  "dateTime": "06/03/2021 10:30:00",
+  "latitude": 45.718977777624474,
+  "longitude": 9.710185460541974,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8161"
+  },
+  "stationId": {
+    "$numberLong": "889"
+  },
+  "stationName": "Torre Boldone",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f50"
+  },
+  "altitude": 311,
+  "dateTime": "06/03/2021 09:40:00",
+  "latitude": 45.718977777624474,
+  "longitude": 9.710185460541974,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8161"
+  },
+  "stationId": {
+    "$numberLong": "889"
+  },
+  "stationName": "Torre Boldone",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f51"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 03:40:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f52"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 04:20:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f53"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 03:30:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f54"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 04:00:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f55"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 04:50:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f56"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 07:50:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f57"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 07:20:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f58"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 04:30:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": {
+    "$numberLong": "1"
+  },
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f59"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 03:50:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f5a"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 08:30:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f5b"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 04:10:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f5c"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 05:10:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f5d"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 07:00:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f5e"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 07:30:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f5f"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 08:00:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f60"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 08:50:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f61"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 05:00:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f62"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 08:10:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f63"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 08:20:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f64"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 07:10:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f65"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 09:30:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f66"
+  },
+  "altitude": 486,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.78641993250342,
+  "longitude": 9.933042100771653,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9090"
+  },
+  "stationId": {
+    "$numberLong": "1210"
+  },
+  "stationName": "Ranzanico",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f67"
+  },
+  "altitude": 982,
+  "dateTime": "06/03/2021 05:50:00",
+  "latitude": 45.9736050452045,
+  "longitude": 9.538885913106554,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8097"
+  },
+  "stationId": {
+    "$numberLong": "822"
+  },
+  "stationName": "Valtorta",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f68"
+  },
+  "altitude": 982,
+  "dateTime": "06/03/2021 05:20:00",
+  "latitude": 45.9736050452045,
+  "longitude": 9.538885913106554,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8097"
+  },
+  "stationId": {
+    "$numberLong": "822"
+  },
+  "stationName": "Valtorta",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f69"
+  },
+  "altitude": 982,
+  "dateTime": "06/03/2021 11:40:00",
+  "latitude": 45.9736050452045,
+  "longitude": 9.538885913106554,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8097"
+  },
+  "stationId": {
+    "$numberLong": "822"
+  },
+  "stationName": "Valtorta",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f6a"
+  },
+  "altitude": 746,
+  "dateTime": "06/03/2021 09:00:00",
+  "latitude": 45.97745722373163,
+  "longitude": 10.102763140848895,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8171"
+  },
+  "stationId": {
+    "$numberLong": "821"
+  },
+  "stationName": "Azzone Dezzo di Scalve",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f6b"
+  },
+  "altitude": 746,
+  "dateTime": "06/03/2021 08:10:00",
+  "latitude": 45.97745722373163,
+  "longitude": 10.102763140848895,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8171"
+  },
+  "stationId": {
+    "$numberLong": "821"
+  },
+  "stationName": "Azzone Dezzo di Scalve",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f6c"
+  },
+  "altitude": 746,
+  "dateTime": "06/03/2021 09:20:00",
+  "latitude": 45.97745722373163,
+  "longitude": 10.102763140848895,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8171"
+  },
+  "stationId": {
+    "$numberLong": "821"
+  },
+  "stationName": "Azzone Dezzo di Scalve",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f6d"
+  },
+  "altitude": 746,
+  "dateTime": "06/03/2021 09:50:00",
+  "latitude": 45.97745722373163,
+  "longitude": 10.102763140848895,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "8171"
+  },
+  "stationId": {
+    "$numberLong": "821"
+  },
+  "stationName": "Azzone Dezzo di Scalve",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f6e"
+  },
+  "altitude": 1784,
+  "dateTime": "06/03/2021 11:00:00",
+  "latitude": 46.064560809857326,
+  "longitude": 10.038606996418281,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9097"
+  },
+  "stationId": {
+    "$numberLong": "1216"
+  },
+  "stationName": "Valbondione",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f6f"
+  },
+  "altitude": 1784,
+  "dateTime": "06/03/2021 10:10:00",
+  "latitude": 46.064560809857326,
+  "longitude": 10.038606996418281,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9097"
+  },
+  "stationId": {
+    "$numberLong": "1216"
+  },
+  "stationName": "Valbondione",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f70"
+  },
+  "altitude": 738,
+  "dateTime": "06/03/2021 12:10:00",
+  "latitude": 46.00766620841051,
+  "longitude": 9.947876230335114,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9104"
+  },
+  "stationId": {
+    "$numberLong": "1229"
+  },
+  "stationName": "Gandellino Grabiasca",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f71"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 04:20:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f72"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 05:20:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f73"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 04:30:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f74"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 07:20:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f75"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 04:10:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f76"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 03:30:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f77"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 08:30:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f78"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 06:50:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f79"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 04:40:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f7a"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 09:10:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f7b"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 07:10:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.8,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f7c"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 06:30:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f7d"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 07:30:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f7e"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 07:40:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f7f"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 08:00:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f80"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 06:40:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f81"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 07:00:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.6,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f82"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 07:50:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.4,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+},
+{
+  "_id": {
+    "$oid": "6147c762c28b00161a642f83"
+  },
+  "altitude": 502,
+  "dateTime": "06/03/2021 08:10:00",
+  "latitude": 45.811360742715465,
+  "longitude": 9.865590362771156,
+  "measure": 0.2,
+  "province": "BG",
+  "sensorId": {
+    "$numberLong": "9113"
+  },
+  "stationId": {
+    "$numberLong": "1221"
+  },
+  "stationName": "Casnigo Campo Sportivo",
+  "type": "Rain Precipitation",
+  "unit": "mm"
+}]
