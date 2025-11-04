@@ -37,6 +37,6 @@ FILTER
             GENERATE {.BikeLaneName}
                 KEEPING GEOMETRY
         DROP OTHERS;
-        
+
 //14: 
 SAVE AS BikeLanesCrossingDistricts@ToShare;
