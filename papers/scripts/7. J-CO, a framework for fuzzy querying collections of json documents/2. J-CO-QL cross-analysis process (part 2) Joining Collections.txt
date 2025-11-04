@@ -1,25 +1,34 @@
+//3
 USE DB FQAS_Source
-ON SERVER MongoDB ’http://127.0.0.1:27017’;
+	ON SERVER MongoDB 'http://127.0.0.1:27017';
 
+//4
 USE DB FQAS_Destination
-ON SERVER MongoDB ’http://127.0.0.1:27017’;
+	ON SERVER MongoDB 'http://127.0.0.1:27017';
 
+//5
 JOIN OF COLLECTIONS
-Temperatures@FQAS_Source AS T, Rain@FQAS_Source AS R
-CASE WHERE .T.stationId = .R.stationId
-AND .T.dateTime = .R.dateTime
-AND .R.measure > 0
-GENERATE { .stationId: .T.stationId,
-.stationName: .T.stationName,
-.province: .T.province,
-.latitude: .T.latitude,
-.longitude: .T.longitude,
-.altitude: .T.altitude,
-.dateTime: .T.dateTime,
-.temperatureSensorId: .T.sensorId,
-.temperatureUnit: .T.unit,
-.temperatureMeasure: .T.measure,
-.rainSensorId: .R.sensorId,
-.rainUnit: .R.unit,
-.rainMeasure: .R.measure }
-DROP OTHERS
+		Temperatures@FQAS_Source AS T, Rain@FQAS_Source AS R
+	CASES
+		WHERE	
+					.T.stationId = .R.stationId
+				AND	
+					.T.dateTime = .R.dateTime
+				AND	
+					.R.measure > 0  
+			GENERATE	
+				BUILD	{
+					.stationId: .T.stationId, 
+					.stationName: .T.stationName, 
+					.province: .T.province, 
+					.latitude: .T.latitude, 
+					.longitude: .T.longitude, 
+					.altitude: .T.altitude, 
+					.dateTime: .T.dateTime, 
+					.temperatureSensorId: .T.sensorId, 
+					.temperatureUnit: .T.unit, 
+					.temperatureMeasure: .T.measure, 
+					.rainSensorId: .R.sensorId, 
+					.rainUnit: .R.unit, 
+					.rainMeasure: .R.measure	}
+		DROP OTHERS;

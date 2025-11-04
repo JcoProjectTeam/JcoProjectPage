@@ -1,54 +1,64 @@
-USE DB INFORMATION_2021 ON SERVER MongoDB ’http ://127.0.0.1:27017 ’;
+//1
+USE DB INFORMATION_2021
+	ON SERVER MongoDB 'http ://127.0.0.1:27017';
 
-GET COLLECTION FROM WEB
-"https :// www.dati.lombardia.it/resource/nf78 -nj6b.json?
+//2
+GET COLLECTION FROM WEB "https :// www.dati.lombardia.it/resource/nf78 -nj6b.json?
 $limit =1000000& $where=storico <>’S’";
 
+//3
 EXPAND
-UNPACK
-WITH ARRAY .data
-ARRAY .data
-TO .sensor
-DROP OTHERS;
+	UNPACK
+			WITH ARRAY .data
+		ARRAY .data
+		TO .sensor
+	DROP OTHERS;
 
+//4
+FILTER 
+	CASES
+		WHERE	
+					WITH .sensor.item.idsensore, .sensor.item.provincia, .sensor.item.tipologia
+				AND	
+					.sensor.item.provincia = "MI"
+				AND	
+					.sensor.item.tipologia = "Radiazione Globale"  
+			GENERATE	
+				BUILD	{
+					.stationName: .sensor.item.nomestazione, 
+					.province: .sensor.item.provincia, 
+					.latitude: TO_FLOAT(.sensor.item.lat), 
+					.longitude: TO_FLOAT(.sensor.item.lng), 
+					.altitude: TO_FLOAT(.sensor.item.quota), 
+					.sensorId: .sensor.item.idsensore, 
+					.sensorType: "Global Radiation", 
+					.sensorUnit: .sensor.item.unit_dimisura	}
+		WHERE	
+					WITH .sensor.item.idsensore, .sensor.item.provincia, .sensor.item.tipologia
+				AND	
+					.sensor.item.provincia = "MI"
+				AND	
+					.sensor.item.tipologia = "Precipitazione"  
+			GENERATE	
+				BUILD	{
+					.stationName: .sensor.item.nomestazione, 
+					.province: .sensor.item.provincia, 
+					.latitude: TO_FLOAT(.sensor.item.lat), 
+					.longitude: TO_FLOAT(.sensor.item.lng), 
+					.altitude: TO_FLOAT(.sensor.item.quota), 
+					.sensorId: .sensor.item.idsensore, 
+					.sensorType: "Rain Precipitation", 
+					.sensorUnit: .sensor.item.unit_dimisura	}
+		DROP OTHERS;
 
-FILTER
-CASE
-WHERE WITH .sensor.item.idsensore , .sensor.item.provincia ,
-.sensor.item.tipologia
-AND .sensor.item.provincia = "MI"
-AND .sensor.item.tipologia = "Radiazione Globale"
-GENERATE {
-.stationName : .sensor.item.nomestazione ,
-.province : .sensor.item.provincia ,
-.latitude : TO_FLOAT (. sensor.item.lat),
-.longitude : TO_FLOAT (. sensor.item.lng),
-.altitude : TO_FLOAT (. sensor.item.quota),
-.sensorId : .sensor.item.idsensore ,
-.sensorType : "Global Radiation",
-.sensorUnit : .sensor.item.unit_dimisura
-}
-WHERE WITH .sensor.item.idsensore , .sensor.item.provincia ,
-.sensor.item.tipologia
-AND .sensor.item.provincia = "MI"
-AND .sensor.item.tipologia = "Precipitazione"
-GENERATE {
-.stationName : .sensor.item.nomestazione ,
-.province : .sensor.item.provincia ,
-.latitude : TO_FLOAT (. sensor.item.lat),
-.longitude : TO_FLOAT (. sensor.item.lng),
-.altitude : TO_FLOAT (. sensor.item.quota),
-.sensorId : .sensor.item.idsensore ,
-.sensorType : "Rain Precipitation",
-.sensorUnit : .sensor.item.unit_dimisura
-}
-DROP OTHERS;
+//5
+FILTER 
+	CASES
+		WHERE	
+				WITH .latitude, .longitude 
+			GENERATE	
+				SETTING GEOMETRY POINT (.latitude, .longitude)
+		DROP OTHERS;
 
-FILTER
-CASE
-WHERE WITH .latitude , .longitude
-GENERATE
-SETTING GEOMETRY POINT (.latitude , .longitude)
-DROP OTHERS;
-
-SET INTERMEDIATE AS Weather_Sensors;
+//6
+SAVE AS Weather_Sensors;

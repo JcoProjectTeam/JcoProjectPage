@@ -1,28 +1,48 @@
-FILTER
-CASE WHERE WITH .temperatureMeasure, .altitude
-CHECK FOR FUZZY SET Medium_Temperature
-USING Has_Medium_Temperature(.temperatureMeasure, .altitude)
-DROP OTHERS;
+//6
+FILTER 
+	CASES
+		WHERE	
+				WITH .temperatureMeasure, .altitude 
+			GENERATE	
+				CHECK FOR FUZZY SET Medium_Temperature USING Has_Medium_Temperature(.temperatureMeasure, .altitude) 
+		DROP OTHERS;
 
-FILTER
-CASE WHERE WITH .rainMeasure
-CHECK FOR FUZZY SET Persistent_Rain
-USING Has_Persistent_Rain(.rainMeasure)
-DROP OTHERS;
+//7
+FILTER 
+	CASES
+		WHERE	
+				WITH .rainMeasure 
+			GENERATE	
+				CHECK FOR FUZZY SET Persistent_Rain USING Has_Persistent_Rain(.rainMeasure) 
+		DROP OTHERS;
 
-FILTER
-CASE WHERE KNOWN FUZZY SETS Medium_Temperature, Persistent_Rain
-CHECK FOR FUZZY SET Wanted
-USING (Medium_Temperature AND Persistent_Rain)
-ALPHA-CUT 0.75 ON Wanted
-DROP OTHERS;
+//8
+FILTER 
+	CASES
+		WHERE	
+				KNOWN FUZZY SETS Medium_Temperature, Persistent_Rain  
+			GENERATE	
+				CHECK FOR FUZZY SET Wanted USING  Medium_Temperature AND Persistent_Rain  
+				ALPHACUT 0.75 ON Wanted
+		DROP OTHERS;
 
-FILTER
-CASE WHERE WITH .~fuzzysets.Wanted
-GENERATE { .stationId, .stationName, .province, .dateTime,
-.latitude, .longitude, .altitude,
-.rank: MEMBERSHIP_OF (Wanted) }
-DROPPING ALL FUZZY SETS
-DROP OTHERS;
+//9
+FILTER 
+	CASES
+		WHERE	
+				WITH .~fuzzysets.Wanted 
+			GENERATE	
+				BUILD	{
+					.stationId: .stationId, 
+					.stationName: .stationName, 
+					.province: .province, 
+					.dateTime: .dateTime, 
+					.latitude: .latitude, 
+					.longitude: .longitude, 
+					.altitude: .altitude, 
+					.rank: MEMBERSHIP_TO (Wanted)	}
+				DROPPING ALL FUZZY SETS 
+		DROP OTHERS;
+
 
 SAVE AS DetectedWeatherStations@FQAS_Destination;
