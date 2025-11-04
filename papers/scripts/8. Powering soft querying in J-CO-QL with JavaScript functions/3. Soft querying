@@ -1,0 +1,21 @@
+FILTER 
+CASE
+WHERE WITH .NOlatitude, .NOlongitude,.PM25latitude, .PM25longitude 
+CHECK FOR FUZZY SET CloseSensors
+USING Close (.NOlatitude, .NOlongitude, .PM25latitude, .PM25longitude)
+ALPHA-CUT 0.9 ON CloseSensors
+DROP OTHERS;
+
+FILTER 
+CASE
+WHERE KNOWN FUZZY SETS CloseSensors
+GENERATE {  .city,
+.NOsensorId,
+.PM25sensorId,
+.rank : MEMBERSHIP_OF (CloseSensors) }
+DROPPING ALL FUZZY SETS  
+DROP OTHERS;
+
+USE DB SOCO_2021 ON SERVER MongoDB 'http://127.0.0.1:27017';
+
+SAVE AS CloseSensors@SOCO_2021;

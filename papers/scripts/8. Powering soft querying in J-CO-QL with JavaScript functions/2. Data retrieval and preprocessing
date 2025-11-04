@@ -1,0 +1,41 @@
+GET COLLECTION FROM WEB 
+"https://www.dati.lombardia.it/resource/ib47-atvt.json?$limit=10000";
+
+EXPAND
+UNPACK WITH ARRAY .data
+ARRAY .data TO .sensor
+DROP OTHERS;
+
+FILTER
+CASE 
+WHERE WITH .sensor.item.idsensore, .sensor.item.comune, 
+.sensor.item.nometiposensore
+AND  .sensor.item.nometiposensore = "Ossidi di Azoto"
+GENERATE { .city : .sensor.item.comune, 
+.latitude : TO_FLOAT (.sensor.item.lat),
+.longitude : TO_FLOAT (.sensor.item.lng),
+.sensorId : .sensor.item.idsensore,
+.sensorType : "Nitric Oxide" }
+WHERE WITH .sensor.item.idsensore, .sensor.item.comune, 
+.sensor.item.nometiposensore
+AND  .sensor.item.nometiposensore = "Particelle sospese PM2.5"
+GENERATE { .city : .sensor.item.comune, 
+.latitude : TO_FLOAT (.sensor.item.lat),
+.longitude : TO_FLOAT (.sensor.item.lng),
+.sensorId : .sensor.item.idsensore,
+.sensorType : "PM 2.5" }
+DROP OTHERS;
+
+JOIN OF COLLECTIONS temporary AS t1, temporary AS t2
+CASE
+WHERE .t1.city = .t2.city
+AND .t1.sensorType = "Nitric Oxide"
+AND .t2.sensorType = "PM 2.5"
+GENERATE { .city : .t1.city,
+.NOsensorId : .t1.sensorId,
+.NOlatitude : .t1.latitude,
+.NOlongitude : .t1.longitude,
+.PM25sensorId : .t2.sensorId,
+.PM25latitude : .t2.latitude,
+.PM25longitude : .t2.longitude  }
+DROP OTHERS;

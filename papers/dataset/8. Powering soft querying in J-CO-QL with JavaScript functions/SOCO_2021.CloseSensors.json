@@ -1,0 +1,243 @@
+[{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c94"
+  },
+  "NOsensorId": "6415",
+  "PM25sensorId": "12577",
+  "city": "Cremona",
+  "rank": 0.9781673668864487
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c95"
+  },
+  "NOsensorId": "6382",
+  "PM25sensorId": "10438",
+  "city": "Sondrio",
+  "rank": 1
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c96"
+  },
+  "NOsensorId": "9930",
+  "PM25sensorId": "12577",
+  "city": "Cremona",
+  "rank": 0.9250613664490083
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c97"
+  },
+  "NOsensorId": "6706",
+  "PM25sensorId": "20157",
+  "city": "Pavia",
+  "rank": 0.9656639672508481
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c98"
+  },
+  "NOsensorId": "6402",
+  "PM25sensorId": "10449",
+  "city": "Varese",
+  "rank": 0.9224466567070742
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c99"
+  },
+  "NOsensorId": "10451",
+  "PM25sensorId": "9985",
+  "city": "Lodi",
+  "rank": 1
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c9a"
+  },
+  "NOsensorId": "6340",
+  "PM25sensorId": "10283",
+  "city": "Milano",
+  "rank": 0.9265914098762088
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c9b"
+  },
+  "NOsensorId": "17285",
+  "PM25sensorId": "10396",
+  "city": "Monza",
+  "rank": 0.9332733543539047
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c9c"
+  },
+  "NOsensorId": "6312",
+  "PM25sensorId": "10283",
+  "city": "Milano",
+  "rank": 0.989437895357844
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c9d"
+  },
+  "NOsensorId": "9916",
+  "PM25sensorId": "10347",
+  "city": "Mantova",
+  "rank": 0.9378655951143342
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c9e"
+  },
+  "NOsensorId": "9917",
+  "PM25sensorId": "10347",
+  "city": "Mantova",
+  "rank": 0.9596129142003624
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302c9f"
+  },
+  "NOsensorId": "9918",
+  "PM25sensorId": "10347",
+  "city": "Mantova",
+  "rank": 0.9759205544876298
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca0"
+  },
+  "NOsensorId": "6415",
+  "PM25sensorId": "10586",
+  "city": "Cremona",
+  "rank": 0.9966198079623096
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca1"
+  },
+  "NOsensorId": "6412",
+  "PM25sensorId": "10586",
+  "city": "Cremona",
+  "rank": 0.9250613664490083
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca2"
+  },
+  "NOsensorId": "6268",
+  "PM25sensorId": "10456",
+  "city": "Lodi",
+  "rank": 1
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca3"
+  },
+  "NOsensorId": "6366",
+  "PM25sensorId": "17122",
+  "city": "Milano",
+  "rank": 1
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca4"
+  },
+  "NOsensorId": "6328",
+  "PM25sensorId": "17122",
+  "city": "Milano",
+  "rank": 0.9042243334272241
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca5"
+  },
+  "NOsensorId": "6248",
+  "PM25sensorId": "12029",
+  "city": "Lecco",
+  "rank": 0.9727442131295162
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca6"
+  },
+  "NOsensorId": "6220",
+  "PM25sensorId": "10399",
+  "city": "Bergamo",
+  "rank": 0.9769439753171831
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca7"
+  },
+  "NOsensorId": "6790",
+  "PM25sensorId": "9984",
+  "city": "Brescia",
+  "rank": 0.9463286542148923
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca8"
+  },
+  "NOsensorId": "6784",
+  "PM25sensorId": "30158",
+  "city": "Brescia",
+  "rank": 1
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302ca9"
+  },
+  "NOsensorId": "10278",
+  "PM25sensorId": "9874",
+  "city": "Milano",
+  "rank": 0.989437895357844
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302caa"
+  },
+  "NOsensorId": "6366",
+  "PM25sensorId": "9874",
+  "city": "Milano",
+  "rank": 0.9312920039110965
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302cab"
+  },
+  "NOsensorId": "6312",
+  "PM25sensorId": "17122",
+  "city": "Milano",
+  "rank": 0.9519169383394374
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302cac"
+  },
+  "NOsensorId": "20493",
+  "PM25sensorId": "30158",
+  "city": "Brescia",
+  "rank": 1
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302cad"
+  },
+  "NOsensorId": "6790",
+  "PM25sensorId": "30158",
+  "city": "Brescia",
+  "rank": 0.9072227344926496
+},
+{
+  "_id": {
+    "$oid": "609dea1b5a0c27554c302cae"
+  },
+  "NOsensorId": "6354",
+  "PM25sensorId": "9874",
+  "city": "Milano",
+  "rank": 0.9519169383394374
+}]
