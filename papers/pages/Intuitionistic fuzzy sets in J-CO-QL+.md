@@ -21,13 +21,13 @@ Fuzzy Sets in an integrated way.
 
 | Dataset | Description | 
 |---------|-------------|
-| [Diseases_Of_Patients.json](../dataset/11.Intuitionistic%20Fuzzy%20Sets%20in%20J-CO-QL+/Diseases_Of_Patients.json) | JSON dataset containing patient-disease associations with intuitionistic fuzzy membership and non-membership degrees, representing diagnostic certainty and hesitation | |
-| [PatientsSymptoms.json](../dataset/11.Intuitionistic%20Fuzzy%20Sets%20in%20J-CO-QL+/PatientsSymptoms.json) | JSON dataset with intuitionistic fuzzy relations between patients and their symptoms, including membership, non-membership, and hesitation degrees | |
-| [SymptomsDiseases.json](../dataset/11.Intuitionistic%20Fuzzy%20Sets%20in%20J-CO-QL+/SymptomsDiseases.json) | Intuitionistic fuzzy dataset mapping symptoms to diseases with degrees expressing certainty, uncertainty, and hesitation in diagnostic relations | |
+| [Diseases_Of_Patients.json](../dataset/11.Intuitionistic%20Fuzzy%20Sets%20in%20J-CO-QL+/Diseases_Of_Patients.json) | JSON dataset containing patient-disease associations with intuitionistic fuzzy membership and non-membership degrees, representing diagnostic certainty and hesitation | 
+| [PatientsSymptoms.json](../dataset/11.Intuitionistic%20Fuzzy%20Sets%20in%20J-CO-QL+/PatientsSymptoms.json) | JSON dataset with intuitionistic fuzzy relations between patients and their symptoms, including membership, non-membership, and hesitation degrees | 
+| [SymptomsDiseases.json](../dataset/11.Intuitionistic%20Fuzzy%20Sets%20in%20J-CO-QL+/SymptomsDiseases.json) | Intuitionistic fuzzy dataset mapping symptoms to diseases with degrees expressing certainty, uncertainty, and hesitation in diagnostic relations | 
 
 ## SCRIPTS
 
-| Script | Description | 
-|--------|-------------|
-| [1.JCOQL+ script](../scripts/11.%20Intuitionistic%20fuzzy%20sets%20in%20J-CO-QL+/1.JCOQL+%20script) | First J-CO-QL+ script demonstrating how to process intuitionistic fuzzy sets, handling membership and non-membership degrees for patient-symptom-disease analysis | |
-| [2.JCOQL+ script](../scripts/11.%20Intuitionistic%20fuzzy%20sets%20in%20J-CO-QL+/2.JCOQL+%20script) | Second J-CO-QL+ script showing advanced operations on intuitionistic fuzzy relations, including composition and reasoning with hesitation degrees | |
+| Script | Description | Last Tested|
+|--------|-------------|--------|
+| [1.JCOQL+ script](../scripts/11.%20Intuitionistic%20fuzzy%20sets%20in%20J-CO-QL+/1.JCOQL+%20script) | First J-CO-QL+ script demonstrating how to process intuitionistic fuzzy sets, handling membership and non-membership degrees for patient-symptom-disease analysis | 11/2025 |
+| [2.JCOQL+ script](../scripts/11.%20Intuitionistic%20fuzzy%20sets%20in%20J-CO-QL+/2.JCOQL+%20script) | Second J-CO-QL+ script showing advanced operations on intuitionistic fuzzy relations, including composition and reasoning with hesitation degrees | 11/2025 |
