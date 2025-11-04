@@ -1,23 +1,32 @@
+//8
 GET COLLECTION RelevantPairs@ijgiDb;
 
+//9
 GROUP
-    PARTITION   WITH .g.gId
-        BY .g.gId
-        INTO .gGroup
-            ORDER BY .rank TYPE NUMERIC DESC;
+	PARTITION WITH .g.gId
+		BY .g.gId
+		INTO .gGroup
+		SORTED BY .rank TYPE NUMERIC DESC;
 
+//10
 EXPAND
-    UNPACK WITH .gGroup
-        ARRAY .gGroup
-        TO .gPair;
+	UNPACK
+			WITH .gGroup
+		ARRAY .gGroup
+		TO .gPair;
 
-FILTER
-    CASE WHERE WITH .gPair AND
-                    .gPair.position = 1
-        GENERATE
-            BUILD {
-                .f : .gPair.item.f,
-                .g : .gPair.item.g,
-                .rank : .gPair.item.rank };
+//11
+FILTER 
+	CASES
+		WHERE	
+					WITH .gPair
+				AND	
+					.gPair.position = 1  
+			GENERATE	
+				BUILD	{
+					.f: .gPair.item.f, 
+					.g: .gPair.item.g, 
+					.rank: .gPair.item.rank	};
 
+//12
 SAVE AS SamePlaces@ijgiDb;
