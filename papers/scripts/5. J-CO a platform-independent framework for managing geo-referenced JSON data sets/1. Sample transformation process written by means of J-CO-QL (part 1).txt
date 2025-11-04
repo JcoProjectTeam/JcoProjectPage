@@ -1,45 +1,62 @@
 //1.
 USE DB Boundaries
-    ON SERVER jcods ’http://10.0.0.11:17017’;
+	ON SERVER jcods 'http://10.0.0.11:17017';
 
 //2.
-USE DB RegionInfo
-    ON SERVER MongoDB ’http://10.0.0.12:27017’;
+USE DB Boundaries
+	ON SERVER jcods 'http://10.0.0.11:17017';
 
 //3.
-USE DB ToShare
-    ON SERVER MongoDB ’http://10.0.0.13:27017’;
+USE DB RegionInfo
+	ON SERVER MongoDB 'http://10.0.0.12:27017';
+
 //4.
+USE DB ToShare
+	ON SERVER MongoDB 'http://10.0.0.13:27017';
+
+//5.
 GET COLLECTION Districts@Boundaries;
 
-//5: 
-FILTER
-    CASE
-        WHERE WITH .Properties.City
-                AND .Properties.City="Milan"
-            GENERATE
-                {.ID, .Name: .Properties.Name}
-                KEEPING GEOMETRY
-        DROP OTHERS;
-//6: 
-SET INTERMEDIATE AS Milan_Districts;
+//6.
+FILTER 
+	CASES
+		WHERE	
+					WITH .Properties.City
+				AND	
+					.Properties.City = "Milan"  
+			GENERATE	
+				KEEPING GEOMETRY
+				BUILD	{
+					.ID: .ID, 
+					.Name: .Properties.Name	}
+		DROP OTHERS;
 
-//7: 
+//7.
+SAVE AS Milan_Districts;
+
+//8.
 GET COLLECTION BikeLanes@RegionInfo;
 
-//8: 
-FILTER
-    CASE
-        WHERE WITH .City
-                AND .City="Milan"
-            GENERATE {.Name}
-                SETTING GEOMETRY .geometry
-        WHERE WITH .Properties.City
-                AND .Properties.City="Milan"
-            GENERATE
-                {.Name: .Properties.Name}
-                SETTING GEOMETRY .geometry
-        DROP OTHERS;
-        
-//9: 
-SET INTERMEDIATE AS Milan_BikeLanes;
+//9.
+FILTER 
+	CASES
+		WHERE	
+					WITH .City
+				AND	
+					.City = "Milan"  
+			GENERATE	
+				SETTING GEOMETRY .geometry
+				BUILD	{
+					.Name: .Name	}
+		WHERE	
+					WITH .Properties.City
+				AND	
+					.Properties.City = "Milan"  
+			GENERATE	
+				SETTING GEOMETRY .geometry
+				BUILD	{
+					.Name: .Properties.Name	}
+		DROP OTHERS;
+
+//10.
+SAVE AS Milan_BikeLanes;
