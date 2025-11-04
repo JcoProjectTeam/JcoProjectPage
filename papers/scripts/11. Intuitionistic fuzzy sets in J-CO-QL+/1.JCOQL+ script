@@ -1,35 +1,53 @@
-USE DB MyDB ON SERVER MongoDB 'http://127.0.0.1:27017';
+//1
+USE DB MyDB
+	ON SERVER MongoDB 'http://127.0.0.1:27017';
 
-JOIN OF COLLECTIONS PatientSymptom@MyDB AS O, SymptomsDisease@MyDB AS K
-CASE WHERE .O.Symptom = .K.Symptom;
 
+JOIN OF COLLECTIONS
+		PatientSymptom@MyDB AS O, SymptomsDisease@MyDB AS K
+	CASES
+		WHERE	
+				.O.Symptom = .K.Symptom;
+
+//2
 CREATE FUZZY OPERATOR Fuzzify
-PARAMETERS Membership TYPE FLOAT
-PRECONDITION Membership >= 0 AND Membership <= 1
-EVALUATE Membership
-POLYLINE [ (0, 0), (1, 1) ];
+	PARAMETERS
+		Membership TYPE FLOAT
+	PRECONDITION  Membership >= 0 AND Membership <= 1 
+	EVALUATE Membership
+	POLYLINE
+		[	(0, 0),
+			(1, 1)	];
 
+//3
 FILTER 
-CASE WHERE WITH .K.Confidence, .K.NonConfidence, .O.Confidence, .O.NonConfidence 
-GENERATE
-CHECK FOR 
-FUZZY SET K_Membership USING Fuzzify(.K.Confidence), 
-FUZZY SET K_NonMembership USING Fuzzify(.K.NonConfidence), 
-FUZZY SET O_Membership USING Fuzzify(.O.Confidence), 
-FUZZY SET O_NonMembership USING Fuzzify(.O.NonConfidence);
+	CASES
+		WHERE	
+				WITH .K.Confidence, .K.NonConfidence, .O.Confidence, .O.NonConfidence 
+			GENERATE	
+				CHECK FOR 
+					FUZZY SET K_Membership USING Fuzzify(.K.Confidence), 
+					FUZZY SET K_NonMembership USING Fuzzify(.K.NonConfidence), 
+					FUZZY SET O_Membership USING Fuzzify(.O.Confidence), 
+					FUZZY SET O_NonMembership USING Fuzzify(.O.NonConfidence);
 
+//4
 FILTER 
-CASE WHERE KNOWN FUZZY SETS K_Membership, K_NonMembership, 
-O_Membership, O_NonMembership  
-GENERATE
-CHECK FOR 
-FUZZY SET Pair_Membership USING O_Membership AND K_Membership, 
-FUZZY SET Pair_NonMembership  USING O_NonMembership OR K_NonMembership
-BUILD { .Patient : .O.Patient, 
-.Symptom : .O.Symptom, 
-.Disease : .K.Disease }
-KEEPING FUZZY SETS Pair_Membership, Pair_NonMembership;
+	CASES
+		WHERE	
+				KNOWN FUZZY SETS K_Membership, K_NonMembership, O_Membership, O_NonMembership  
+			GENERATE	
+				CHECK FOR 
+					FUZZY SET Pair_Membership USING  O_Membership AND K_Membership , 
+					FUZZY SET Pair_NonMembership USING  O_NonMembership OR K_NonMembership 
+				BUILD	{
+					.Patient: .O.Patient, 
+					.Symptom: .O.Symptom, 
+					.Disease: .K.Disease	}
+				KEEPING FUZZY SETS Pair_Membership, Pair_NonMembership;
 
+//5
 GROUP
-PARTITION WITH .Patient, .Disease
-BY .Patient, .Disease INTO .Items;
+	PARTITION WITH .Patient, .Disease
+		BY .Patient, .Disease
+		INTO .Items;
