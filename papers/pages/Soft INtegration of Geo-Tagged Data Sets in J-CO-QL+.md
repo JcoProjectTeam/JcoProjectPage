@@ -34,7 +34,7 @@ can be effective and efficient in performing data-integration tasks from scratch
 ## SCRIPTS
 | Script | Description | Last Tested|
 | -------- | ----------- |-------------|
-| [1. Fuzzy Operators](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/1.%20Fuzzy%20Operators.txt) | Definition of fuzzy operators used for soft integration of geo-tagged data | |
-| [2. Retrieving and joining collections](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/2.%20Retrieving%20and%20joining%20collections.txt) | Scripts for data retrieval and collection joining operations | |
-| [3. Matching places](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/3.%20matching%20places.txt) | Implementation of place matching algorithms using fuzzy logic | |
-| [4. Selecting best pairs](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/4.%20Selecting%20best%20pairs.txt) | Script for selecting optimal place pairs from integration results | |
+| [1. Fuzzy Operators](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/1.%20Fuzzy%20Operators.txt) | Definition of fuzzy operators used for soft integration of geo-tagged data | 11/2025 |
+| [2. Retrieving and joining collections](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/2.%20Retrieving%20and%20joining%20collections.txt) | Scripts for data retrieval and collection joining operations | 11/2025 |
+| [3. Matching places](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/3.%20matching%20places.txt) | Implementation of place matching algorithms using fuzzy logic | 11/2025 | 
+| [4. Selecting best pairs](/papers/scripts/10.%20IJGI%202022%20-%20Soft%20Integration%20of%20Geo-Tagged%20Data%20Sets%20in%20J-CO-QL+/4.%20Selecting%20best%20pairs.txt) | Script for selecting optimal place pairs from integration results | 11/2025 |
