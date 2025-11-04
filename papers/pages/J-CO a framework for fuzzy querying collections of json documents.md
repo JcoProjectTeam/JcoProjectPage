@@ -13,11 +13,11 @@ process presented during the live demo at the conference.
 
 ## DATASET
 
-| Dataset | Description | Last Tested |
-|---------|-------------|-------------|
-| [FQAS_Destination.DetectedWeatherStations.json](../dataset/7%20.J-CO,%20a%20framework%20for%20fuzzy%20querying%20collections%20of%20json%20documents/FQAS_Destination.DetectedWeatherStations.json) | Destination collection containing detected weather stations data, used as the target dataset for the cross-analysis fuzzy querying demonstration | |
-| [FQAS_Source.Rain.json](../dataset/7%20.J-CO,%20a%20framework%20for%20fuzzy%20querying%20collections%20of%20json%20documents/FQAS_Source.Rain.json) | Source collection with rainfall measurements data, used to demonstrate fuzzy querying and cross-analysis capabilities | |
-| [FQAS_Source.Temperatures.json](../dataset/7%20.J-CO,%20a%20framework%20for%20fuzzy%20querying%20collections%20of%20json%20documents/FQAS_Source.Temperatures.json) | Source collection with temperature measurements data, combined with rain data for the fuzzy cross-analysis process | |
+| Dataset | Description | 
+|---------|-------------|
+| [FQAS_Destination.DetectedWeatherStations.json](../dataset/7%20.J-CO,%20a%20framework%20for%20fuzzy%20querying%20collections%20of%20json%20documents/FQAS_Destination.DetectedWeatherStations.json) | Destination collection containing detected weather stations data, used as the target dataset for the cross-analysis fuzzy querying demonstration | 
+| [FQAS_Source.Rain.json](../dataset/7%20.J-CO,%20a%20framework%20for%20fuzzy%20querying%20collections%20of%20json%20documents/FQAS_Source.Rain.json) | Source collection with rainfall measurements data, used to demonstrate fuzzy querying and cross-analysis capabilities | 
+| [FQAS_Source.Temperatures.json](../dataset/7%20.J-CO,%20a%20framework%20for%20fuzzy%20querying%20collections%20of%20json%20documents/FQAS_Source.Temperatures.json) | Source collection with temperature measurements data, combined with rain data for the fuzzy cross-analysis process | 
 
 ## SCRIPTS
 
