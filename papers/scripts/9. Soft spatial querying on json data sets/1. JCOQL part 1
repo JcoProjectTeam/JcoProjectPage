@@ -1,0 +1,38 @@
+CREATE FUZZY OPERATOR IncreasingGDP
+PARAMETERS gdp0 TYPE Float, gdpl TYPE Float
+PRECONDITION gdp0 > 0 AND gdpl > 0
+EVALUATE 100*(gdp1-gdp0) / gdp0
+POLYLINE [ (0, 0.0), (1, 0.8), (3, 1.0)];
+
+CREATE FUZZY OPERATOR InterestingLake
+PARAMETERS ownership TYPE Float
+PRECONDITION ownership IN_RANGE [0, 1]
+EVALUATE ownership
+POLYLINE [ (0, 0), (0.25, 0), (0.3, 1), (0.8, 1), (0.85, 0), (1, 0) ];
+
+USE DB AbdisDb ON SERVER MongoDB 'http://127.0.0.1:27017';
+
+GET COLLECTION GeojsonLakes@AbdisDb;
+
+EXPAND
+UNPACK WITH ARRAY .features
+ARRAY .features TO .LakeGeoData;
+
+FILTER
+CASE WHERE WITH .LakeGeoData.item
+GENERATE
+SETTING GEOMETRY .LakeGeoData.item.geometry
+BUILD {
+.properties: .LakeGeoData.item.properties
+};
+
+SAVE AS Lakes;
+
+
+
+
+
+
+
+
+

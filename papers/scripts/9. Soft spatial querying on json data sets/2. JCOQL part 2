@@ -1,0 +1,48 @@
+JOIN OF COLLECTIONS GeoNuts@AbdisDb AS G, NutsInfo@AbdisDb AS I
+SET GEOMETRY LEFT
+CASE WHERE WITH .G.properties.NUTS_ID, .G.properties.CNTR_CODE,
+.G.properties.LEVL_CODE, .I.NUTSCode
+AND .G.properties.NUTS_ID = .I.NUTSCode
+AND .G.properties.CNTR CODE = "IT"
+AND .G.properties. LEVL_CODE = 3
+GENERATE
+CHECK FOR FUZZY SET ImprovingWealth
+USING IncreasingGDP(TO_FLOAT(.I.GDP2017), TO_FLOAT(.I.GDP2018) )
+BUILD {
+.nutsName: .G.properties.NUTS_NAME,
+.nutsId: .G.properties.NUTS_ID,
+.gdp2017: TO_FLOAT (. I.GDP2017),
+.gdp2018: TO_FLOAT(.I.GDP2018) };
+
+
+JOIN OF COLLECTIONS temporary AS N, Lakes AS L
+ON GEOMETRY INTERSECT
+SET GEOMETRY INTERSECTION
+SET FUZZY SETS LEFT ALL, HOW_INCLUDE (RIGHT) AS OwnedLake
+CASE WHERE KNOWN FUZZY SETS ImprovingWealth, OwnedLake
+AND WITH .L.properties
+GENERATE
+CHECK FOR
+FUZZY SET WishedLakes
+USING InterestingLake (MEMBERSHIP_OF (OwnedLake) ),
+FUZZY SET Wanted
+USING ImprovingWealth AND WishedLakes
+ALPHACUT 0.7 ON Wanted
+BUILD {
+.nutsName: .N.nutsName,
+.nutsId: .N.nutsId,
+.gdp2017: .N.gdp2017,
+.gdp2018: .N.gdp2018,
+.lake: .L.properties. NOME_LG,
+.rank:: MEMBERSHIP_OF (Wanted) }
+DEFUZZIFY;
+
+SAVE AS RankedNuts@AbdisDb;
+
+
+
+
+
+
+
+
