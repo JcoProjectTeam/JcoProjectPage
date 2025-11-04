@@ -1,0 +1,50 @@
+JOIN OF COLLECTIONS
+SensorTriplets AS S, AirQualityMeasures AS M
+CASE
+WHERE .S.NOsensorId = .M.sensorId
+GENERATE {
+.dateTime : .M.dateTime ,
+.NOmeasure : .M.value ,
+.NOsensorId : .S.NOsensorId ,
+.GRsensorId : .S.GRsensorId ,
+.RPsensorId : .S.RPsensorId ,
+.NOstationName : .S.NOstationName
+}
+DROP OTHERS;
+
+SET INTERMEDIATE AS AirQualityMeasures_Enriched;
+
+JOIN OF COLLECTIONS
+AirQualityMeasures_Enriched AS A, WeatherMeasures AS M
+CASE
+WHERE .A.GRsensorId = .M.sensorId AND
+.A.dateTime = .M.dateTime
+GENERATE {
+.dateTime : .A.dateTime ,
+.NOstationName : .A.NOstationName ,
+.NOsensorId : .A.NOsensorId ,
+.NOmeasure : .A.NOmeasure ,
+.RPsensorId : .A.RPsensorId ,
+.GRsensorId : .A.GRsensorId ,
+.GRmeasure : .M.value
+}
+DROP OTHERS;
+
+SET INTERMEDIATE AS MeasurePairs;
+
+JOIN OF COLLECTIONS
+MeasurePairs AS P, WeatherMeasures AS M
+CASE
+WHERE .P.RPsensorId = .M.sensorId AND
+.P.dateTime = .M.dateTime
+GENERATE {
+.dateTime : .P.dateTime ,
+.NOstationName : .P.NOstationName ,
+.NOsensorId : .P.NOsensorId ,
+.NOmeasure : .P.NOmeasure ,
+.RPsensorId : .P.RPsensorId ,
+.GRsensorId : .P.GRsensorId ,
+.GRmeasure : .P.GRmeasure ,
+.RPmeasure : .M.value
+}
+DROP OTHERS;

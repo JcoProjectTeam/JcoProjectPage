@@ -1,0 +1,26 @@
+FILTER
+CASE
+WHERE WITH .NOmeasure , .GRmeasure , .RPmeasure
+CHECK FOR FUZZY SET HighPollution
+USING Has_High_Pollution (. NOmeasure)
+CHECK FOR FUZZY SET LowRadiation
+USING Has_Low_Radiation (. GRmeasure)
+CHECK FOR FUZZY SET PersistentRain
+USING Has_Persistent_Rain (. RPmeasure)
+CHECK FOR FUZZY SET Wanted
+USING HighPollution AND (LowRadiation OR PersistentRain)
+ALPHA -CUT 0.75 ON Wanted
+DROP OTHERS;
+
+FILTER
+CASE
+WHERE KNOWN FUZZY SETS Wanted
+GENERATE {
+.stationName : .NOstatoinName ,
+.dateTime : .dateTime ,
+.rank : MEMBERSHIP_OF (Wanted)
+}
+DROPPING ALL FUZZY SETS
+DROP OTHERS;
+
+SAVE AS DetectedEvents@INFORMATION_2021;

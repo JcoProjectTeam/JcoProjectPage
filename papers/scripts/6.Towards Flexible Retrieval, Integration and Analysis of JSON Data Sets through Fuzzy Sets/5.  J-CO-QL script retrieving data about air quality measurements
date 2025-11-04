@@ -1,0 +1,23 @@
+GET COLLECTION FROM WEB
+"https :// www.dati.lombardia.it/resource/nicp -bhqi.json?$limit =1000000&
+$where=data >= ’2021-03-15’ AND data < ’2021-03-23’
+AND (stato=’VV’ OR stato=’VA ’)";
+
+EXPAND
+UNPACK
+WITH ARRAY .data
+ARRAY .data
+TO .sensorData
+DROP OTHERS;
+
+FILTER
+CASE
+WHERE WITH .sensorData.item.idsensore
+GENERATE {
+.sensorId : .sensorData.item.idsensore ,
+.dateTime : .sensorData.item.data ,
+.value : TO_FLOAT (. sensorData.item.valore)
+}
+DROP OTHERS;
+
+SET INTERMEDIATE AS AirQualityMeasures;

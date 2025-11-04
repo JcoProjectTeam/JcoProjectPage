@@ -1,0 +1,38 @@
+GET COLLECTION FROM WEB
+"https :// www.dati.lombardia.it/resource/ib47 -atvt.json?
+$limit =1000000& $where=storico <>’S’";
+
+EXPAND
+UNPACK
+WITH ARRAY .data
+ARRAY .data
+TO .sensor
+DROP OTHERS;
+
+FILTER
+CASE
+WHERE WITH .sensor.item.idsensore , .sensor.item.comune ,
+.sensor.item.nometiposensore
+AND .sensor.item.comune = "Milano"
+AND .sensor.item.nometiposensore = "Ossidi di Azoto"
+GENERATE {
+.stationName : .sensor.item.nomestazione ,
+.province : .sensor.item.provincia ,
+.city : .sensor.item.comune ,
+.latitude : TO_FLOAT (. sensor.item.lat),
+.longitude : TO_FLOAT (. sensor.item.lng),
+.altitude : TO_FLOAT (. sensor.item.quota),
+.sensorId : .sensor.item.idsensore ,
+.sensorType : "Nitric Oxide",
+.sensorUnit : .sensor.item.unitamisura
+}
+DROP OTHERS;
+
+FILTER
+CASE
+WHERE WITH .latitude , .longitude
+GENERATE
+SETTING GEOMETRY POINT (.latitude , .longitude)
+DROP OTHERS;
+
+SET INTERMEDIATE AS NitricOxide_Sensors;

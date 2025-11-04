@@ -1,0 +1,43 @@
+CREATE FUZZY OPERATOR Has_Low_Radiation
+PARAMETERS
+radiation TYPE Float
+PRECONDITION
+radiation >= 0
+EVALUATE radiation
+POLYLINE
+[ ( 0, 1.0),
+( 20, 1.0),
+( 100, 0.9),
+( 200, 0.7),
+( 500, 0.2),
+( 600, 0.1),
+(1000, 0.0) ];
+
+CREATE FUZZY OPERATOR Has_High_Pollution
+PARAMETERS
+NO_Concentration TYPE Integer
+PRECONDITION
+NO_Concentration >= 0
+EVALUATE NO_Concentration
+POLYLINE
+[ ( 0, 0.0),
+( 30, 0.0),
+( 80, 0.2),
+(100, 0.3),
+(130, 0.8),
+(150, 0.9),
+(200, 1.0) ];
+
+CREATE FUZZY OPERATOR Has_Persistent_Rain
+PARAMETERS
+Precipitation TYPE Float
+PRECONDITION
+Precipitation >= 0
+EVALUATE Precipitation
+POLYLINE
+[ (0.00, 0.0),
+(0.10, 0.1),
+(0.15, 0.3),
+(0.20, 0.8),
+(0.30, 0.9),
+(1.00, 1.0) ];

@@ -1,0 +1,32 @@
+SPATIAL JOIN OF COLLECTIONS
+NitricOxide_Sensors AS NO, Weather_Sensors AS WS
+ON DISTANCE (KM) < 2
+SET GEOMETRY LEFT
+CASE
+WHERE .WS.sensorType = "Global Radiation"
+GENERATE {
+.GRsensorId : .WS.sensorId ,
+.NOsensorId : .NO.sensorId ,
+.NOstationName : .NO.stationName ,
+}
+KEEPING GEOMETRY
+DROP OTHERS;
+
+SET INTERMEDIATE AS SensorPairs;
+
+SPATIAL JOIN OF COLLECTIONS
+SensorPairs AS SP, Weather_Sensors AS WS
+ON DISTANCE (KM) < 2
+SET GEOMETRY LEFT
+CASE
+WHERE .WS.sensorType = "Rain Precipitation"
+GENERATE {
+.RPsensorId : .WS.sensorId ,
+.GRsensorId : .SP.GRsensorId ,
+.NOsensorId : .SP.NOsensorId ,
+.NOstationName : .SP.NOstationName ,
+}
+KEEPING GEOMETRY
+DROP OTHERS;
+
+SET INTERMEDIATE AS SensorTriplets;

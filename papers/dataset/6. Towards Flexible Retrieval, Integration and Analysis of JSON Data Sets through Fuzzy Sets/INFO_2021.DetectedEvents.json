@@ -1,0 +1,280 @@
+[{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1745"
+  },
+  "dateTime": "2021-04-08T07:00:00.000",
+  "rank": 0.8320000004768372,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1746"
+  },
+  "dateTime": "2021-04-08T07:00:00.000",
+  "rank": 0.8320000004768372,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1747"
+  },
+  "dateTime": "2021-04-08T07:00:00.000",
+  "rank": 0.8320000004768372,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1748"
+  },
+  "dateTime": "2021-04-08T07:00:00.000",
+  "rank": 0.7600000119209289,
+  "stationName": "Milano - Verziere"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1749"
+  },
+  "dateTime": "2021-04-08T07:00:00.000",
+  "rank": 0.8320000004768372,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f174a"
+  },
+  "dateTime": "2021-04-09T07:00:00.000",
+  "rank": 0.8330000001192093,
+  "stationName": "Milano - Verziere"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f174b"
+  },
+  "dateTime": "2021-04-09T09:00:00.000",
+  "rank": 0.8100000083446502,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f174c"
+  },
+  "dateTime": "2021-04-09T09:00:00.000",
+  "rank": 0.8100000083446502,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f174d"
+  },
+  "dateTime": "2021-04-09T09:00:00.000",
+  "rank": 0.8100000083446502,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f174e"
+  },
+  "dateTime": "2021-04-09T10:00:00.000",
+  "rank": 0.8724999859929085,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f174f"
+  },
+  "dateTime": "2021-04-09T07:00:00.000",
+  "rank": 0.8599999904632568,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1750"
+  },
+  "dateTime": "2021-04-09T10:00:00.000",
+  "rank": 0.8724999859929085,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1751"
+  },
+  "dateTime": "2021-04-09T09:00:00.000",
+  "rank": 0.8100000083446502,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1752"
+  },
+  "dateTime": "2021-04-09T10:00:00.000",
+  "rank": 0.8724999859929085,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1753"
+  },
+  "dateTime": "2021-04-09T10:00:00.000",
+  "rank": 0.8724999859929085,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1754"
+  },
+  "dateTime": "2021-04-09T08:00:00.000",
+  "rank": 0.9487499877810478,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1755"
+  },
+  "dateTime": "2021-04-09T07:00:00.000",
+  "rank": 0.8599999904632568,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1756"
+  },
+  "dateTime": "2021-04-09T10:00:00.000",
+  "rank": 0.823500003516674,
+  "stationName": "Milano - Verziere"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1757"
+  },
+  "dateTime": "2021-04-09T08:00:00.000",
+  "rank": 0.9226249815523624,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1758"
+  },
+  "dateTime": "2021-04-12T12:00:00.000",
+  "rank": 0.7850000119209288,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1759"
+  },
+  "dateTime": "2021-04-09T07:00:00.000",
+  "rank": 0.8599999904632568,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f175a"
+  },
+  "dateTime": "2021-04-09T07:00:00.000",
+  "rank": 0.8599999904632568,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f175b"
+  },
+  "dateTime": "2021-04-14T07:00:00.000",
+  "rank": 0.7885999827980995,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f175c"
+  },
+  "dateTime": "2021-04-09T08:00:00.000",
+  "rank": 0.9226249815523624,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f175d"
+  },
+  "dateTime": "2021-04-09T08:00:00.000",
+  "rank": 0.9487499877810478,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f175e"
+  },
+  "dateTime": "2021-04-13T07:00:00.000",
+  "rank": 0.7816666785875956,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f175f"
+  },
+  "dateTime": "2021-04-14T07:00:00.000",
+  "rank": 0.7885999827980995,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1760"
+  },
+  "dateTime": "2021-04-12T12:00:00.000",
+  "rank": 0.7850000119209288,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1761"
+  },
+  "dateTime": "2021-04-12T12:00:00.000",
+  "rank": 0.7551999847888946,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1762"
+  },
+  "dateTime": "2021-04-13T07:00:00.000",
+  "rank": 0.7816666785875956,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1763"
+  },
+  "dateTime": "2021-04-12T12:00:00.000",
+  "rank": 0.7850000119209288,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1764"
+  },
+  "dateTime": "2021-04-13T07:00:00.000",
+  "rank": 0.7816666785875956,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1765"
+  },
+  "dateTime": "2021-04-13T07:00:00.000",
+  "rank": 0.7816666785875956,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1766"
+  },
+  "dateTime": "2021-04-14T07:00:00.000",
+  "rank": 0.8273999804854393,
+  "stationName": "Milano - via Senato"
+},
+{
+  "_id": {
+    "$oid": "60b452098c3f4772fa1f1767"
+  },
+  "dateTime": "2021-04-14T07:00:00.000",
+  "rank": 0.8273999804854393,
+  "stationName": "Milano - via Senato"
+}]

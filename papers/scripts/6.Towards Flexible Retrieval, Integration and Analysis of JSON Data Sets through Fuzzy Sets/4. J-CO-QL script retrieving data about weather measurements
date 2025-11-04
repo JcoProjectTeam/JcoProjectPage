@@ -1,0 +1,23 @@
+GET COLLECTION FROM WEB
+"https :// www.dati.lombardia.it/resource /647i-nhxk.json?$limit =100000000&
+$where=data >= ’2021-04-01’ AND data < ’2021-04-15’
+AND (stato=’VV’ OR stato=’VA ’)";
+
+EXPAND
+UNPACK
+WITH ARRAY .data
+ARRAY .data
+TO .sensorData
+DROP OTHERS;
+
+FILTER
+CASE
+WHERE WITH .sensorData.item.idsensore
+GENERATE {
+.sensorId : .sensorData.item.idsensore ,
+.dateTime : .sensorData.item.data ,
+.value : TO_FLOAT (. sensorData.item.valore)
+}
+DROP OTHERS;
+
+SET INTERMEDIATE AS WeatherMeasures;
