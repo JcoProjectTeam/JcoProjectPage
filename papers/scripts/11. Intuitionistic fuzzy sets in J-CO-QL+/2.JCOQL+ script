@@ -1,0 +1,42 @@
+CREATE FUZZY OPERATOR toClassical
+PARAMETERS
+Membership TYPE FLOAT,
+NonMembership  TYPE FLOAT
+PRECONDITION Membership >= 0 AND Membership <= 1 AND 
+NonMembership  >= 0 AND NonMembership  <= 1 
+EVALUATE Membership - NonMembership*(1 - Membership - NonMembership)
+POLYLINE [ (0, 0), (1, 1) ];
+
+FILTER 
+CASE WHERE WITH ARRAY .Items 
+GENERATE
+CHECK FOR 
+FUZZY SET PD_Membership 
+USING Fuzzify(MAX_ARRAY(.Items,NUMERIC,DOCUMENTS,.~fuzzysets.Pair_Membership)), 
+FUZZY SET PD_NonMembership 
+USING Fuzzify(MIN_ARRAY(.Items,NUMERIC,DOCUMENTS,.~fuzzysets.Pair_NonMembership)), 
+FUZZY SET D_of_P 
+USING toClassical(MEMBERSHIP_OF(PD_Membership), MEMBERSHIP_OF(PD_NonMembership))
+BUILD { .Patient : .Patient, 
+.Disease : .Disease }
+KEEPING FUZZY SETS D_of_P;
+
+GROUP
+PARTITION WITH .Patient
+BY .Patient INTO .Diseases DROP GROUPING FIELDS
+SORTED BY .~fuzzysets.D_of_P TYPE NUMERIC DESC;
+
+EXPAND
+UNPACK WITH .Diseases
+ARRAY .Diseases TO .Disease;
+
+FILTER 
+CASE WHERE .Disease.position = 1 
+GENERATE
+CHECK FOR FUZZY SET D_of_P USING Fuzzify(.Disease.item.~fuzzysets.D_of_P) 
+BUILD { .Patient : .Patient, 
+.Disease : .Disease.item.Disease, 
+.Confidence : MEMBERSHIP_OF(D_o_P) }
+DEFUZZIFY;
+
+SAVE AS Diseases_Of_Patients@MyDB;

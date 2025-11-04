@@ -21,7 +21,7 @@ unique and innovative capabilities of the J-CO Framework.
 ## DATASET
 
 | Dataset | Description | 
-|---------|-------------|-------------|
+|---------|-------------|
 | [INFO_2021.DetectedEvents.json](../dataset/6.%20Towards%20Flexible%20Retrieval,%20Integration%20and%20Analysis%20of%20JSON%20Data%20Sets%20through%20Fuzzy%20Sets/INFO_2021.DetectedEvents.json) | Environmental sensor data from 2021 containing detected events from weather and air quality monitoring stations, including measurements for temperature, humidity, atmospheric pressure, and pollutant levels (nitric oxide). Used to demonstrate flexible retrieval and fuzzy integration of heterogeneous sensor data. | 
 
 ## SCRIPTS

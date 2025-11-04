@@ -1,0 +1,6 @@
+{
+  "Patient": "John",
+  "Symptom": "Temperature",
+  "Confidence": 0.7,
+  "NonConfidence": 0.2
+}

@@ -1,0 +1,6 @@
+{
+  "Symptom": "Temperature",
+  "Disease": "Flu",
+  "Confidence": 0.6,
+  "NonConfidence": 0.1
+}
