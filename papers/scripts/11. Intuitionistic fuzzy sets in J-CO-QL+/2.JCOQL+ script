@@ -1,3 +1,4 @@
+//6
 CREATE FUZZY OPERATOR toClassical
 	PARAMETERS
 		Membership TYPE FLOAT,
@@ -8,7 +9,7 @@ CREATE FUZZY OPERATOR toClassical
 		[	(0, 0),
 			(1, 1)	];
 
-
+//7
 FILTER 
 	CASES
 		WHERE	
@@ -23,7 +24,7 @@ FILTER
 					.Disease: .Disease	}
 				KEEPING FUZZY SETS D_of_P;
 
-
+//8
 GROUP
 	PARTITION WITH .Patient
 		BY .Patient
@@ -31,14 +32,14 @@ GROUP
 		DROP GROUPING FIELDS
 		SORTED BY .~fuzzysets.D_of_P TYPE NUMERIC DESC;
 
-
+//9
 EXPAND
 	UNPACK
 			WITH .Diseases
 		ARRAY .Diseases
 		TO .Disease;
 
-
+//10
 FILTER 
 	CASES
 		WHERE	
@@ -51,5 +52,5 @@ FILTER
 					.Confidence: MEMBERSHIP_TO (D_o_P)	}
 				DEFUZZIFY;
 
-
+//11
 SAVE AS Diseases_Of_Patients@MyDB;
