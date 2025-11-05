@@ -1,55 +1,60 @@
+//4
 USE DB ijgiDb
-    ON SERVER MongoDB 'http://127.0.0.1:27017';
+	ON SERVER MongoDB 'http://127.0.0.1:27017';
 
+//5
 JOIN OF COLLECTIONS
-        FacebookDescriptors@ijgiDb AS f, GoogleDescriptors@ijgiDb AS g
-    CASE
-        // Case A: missing address(es)
-        WHERE(  FIELD   .f.fbStreet IS NULL OR
-                FIELD   .g.gAddress IS NULL OR
-                        .f.fbStreet = "" OR
-                        .g.gAddress = "" ) AND
-                FIELD   .f.fbLatitude IS NOT NULL AND
-                FIELD   .f.fbLongitude IS NOT NULL AND
-                FIELD   .g.gLatitude IS NOT NULL AND
-                FIELD   .g.gLongitude IS NOT NULL
-            GENERATE
-                CHECK FOR
-                    FUZZY SET   ClosePlaces USING
-                                Close ( GEODESIC_DISTANCE(  .f.fbLatitude, .f.fbLongitude,
-                                                            .g.gLatitude, .g.gLongitude ) ),
-                    FUZZY SET SameLocation USING ClosePlaces
-                ALPHACUT 0.4 ON SameLocation
-        // Case B: missing coordinate(s)
-        WHERE   FIELD   .f.fbStreet IS NOT NULL AND
-                FIELD   .g.gAddress IS NOT NULL AND
-                        .f.fbStreet != "" AND
-                        .g.gAddress != "" AND
-                    (FIELD  .f.fbLatitude IS NULL OR
-                    FIELD   .f.fbLongitude IS NULL OR
-                    FIELD   .g.gLatitude IS NULL OR
-                    FIELD   .g.gLongitude IS NULL )
-            GENERATE
-                CHECK FOR
-                    FUZZY SET SimilarAddress USING Similar (.f.fbStreet, .g.gAddress),
-                    FUZZY SET SameLocation USING SimilarAddress
-                ALPHACUT 0.4 ON SameLocation
-        // Case C: addresses and coordinates all available
-        WHERE   FIELD   .f.fbStreet IS NOT NULL AND
-                FIELD   .g.gAddress IS NOT NULL AND
-                        .f.fbStreet != "" AND
-                        .g.gAddress != "" AND
-                FIELD   .f.fbLatitude IS NOT NULL AND
-                FIELD   .f.fbLongitude IS NOT NULL AND
-                FIELD   .g.gLatitude IS NOT NULL AND
-                FIELD   .g.gLongitude IS NOT NULL
-            GENERATE
-                CHECK FOR
-                    FUZZY SET   SimilarAddress USING Similar ( .f.fbStreet, .g.gAddress ),
-                    FUZZY SET   ClosePlaces USING
-                                Close ( GEODESIC_DISTANCE(  .f.fbLatitude, .f.fbLongitude,
-                                                            .g.gLatitude, .g.gLongitude ) ),
-                    FUZZY SET   SameLocation USING
-                                WeightedAggregationBeta(    MEMBERSHIP_OF(SimilarAddress),
-                                                            MEMBERSHIP_OF(ClosePlaces), 0.55 )
-                ALPHACUT 0.4 ON SameLocation;
+		FacebookDescriptors@ijgiDb AS f, GoogleDescriptors@ijgiDb AS g
+	CASES
+		WHERE	
+					( FIELD .f.fbStreet IS NULL OR FIELD .g.gAddress IS NULL OR .f.fbStreet = "" OR .g.gAddress = "" )
+				AND	
+					FIELD .f.fbLatitude IS NOT NULL
+				AND	
+					FIELD .f.fbLongitude IS NOT NULL
+				AND	
+					FIELD .g.gLatitude IS NOT NULL
+				AND	
+					FIELD .g.gLongitude IS NOT NULL  
+			GENERATE	
+				CHECK FOR 
+					FUZZY SET ClosePlaces USING Close(GEODESIC_DISTANCE(.f.fbLatitude, .f.fbLongitude, .g.gLatitude, .g.gLongitude)), 
+					FUZZY SET SameLocation USING ClosePlaces
+				ALPHACUT 0.4 ON SameLocation
+		WHERE	
+					FIELD .f.fbStreet IS NOT NULL
+				AND	
+					FIELD .g.gAddress IS NOT NULL
+				AND	
+					.f.fbStreet != ""
+				AND	
+					.g.gAddress != ""
+				AND	
+					( FIELD .f.fbLatitude IS NULL OR FIELD .f.fbLongitude IS NULL OR FIELD .g.gLatitude IS NULL OR FIELD .g.gLongitude IS NULL )  
+			GENERATE	
+				CHECK FOR 
+					FUZZY SET SimilarAddress USING Similar(.f.fbStreet, .g.gAddress), 
+					FUZZY SET SameLocation USING SimilarAddress
+				ALPHACUT 0.4 ON SameLocation
+		WHERE	
+					FIELD .f.fbStreet IS NOT NULL
+				AND	
+					FIELD .g.gAddress IS NOT NULL
+				AND	
+					.f.fbStreet != ""
+				AND	
+					.g.gAddress != ""
+				AND	
+					FIELD .f.fbLatitude IS NOT NULL
+				AND	
+					FIELD .f.fbLongitude IS NOT NULL
+				AND	
+					FIELD .g.gLatitude IS NOT NULL
+				AND	
+					FIELD .g.gLongitude IS NOT NULL  
+			GENERATE	
+				CHECK FOR 
+					FUZZY SET SimilarAddress USING Similar(.f.fbStreet, .g.gAddress), 
+					FUZZY SET ClosePlaces USING Close(GEODESIC_DISTANCE(.f.fbLatitude, .f.fbLongitude, .g.gLatitude, .g.gLongitude)), 
+					FUZZY SET SameLocation USING WeightedAggregationBeta(MEMBERSHIP_TO (SimilarAddress), MEMBERSHIP_TO (ClosePlaces), 0.55)
+				ALPHACUT 0.4 ON SameLocation;
