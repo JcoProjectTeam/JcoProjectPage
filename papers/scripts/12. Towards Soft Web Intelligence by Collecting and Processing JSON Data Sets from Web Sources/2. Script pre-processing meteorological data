@@ -1,0 +1,28 @@
+USE DB Webist2022 ON SERVER jcods 'http://127.0.0.1:17017'
+
+GET COLLECTION  LastMeteoValue@Webist2022
+
+EXPAND 
+UNPACK WITH .data
+ARRAY .data TO .value
+
+FILTER 
+CASE WHERE WITH .value.item
+GENERATE
+BUILD {
+    .timestamp: .value.item.data,
+    .idSensor: . value.item.idsensore,
+    .sensorState: .value.item. stato,
+    .sensorValue: TO FLOAT (.value. item. valore)
+};
+
+MERGE COLLECTIONS temporary, valueCollection@Webist2022
+REMOVE DUPLICATES;
+
+SAVE AS AllMeteoValues@Webist2022;
+
+
+
+
+
+
