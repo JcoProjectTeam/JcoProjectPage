@@ -1,0 +1,41 @@
+USE DB softIntelligenceDb
+ON SERVER jcods 'http://127.0.0.1:17017';
+
+GET COLLECTION euOfficialCovidData@softIntelligenceDb;
+
+EXPAND
+UNPACK WITH .data
+ARRAY .data TO .countryData;
+
+SAVE AS euCovidDataUnpacked;
+
+GROUP
+PARTITION WITH .countryData.item.year_week,
+.countryData.item.country
+BY .countryData.item.country, .countryData.item.indicator
+INTO .array
+GENERATE
+BUILD {
+. country : .countryData. item. country,
+.indicator : .countryData.item. indicator,
+.year_week : MAX_ARRAY (.array, STRING,
+.countryData.item.year_week)
+};
+
+JOIN OF COLLECTIONS temporary AS c1,
+euCovidDataUnpacked AS c2
+CASE
+WHERE
+.cl.country = .c2.countryData. item. country AND
+.cl.indicator = .c2.countryData.item.indicator AND
+.cl.year_week = .c2.countryData.item.year_week AND
+.c1. indicator = "cases"
+GENERATE
+BUILD {
+.country : .cl.country,
+.indicator : .cl.indicator,
+.yearWeek : .cl.year_week,
+.countryCode : .c2.countryData. item.country_code,
+.population : .c2.countryData.item.population,
+. cases: .c2.countryData.item.weekly_count
+};

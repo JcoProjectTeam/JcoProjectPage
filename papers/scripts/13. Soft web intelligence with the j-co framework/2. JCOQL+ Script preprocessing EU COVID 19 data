@@ -1,0 +1,57 @@
+JOIN OF COLLECTIONS temporary AS c1,
+countryCodes@softIntelligenceDb AS c2
+CASE
+WHERE WITH .cl.countryCode AND
+.cl.countryCode = .c2.countryCodeIsoAlpha3
+GENERATE
+BUILD (
+.country : .cl.country,
+.indicator : .cl.indicator,
+. yearWeek : .cl.yearWeek,
+.population : .cl.population,
+. cases : .cl.cases,
+.countryCode : : .cl.countryCode,
+.countryCodeIsoAlpha2 : .c2.countryCodeIsoAlpha2
+
+LOOKUP FROM WEB
+FOR EACH WITH .countryCode
+CALL "http://api.geonames.org/countryInfoJSON"
++ "?formatted=true&lang=en"
++ "&country=" + .countryCodeIsoAlpha2
++ "&username=paolofosci&style=full";
+
+EXPAND
+UNPACK WITH .data.geonames
+ARRAY .data.geonames TO .geonames;
+
+FILTER
+CASE
+WHERE WITH .geonames, .source AND
+WITH .source.population
+GENERATE
+BUILD {
+.country :  .source.country,
+.indicator: .source.indicator,
+.yearWeek: .source.yearWeek,
+.population: .source.population,
+.cases: .source.cases,
+.countryCode: .source.countryCode,
+.countryCodeIsoAlpha2 : .source.countryCodeIsoAlpha2,
+.capital: .geonames.item.capital
+}
+WHERE WITH .geonames, .source AND
+WITHOUT .source.population
+GENERATE
+BUILD {
+.country: : .source.country,
+.indicator: : .source.indicator,
+.yearWeek : .source.yearWeek,
+.population : TO_INT (.geonames.item.population),
+.cases: .source.cases,
+.countryCode : .source. countryCode,
+.countryCodeIsoAlpha2: .source.countryCodeIsoAlpha2,
+.capital: .geonames.item.capital
+};
+
+
+SAVE AS euMostRecentCovidData@softIntelligenceDb;
