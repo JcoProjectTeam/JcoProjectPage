@@ -1,0 +1,43 @@
+USE DB NeuroComputingDb
+ON SERVER MongoDB 'http://127.0.0.1:27017';
+
+JOIN OF COLLECTIONS
+GoogleDescriptors@NeuroComputingDb AS g,
+FacebookDescriptors@NeuroComputingDb AS f
+CASE WHERE
+FIELD .g.gLatitude IS NOT NULL AND
+FIELD .g.gLongitude IS NOT NULL AND
+FIELD .f.fbLatitude IS NOT NULL AND
+FIELD .f.fbLongitude IS NOT NULL AND
+GeoKmDistance
+( .g.gLatitude, .g.gLongitude,
+.f.fbLatitude, .f. fbLongitude ) < 1;
+
+
+FILTER
+CASE WHERE
+WITH .g.gName, .f.fbName
+GENERATE
+CHECK FOR
+FUZZY SET ClosePlaces
+USING Close
+( .g.gLatitude, .g.gLongitude,
+.f.fbLatitude, .f. fbLongitude),
+FUZZY SET SimilarNames
+USING Similar (.g.gName, .f.fbName),
+FUZZY SET Wanted
+USING ClosePlaces AND SimilarNames
+ALPHACUT 0.8 ON Wanted
+BUILD{
+.gId: .g.gId,
+.fbId: .f.id,
+. name: .f.fbName,
+.address: .f.dbStreet,
+.city:.f.fbCity,
+.country: .f.fbCountry,
+.latitude: .f.fbLatitude,
+.longitude : .f.fbLongitude,
+.rank: MEMBERSHIP_OF (Wanted) }
+DEFUZZIFY;
+
+SAVE AS RankedPlaces@NeuroComputingDb;

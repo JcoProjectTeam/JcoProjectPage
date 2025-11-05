@@ -1,0 +1,99 @@
+CREATE JAVA FUNCTION GeoKmDistance
+PARAMETERS
+lat1 TYPE double, lon1 TYPE double,
+lat2 TYPE double, lon2 TYPE double
+PRECONDITION
+lat1 >= -90 AND lat1 <= +90 AND
+lat2 >= -90 AND lat2 <= +90 AND
+lon1 >= -180 AND lon1 <= +180 AND
+lon2 >= -180 AND lon2 <= +180
+CLASS MyGeoClass
+CLASS BODY {
+public static double GeoKmDistance ( double lat1, double lon1,
+double lat2, double lon2 ) {
+int R = 6371;
+double dLat = (lat2-lat1) * (Math. PI/180);
+double dLon = (lon2-lon1) * (Math.PI/180);
+double a = Math.pow (Math. sin (dLat/2), 2) +
+Math.cos(lat1 * (Math.PI/180) ) *
+Math.cos(lat2 * (Math.PI/180) ) *
+Math.pow(Math.sin (dLon/2), 2);
+double c = 2 * Math.atan2(Math.sqrt (a), Math.sqrt (1-a) );
+double d = R * c;
+return d;
+}
+} END BODY;
+
+
+CREATE JAVA FUNCTION JaroWinklerSimilarity
+PARAMETERS
+s1 TYPE String, s2 TYPE String
+CLASS MyStringClass
+CLASS BODY {
+public static double JaroWinklerSimilarity (String sl, String s2) {
+if ((s1 == null) I| (s2 == null) )
+return 0;
+s1 = s1.toLowerCase (); s2 = s2.toLowerCase ();
+double jaro_dist = jaroDistance (s1, s2);
+if (jaro_dist > 0.7) {
+int prefix = 0;
+for (int i = 0; i < Math.min(s1.length(), s2.length()); i++) {
+if (s1.charAt (i) == s2.charAt (i) )
+prefix++;
+else
+break;
+}
+prefix = Math.min (4, prefix);
+jaro_dist += 0.1 * prefix * (1 - jaro_dist);
+}
+return jaro_dist;
+}
+
+private static double jaroDistance (String s1, String s2)
+{
+if (s1 == s2)
+return 1.0;
+int len1 = s1.length () ; int len2 = s2.length ();
+if (len1 == 0 | | len2 == 0)
+return 0.0;
+int max_dist = (int) Math. floor (Math.max (len1, len2) / 2) - 1;
+int match = 0;
+int hash s1 [] = new int [sl.length () ]; int hash_s2[] = new int [s2.length () ];
+for (int i = 0; i < len1; i++)
+for (int j = Math.max(0, i - max_dist) ;
+j< Math.min(len2, i + max_dist + 1) ; j++)
+if (s1.charAt (i) == s2.charAt (j) && hash_s2 [j] == 0) {
+hash_s2[j] = 1; hash s1 [i] = 1;
+match++; break;
+}
+if (match == 0)
+return 0.0;
+double t = 0; int point = 0;
+for (int i = 0; i < len1; i++)
+if (hash sl[i] == 1) {
+    while (hash_s2 [point] == 0)
+    point++;
+if (sl.charAt (i) != s2.charAt (point++) )
+t++;
+}
+
+t /= 2;
+return ( ((double) match) / ((double) len1)
++ ((double) match) / ((double) len2)
++ ((double) match - t) / ((double) match) ) / 3.0;
+}
+} END BODY;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

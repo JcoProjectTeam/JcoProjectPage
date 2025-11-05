@@ -1,0 +1,64 @@
+USE DB Soco2023
+  ON SERVER jcods 'http://127.0.0.1:17017';
+
+GET COLLECTION ProductEvaluations@Soco2023;
+
+FILTER
+  CASE WHERE WITH .productId, .productName
+    GENERATE
+      CHECK FOR
+        FUZZY SET Appeal
+          USING fuzzifyEvaluation (.brand),
+        FUZZY SET Cheapness
+          USING fuzzifyEvaluation (.price),
+        FUZZY SET Perception
+          USING fuzzifyEvaluation (.quality);
+
+GROUP
+  PARTITION WITH .productId, .productName
+    BY     .productId, .productName
+    INTO   evaluations
+      DROP GROUPING FIELDS;
+
+FILTER
+  CASE WHERE WITH .productId, .productName
+    GENERATE
+      CHECK FOR
+        FUZZY SET GlobalAppeal
+          USING AGGREGATE THROUGH
+            owa (MEMBERSHIP_TO Appeal FROM ARRAY .evaluations),
+        FUZZY SET GlobalCheapness
+          USING AGGREGATE THROUGH
+            owa (MEMBERSHIP_TO Cheapness FROM ARRAY .evaluations),
+        FUZZY SET GlobalPerception
+          USING AGGREGATE THROUGH
+            owa (MEMBERSHIP_TO Perception FROM ARRAY .evaluations),
+        FUZZY SET Wanted
+          USING AGGREGATE THROUGH
+            weigher(MEMBERSHIP_TO [ GlobalAppeal, GlobalCheapness,
+                                    GlobalPerception ], [2, 3, 5])
+
+      ALPHACUT 0.5 ON Wanted
+      BUILD {
+        .productId    : .productId,
+        .productName  : .productName,
+        .rank         : MEMBERSHIP_TO (Wanted)
+      }
+      DEFUZZIFY;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

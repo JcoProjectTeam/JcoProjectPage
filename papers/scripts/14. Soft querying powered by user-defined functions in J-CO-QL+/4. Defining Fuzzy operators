@@ -1,0 +1,28 @@
+CREATE FUZZY OPERATOR Close
+PARAMETERS
+latl TYPE Float, lon1 TYPE Float,
+lat2 TYPE Float, lon2 TYPE Float
+PRECONDITION
+lat1 >= -90 AND lat1 < +90 AND
+lat2 >= -90 AND lat2 <= +90 AND
+lon1 >= -180 AND lon1 <= +180 AND
+lon2 >= -180 AND lon2 <= +180
+EVALUATE GeoKmDistance( lat1, lon1,
+lat2, lon2 )
+POLYLINE
+[ (0.00, 1.00), (0.03, 1.00),
+(0.10, 0.80), (0.40, 0.30),
+(0.80, 0.05), (1.00, 0.00)];
+
+CREATE FUZZY OPERATOR Similar
+PARAMETERS
+st1 TYPE String,
+st2 TYPE String
+EVALUATE JaroWinklerSimilarity( stl, st2 )
+POLYLINE
+[ (0.00, 0.00), (0.29, 0.00),
+(0.30, 0.30), (1.00, 1.00) ];
+
+
+
+

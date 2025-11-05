@@ -1,0 +1,61 @@
+CREATE JAVASCRIPT FUNCTION JaroWinklerSimilarity
+PARAMETERS
+s1 TYPE String,
+s2 TYPE String
+BODY {
+s1 = s1.toLowerCase (); s2 = s2.toLowerCase ();
+if (s1 == s2)
+return 1.0;
+
+var len1 = sl.length; var len2 = s2.length;
+if (len1 == 0 || len2 == 0)
+return 0.0;
+
+var match = 0;
+var maxDist = Math. floor (Math.max (len1, len2) / 2) - 1;
+
+var hash_sl = new Array (s1.length);
+for (var i=0; i<len1; i++)
+hash_s1 [i]=0;
+var hash s2 = new Array (s2. length);
+for (var i=0; i<len2; i++)
+hash_s2 [i]=0;
+
+for (var i = 0; i < len1; i++)
+for (var j = Math.max (0, i-maxDist); j < Math.min (len2, i+maxDist+1); j++)
+if (sl[i] == s2[j] && hash_s2[j] == 0) {
+hash s1[i] = 1;
+hash_s2[j] = 1;
+match++;
+break;
+}
+
+if (match == 0)
+return 0.0;
+
+var t = 0; var point = 0;
+
+for (var i = 0; i < len1; i++)
+if (hash sl[i] == 1) {
+while (hash_s2 [point] == 0)
+point++;
+if (s1[i] != s2[point++])
+t++;
+}
+
+
+t /= 2;
+var jaroDistance = ( match/len1 + match/len2 + (match - t) /match ) / 3.0;
+if (jaroDistance > 0.7) {
+var prefix = 0;
+for (var i = 0; i < Math.min(sl.length (), s2.length() ) ; i++) {
+if (sl.charAt (i) =s2.charAt (i) )
+prefix++;
+else
+break;
+}
+prefix = Math.min (4, prefix);
+jaroDistance += 0.1 * prefix * (1 - jaroDistance) ;
+}
+return jaroDistance;
+} END BODY;

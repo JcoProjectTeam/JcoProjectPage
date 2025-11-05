@@ -1,0 +1,6100 @@
+[{
+  "_id": {
+    "$oid": "644722ab457ac233003fc02f"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c544",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "64"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c550",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "68"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c58f",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "89"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5a1",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "95"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5c8",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "108"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5d1",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "111"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 1,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c607",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "129"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5f2",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "122"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c60d",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "131"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c643",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "149"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c69d",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "179"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6ee",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "206"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7a8",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "268"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c71b",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "221"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c793",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "261"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7b4",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "272"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.3333333333333333
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "18"
+  },
+  "productName": "product18"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc030"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c51a",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "50"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c562",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "74"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5a7",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "97"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5ad",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "99"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6a0",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "180"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 1,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c721",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "223"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 1,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c77b",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "253"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c754",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "240"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c78d",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "259"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c712",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "218"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7c3",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "277"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c72d",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "227"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.8888888888888888
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "20"
+  },
+  "productName": "product20"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc031"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4b4",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "16"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 1,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4ea",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "34"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c50b",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "45"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c51d",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "51"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 1,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c55f",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "73"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c589",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "87"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c66d",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "163"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c616",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "134"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c682",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "170"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c757",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "241"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6e5",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "203"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7c0",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "276"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7ea",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "290"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 1
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "17"
+  },
+  "productName": "product17"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc032"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4bd",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "19"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4ed",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "35"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c502",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "42"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c508",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "44"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 1,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c52f",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "57"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c56e",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "78"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5f5",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "123"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c61c",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "136"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c652",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "154"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c64f",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "153"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 1,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c685",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "171"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6d9",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "199"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6d6",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "198"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c718",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "220"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6c1",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "191"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6dc",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "200"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7b1",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "271"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7a5",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "267"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c763",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "245"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.2222222222222222
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "13"
+  },
+  "productName": "product13"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc033"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c499",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "7"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 1,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4a5",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "11"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4d2",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "26"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 1,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c52c",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "56"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c574",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "80"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5b6",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "102"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5aa",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "98"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5e3",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "117"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c649",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "151"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c62b",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "141"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6fd",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "211"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6a6",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "182"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c79f",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "265"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c766",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "246"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0,
+        "Perception": 0.8888888888888888
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "12"
+  },
+  "productName": "product12"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc034"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c48a",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "2"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4e4",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "32"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4f0",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "36"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c517",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "49"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5d4",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "112"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5dd",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "115"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c67c",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "168"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c628",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "140"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6ac",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "184"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c697",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "177"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 1,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c70c",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "216"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c769",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "247"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c796",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "262"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7f0",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "292"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 1,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7db",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "285"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7e4",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "288"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7f6",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "294"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 1
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "1"
+  },
+  "productName": "product1"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc035"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c49c",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "8"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4a8",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "12"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4ab",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "13"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4c0",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "20"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4d8",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "28"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c556",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "70"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c57a",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "82"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c586",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "86"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c625",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "139"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c622",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "138"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c61f",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "137"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6b5",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "187"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 1,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6c7",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "193"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6f4",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "208"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c694",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "176"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c733",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "229"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6af",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "185"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c772",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "250"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7cc",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "280"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7ab",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "269"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7d8",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "284"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 1
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "9"
+  },
+  "productName": "product9"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc036"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c57d",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "83"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c59e",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "94"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c601",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "127"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5bc",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "104"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5e9",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "119"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 1,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c65b",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "157"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c664",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "160"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6be",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "190"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6bb",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "189"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 1,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6c4",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "192"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6ca",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "194"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c739",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "231"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c778",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "252"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7d5",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "283"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c73f",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "233"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7ed",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "291"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 1,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c787",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "257"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.6666666666666666
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "2"
+  },
+  "productName": "product2"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc037"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4cc",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "24"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4e1",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "31"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 1,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c514",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "48"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c523",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "53"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c54a",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "66"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c598",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "92"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5b9",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "103"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c60a",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "130"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 1,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c62e",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "142"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6a9",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "183"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c65e",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "158"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c706",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "214"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c78a",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "258"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.1111111111111111
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "7"
+  },
+  "productName": "product7"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc038"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c496",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "6"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c49f",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "9"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4ff",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "41"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c529",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "55"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c58c",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "88"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 1,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c673",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "165"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c69a",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "178"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6d0",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "196"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6fa",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "210"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 1,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c745",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "235"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.6666666666666666
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "10"
+  },
+  "productName": "product10"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc039"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4ae",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "14"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4de",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "30"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4f6",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "38"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c520",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "52"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c538",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "60"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c592",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "90"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5ce",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "110"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c676",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "166"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6f7",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "209"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c75a",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "242"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c77e",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "254"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.7777777777777778
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "6"
+  },
+  "productName": "product6"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc03a"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4b1",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "15"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c505",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "43"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 1,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c559",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "71"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c565",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "75"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c577",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "81"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5ec",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "120"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c613",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "133"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5c5",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "107"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c634",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "144"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c66a",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "162"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c679",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "167"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c742",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "234"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c74b",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "237"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7d2",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "282"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c76c",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "248"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7a2",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "266"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.8888888888888888
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "19"
+  },
+  "productName": "product19"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc03b"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c493",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "5"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c571",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "79"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 1,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5a4",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "96"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 1,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5f8",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "124"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c658",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "156"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c67f",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "169"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c631",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "143"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6eb",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "205"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c73c",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "232"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c760",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "244"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c709",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "215"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c79c",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "264"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7b7",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "273"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7c9",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "279"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7e1",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "287"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.1111111111111111
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "5"
+  },
+  "productName": "product5"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc03c"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4a2",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "10"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4d5",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "27"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 1,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5e0",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "116"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c688",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "172"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6a3",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "181"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7ba",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "274"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7e7",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "289"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c790",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "260"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.3333333333333333
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "16"
+  },
+  "productName": "product16"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc03d"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c48d",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "3"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 1,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4ba",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "18"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4db",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "29"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4f9",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "39"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c541",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "63"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 1,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c53e",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "62"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5fe",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "126"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c691",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "175"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c655",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "155"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c670",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "164"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6e8",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "204"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c727",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "225"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 1,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6d3",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "197"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7ae",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "270"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c775",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "251"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.7777777777777778
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "14"
+  },
+  "productName": "product14"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc03e"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c511",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "47"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 1,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c532",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "58"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c53b",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "61"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c55c",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "72"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c568",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "76"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c580",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "84"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c595",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "91"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5c2",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "106"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5da",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "114"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5e6",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "118"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c640",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "148"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c68e",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "174"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 1,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6b2",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "186"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c700",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "212"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c76f",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "249"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c724",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "224"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7de",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "286"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c736",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "230"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c751",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "239"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c799",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "263"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.7777777777777778
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "11"
+  },
+  "productName": "product11"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc03f"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4c3",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "21"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 1,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4cf",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "25"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 1,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4fc",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "40"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 1,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5bf",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "105"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5ef",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "121"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c637",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "145"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c619",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "135"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c604",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "128"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c667",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "161"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c74e",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "238"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c75d",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "243"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c748",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "236"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.4444444444444444
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7c6",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "278"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.2222222222222222
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "4"
+  },
+  "productName": "product4"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc040"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4b7",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "17"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4c6",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "22"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c50e",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "46"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c535",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "59"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c56b",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "77"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5cb",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "109"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5d7",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "113"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c646",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "150"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c64c",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "152"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c715",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "219"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "7"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.6666666666666666
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c784",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "256"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7cf",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "281"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.3333333333333333
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "8"
+  },
+  "productName": "product8"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc041"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c487",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "1"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c490",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "4"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4c9",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "23"
+      },
+      "price": {
+        "$numberLong": "9"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.8888888888888888,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c4f3",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "37"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 1,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c526",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "54"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c54d",
+      "brand": {
+        "$numberLong": "9"
+      },
+      "id": {
+        "$numberLong": "67"
+      },
+      "price": {
+        "$numberLong": "2"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.8888888888888888,
+        "Cheapness": 0.1111111111111111,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c553",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "69"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c583",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "85"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5b0",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "100"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5b3",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "101"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c610",
+      "brand": {
+        "$numberLong": "7"
+      },
+      "id": {
+        "$numberLong": "132"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.6666666666666666,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c5fb",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "125"
+      },
+      "price": {
+        "$numberLong": "6"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.5555555555555556,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c63d",
+      "brand": {
+        "$numberLong": "10"
+      },
+      "id": {
+        "$numberLong": "147"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 1,
+        "Cheapness": 0,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c63a",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "146"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "10"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 1
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6df",
+      "brand": {
+        "$numberLong": "5"
+      },
+      "id": {
+        "$numberLong": "201"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.4444444444444444,
+        "Cheapness": 1,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c70f",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "217"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6f1",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "207"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 1,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c730",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "228"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.1111111111111111
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "3"
+  },
+  "productName": "product3"
+},
+{
+  "_id": {
+    "$oid": "644722ab457ac233003fc042"
+  },
+  "evaluations": [
+    {
+      "_id": "64429d291b95b23b6408c4e7",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "33"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c547",
+      "brand": {
+        "$numberLong": "2"
+      },
+      "id": {
+        "$numberLong": "65"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.1111111111111111,
+        "Cheapness": 0,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c59b",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "93"
+      },
+      "price": {
+        "$numberLong": "5"
+      },
+      "quality": {
+        "$numberLong": "8"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.4444444444444444,
+        "Perception": 0.7777777777777778
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c661",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "159"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6e2",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "202"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6cd",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "195"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c68b",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "173"
+      },
+      "price": {
+        "$numberLong": "8"
+      },
+      "quality": {
+        "$numberLong": "2"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.7777777777777778,
+        "Perception": 0.1111111111111111
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c72a",
+      "brand": {
+        "$numberLong": "8"
+      },
+      "id": {
+        "$numberLong": "226"
+      },
+      "price": {
+        "$numberLong": "7"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.7777777777777778,
+        "Cheapness": 0.6666666666666666,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c703",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "213"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "4"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.3333333333333333
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c6b8",
+      "brand": {
+        "$numberLong": "1"
+      },
+      "id": {
+        "$numberLong": "188"
+      },
+      "price": {
+        "$numberLong": "4"
+      },
+      "quality": {
+        "$numberLong": "9"
+      },
+      "~fuzzysets": {
+        "Appeal": 0,
+        "Cheapness": 0.3333333333333333,
+        "Perception": 0.8888888888888888
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c71e",
+      "brand": {
+        "$numberLong": "3"
+      },
+      "id": {
+        "$numberLong": "222"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "1"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.2222222222222222,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c781",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "255"
+      },
+      "price": {
+        "$numberLong": "3"
+      },
+      "quality": {
+        "$numberLong": "3"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0.2222222222222222,
+        "Perception": 0.2222222222222222
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7bd",
+      "brand": {
+        "$numberLong": "6"
+      },
+      "id": {
+        "$numberLong": "275"
+      },
+      "price": {
+        "$numberLong": "10"
+      },
+      "quality": {
+        "$numberLong": "6"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.5555555555555556,
+        "Cheapness": 1,
+        "Perception": 0.5555555555555556
+      }
+    },
+    {
+      "_id": "64429d291b95b23b6408c7f3",
+      "brand": {
+        "$numberLong": "4"
+      },
+      "id": {
+        "$numberLong": "293"
+      },
+      "price": {
+        "$numberLong": "1"
+      },
+      "quality": {
+        "$numberLong": "5"
+      },
+      "~fuzzysets": {
+        "Appeal": 0.3333333333333333,
+        "Cheapness": 0,
+        "Perception": 0.4444444444444444
+      }
+    }
+  ],
+  "productId": {
+    "$numberLong": "15"
+  },
+  "productName": "product15"
+}]
