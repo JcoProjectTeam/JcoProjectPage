@@ -1,0 +1,10 @@
+CREATE FUZZY AGGREGATOR weightedMemberships
+    PARAMETERS
+        memberships TYPE ARRAY,
+        w TYPE ARRAY
+    PRECONDITION COUNT (memberships) = COUNT (w)
+    FOR ALL m IN memberships
+        LOCALLY m * w[POS] AS wm
+        AGGREGATE wm AS am
+        AGGREGATE w [POS] AS aw
+    EVALUATE am / aw;

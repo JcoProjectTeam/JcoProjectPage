@@ -1,0 +1,7 @@
+CREATE FUZZY AGGREGATOR integrateRain
+    PARAMETERS rainData TYPE ARRAY
+    FOR ALL rd IN rainData
+        AGGREGATE rd AS av
+    EVALUATE av
+    POLYLINE [ ( 0, 0.0), ( 50, 0.0), (100, 0.1),
+                (200, 0.7), (300, 0.9), (400, 1.0) ];
