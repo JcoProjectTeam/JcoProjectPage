@@ -9,7 +9,7 @@ Filters and/or transforms documents in the current collection.
                 (
                     CASES (WHERE conditionRule [generateSectionRule] )+  
                                 [(KEEP | DROP ) OTHERS]
-                    |  generateSectionRule
+                |  generateSectionRule
                 )
                 [REMOVE DUPLICATES]
             ;
