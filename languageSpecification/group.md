@@ -12,7 +12,7 @@ Groups documents of the current collection into one, with an array of the origin
                     [ DROP GROUPING FIELDS ]
               [ ORDER BY field³**
                 [ KEEP UNCOMPARABLE ] ]
-              [ generateSection ] )+
+              [ generateSectionRule ] )+
               [ ( KEEP | DROP ) OTHERS ]
             ;      
 
