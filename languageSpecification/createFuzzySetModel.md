@@ -27,7 +27,7 @@ Where x is the actual multigrade fuzzyset and y is another multigrade fuzzy set 
 * The `id¹` token represents the name of the new multigrade fuzzy set model.
 * The `id²` token represents the independent degree name.
 * The `id³` token represents the derived degree name with calculating expression.
-* The `condition⁴` token represents the constraint that must be held for valid multigrade degree.
+* The `condition⁴` token (see [Base Elements](./notation/baseElements.md)) represents the constraint that must be held for valid multigrade degree.
 * The `id⁴` token represents the independent degree name.
 * Multiple independent degrees can be defined, separated by commas.
 * Optional derived degrees can be calculated from independent degrees using expressions.

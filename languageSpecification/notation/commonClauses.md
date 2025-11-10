@@ -17,7 +17,7 @@ This page describes clauses that are reused across multiple JCoQL instructions, 
 ## Subclauses
 - **caseClause**: Used for conditional logic, often with KEEP/DROP OTHERS.
 - **othersRule**: Specifies what to do with unmatched documents (KEEP/DROP).
-- **condition**: Logical or fuzzy condition for filtering or partitioning.
+- **condition**: Logical or fuzzy condition for filtering or partitioning (see [Base Elements](./baseElements.md)).
 - **parameters**: List of input variables for functions or operators.
 
 ## Example Usage

@@ -30,7 +30,7 @@ Once calculated, independent degrees must satisfy the constraint of the multi-gr
 * The `id¹` token represents the fuzzy set model. Must be declared before.
 * The `id²` token represents the evaluator name.
 * The `param` token specifies the parameter, or the list of parameters, that the evaluator accepts.
-* The optional `condition` token, if present, defines a preliminary condition that must be true before the evaluator is executed.
+* The optional `condition` token (see [Base Elements](./notation/baseElements.md)), if present, defines a preliminary condition that must be true before the evaluator is executed.
 * The optional `arraySortClause`, `deriveClause`, and `forAllClause` provide additional processing capabilities.
 * Multiple `EVALUATE` clauses must be present, one for each independent degree defined in the multi-grade fuzzy set model.
 * The optional `POLYLINE` clause defines the transformation function for the evaluation result.

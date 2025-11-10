@@ -19,7 +19,7 @@ Create a Java function that returns a value from parameters.
 ## Semantics
 * The `id¹` token represents the name assigned to the Java function to create.
 * The `parameter` token specifies the parameter, or the list of parameters, that the function accepts.
-* The optional `condition` token, if present, defines a preliminary condition that must be true before the function is executed.
+* The optional `condition` token (see [Base Elements](./notation/baseElements.md)), if present, defines a preliminary condition that must be true before the function is executed.
 * The `id²` token specifies the Java class name.
 * The optional `IMPORT` clause allows importing external Java classes.
 * The `javaCode` token, located between `CLASS BODY` and `END_BODY`, contains the Java code for the function implementation.

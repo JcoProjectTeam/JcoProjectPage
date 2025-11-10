@@ -24,7 +24,7 @@ A generic fuzzy operator can be used to implement custom NOT, AND, OR, or other 
 * The `id¹` token represents the fuzzy set model (must be declared before).
 * The `id²` token represents the operator name.
 * The `param` token specifies the parameter, or the list of parameters, that the operator accepts.
-* The optional `condition` token, if present, defines a preliminary condition that must be true before the operator is executed.
+* The optional `condition` token (see [Base Elements](./notation/baseElements.md)), if present, defines a preliminary condition that must be true before the operator is executed.
 * Multiple `EVALUATE` clauses can be present, one for each operator or degree.
 * The optional `POLYLINE` clause defines the transformation function for the operator result.
 * The operator works with non-dot notation for parameters.

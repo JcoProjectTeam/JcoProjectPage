@@ -19,7 +19,7 @@ The final KEEP/DROP options works as for the Case Clause.
 ![Expand instruction Syntax!](/languageSpecification/.assets/images/expand.jpg "Expand Syntax Diagram") 
 
 ## Semantics
-* The `condition` token defines when the unpack operation should be applied.
+* The `condition` token (see [Base Elements](./notation/baseElements.md)) defines when the unpack operation should be applied.
 * The `id¹` token specifies the array field to be unpacked (must be an array field).
 * The `id²` token specifies the name of the field in the new document holding the single array value.
 * Multiple UNPACK clauses can be defined for different conditions and array fields.

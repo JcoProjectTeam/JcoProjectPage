@@ -24,7 +24,7 @@ Given a couple *(l, r)* where *l* is the alias of a document the left collection
 * The `id²` token represents the database name.
 * The `id³` token represents the alias of the left collection.
 * The `id⁴` token represents the alias of the right collection.
-* The optional `ON GEOMETRY` clause specifies a spatial condition.
+* The optional `ON GEOMETRY` clause specifies a spatial condition (see [Base Elements](./notation/baseElements.md)).
 * The optional `SET GEOMETRY` clause specifies the geometry of the new document.
 * The optional `addFields` clause adds extra fields to the new document.
 * The optional `setFuzzySets` clause sets which fuzzy sets from the source documents to keep.
