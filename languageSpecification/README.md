@@ -24,8 +24,8 @@ A JCoQL+ script is a list of the following JCoQL+ instructions:
 | [Group](/languageSpecification/group.md) |   Groups documents in the current collection    |
 | [Expand](/languageSpecification/expand.md) |  Expands documents with array fields in the current collection       |  
 | **External Lenguage Integration**    |
-| [Create JavaScript Function](/languageSpecification/createJavaScriptFunction.md) |  Allows to include a **Javascript function script**    |
-| [Create Java Function](/languageSpecification/createJavaFunction.md) |  Allows to include a **Java function script**    |
+| [Create JavaScript Function](/languageSpecification/createJavaScriptFunction.md) |  User define to include a **Javascript function**    |
+| [Create Java Function](/languageSpecification/createJavaFunction.md) |  User define to include a **Java function**    |
 | **Classical Fuzzy Handling** | |
 |	[Create Fuzzy Evaluator](/languageSpecification/createFuzzyEvaluator.md) | Defines rules to evaluate Fuzzy Expressions |
 |	[Create Fuzzy Operator](/languageSpecification/createFuzzyOperator.md) | Allows to define a Fuzzy Set Operator |
