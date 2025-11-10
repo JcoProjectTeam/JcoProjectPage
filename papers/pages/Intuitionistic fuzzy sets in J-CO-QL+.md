@@ -1,5 +1,6 @@
 # Intuitionistic fuzzy sets in J-CO-QL+?
 
+### Abstract
 Intuitionistic Fuzzy Sets extend the classical notion of Fuzzy
 Sets, so as to represent “hesitation”: indeed, an item has both a member-
 ship degree and a non-membership degree, whose sum could be less than

@@ -1,5 +1,6 @@
 # Soft querying powered by user-defined functions in J-CO-QL+
 
+### Abstract
 [Abstract to be added]
 
 ## PDF

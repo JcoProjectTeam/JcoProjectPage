@@ -1,5 +1,6 @@
 # Powering soft querying in J-CO-QL with JavaScript functions
 
+### Abstract
 The availability of large data sets represented as JSON doc-
 uments is demanding for powerful tools able to integrate and query them.
 The J-CO Framework is a research prototype under development at Uni-

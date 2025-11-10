@@ -1,5 +1,6 @@
 # Soft Querying GeoJSON Documents within the J-CO Framework
 
+### Abstract
 GeoJSON documents have become important sources of information over the Web, because they describe
 geographical information layers. Supposing to have such documents stored in some JSON store, the problem
 of querying them in a flexible and easy way arises.

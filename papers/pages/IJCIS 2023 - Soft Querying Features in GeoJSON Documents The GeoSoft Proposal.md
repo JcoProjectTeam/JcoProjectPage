@@ -1,5 +1,6 @@
 # IJCIS 2023 - Soft Querying Features in GeoJSON Documents: The GeoSoft Proposal
 
+### Abstract
 [Abstract to be added]
 
 ## PDF

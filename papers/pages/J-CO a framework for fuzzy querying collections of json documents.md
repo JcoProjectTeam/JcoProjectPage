@@ -1,5 +1,6 @@
 # J-CO, a framework for fuzzy querying collections of json documents
 
+### Abstract
 This paper accompanies a live demo during which we will
 show the J-COFramework, a novel framework to manage large collec-
 tions of JSONdocuments stored in NoSQLdatabases. J-CO-QLis the

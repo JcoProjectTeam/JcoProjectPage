@@ -1,5 +1,6 @@
 # J-CO-QL: A flexible query language for complex geographical analysis of heterogeneous geo-tagged JSON data sets
 
+### Abstract
 Analysts that wish to perform geographical analysis are provided with large volumes of publicly available geo-tagged data
 sets. Often, these data sets are published by public administrations as Open Data, and are formatted as JSON objects. Furthermore,
 these JSON data sets are also heterogeneous, in terms of format and structure, even though they describe the same territorial entities.

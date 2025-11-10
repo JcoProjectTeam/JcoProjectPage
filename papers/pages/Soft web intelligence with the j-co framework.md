@@ -1,5 +1,6 @@
 # Soft web intelligence with the j-co framework
 
+### Abstract
 In the last two decades a plethora of approaches have been proposed
 to perform Web Intelligence to discover useful knowledge over the World-Wide
 Web. However, variety and vastness of the Web are still making this task a hard

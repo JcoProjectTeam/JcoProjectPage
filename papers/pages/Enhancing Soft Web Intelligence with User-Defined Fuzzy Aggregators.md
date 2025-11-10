@@ -1,5 +1,6 @@
 # Enhancing Soft Web Intelligence with User-Defined Fuzzy Aggregators
 
+### Abstract
 In our previous work, we proposed Soft Web Intelligence as the interpretation of the general notion of Web
 Intelligence in the current technological panorama, in such a way JSON data sets are acquired from the Inter-
 net, stored within JSON document stores and then processed and queried by means of soft computing and soft

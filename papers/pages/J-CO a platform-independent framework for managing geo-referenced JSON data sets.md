@@ -1,5 +1,6 @@
 # J-CO: a platform-independent framework for managing geo-referenced JSON data sets
 
+### Abstract
 Internet technology and mobile technology have enabled producing and diffusing massive
 data sets concerning almost every aspect of day-by-day life. Remarkable examples are social media
 and apps for volunteered information production, as well as Open Data portals on which public

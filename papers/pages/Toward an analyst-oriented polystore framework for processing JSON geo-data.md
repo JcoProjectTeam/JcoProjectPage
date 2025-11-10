@@ -1,5 +1,6 @@
 # Toward an analyst-oriented polystore framework for processing JSON geo-data
 
+### Abstract
 Geo-data sets represented as JSON documents are provided by many sources over the Internet. Consequently, many
 storage technologies are adopted for managing them, namely NoSQL databases such are MongoDB and ElasticSearch.
 To allow analysts to effectively perform complex analysis processes, such as integration and transformations possibly

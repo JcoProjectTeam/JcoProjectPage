@@ -1,5 +1,6 @@
 # Evolving J-CO-QL+ with fuzzy evaluators for flexible querying of JSON data sets
 
+### Abstract
 [Abstract to be added]
 
 ## PDF

@@ -1,5 +1,6 @@
 # Towards flexible retrieval, integration and analysis of JSON data sets through fuzzy sets: a language study
 
+### Abstract
 How to exploit the incredible variety of JSON data sets currently available on the Internet,
 for example, on Open Data portals? The traditional approach would require getting them from the
 portals, then storing them into some JSON document store and integrating them within the document

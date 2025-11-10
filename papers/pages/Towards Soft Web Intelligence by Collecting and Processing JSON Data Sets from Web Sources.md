@@ -1,5 +1,6 @@
 # Towards Soft Web Intelligence by Collecting and Processing JSON Data Sets from Web Sources
 
+### Abstract
 Since the last two decades, Web Intelligence has denoted a plethora of approaches to discover useful knowl-
 edge from the vast World-Wide Web; however, dealing with the immense variety of the Web is not easy and
 the challenge is still open. In this paper, we moved from the previous functionalities provided by the J-CO

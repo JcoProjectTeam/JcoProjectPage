@@ -1,4 +1,6 @@
 # Soft Integration of Geo-Tagged Data Sets in J-CO-QL+
+
+### Abstract
 The possibility offered by the current technology to collect and store data sets regarding
 public places located on the Earth globe is posing new challenges, as far as the integration of these
 data sets is concerned. Analysts usually need to perform such an integration from scratch, without

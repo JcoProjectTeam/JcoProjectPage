@@ -1,5 +1,6 @@
 # Geosoft: a language for soft querying features within geojson information layers
 
+### Abstract
 GeoJSON has become one of the most popular format for represent-
 ing spatial information. Its popularity is due to the fact that it relies on JSON as
 hosting syntactic structure. Currently, querying in an effective way a GeoJSON
