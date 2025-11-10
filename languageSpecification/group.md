@@ -5,14 +5,14 @@ Groups documents of the current collection into one, with an array of the origin
 
 ## EBNF Notation
 
-    group ::= ( GROUP 
-                PARTITION condition² 
+    group ::=  GROUP 
+                ( PARTITION condition² 
                     BY field¹** 
                     INTO field²
                     [ DROP GROUPING FIELDS ]
-              [ ORDER BY field³**
-                [ KEEP UNCOMPARABLE ] ]
-              [ GENERATE SECTION ] )+
+                  [ ORDER BY field³**
+                  [ KEEP UNCOMPARABLE ] ]
+                  [ generateSectionRule ] )+
               [ ( KEEP | DROP ) OTHERS ]
             ;      
 
