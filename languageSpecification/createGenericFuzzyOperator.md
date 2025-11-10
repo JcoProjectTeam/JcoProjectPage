@@ -1,5 +1,7 @@
 # Create Generic Fuzzy Operator instruction
 
+> Note: The "CREATE FUZZY OPERATOR" / "CREATE <Generic> FUZZY OPERATOR" and "CREATE FUZZY AGGREGATOR" / "CREATE <Generic> FUZZY AGGREGATOR" constructs are deprecated and will be removed soon — equivalent functionality is available via evaluators (for example: "CREATE FUZZY EVALUATOR" and "CREATE <Generic> FUZZY EVALUATOR").
+
 Allows to define generic fuzzy operators for multi-grade fuzzy set models.
 
 A generic fuzzy operator can be used to implement custom NOT, AND, OR, or other operators for fuzzy sets of the same type, using user-defined expressions and parameters.
