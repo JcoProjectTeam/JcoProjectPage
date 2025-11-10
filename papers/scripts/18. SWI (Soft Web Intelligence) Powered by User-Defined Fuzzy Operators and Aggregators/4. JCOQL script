@@ -1,0 +1,63 @@
+GET COLLECTION FROM WEB
+  "https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/json";
+
+EXPAND
+  UNPACK  WITH ARRAY .data
+  ARRAY   .data TO  .unpackedData;
+
+FILTER
+  CASE WHERE WITH .unpackedData.item.weekly_count
+           AND .unpackedData.item.indicator = "cases"
+    GENERATE
+      BUILD {
+        .country      : .unpackedData.item.country,
+        .population   : .unpackedData.item.population,
+        .weeklyCases  : .unpackedData.item.weekly_count,
+        .year         : getYear(.unpackedData.item.year_week),
+        .week         : getWeek(.unpackedData.item.year_week)
+      };
+
+FILTER
+  CASE WHERE (.year = 2020 AND .week >= 40)
+          OR (.year = 2021 AND .week <= 13)
+    GENERATE
+      CHECK FOR
+        FUZZY SET ManyCasesRecords
+          USING casesPopulationFO(.weeklyCases, .population);
+
+GROUP
+  PARTITION KNOWN FUZZY SETS ManyCasesRecords
+        AND WITH  .country, .population,
+                  .weeklyCases, .week, .year
+    BY .country, .population INTO records
+      DROP GROUPING FIELDS;
+
+FILTER
+  CASE WHERE WITH .countryData
+    GENERATE
+      CHECK FOR
+        FUZZY SET ManyCasesCountries
+          USING integrateCasesFA (EXTRACT ARRAY (.weeklyCases
+                FROM ARRAY .countryData), .population),
+        FUZZY SET ManyPeaksCountries
+          USING owaFA (MEMBERSHIP ARRAY (ManyCasesRecords
+                FROM ARRAY .countryData)),
+        FUZZY SET WantedCountries
+          USING weightedMembershipsFA (MEMBERSHIPS ARRAY(
+                [ManyCasesCountries, ManyPeaksCountries]), [2, 1]);
+
+FILTER
+  CASE WHERE KNOWN FUZZY SETS WantedCountries
+    GENERATE
+      ALPHACUT 0.80 ON WantedCountries
+      BUILD {
+        .country     : .country,
+        .population  : .population,
+        .ranking     : MEMBERSHIP_TO (WantedCountries)
+      }
+      DEFUZZIFY;
+
+USE DB Webist2024
+  ON SERVER MongoDB 'http://127.0.0.1:27017';
+
+SAVE AS ecdcCovidCasesAnalysis@Webist2024;

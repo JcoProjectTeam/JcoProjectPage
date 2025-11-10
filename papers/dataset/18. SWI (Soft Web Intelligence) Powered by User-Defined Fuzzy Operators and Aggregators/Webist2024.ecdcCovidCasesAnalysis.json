@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "66195e60d04f9858d096fcbd"
+  },
+  "country": "Luxembourg",
+  "population": {
+    "$numberLong": "645397"
+  },
+  "ranking": 0.8023407802426462
+},
+{
+  "_id": {
+    "$oid": "66195e60d04f9858d096fcbe"
+  },
+  "country": "Netherlands",
+  "population": {
+    "$numberLong": "17590672"
+  },
+  "ranking": 0.8013086634311423
+},
+{
+  "_id": {
+    "$oid": "66195e60d04f9858d096fcbf"
+  },
+  "country": "Slovakia",
+  "population": {
+    "$numberLong": "5434712"
+  },
+  "ranking": 0.947123546951655
+},
+{
+  "_id": {
+    "$oid": "66195e60d04f9858d096fcc0"
+  },
+  "country": "Estonia",
+  "population": {
+    "$numberLong": "1331796"
+  },
+  "ranking": 0.821253583763207
+},
+{
+  "_id": {
+    "$oid": "66195e60d04f9858d096fcc1"
+  },
+  "country": "Czechia",
+  "population": {
+    "$numberLong": "10516707"
+  },
+  "ranking": 0.9693714604417455
+},
+{
+  "_id": {
+    "$oid": "66195e60d04f9858d096fcc2"
+  },
+  "country": "Sweden",
+  "population": {
+    "$numberLong": "10452326"
+  },
+  "ranking": 0.8420484817138035
+},
+{
+  "_id": {
+    "$oid": "66195e60d04f9858d096fcc3"
+  },
+  "country": "Slovenia",
+  "population": {
+    "$numberLong": "2107180"
+  },
+  "ranking": 0.9326455373768946
+}]

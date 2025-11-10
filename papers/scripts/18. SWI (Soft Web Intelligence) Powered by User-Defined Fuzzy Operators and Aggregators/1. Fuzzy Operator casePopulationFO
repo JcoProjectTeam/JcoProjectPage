@@ -1,0 +1,34 @@
+CREATE FUZZY OPERATOR casesPopulationFO
+  PARAMETERS  cases TYPE NUMERIC,
+              pop   TYPE NUMERIC
+  EVALUATE    10000 * cases / pop    // cases per 100k inhabitants
+  POLYLINE    [ ( 0, 0.0), (100, 0.1),
+                (300, 0.5), (900, 1.0) ];
+
+CREATE FUZZY AGGREGATOR integrateCasesFA
+  PARAMETERS  cases TYPE ARRAY,
+              pop   TYPE NUMERIC
+  FOR ALL     cs    IN    cases
+  AGGREGATE   cs    AS    av        // % of infected people
+  EVALUATE    av / pop
+  POLYLINE    [ (0, 0.0), (.1, 0.1),
+                (5, 0.8), (10, 1.0) ];
+
+CREATE FUZZY AGGREGATOR owaFA
+  PARAMETERS  memberships TYPE ARRAY
+  SORT        ms          IN   memberships
+    BY        ms          TYPENUMERIC ASC AS sMemberships
+  FOR ALL     sms          IN   sMemberships
+  LOCALLY (POS^2 - (POS-1)^2) / (COUNT(sMemberships)^2) AS w
+    AGGREGATE sms * w AS av
+  EVALUATE    av;
+
+CREATE FUZZY AGGREGATOR weightedMembershipsFA
+  PARAMETERS  memberships TYPE ARRAY,
+              w           TYPE ARRAY
+  PRECONDITION          COUNT(memberships) = COUNT (w)
+  FOR ALL     m           IN   memberships
+  LOCALLY     m * w[POS]  AS   wm
+    AGGREGATE wm * [POS]   AS   am
+              m           AS   aw
+  EVALUATE    am / aw;

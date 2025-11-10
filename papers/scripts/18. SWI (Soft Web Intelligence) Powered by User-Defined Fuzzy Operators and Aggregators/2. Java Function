@@ -1,0 +1,21 @@
+CREATE JAVA FUNCTION getYear
+  PARAMETERS yearWeek    TYPE String
+  CLASS      GetYearClass
+  CLASS BODY {
+    // yearWeek is supposed to be in the form "YYYY-WW"
+    public static int getYear(String yearWeek)  {
+      try { return Integer.parseInt(yearWeek.substring(0,4)); }
+      catch (Exception e) { return 0; }
+    }
+  } END BODY;
+
+CREATE JAVA FUNCTION getWeek
+  PARAMETERS yearWeek    TYPE String
+  CLASS      GetWeekClass
+  CLASS BODY {
+    // yearWeek is supposed to be in the form "YYYY-WW"
+    public static int getWeek(String yearWeek)  {
+      try { return Integer.parseInt(yearWeek.substring(5,7)); }
+      catch (Exception e) { return 0; }
+    }
+  } END BODY;

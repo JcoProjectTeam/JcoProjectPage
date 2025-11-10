@@ -1,0 +1,19 @@
+CREATE JAVASCRIPT FUNCTION getYear
+  PARAMETERS yearWeek    TYPE String
+  BODY {
+    // yearWeek: is supposed to be in the form "YYYY-WW"
+    if (yearWeek == null)
+      return 0;
+    var y = parseInt (yearWeek.substring (0,4), 10);
+    return y;
+  } END BODY;
+
+CREATE JAVASCRIPT FUNCTION getWeek
+  PARAMETERS yearWeek    TYPE String
+  BODY {
+    // yearWeek: is supposed to be in the form "YYYY-WW"
+    if (yearWeek == null)
+      return 0;
+    var w = parseInt (yearWeek.substring (5,7), 10);
+    return w;
+  } END BODY;

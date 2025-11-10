@@ -3,7 +3,7 @@
 [Abstract to be added]
 
 ## PDF
-[SWI Soft Web Intelligence Powered by User-Defined Fuzzy Operators and Aggregators.pdf](/papers/pdf/SWI%20Soft%20Web%20Intelligence%20Powered%20by%20User-Defined%20Fuzzy%20Operators%20and%20Aggregators.pdf)
+[SWI Soft Web Intelligence Powered by User-Defined Fuzzy Operators and Aggregators.pdf](/papers/pdf/18.%20SWI%20(Soft%20Web%20Intelligence)%20Powered%20by%20User-Defined%20Fuzzy%20Operators%20and%20Aggregators.pdf)
 
 ## DATASET
 | Dataset | Description |
