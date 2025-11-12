@@ -16,10 +16,10 @@ chose for GeoSoft.
 [Geosoft a language for soft querying features within geojson information layers.pdf](/papers/pdf/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers.pdf) 
 
 ## DATASET
-| Dataset | Description | Last Tested |
-| -------- | ----------- | ----------- |
-| [NUTS_Info.DetectedNUTS.json](/papers/dataset/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers/NUTS_Info.DetectedNUTS.json) | JSON dataset containing detected NUTS (Nomenclature of Territorial Units for Statistics) regions for GeoSoft analysis | |
-| [NUTS_Info.NUTSCollection.json](/papers/dataset/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers/NUTS_Info.NUTSCollection.json) | JSON collection of NUTS territorial units used for demonstrating GeoSoft soft querying capabilities | |
+| Dataset | Description | 
+| -------- | ----------- | 
+| [NUTS_Info.DetectedNUTS.json](/papers/dataset/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers/NUTS_Info.DetectedNUTS.json) | JSON dataset containing detected NUTS (Nomenclature of Territorial Units for Statistics) regions for GeoSoft analysis | 
+| [NUTS_Info.NUTSCollection.json](/papers/dataset/3.%20Geosoft%20a%20language%20for%20soft%20querying%20features%20within%20geojson%20information%20layers/NUTS_Info.NUTSCollection.json) | JSON collection of NUTS territorial units used for demonstrating GeoSoft soft querying capabilities | 
 
 ## SCRIPTS
 | Script | Description | Last Tested |
