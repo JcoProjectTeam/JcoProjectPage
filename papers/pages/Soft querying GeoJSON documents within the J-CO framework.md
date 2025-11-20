@@ -20,6 +20,9 @@ manipulate and save collections of JSON documents in a way totally independent o
 | [Dataset folder](/papers/dataset/4.%20Soft%20querying%20GeoJSON%20documents%20within%20the%20J-CO%20framework/) | Dedicated dataset folder for soft GeoJSON querying examples (currently empty - uses GeoJSON documents from various sources) | |
 
 ## SCRIPTS
+
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 | -------- | ----------- | ----------- |
 | [1. J-CO-QL query that selects features from a GeoJSON document](/papers/scripts/4.%20Soft%20querying%20GeoJSON%20documents%20within%20the%20J-CO%20framework/1.%20J-CO-QL%20query%20that%20selects%20features%20from%20a%20Geo-%20JSON%20document) | Basic J-CO-QL query for selecting features from GeoJSON documents within the framework | |
@@ -27,3 +30,7 @@ manipulate and save collections of JSON documents in a way totally independent o
 | [3. Fuzzy J-CO-QL Query (preamble)](/papers/scripts/4.%20Soft%20querying%20GeoJSON%20documents%20within%20the%20J-CO%20framework/3.Fuzzy%20J-CO-QL%20Query%20(preamble)) | Preamble section of fuzzy J-CO-QL queries showing setup and initialization for soft GeoJSON querying | |
 | [4. Fuzzy J-CO-QL Query (core)](/papers/scripts/4.%20Soft%20querying%20GeoJSON%20documents%20within%20the%20J-CO%20framework/4.%20Fuzzy%20J-CO-QL%20Query%20(core)) | Core logic of fuzzy J-CO-QL queries demonstrating soft spatial operations and linguistic predicates | |
 | [5. Fuzzy J-CO-QL Query (tail)](/papers/scripts/4.%20Soft%20querying%20GeoJSON%20documents%20within%20the%20J-CO%20framework/5.%20Fuzzy%20J-CO-QL%20Query%20(tail)) | Final section of fuzzy J-CO-QL queries showing result processing and ranking based on membership degrees | |
+
+---
+
+[← Back to Papers](/papers/readme.md)

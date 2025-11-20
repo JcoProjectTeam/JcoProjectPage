@@ -28,7 +28,13 @@ Fuzzy Sets in an integrated way.
 
 ## SCRIPTS
 
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested|
 |--------|-------------|--------|
 | [1.JCOQL+ script](../scripts/11.%20Intuitionistic%20fuzzy%20sets%20in%20J-CO-QL+/1.JCOQL+%20script) | First J-CO-QL+ script demonstrating how to process intuitionistic fuzzy sets, handling membership and non-membership degrees for patient-symptom-disease analysis | 11/2025 |
 | [2.JCOQL+ script](../scripts/11.%20Intuitionistic%20fuzzy%20sets%20in%20J-CO-QL+/2.JCOQL+%20script) | Second J-CO-QL+ script showing advanced operations on intuitionistic fuzzy relations, including composition and reasoning with hesitation degrees | 11/2025 |
+
+---
+
+[← Back to Papers](/papers/readme.md)

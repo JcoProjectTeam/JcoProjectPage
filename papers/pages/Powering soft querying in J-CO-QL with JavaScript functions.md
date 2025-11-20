@@ -24,8 +24,14 @@ ators used to evaluate membership degrees.
 
 ## SCRIPTS
 
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 |--------|-------------|-------------|
 | [1. Definitions](../scripts/8.%20Powering%20soft%20querying%20in%20J-CO-QL%20with%20JavaScript%20functions/1.%20Definitions) | Defines custom JavaScript functions including GeoKmDistance for geographical distance calculations, enabling personalized fuzzy operators in J-CO-QL queries | 11/2025 |
 | [2. Data retrieval and preprocessing](../scripts/8.%20Powering%20soft%20querying%20in%20J-CO-QL%20with%20JavaScript%20functions/2.%20Data%20retrieval%20and%20preprocessing) | Retrieves sensor data and performs preprocessing operations to prepare the dataset for soft querying with JavaScript-powered fuzzy operators | 11/2025 |
 | [3. Soft querying](../scripts/8.%20Powering%20soft%20querying%20in%20J-CO-QL%20with%20JavaScript%20functions/3.%20Soft%20querying) | Demonstrates the complete soft querying process using JavaScript functions to evaluate custom membership degrees for proximity-based sensor queries | 11/2025 |
+
+---
+
+[← Back to Papers](/papers/readme.md)

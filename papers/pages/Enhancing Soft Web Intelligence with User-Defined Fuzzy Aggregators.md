@@ -25,9 +25,15 @@ complex soft queries are enabled, so as to enhance Soft Web Intelligence
 
 ## SCRIPTS
 
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 |--------|-------------|-------------|
 | [Fuzzy Aggregator integrateRain.txt](../scripts/17.%20Enhancing%20Soft%20Web%20Intelligence%20with%20User-Defined%20Fuzzy%20Aggregators/Fuzzy%20Aggregator%20integrateRain.txt) | Defines the integrateRain fuzzy aggregator for combining rainfall measurements from multiple time points or sensors into a unified fuzzy evaluation | |
 | [fuzzy aggregator owaRain.txt](../scripts/17.%20Enhancing%20Soft%20Web%20Intelligence%20with%20User-Defined%20Fuzzy%20Aggregators/fuzzy%20aggregator%20owaRain.txt) | Implements OWA (Ordered Weighted Averaging) aggregator specifically tailored for rainfall data, enabling soft ranking of precipitation events | |
 | [retrieval and soft querying.txt](../scripts/17.%20Enhancing%20Soft%20Web%20Intelligence%20with%20User-Defined%20Fuzzy%20Aggregators/retrieval%20and%20soft%20querying.txt) | Complete J-CO-QL+ script demonstrating data retrieval from web sources and soft querying using the custom-defined fuzzy aggregators | |
 | [uzzy aggregator weightedMemberships.txt](../scripts/17.%20Enhancing%20Soft%20Web%20Intelligence%20with%20User-Defined%20Fuzzy%20Aggregators/uzzy%20aggregator%20weightedMemberships.txt) | Defines weighted membership aggregator for combining multiple fuzzy set memberships with different importance weights | |
+
+---
+
+[← Back to Papers](/papers/readme.md)

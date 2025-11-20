@@ -23,6 +23,13 @@ effectiveness of the framework itself through an example.
 | [Dataset folder](/papers/dataset/2.%20Toward%20an%20analyst-oriented%20polystore%20framework%20for%20processing%JSON%20geo-data/) | Dedicated dataset folder for polystore framework examples (currently empty - datasets referenced from multiple sources) |
 
 ## SCRIPTS
+
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 | -------- | ----------- | ----------- |
 | [1. script 1](/papers/scripts/2.%20Toward%20an%20analyst-oriented%20polystore%20framework%20for%20processing%20JSON%20geo-data/1.%20script%201) | Polystore query example demonstrating cross-database operations with J-CO-DS, MongoDB, and ElasticSearch integration for processing country boundaries data | |
+
+---
+
+[← Back to Papers](/papers/readme.md)

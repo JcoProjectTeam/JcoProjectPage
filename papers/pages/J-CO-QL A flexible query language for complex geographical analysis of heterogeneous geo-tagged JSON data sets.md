@@ -22,6 +22,9 @@ database vision of the problem and suitable for non programmers.
 | [WaterLines.json](/papers/dataset/1.%20J-CO-QL%20A%20flexible%20query%20language%20for%20complex%20geographical%20analysis%20of%20heterogeneous%20geo-tagged%20JSON%20data%20sets/WaterLines.json) | JSON dataset containing water line features for spatial analysis demonstrations |
 
 ## SCRIPTS
+
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 | -------- | ----------- | ----------- |
 | [Complete Script](/papers/scripts/1.%20J-CO-QL%20A%20flexible%20query%20language%20for%20complex%20geographical%20analysis%20of%20heterogeneous%20geo-tagged%20JSON%20data%20sets/complete_script.txt) | Complete example workflow demonstrating all J-CO-QL operations in sequence | |
@@ -37,3 +40,7 @@ database vision of the problem and suitable for non programmers.
 | [10. Group Multiple Partitions](/papers/scripts/1.%20J-CO-QL%20A%20flexible%20query%20language%20for%20complex%20geographical%20analysis%20of%20heterogeneous%20geo-tagged%20JSON%20data%20sets/10.%20Group%20Multiple%20Partitions.txt) | Advanced grouping with multiple partitions for railways and roads data | |
 | [11. Expand and Unpack](/papers/scripts/1.%20J-CO-QL%20A%20flexible%20query%20language%20for%20complex%20geographical%20analysis%20of%20heterogeneous%20geo-tagged%20JSON%20data%20sets/11.%20Expand%20and%20Unpack.txt) | Expanding and unpacking arrays to flatten nested data structures | |
 | [12. Save As](/papers/scripts/1.%20J-CO-QL%20A%20flexible%20query%20language%20for%20complex%20geographical%20analysis%20of%20heterogeneous%20geo-tagged%20JSON%20data%20sets/12.%20Save%20As.txt) | Saving query results to a new collection in the database | |
+
+---
+
+[← Back to Papers](/papers/readme.md)

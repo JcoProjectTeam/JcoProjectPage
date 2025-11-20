@@ -25,7 +25,13 @@ towards soft spatial querying on geo-tagged JSONdata sets.
 
 ## SCRIPTS
 
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 |--------|-------------|-------------|
 | [1. JCOQL part 1](../scripts/9.%20Soft%20spatial%20querying%20on%20json%20data%20sets/1.%20JCOQL%20part%201) | First part of the J-CO-QL+ soft spatial querying demonstration, defining fuzzy spatial operators and setting up the spatial analysis framework | 11/2025 |
 | [2. JCOQL part 2](../scripts/9.%20Soft%20spatial%20querying%20on%20json%20data%20sets/2.%20JCOQL%20part%202) | Second part performing the actual soft spatial queries on geo-tagged JSON datasets, evaluating soft spatial relations between NUTS regions and lakes | 11/2025 |
+
+---
+
+[← Back to Papers](/papers/readme.md)

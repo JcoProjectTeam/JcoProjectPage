@@ -28,8 +28,14 @@ updated data set that reports COVID-19 cases in European Countries
 
 ## SCRIPTS
 
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 |--------|-------------|-------------|
 | [1. JCOQL+ Script preprocessing EU COVID 19 data](../scripts/13.%20Soft%20web%20intelligence%20with%20the%20j-co%20framework/1.%20JCOQL+%20Script%20preprocessing%20EU%20COVID%2019%20data) | First preprocessing script that retrieves and unpacks the European COVID-19 official data, preparing it for analysis | |
 | [2. JCOQL+ Script preprocessing EU COVID 19 data](../scripts/13.%20Soft%20web%20intelligence%20with%20the%20j-co%20framework/2.%20JCOQL+%20Script%20preprocessing%20EU%20COVID%2019%20data) | Second preprocessing script that further processes and saves the most recent COVID-19 data into the soft intelligence database | |
 | [3. Soft querying EU COVID 19 data](../scripts/13.%20Soft%20web%20intelligence%20with%20the%20j-co%20framework/3.%20Soft%20querying%20EU%20COVID%2019%20data) | Demonstrates soft querying using fuzzy operators (covidAlertFO) to evaluate COVID risk levels across European countries, applying alpha cuts and computing membership degrees for risk assessment | |
+
+---
+
+[← Back to Papers](/papers/readme.md)

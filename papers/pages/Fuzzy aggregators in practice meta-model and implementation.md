@@ -15,7 +15,13 @@
 
 ## SCRIPTS
 
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 |--------|-------------|-------------|
 | [1. JCOQL script part 1](../scripts/15.%20Fuzzy%20aggregators%20in%20practice%20meta-model%20and%20implementation/1.%20JCOQL%20script%20part%201) | First part of the J-CO-QL script defining fuzzy aggregators (OWA operator and weigher) used for combining individual product evaluations into global fuzzy sets | |
 | [2. JCOQL script part 2](../scripts/15.%20Fuzzy%20aggregators%20in%20practice%20meta-model%20and%20implementation/2.%20JCOQL%20script%20part%202) | Second part applying fuzzy aggregators to evaluate products across multiple criteria (Appeal, Cheapness, Perception), computing final rankings with alpha cuts and defuzzification | |
+
+---
+
+[← Back to Papers](/papers/readme.md)

@@ -27,6 +27,8 @@ unique and innovative capabilities of the J-CO Framework.
 
 ## SCRIPTS
 
+Below are the scripts updated to version 4.0 of the JCoQL+ parser.
+
 | Script | Description | Last Tested |
 |--------|-------------|-------------|
 | [1. J-CO-QL script retrieving data about weather sensors.txt](../scripts/6.Towards%20Flexible%20Retrieval,%20Integration%20and%20Analysis%20of%20JSON%20Data%20Sets%20through%20Fuzzy%20Sets/1.%20J-CO-QL%20script%20retrieving%20data%20about%20weather%20sensors.txt) | Retrieves information about weather monitoring sensors from the environmental data set, extracting sensor metadata and station details | 11/2025 |
@@ -37,3 +39,7 @@ unique and innovative capabilities of the J-CO Framework.
 | [6. J-CO-QL script building measure triplets.txt](../scripts/6.Towards%20Flexible%20Retrieval,%20Integration%20and%20Analysis%20of%20JSON%20Data%20Sets%20through%20Fuzzy%20Sets/6.%20J-CO-QL%20script%20building%20measure%20triplets.txt) | Constructs structured measurement triplets combining sensor station information with corresponding weather and air quality measurements | 11/2025 |
 | [7. J-CO-QL script defining fuzzy operators.txt](../scripts/6.Towards%20Flexible%20Retrieval,%20Integration%20and%20Analysis%20of%20JSON%20Data%20Sets%20through%20Fuzzy%20Sets/7.%20J-CO-QL%20script%20defining%20fuzzy%20operators.txt) | Defines custom fuzzy operators for evaluating environmental conditions (e.g., "high temperature", "poor air quality") using linguistic variables | 11/2025 |
 | [8. J-CO-QL script performing the fuzzy analysis.txt](../scripts/6.Towards%20Flexible%20Retrieval,%20Integration%20and%20Analysis%20of%20JSON%20Data%20Sets%20through%20Fuzzy%20Sets/8.%20J-CO-QL%20script%20performing%20the%20fuzzy%20analysis.txt) | Executes the complete fuzzy analysis pipeline, applying fuzzy operators to integrated sensor data to identify environmental conditions and patterns | 11/2025 |
+
+---
+
+[← Back to Papers](/papers/readme.md)
