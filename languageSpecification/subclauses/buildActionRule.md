@@ -5,9 +5,9 @@ The **buildActionRule** defines how to build or modify the structure of resultin
 ## EBNF Syntax
 
 ```ebnf
-buildActionRule ::= BUILD objectStructureRule
-                  | ADD_ST FIELDS objectStructureRule
-                  | REMOVE FIELDS '{' fieldRefRule (',' fieldRefRule)* '}'
+buildActionRule ::= BUILD <span style="color: purple">objectStructureRule</span>
+                  | ADD FIELDS <span style="color: purple">objectStructureRule</span>
+                  | REMOVE FIELDS '{' <span style="color: purple">fieldRefRule</span> (',' <span style="color: purple">fieldRefRule</span>)* '}'
 ```
 
 ## Syntax Diagram
@@ -32,8 +32,6 @@ Adds new fields to the existing document **without removing** already present fi
 ```
 ADD FIELDS { newField1: expression, newField2, ... }
 ```
-
-**Note:** `ADD_ST` and `ADD FIELDS` are synonyms in the grammar.
 
 ### 3. REMOVE FIELDS - Remove Fields
 Removes specific fields from the document, keeping all others.

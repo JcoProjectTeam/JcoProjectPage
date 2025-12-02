@@ -5,8 +5,14 @@ The **objectStructureRule** defines the structure of a JSON object, specifying w
 ## EBNF Syntax
 
 ```ebnf
-objectStructureRule ::= '{' outputFieldSpecRule (',' outputFieldSpecRule)* '}'
+objectStructureRule ::= '{' <span style="color: purple">fieldSpec</span> (',' <span style="color: purple">fieldSpec</span>)* '}'
+
+fieldSpec ::= <span style="color: purple">fieldRef</span> [':' (<span style="color: purple">objectStructureRule</span> | <span style="color: purple">expression</span>)]
 ```
+
+Where:
+- **fieldRef** - A field reference (e.g., `.name`, `.address.city`)
+- **expression** - A value, field reference, or expression in parentheses
 
 ## Syntax Diagram
 ![Object Structure Syntax](/languageSpecification/assets/rules/objectStructureRule.png "Object Structure Syntax Diagram")
@@ -15,20 +21,60 @@ objectStructureRule ::= '{' outputFieldSpecRule (',' outputFieldSpecRule)* '}'
 
 An **object structure** is defined between braces `{ }` and contains a list of field specifications separated by commas.
 
-### Components
+### Field Specification Syntax
 
-- **`LBR`** - Left Brace `{` - Opening brace
-- **`outputFieldSpecRule`** - Specification of a single field (can be repeated)
-- **`COMMA`** - Comma `,` - Separates field specifications
-- **`RBR`** - Right Brace `}` - Closing brace
+Each field in an object can be specified in three ways:
 
-### Structure
+#### 1. Simple Field Copy
+```
+.fieldName
+```
+Copies the field with the same name from the source document.
 
-An object can contain:
-- **Simple fields**: direct references to existing fields
-- **Renamed fields**: field with new name
-- **Calculated fields**: fields whose value is calculated from an expression
-- **Nested fields**: sub-objects that in turn contain fields
+#### 2. Field with Assignment
+```
+.newName: value
+```
+Where **value** can be:
+- **A literal value**: `"text"`, `123`, `true`, `false`, `null`
+- **A field reference**: `.otherField`, `.nested.field`
+- **An expression**: `(.price * 1.22)`, `IF(.x > 0, .x, 0)`
+- **A function call**: `SUM(.items)`, `DISTANCE(other)`
+- **A nested object**: `{ .field1, .field2 }`
+
+#### 3. Nested Object
+```
+.section: {
+    .field1,
+    .field2: expression
+}
+```
+Creates a sub-object with its own field specifications.
+
+### Value Types
+
+A field value can be:
+
+- **Explicit value**: A literal number, string, boolean, or null
+  ```
+  .name: "John"
+  .age: 30
+  .active: true
+  .optional: null
+  ```
+
+- **Field reference**: Reference to another field in the document
+  ```
+  .newName: .oldName
+  .total: .price
+  ```
+
+- **Expression in parentheses**: Calculated result
+  ```
+  .total: (.price * 1.22)
+  .valid: (.score >= 60)
+  .max: (IF(.a > .b, .a, .b))
+  ```
 
 ## Used In
 
@@ -163,9 +209,11 @@ BUILD {
 For the *token list specification* see the [tokenList.md](/languageSpecification/tokenList.md) file.
 
 Related subclauses:
-- [outputFieldSpecRule.md](./outputFieldSpecRule.md)
 - [buildActionRule.md](./buildActionRule.md)
 - [fieldRefRule.md](./fieldRefRule.md)
 
 Base elements:
 - [baseElements.md](/languageSpecification/notation/baseElements.md)
+
+Predefined functions:
+- [predefinedFunctions.md](/languageSpecification/notation/predefinedFunctions.md)
