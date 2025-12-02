@@ -5,7 +5,7 @@ The **dropGeometryRule** removes the geometry field (`~geometry`) from resulting
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">dropGeometryRule</span> ::= DROP GEOMETRY
+dropGeometryRule ::= DROPPING GEOMETRY
 ```
 
 ## Syntax Diagram
@@ -128,6 +128,248 @@ GENERATE
 
 ## When to Use DROPPING GEOMETRY
 
+### ✅ Use when:
+- **Data export**: Exporting to non-GIS systems
+- **Reporting**: Generating textual/tabular reports
+- **Aggregations**: Statistical results without spatial component
+- **Performance**: Reducing document size for subsequent processing
+- **Format conversion**: From GeoJSON to standard JSON
+
+### ❌ Don't use when:
+- **Map visualization**: Necessary for cartographic rendering
+- **Subsequent spatial analysis**: Other operations will require geometry
+- **Maintaining integrity**: Position is an essential part of the data
+- **GeoJSON export**: The format requires the geometry field
+
+---
+
+## Interaction with Other Clauses
+
+### With KEEPING GEOMETRY (❌ Conflict)
+```jcoql
+❌ Not valid:
+GENERATE
+    KEEPING GEOMETRY
+    DROPPING GEOMETRY;    -- Contradictory!
+```
+
+### With SETTING GEOMETRY (❌ Useless)
+```jcoql
+❌ Makes no sense:
+GENERATE
+    SETTING GEOMETRY POINT (.lat, .lon)
+    DROPPING GEOMETRY;    -- Create and then delete?
+
+✅ Better:
+GENERATE
+    BUILD {
+        .name,
+        .lat,
+        .lon
+    };
+    -- Without geometry from the start
+```
+
+### With BUILD (✅ Common)
+```jcoql
+✅ Typical pattern:
+GENERATE
+    BUILD {
+        .id,
+        .name,
+        .attributes
+    }
+    DROPPING GEOMETRY;
+```
+
+### With CHECK FOR (✅ Compatible)
+```jcoql
+✅ Valido:
+GENERATE
+    CHECK FOR spatialFuzzySet
+    BUILD {
+        .id,
+        .score: #spatialFuzzySet
+    }
+    DROPPING GEOMETRY;
+```
+
+---
+
+## Common Patterns
+
+### Pattern 1: Geometry → Separate Coordinates
+```jcoql
+-- Before: document with ~geometry
+-- After: document with .lat and .lon
+
+GENERATE
+    BUILD {
+        .id,
+        .name,
+        .lat: GEOMETRY_FIELD().coordinates[1],
+        .lon: GEOMETRY_FIELD().coordinates[0]
+    }
+    DROPPING GEOMETRY;
+```
+
+### Pattern 2: Spatial Analysis → Non-Spatial Result
+```jcoql
+-- Uses geometry for calculations, then removes it
+
+JOIN stations AS s
+CASE WHERE DISTANCE(s, 5000)
+GENERATE
+    BUILD {
+        .sensorId: .id,
+        .nearestStation: s.name,
+        .distance: GEODESIC_DISTANCE(.lat, .lon, s.lat, s.lon)
+    }
+    DROPPING GEOMETRY;
+```
+
+### Pattern 3: Geographic Aggregation → Statistics
+```jcoql
+GROUP BY .region
+INTO .items
+GENERATE
+    BUILD {
+        .regionName: .region,
+        .itemCount: COUNT(.items),
+        .avgValue: AVG(.items.value)
+    }
+    DROPPING GEOMETRY;
+```
+
+### Pattern 4: Fuzzy Spatial → Membership Only
+```jcoql
+FILTER
+CASE WHERE .category = "poi"
+GENERATE
+    CHECK FOR accessible
+    CHECK FOR popular
+    BUILD {
+        .poiName: .name,
+        .accessibility: #accessible,
+        .popularity: #popular,
+        .overallScore: (0.5 * #accessible + 0.5 * #popular)
+    }
+    DROPPING GEOMETRY;
+```
+
+---
+
+## Detailed Behavior
+
+### Before DROPPING GEOMETRY
+```json
+{
+  "id": "12345",
+  "name": "Hotel Milano",
+  "rating": 4.5,
+  "~geometry": {
+    "type": "Point",
+    "coordinates": [9.1900, 45.4642]
+  }
+}
+```
+
+### After DROPPING GEOMETRY
+```json
+{
+  "id": "12345",
+  "name": "Hotel Milano",
+  "rating": 4.5
+}
+```
+
+---
+
+## Document Size
+
+### Storage Impact
+
+A typical `~geometry` Point field occupies approximately:
+- **Point**: ~50-70 bytes
+- **LineString**: 50-100 bytes per point
+- **Polygon**: 50-100 bytes per point
+- **Complex MultiPolygon**: Can reach KB or MB
+
+**Example:**
+```json
+// With geometry: ~150 bytes
+{
+  "id": "123",
+  "name": "Place",
+  "~geometry": {"type": "Point", "coordinates": [9.19, 45.46]}
+}
+
+// Without geometry: ~40 bytes
+{
+  "id": "123",
+  "name": "Place"
+}
+```
+
+**Savings:** ~70% in this example
+
+---
+
+## Alternatives to DROPPING GEOMETRY
+
+### Alternative 1: Don't include ~geometry in BUILD
+```jcoql
+-- Equivalent to DROPPING GEOMETRY
+BUILD {
+    .id,
+    .name
+    -- Non include ~geometry
+}
+```
+
+### Alternative 2: REMOVE FIELDS
+```jcoql
+-- Explicit
+REMOVE FIELDS [~geometry]
+```
+
+### Alternative 3: Selective KEEP
+```jcoql
+-- List only desired fields
+BUILD {
+    .campo1,
+    .campo2,
+    .campo3
+}
+-- ~geometry automatically excluded
+```
+
+---
+
+## Difference between BUILD and DROPPING GEOMETRY
+
+| Approach | Result | Typical Use |
+|-----------|-----------|------------|
+| **BUILD** without ~geometry | Geometry not included | Building new structure |
+| **DROPPING GEOMETRY** | Geometry explicitly removed | Intent clarity |
+| **REMOVE FIELDS [~geometry]** | Geometry removed | Part of multiple removals |
+
+```jcoql
+-- Three equivalent ways:
+
+-- 1. BUILD (implicito)
+BUILD { .id, .name }
+
+-- 2. DROPPING (esplicito)
+DROPPING GEOMETRY
+BUILD { .id, .name }
+
+-- 3. REMOVE (esplicito)
+BUILD { .id, .name }
+REMOVE FIELDS [~geometry]
+```
+
+---
 
 ## Implementation Notes
 
@@ -135,6 +377,44 @@ GENERATE
 - **Performance**: O(1) operation, very efficient
 - **Pipeline effect**: Documents without geometry cannot be used in subsequent spatial operations
 - **GeoJSON compatibility**: Resulting documents are no longer valid GeoJSON (missing mandatory `geometry`)
+
+---
+
+## Warnings and Cautions
+
+### ⚠️ Warning 1: Data Loss
+```jcoql
+-- Attention: geometry permanently lost
+FILTER
+GENERATE
+    DROPPING GEOMETRY
+    BUILD {...};
+
+SAVE AS cleanedData;
+
+-- cleanedData no longer has geographic information!
+```
+
+### ⚠️ Warning 2: Spatial Pipelines
+```jcoql
+-- This will fail:
+FILTER
+GENERATE
+    DROPPING GEOMETRY
+    BUILD {...};
+
+JOIN otherCollection AS o
+CASE WHERE DISTANCE(o, 500);  -- ❌ Error! No geometry
+```
+
+### ✅ Solution: Drop at the End
+```jcoql
+JOIN otherCollection AS o
+CASE WHERE DISTANCE(o, 500)
+GENERATE
+    BUILD {...}
+    DROPPING GEOMETRY;  -- ✅ Drop only at the end
+```
 
 ---
 

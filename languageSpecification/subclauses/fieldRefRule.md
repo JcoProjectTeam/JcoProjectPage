@@ -5,7 +5,7 @@ The **fieldRefRule** defines how to reference a field of a JSON document, suppor
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">fieldRefRule</span> ::= (FIELD_NAME)+
+fieldRefRule ::= (FIELD_NAME)+
 ```
 
 Where `FIELD_NAME` can be:
@@ -225,6 +225,172 @@ GENERATE
 ```
 
 ---
+
+## Common Access Patterns
+
+### Pattern 1: Flatten Nested Structure
+```jcoql
+-- From nested structure
+.user.profile.personal.firstName
+.user.profile.personal.lastName
+.user.profile.contact.email
+
+-- To flat structure
+BUILD {
+    .firstName: .user.profile.personal.firstName,
+    .lastName: .user.profile.personal.lastName,
+    .email: .user.profile.contact.email
+}
+```
+
+### Pattern 2: Navigate Arrays
+```jcoql
+-- Access to array elements (after EXPAND)
+.items[0].name        -- Not directly supported
+.items.name           -- After EXPAND/UNPACK
+
+-- Correct usage with EXPAND
+EXPAND UNPACK ARRAY .orders.items TO .item
+BUILD {
+    .itemName: .item.name,
+    .itemPrice: .item.price
+}
+```
+
+### Pattern 3: Optional Fields with IF_ERROR
+```jcoql
+BUILD {
+    .name,
+    .middleName: IF_ERROR(.person.middleName, ""),
+    .country: IF_ERROR(.address.country, "Unknown")
+}
+```
+
+### Pattern 4: Complex Path Concatenation
+```jcoql
+.data.results[0].location.geo.coordinates.lat
+-- Becomes (with EXPAND first):
+.result.location.geo.coordinates.lat
+```
+
+---
+
+## Advanced Features
+
+### 1. Case Sensitivity
+Field names are **case-sensitive**:
+```jcoql
+.Name  ≠  .name  ≠  .NAME
+```
+
+### 2. Fields with Underscore
+```jcoql
+.user_id
+.created_at
+.is_active
+._privateField      -- Field starting with underscore
+```
+
+### 3. Numeric Fields (Quoted)
+```jcoql
+."0"
+."1"
+."123"
+."2025"
+```
+
+### 4. Fields with Unicode Characters
+```jcoql
+."città"
+."名前"
+."имя"
+```
+
+---
+
+## Handling Non-Existent Fields
+
+### Default Behavior
+If a field does not exist, access returns `null`:
+
+```jcoql
+WHERE .nonExistentField = "value"   -- Always false
+BUILD { .result: .missingField }    -- result will be null
+```
+
+### Existence Verification
+```jcoql
+WHERE FIELD .address.city ISNOTNULL
+WHERE .optionalField != NULL
+```
+
+### Error Handling
+```jcoql
+.safeValue: IF_ERROR(.path.to.field, "default")
+.checkedValue: IF(.field != NULL, .field, "N/A")
+```
+
+---
+
+## Limitations and Best Practices
+
+### ❌ Not Supported: Array Access with Index
+```jcoql
+.items[0]           -- Not valid
+.items[0].name      -- Not valid
+```
+**Solution:** Use `EXPAND UNPACK` to iterate over arrays.
+
+### ✅ Best Practice: Descriptive Names
+```jcoql
+.customerEmail      -- Clear
+.email              -- Ambiguous in complex contexts
+```
+
+### ✅ Best Practice: Avoid Special Names
+```jcoql
+-- Avoid:
+."field-name"
+."field name"
+
+-- Prefer:
+.fieldName
+.field_name
+```
+
+### ✅ Best Practice: Document Special Fields
+```jcoql
+-- System
+~geometry           -- GeoJSON geometry
+~fuzzysets          -- Fuzzy sets membership
+~metadata           -- Document metadata
+
+-- Application
+._internal          -- Private field
+.@timestamp         -- Field with special meaning
+```
+
+---
+
+## Implementation Notes
+
+- **Nesting depth**: No theoretical limit, but performance degrades with depth > 10
+- **Caching**: The parser can optimize repeated accesses to the same path
+- **Lazy evaluation**: Fields might be evaluated only when necessary
+- **Null propagation**: If an intermediate level is null, the entire chain returns null
+
+### Null Propagation Example
+```json
+{
+  "user": null
+}
+```
+```jcoql
+.user.address.city   -- Returns null, not error
+```
+
+---
+
 ## Issues
 
 - Clarify behavior with arrays: does `.items` return the entire array or what?

@@ -5,7 +5,7 @@ The **checkForFuzzySetRule** verifies the membership of a document to one or mor
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">checkForFuzzySetRule</span> ::= CHECK FOR ID ( ',' ID)* 
+checkForFuzzySetRule ::= CHECK FOR ID (COMMA ID)* 
                           [IF_FAILS (KEEP | DROP)]
 ```
 

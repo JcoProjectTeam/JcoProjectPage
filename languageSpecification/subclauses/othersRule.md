@@ -5,7 +5,7 @@ The **othersRule** specifies what to do with documents that don't match any of t
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">othersRule</span> ::= (KEEP | DROP) OTHERS
+othersRule ::= (KEEP | DROP) OTHERS
 ```
 
 ## Syntax Diagram
@@ -255,6 +255,276 @@ CASE
     };
 
 KEEP OTHERS;  -- Keep unprocessable for manual review
+```
+
+---
+
+## KEEP vs DROP Decision Matrix
+
+| Scenario | Recommendation | Reason |
+|----------|---------------|---------|
+| **Data cleaning** | DROP OTHERS | Remove invalid/incomplete data |
+| **Feature extraction** | DROP OTHERS | Keep only relevant features |
+| **Data exploration** | KEEP OTHERS | Don't lose potentially useful data |
+| **Strict validation** | DROP OTHERS | Ensure data quality |
+| **Incremental processing** | KEEP OTHERS | Process what you can, keep rest |
+| **Report generation** | DROP OTHERS | Include only reportable items |
+| **Data migration** | KEEP OTHERS | Don't lose data during transformation |
+| **ETL pipeline** | DROP OTHERS | Strict schema enforcement |
+
+---
+
+## Comparison: KEEP vs DROP OTHERS
+
+### KEEP OTHERS
+```jcoql
+CASE
+    WHERE .category = "A" GENERATE transform_a();
+    WHERE .category = "B" GENERATE transform_b();
+KEEP OTHERS;
+```
+
+**Input:** 100 documents
+- 30 with category "A" → transformed
+- 40 with category "B" → transformed  
+- 30 with other categories → kept unchanged
+
+**Output:** 100 documents (all kept)
+
+### DROP OTHERS
+```jcoql
+CASE
+    WHERE .category = "A" GENERATE transform_a();
+    WHERE .category = "B" GENERATE transform_b();
+DROP OTHERS;
+```
+
+**Input:** 100 documents
+- 30 with category "A" → transformed
+- 40 with category "B" → transformed
+- 30 with other categories → dropped
+
+**Output:** 70 documents (30 dropped)
+
+---
+
+## Common Patterns
+
+### Pattern 1: Whitelist (DROP OTHERS)
+```jcoql
+-- Only keep approved items
+CASE
+    WHERE .status = "approved";
+    WHERE .override = TRUE;
+DROP OTHERS;
+```
+
+### Pattern 2: Blacklist (KEEP OTHERS)
+```jcoql
+-- Remove only specific items
+CASE
+    WHERE .status = "deleted" GENERATE DROP;
+    WHERE .spam = TRUE GENERATE DROP;
+KEEP OTHERS;
+```
+
+### Pattern 3: Defensive Programming (KEEP OTHERS)
+```jcoql
+-- Process what we understand, keep rest for later
+CASE
+    WHERE .version = 2 GENERATE process_v2();
+    WHERE .version = 1 GENERATE process_v1();
+KEEP OTHERS;  -- Unknown versions: investigate later
+```
+
+### Pattern 4: Strict Quality Control (DROP OTHERS)
+```jcoql
+-- Only perfect data passes
+CASE
+    WHERE .quality = "excellent" AND .complete = TRUE;
+DROP OTHERS;
+```
+
+---
+
+## Explicit vs Implicit OTHERS
+
+### Explicit (Recommended)
+```jcoql
+CASE
+    WHERE condition1;
+    WHERE condition2;
+KEEP OTHERS;  -- ✅ Intent is clear
+```
+
+### Implicit (Not Recommended)
+```jcoql
+CASE
+    WHERE condition1;
+    WHERE condition2;
+-- ❌ Unclear: will unmatched documents be kept or dropped?
+-- (Actually: dropped by default in most contexts)
+```
+
+**Always be explicit** to avoid confusion and potential data loss.
+
+---
+
+## OTHERS with Different Instructions
+
+### In FILTER (CASE)
+```jcoql
+FILTER
+CASE WHERE condition;
+KEEP OTHERS;  -- Unmatched documents stay in collection
+```
+
+### In GROUP (PARTITION)
+```jcoql
+GROUP
+PARTITION condition BY field INTO array
+GENERATE ...;
+KEEP OTHERS;  -- Ungrouped documents stay as individual items
+```
+
+### In EXPAND
+```jcoql
+EXPAND
+UNPACK condition ARRAY field TO element
+GENERATE ...;
+KEEP OTHERS;  -- Documents without arrays stay unexpanded
+```
+
+### In TRAJECTORY MATCHING
+```jcoql
+TRAJECTORY MATCHING collection AS c
+PARTITION condition
+MATCHING ... INTO matches
+KEEP OTHERS;  -- Unmatched trajectories stay in result
+```
+
+---
+
+## Best Practices
+
+### ✅ Do's
+
+1. **Always specify explicitly**
+   ```jcoql
+   ✅ KEEP OTHERS;  -- Clear intent
+   ✅ DROP OTHERS;  -- Clear intent
+   ❌ -- No OTHERS rule (unclear)
+   ```
+
+2. **Use KEEP for exploration**
+   ```jcoql
+   -- During development: don't lose data
+   CASE
+       WHERE .understood_field = "value";
+   KEEP OTHERS;
+   ```
+
+3. **Use DROP for production**
+   ```jcoql
+   -- In production: strict validation
+   CASE
+       WHERE .valid = TRUE;
+   DROP OTHERS;
+   ```
+
+4. **Document the decision**
+   ```jcoql
+   -- Keep unprocessed for manual review
+   KEEP OTHERS;
+   
+   -- Drop invalid to ensure data quality
+   DROP OTHERS;
+   ```
+
+### ❌ Don'ts
+
+1. **Don't omit OTHERS rule**
+   ```jcoql
+   ❌ CASE WHERE condition;
+      -- Missing OTHERS rule
+   
+   ✅ CASE WHERE condition;
+      DROP OTHERS;
+   ```
+
+2. **Don't use KEEP without understanding**
+   ```jcoql
+   ❌ KEEP OTHERS;  -- Why? What unmatched data?
+   
+   ✅ -- Keep legacy formats for migration
+      KEEP OTHERS;
+   ```
+
+3. **Don't forget about data volume**
+   ```jcoql
+   ❌ KEEP OTHERS;  -- Might keep millions of unwanted docs
+   
+   ✅ -- Verified: < 1% unmatched data
+      KEEP OTHERS;
+   ```
+
+---
+
+## Debugging with OTHERS
+
+### See what would be dropped
+```jcoql
+-- First: check what doesn't match
+FILTER
+CASE
+    WHERE condition1 GENERATE ADD FIELDS { .matched: "case1" };
+    WHERE condition2 GENERATE ADD FIELDS { .matched: "case2" };
+KEEP OTHERS;
+
+-- Count unmatched
+GROUP BY .matched INTO .docs
+GENERATE BUILD {
+    .matchResult: .matched,
+    .count: COUNT(.docs)
+};
+```
+
+### Temporary KEEP for inspection
+```jcoql
+-- Development: see everything
+CASE
+    WHERE .valid = TRUE;
+KEEP OTHERS;  -- Inspect unmatched
+
+SAVE AS review;
+
+-- Production: strict filtering
+CASE
+    WHERE .valid = TRUE;
+DROP OTHERS;
+```
+
+---
+
+## Performance Considerations
+
+- **KEEP OTHERS:** No performance penalty (documents pass through)
+- **DROP OTHERS:** Minimal performance penalty (documents are discarded)
+- **Effect on downstream:** KEEP OTHERS may increase data volume for subsequent operations
+
+### Example Impact
+```jcoql
+-- Scenario: 1M documents, 100K match conditions
+
+KEEP OTHERS:
+- Input: 1M docs
+- Output: 1M docs (100K transformed, 900K unchanged)
+- Next operation processes: 1M docs
+
+DROP OTHERS:
+- Input: 1M docs
+- Output: 100K docs (900K dropped)
+- Next operation processes: 100K docs (10x less!)
 ```
 
 ---

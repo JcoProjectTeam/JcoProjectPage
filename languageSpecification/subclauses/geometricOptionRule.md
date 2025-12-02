@@ -5,11 +5,11 @@ The **geometricOptionRule** allows managing the geometry of GeoJSON documents, a
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">geometricOptionRule</span> ::= KEEPING GEOMETRY
-                      | SETTING GEOMETRY (POINT '(' <span style="color: purple">fieldRefRule</span> COMMA <span style="color: purple">fieldRefRule</span> ')'
-                                        | AGGREGATE '(' <span style="color: purple">fieldRefRule</span> ')'
-                                        | <span style="color: purple">fieldRefRule</span>
-                                        | TO_POLYLINE '(' <span style="color: purple">fieldRefRule</span> ')' )
+geometricOptionRule ::= KEEPING GEOMETRY
+                      | SETTING GEOMETRY (POINT '(' fieldRefRule COMMA fieldRefRule ')'
+                                        | AGGREGATE '(' fieldRefRule ')'
+                                        | fieldRefRule
+                                        | TO_POLYLINE '(' fieldRefRule ')' )
 ```
 
 ## Syntax Diagram

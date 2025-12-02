@@ -5,7 +5,7 @@ The **caseClauseRule** defines multiple conditional clauses that allow documents
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">caseClauseRule</span> ::= (CASES | CASE) (<span style="color: purple">whereCaseRule</span>)+ [<span style="color: purple">othersRule</span>]
+caseClauseRule ::= (CASES | CASE) (whereCaseRule)+ [othersRule]
 ```
 
 ## Syntax Diagram

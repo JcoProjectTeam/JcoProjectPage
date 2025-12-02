@@ -5,9 +5,9 @@ The **objectStructureRule** defines the structure of a JSON object, specifying w
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">objectStructureRule</span> ::= '{' <span style="color: purple">fieldSpec</span> (',' <span style="color: purple">fieldSpec</span>)* '}'
+objectStructureRule ::= '{' fieldSpec (',' fieldSpec)* '}'
 
-<span style="color: purple">fieldSpec</span> ::= <span style="color: purple">fieldRef</span> [':' (<span style="color: purple">objectStructureRule</span> | <span style="color: purple">expression</span>)]
+fieldSpec ::= fieldRef [':' (objectStructureRule | expression)]
 ```
 
 Where:

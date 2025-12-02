@@ -5,7 +5,7 @@ The **keepDropFuzzySetsRule** manages which fuzzy sets to keep or remove in the 
 ## EBNF Syntax
 
 ```ebnf
-<span style="color: purple">keepDropFuzzySetsRule</span> ::= (KEEP | DROP) FUZZY SETS '[' ID ( ',' ID)* ']'
+keepDropFuzzySetsRule ::= (KEEP | DROP) FUZZY SETS LB ID (COMMA ID)* RB
 ```
 
 ## Syntax Diagram
@@ -237,7 +237,323 @@ GENERATE
 
 ---
 
+## When to Use KEEP vs DROP
 
+### Use KEEP when:
+✅ **Few relevant fuzzy sets**
+```jcoql
+-- 10 fuzzy sets calculated, 2 relevant
+KEEP FUZZY SETS [relevant1, relevant2]
+```
+
+✅ **Public Export/APIs**
+```jcoql
+-- Show only public metrics
+KEEP FUZZY SETS [userScore, productRating]
+```
+
+✅ **Clean final document**
+```jcoql
+-- Only fuzzy sets for display
+KEEP FUZZY SETS [displayMetric]
+```
+
+### Use DROP when:
+✅ **Many relevant fuzzy sets, few to remove**
+```jcoql
+-- 10 fuzzy sets, 2 debug
+DROP FUZZY SETS [debugMetric1, debugMetric2]
+```
+
+✅ **Remove internal metrics**
+```jcoql
+-- Remove intermediate calculations
+DROP FUZZY SETS [tempCalc1, tempCalc2]
+```
+
+✅ **Incremental cleanup**
+```jcoql
+-- Remove progressively
+DROP FUZZY SETS [noLongerNeeded]
+```
+
+---
+
+## Interaction with Other Clauses
+
+### With CHECK FOR
+```jcoql
+CHECK FOR fs1, fs2, fs3
+KEEP FUZZY SETS [fs1, fs2]
+```
+**Result:** fs3 is calculated but not stored in `~fuzzysets`.
+
+### With ALPHACUT
+```jcoql
+CHECK FOR fs1, fs2
+ALPHACUT 0.5
+KEEP FUZZY SETS [fs1]
+```
+**Order:**
+1. CHECK FOR calculates membership
+2. ALPHACUT filters documents
+3. KEEP selects fuzzy sets to keep
+
+### With BUILD
+```jcoql
+BUILD {
+    .id,
+    .score: #relevantFS
+}
+KEEP FUZZY SETS [relevantFS]
+```
+**Note:** Even if `#relevantFS` is used in BUILD, KEEP is necessary to maintain it in `~fuzzysets`.
+
+---
+
+## Common Patterns
+
+### Pattern 1: Only Final Result
+```jcoql
+CHECK FOR intermediate1, intermediate2
+-- Calculate final
+CHECK FOR finalScore
+KEEP FUZZY SETS [finalScore]
+```
+
+### Pattern 2: Privacy-Safe Export
+```jcoql
+CHECK FOR publicMetric, privateMetric
+BUILD {...}
+DROP FUZZY SETS [privateMetric]
+```
+
+### Pattern 3: Debugging → Production
+```jcoql
+-- Development:
+CHECK FOR feature1, feature2, debugMetric
+BUILD {...}
+-- All fuzzy sets visible
+
+-- Production:
+CHECK FOR feature1, feature2, debugMetric
+BUILD {...}
+DROP FUZZY SETS [debugMetric]
+```
+
+### Pattern 4: Selective Aggregation
+```jcoql
+GROUP BY .group
+INTO .items
+GENERATE
+    CHECK FOR itemMetric
+    CHECK FOR groupMetric
+    BUILD {...}
+    KEEP FUZZY SETS [groupMetric]
+```
+
+---
+
+## Effect on ~fuzzysets Field
+
+### Document with all fuzzy sets
+```json
+{
+  "id": "123",
+  "~fuzzysets": {
+    "fs1": 0.8,
+    "fs2": 0.6,
+    "fs3": 0.9,
+    "fs4": 0.4
+  }
+}
+```
+
+### KEEP FUZZY SETS [fs1, fs3]
+```json
+{
+  "id": "123",
+  "~fuzzysets": {
+    "fs1": 0.8,
+    "fs3": 0.9
+  }
+}
+```
+
+### DROP FUZZY SETS [fs2, fs4]
+```json
+{
+  "id": "123",
+  "~fuzzysets": {
+    "fs1": 0.8,
+    "fs3": 0.9
+  }
+}
+```
+
+**Identical result** in this case!
+
+---
+
+## Access After KEEP/DROP
+
+### With KEEP
+```jcoql
+KEEP FUZZY SETS [fs1, fs2]
+BUILD {
+    .id,
+    .membership1: #fs1,         -- ✅ OK
+    .membership2: #fs2,         -- ✅ OK
+    .membership3: #fs3,         -- ⚠️ Null (not in ~fuzzysets)
+    .all: ~fuzzysets            -- Contains only fs1 and fs2
+}
+```
+
+### With DROP
+```jcoql
+DROP FUZZY SETS [fs3]
+BUILD {
+    .id,
+    .membership1: #fs1,         -- ✅ OK
+    .membership2: #fs2,         -- ✅ OK
+    .membership3: #fs3,         -- ⚠️ Null (removed)
+    .all: ~fuzzysets            -- Contains fs1 and fs2
+}
+```
+
+---
+
+## Execution Order in GENERATE
+
+```jcoql
+GENERATE
+    1. [geometricOptionRule]      -- Manages geometry
+    2. [checkForFuzzySetRule]     -- Calculates membership
+    3. [alphaCutRule]             -- Filters by membership
+    4. (buildActionRule)*         -- Builds structure
+    5. [keepDropFuzzySetsRule]    -- ← Cleans ~fuzzysets
+    6. [dropGeometryRule]         -- Removes geometry
+```
+
+**Implication:** `keepDropFuzzySetsRule` acts **after** BUILD, therefore:
+- `#fuzzySet` in BUILD works even if fuzzy set will be removed
+- Cleanup of `~fuzzysets` happens as the last step
+
+---
+
+## Limitations
+
+### ❌ Cannot combine KEEP and DROP
+```jcoql
+❌ Not valid:
+KEEP FUZZY SETS [fs1, fs2]
+DROP FUZZY SETS [fs3]
+```
+
+**Solution:** Choose one or the other.
+
+### ❌ Cannot KEEP uncalculated fuzzy sets
+```jcoql
+CHECK FOR fs1, fs2
+KEEP FUZZY SETS [fs1, fs2, fs3]  -- ❌ fs3 doesn't exist!
+```
+
+### ❌ Cannot use wildcards
+```jcoql
+❌ Not supported:
+KEEP FUZZY SETS [fs*]
+KEEP FUZZY SETS [ALL EXCEPT fs1]
+```
+
+---
+
+## Best Practices
+
+### ✅ Do's
+
+1. **Keep only necessary fuzzy sets**
+   ```jcoql
+   KEEP FUZZY SETS [userVisibleMetric]
+   ```
+
+2. **Document why you keep/remove**
+   ```jcoql
+   -- Keep only public-facing scores
+   KEEP FUZZY SETS [publicScore]
+   ```
+
+3. **Use KEEP for whitelist, DROP for blacklist**
+   ```jcoql
+   -- Few relevant: KEEP
+   -- Many relevant: DROP
+   ```
+
+4. **Coordinate with BUILD**
+   ```jcoql
+   BUILD {
+       .score: #fuzzySet1,
+       .other: #fuzzySet2
+   }
+   KEEP FUZZY SETS [fuzzySet1, fuzzySet2]
+   ```
+
+### ❌ Don'ts
+
+1. **Don't remove still-used fuzzy sets**
+   ```jcoql
+   ❌ DROP FUZZY SETS [needed]
+      -- But then #needed is used later!
+   ```
+
+2. **Don't use KEEP/DROP without CHECK FOR**
+   ```jcoql
+   ❌ KEEP FUZZY SETS [fs1]
+      -- But fs1 was never calculated!
+   ```
+
+3. **Don't overload ~fuzzysets unnecessarily**
+   ```jcoql
+   ❌ CHECK FOR fs1, fs2, ..., fs20
+      -- Without KEEP/DROP, all remain
+   ```
+
+---
+
+## Performance and Storage
+
+### Storage Impact
+Each fuzzy set in `~fuzzysets` takes:
+- Fuzzy set name: ~10-50 bytes
+- Membership value: 8 bytes (float)
+- **Total per fuzzy set:** ~20-60 bytes
+
+**Example:**
+```json
+// 10 fuzzy sets = ~200-600 bytes extra
+{
+  "~fuzzysets": {
+    "fs1": 0.8,
+    "fs2": 0.6,
+    ...
+    "fs10": 0.3
+  }
+}
+```
+
+### Optimization
+```jcoql
+-- Before: 10 fuzzy sets = ~500 bytes extra
+CHECK FOR fs1, fs2, ..., fs10
+
+-- After: 2 fuzzy sets = ~100 bytes extra
+KEEP FUZZY SETS [fs1, fs2]
+```
+
+**Savings:** ~80% storage on `~fuzzysets`
+
+---
+
+## Debugging
 
 ### See all fuzzy sets
 ```jcoql
