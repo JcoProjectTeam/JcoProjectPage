@@ -5,7 +5,7 @@ The **outputFieldSpecRule** defines how to specify a single field in the output 
 ## EBNF Syntax
 
 ```ebnf
-outputFieldSpecRule ::= fieldRefRule [COLON (objectStructureRule | factorRule)]
+outputFieldSpecRule ::= fieldRefRule [ ':' (objectStructureRule | factorRule)]
 ```
 
 ## Syntax Diagram

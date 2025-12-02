@@ -7,7 +7,7 @@ The **buildActionRule** defines how to build or modify the structure of resultin
 ```ebnf
 buildActionRule ::= BUILD objectStructureRule
                   | ADD_ST FIELDS objectStructureRule
-                  | REMOVE FIELDS LBR fieldRefRule (COMMA fieldRefRule)* RBR
+                  | REMOVE FIELDS '{' fieldRefRule (',' fieldRefRule)* '}'
 ```
 
 ## Syntax Diagram

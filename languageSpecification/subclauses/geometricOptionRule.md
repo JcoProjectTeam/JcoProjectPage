@@ -6,10 +6,10 @@ The **geometricOptionRule** allows managing the geometry of GeoJSON documents, a
 
 ```ebnf
 geometricOptionRule ::= KEEPING GEOMETRY
-                      | SETTING GEOMETRY (POINT LP fieldRefRule COMMA fieldRefRule RP
-                                        | AGGREGATE LP fieldRefRule RP
+                      | SETTING GEOMETRY (POINT '(' fieldRefRule COMMA fieldRefRule ')'
+                                        | AGGREGATE '(' fieldRefRule ')'
                                         | fieldRefRule
-                                        | TO_POLYLINE LP fieldRefRule RP)
+                                        | TO_POLYLINE '(' fieldRefRule ')' )
 ```
 
 ## Syntax Diagram

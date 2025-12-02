@@ -5,7 +5,7 @@ The **objectStructureRule** defines the structure of a JSON object, specifying w
 ## EBNF Syntax
 
 ```ebnf
-objectStructureRule ::= LBR outputFieldSpecRule (COMMA outputFieldSpecRule)* RBR
+objectStructureRule ::= '{' outputFieldSpecRule (',' outputFieldSpecRule)* '}'
 ```
 
 ## Syntax Diagram

@@ -5,7 +5,7 @@ The **alphaCutRule** applies an alpha-cut to documents based on their membership
 ## EBNF Syntax
 
 ```ebnf
-alphaCutRule ::= ALPHACUT numericRule [WITHIN LB ID (COMMA ID)* RB]
+alphaCutRule ::= ALPHACUT numericRule [WITHIN '[' ID (','' ID)* ']' ]
 ```
 
 ## Syntax Diagram
