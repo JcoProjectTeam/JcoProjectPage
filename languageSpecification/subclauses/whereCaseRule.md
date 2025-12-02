@@ -5,7 +5,7 @@ The **whereCaseRule** defines a single conditional branch within a CASE clause, 
 ## EBNF Syntax
 
 ```ebnf
-whereCaseRule ::= WHERE <span style="color: purple">orConditionRule</span> [<span style="color: purple">generateSectionRule</span>]
+<span style="color: purple">whereCaseRule</span> ::= WHERE <span style="color: purple">orConditionRule</span> [<span style="color: purple">generateSectionRule</span>]
 ```
 
 ## Syntax Diagram

@@ -5,7 +5,7 @@ The **GENERATE section** is a fundamental subclause used in multiple JCoQL+ inst
 ## EBNF Syntax
 
 ```ebnf
-generateSectionRule ::= GENERATE 
+<span style="color: purple">generateSectionRule</span> ::= GENERATE 
                           [<span style="color: purple">geometricOptionRule</span>]
                           [<span style="color: purple">checkForFuzzySetRule</span>]
                           [<span style="color: purple">alphaCutRule</span>]

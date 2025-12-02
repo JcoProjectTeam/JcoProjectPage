@@ -5,7 +5,7 @@ The **othersRule** specifies what to do with documents that don't match any of t
 ## EBNF Syntax
 
 ```ebnf
-othersRule ::= (KEEP | DROP) OTHERS
+<span style="color: purple">othersRule</span> ::= (KEEP | DROP) OTHERS
 ```
 
 ## Syntax Diagram

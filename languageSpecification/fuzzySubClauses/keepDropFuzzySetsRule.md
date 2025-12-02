@@ -5,7 +5,7 @@ The **keepDropFuzzySetsRule** manages which fuzzy sets to keep or remove in the 
 ## EBNF Syntax
 
 ```ebnf
-keepDropFuzzySetsRule ::= (KEEP | DROP) FUZZY SETS '[' ID ( ',' ID)* ']'
+<span style="color: purple">keepDropFuzzySetsRule</span> ::= (KEEP | DROP) FUZZY SETS '[' ID ( ',' ID)* ']'
 ```
 
 ## Syntax Diagram

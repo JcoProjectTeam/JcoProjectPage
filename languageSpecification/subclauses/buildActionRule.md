@@ -5,7 +5,7 @@ The **buildActionRule** defines how to build or modify the structure of resultin
 ## EBNF Syntax
 
 ```ebnf
-buildActionRule ::= BUILD <span style="color: purple">objectStructureRule</span>
+<span style="color: purple">buildActionRule</span> ::= BUILD <span style="color: purple">objectStructureRule</span>
                   | ADD FIELDS <span style="color: purple">objectStructureRule</span>
                   | REMOVE FIELDS '{' <span style="color: purple">fieldRefRule</span> (',' <span style="color: purple">fieldRefRule</span>)* '}'
 ```

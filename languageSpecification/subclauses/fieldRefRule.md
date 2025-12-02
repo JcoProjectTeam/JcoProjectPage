@@ -5,7 +5,7 @@ The **fieldRefRule** defines how to reference a field of a JSON document, suppor
 ## EBNF Syntax
 
 ```ebnf
-fieldRefRule ::= (FIELD_NAME)+
+<span style="color: purple">fieldRefRule</span> ::= (FIELD_NAME)+
 ```
 
 Where `FIELD_NAME` can be:

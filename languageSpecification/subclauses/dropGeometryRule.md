@@ -5,7 +5,7 @@ The **dropGeometryRule** removes the geometry field (`~geometry`) from resulting
 ## EBNF Syntax
 
 ```ebnf
-dropGeometryRule ::= DROPPING GEOMETRY
+<span style="color: purple">dropGeometryRule</span> ::= DROP GEOMETRY
 ```
 
 ## Syntax Diagram
