@@ -1,30 +1,109 @@
-# Predefined Functions in JCoQL+
+# Predefined Functions
 
-This page lists all predefined functions available in JCoQL+, divided into **regular functions** and **special functions** with special notation.
+JCoQL+ provides a comprehensive set of predefined functions that can be used in expressions. Functions are divided into two categories:
+
+1. **Standard Functions** - Use regular function call syntax: `FUNCTION_NAME(parameters)`
+2. **Special Functions** - Have unique notation or syntax (e.g., `#fuzzySet`, `EXTRACT_ARRAY(field FROM ARRAY source)`)
 
 ---
 
-## Regular Predefined Functions
+## Standard Functions
 
-These are functions that can be used in expressions with standard function call syntax: `FUNCTION_NAME(parameters)`.
+These functions use standard call syntax and can be used in any expression context.
 
 ### Type Conversion Functions
 
-| Function | Parameters | Returns | Description |
-|----------|-----------|---------|-------------|
-| **TO_STRING(x)** | any | string | Converts the parameter x into its string value. Empty string for sub-documents and arrays. |
-| **TO_INT(x)** | any | integer | Converts the parameter x into its integer value. Returns 0 if not applicable. |
-| **TO_FLOAT(x)** | any | float | Converts the parameter x into its float value. Returns 0 if not applicable. |
-| **TO_BOOL(x)** | any | boolean | Converts the parameter x into its boolean value. Numbers ≠ 0 are True. Non-empty values are True. |
-| **SERIALIZE(x)** | any | string | Serializes the parameter x into a string representation. |
+Functions for converting values between different data types.
+
+#### TO_STRING(x)
+Converts parameter `x` into its string representation.
+
+**Returns:**
+- String representation of the value
+- Empty string for sub-documents and arrays
 
 **Examples:**
 ```jcoql
 BUILD {
-    .id: TO_STRING(.numericId),
-    .price: TO_FLOAT(.priceString),
-    .quantity: TO_INT(.qtyString),
-    .active: TO_BOOL(.statusFlag)
+    .id: TO_STRING(.numericId),           // 123 → "123"
+    .label: TO_STRING(.value),            // Any value to string
+    .formatted: TO_STRING(.price)         // 99.99 → "99.99"
+}
+```
+
+---
+
+#### TO_INT(x)
+Converts parameter `x` into an integer value.
+
+**Returns:**
+- Integer representation of the value
+- `0` if conversion is not applicable
+
+**Examples:**
+```jcoql
+BUILD {
+    .quantity: TO_INT(.qtyString),        // "42" → 42
+    .rounded: TO_INT(.floatValue),        // 42.7 → 42
+    .parsed: TO_INT("123")                // "123" → 123
+}
+```
+
+---
+
+#### TO_FLOAT(x)
+Converts parameter `x` into a floating-point value.
+
+**Returns:**
+- Float representation of the value
+- `0.0` if conversion is not applicable
+
+**Examples:**
+```jcoql
+BUILD {
+    .price: TO_FLOAT(.priceString),       // "99.99" → 99.99
+    .decimal: TO_FLOAT(.intValue),        // 42 → 42.0
+    .value: TO_FLOAT("3.14")              // "3.14" → 3.14
+}
+```
+
+---
+
+#### TO_BOOL(x)
+Converts parameter `x` into a boolean value.
+
+**Returns:**
+- `TRUE` for:
+  - Numbers not equal to 0
+  - Non-empty strings
+  - Non-null values
+- `FALSE` for:
+  - Zero (0)
+  - Empty strings
+  - Null values
+
+**Examples:**
+```jcoql
+BUILD {
+    .active: TO_BOOL(.statusFlag),        // 1 → TRUE, 0 → FALSE
+    .hasValue: TO_BOOL(.field),           // "text" → TRUE, "" → FALSE
+    .enabled: TO_BOOL(.count)             // 5 → TRUE, 0 → FALSE
+}
+```
+
+---
+
+#### SERIALIZE(x)
+Serializes parameter `x` into its string representation.
+
+**Returns:**
+- String serialization of the value (typically JSON format)
+
+**Examples:**
+```jcoql
+BUILD {
+    .serialized: SERIALIZE(.document),    // Object → JSON string
+    .arrayStr: SERIALIZE(.items)          // Array → JSON string
 }
 ```
 
@@ -32,22 +111,94 @@ BUILD {
 
 ### Numeric Functions
 
-| Function | Parameters | Returns | Description |
-|----------|-----------|---------|-------------|
-| **COUNT(x)** | any | integer | Counts the elements of parameter x: 0 if null, 1 if not an array, array length if array. |
-| **MAX(x, y)** | numeric, numeric | numeric | Returns the maximum between x and y. Null if any parameter is not a number. |
-| **MIN(x, y)** | numeric, numeric | numeric | Returns the minimum between x and y. Null if any parameter is not a number. |
-| **ABS(x)** | numeric | numeric | Returns the absolute value of x. Null if parameter is not a number. |
-| **SQRT(x)** | numeric | numeric | Returns the square root of x. Null if parameter is not a number. |
+Functions for mathematical operations and numeric computations.
+
+#### COUNT(x)
+Counts the elements of parameter `x`.
+
+**Returns:**
+- `0` if x is null
+- `1` if x is not an array
+- Array length if x is an array
 
 **Examples:**
 ```jcoql
 BUILD {
-    .itemCount: COUNT(.items),
-    .maxPrice: MAX(.price1, .price2),
-    .minStock: MIN(.stock1, .stock2),
-    .absValue: ABS(.temperature),
-    .sqrtArea: SQRT(.area)
+    .itemCount: COUNT(.items),            // [1,2,3] → 3
+    .hasValue: COUNT(.field),             // single value → 1
+    .isEmpty: COUNT(.optional)            // null → 0
+}
+```
+
+---
+
+#### MAX(x, y)
+Returns the maximum value between parameters `x` and `y`.
+
+**Returns:**
+- The larger of the two numeric values
+- `null` if any parameter is not a number
+
+**Examples:**
+```jcoql
+BUILD {
+    .maxPrice: MAX(.price1, .price2),     // MAX(100, 150) → 150
+    .highest: MAX(.value, 0),             // Ensure non-negative
+    .bestScore: MAX(.scoreA, .scoreB)
+}
+```
+
+---
+
+#### MIN(x, y)
+Returns the minimum value between parameters `x` and `y`.
+
+**Returns:**
+- The smaller of the two numeric values
+- `null` if any parameter is not a number
+
+**Examples:**
+```jcoql
+BUILD {
+    .minStock: MIN(.stock1, .stock2),     // MIN(5, 3) → 3
+    .lowest: MIN(.value, 100),            // Cap at maximum
+    .bestTime: MIN(.timeA, .timeB)
+}
+```
+
+---
+
+#### ABS(x)
+Returns the absolute value of parameter `x`.
+
+**Returns:**
+- Absolute (non-negative) value of x
+- `null` if parameter is not a number
+
+**Examples:**
+```jcoql
+BUILD {
+    .absValue: ABS(.temperature),         // ABS(-5) → 5
+    .distance: ABS(.diff),                // ABS(-10) → 10
+    .magnitude: ABS(.offset)              // ABS(7) → 7
+}
+```
+
+---
+
+#### SQRT(x)
+Returns the square root of parameter `x`.
+
+**Returns:**
+- Square root of x
+- `null` if parameter is not a number
+
+**Examples:**
+```jcoql
+BUILD {
+    .sqrtArea: SQRT(.area),               // SQRT(25) → 5.0
+    .standardDev: SQRT(.variance),
+    .euclidean: SQRT(.sumSquares)
 }
 ```
 
@@ -55,20 +206,92 @@ BUILD {
 
 ### Geospatial Functions
 
-| Function | Parameters | Returns | Description |
-|----------|-----------|---------|-------------|
-| **GEODESIC_DISTANCE(lat1, lon1, lat2, lon2)** | float×4 | float | Returns the geodesic distance in meters between two lat-long coordinate pairs. Null if any parameter is not a number. |
-| **GEOMETRY_FIELD()** | none | geometry | Returns the value of the `~geometry` field from the current document. |
-| **GEOMETRY_LENGTH(unit)** | string | float | Returns the length of geometry in the `~geometry` field (if applicable). Unit can be 'M' (meters), 'KM' (kilometers), or 'ML' (miles). |
-| **GEOMETRY_AREA(unit)** | string | float | Returns the area of geometry in the `~geometry` field (if applicable). Unit can be 'M' (square meters), 'KM' (square kilometers), or 'ML' (square miles). |
+Functions for working with geographic coordinates and geometry objects.
+
+#### GEODESIC_DISTANCE(lat1, lon1, lat2, lon2)
+Returns the geodesic distance between two lat-long coordinate pairs.
+
+**Parameters:**
+- `lat1`, `lon1` - First point coordinates (latitude, longitude)
+- `lat2`, `lon2` - Second point coordinates (latitude, longitude)
+
+**Returns:**
+- Distance in meters
+- `null` if any parameter is not a number
 
 **Examples:**
 ```jcoql
 BUILD {
     .distance: GEODESIC_DISTANCE(.lat1, .lon1, .lat2, .lon2),
-    .geom: GEOMETRY_FIELD(),
-    .pathLength: GEOMETRY_LENGTH("KM"),
-    .surfaceArea: GEOMETRY_AREA("KM")
+    .distanceKm: (GEODESIC_DISTANCE(.lat1, .lon1, .lat2, .lon2) / 1000),
+    .travelDist: GEODESIC_DISTANCE(45.464, 9.188, 45.478, 9.234)
+}
+```
+
+---
+
+#### GEOMETRY_FIELD()
+Returns the value of the special `~geometry` field from the current document.
+
+**Returns:**
+- The geometry object stored in `~geometry`
+- Typically contains GeoJSON geometry
+
+**Examples:**
+```jcoql
+BUILD {
+    .geom: GEOMETRY_FIELD(),              // Get geometry object
+    .hasGeometry: (GEOMETRY_FIELD() != null)
+}
+```
+
+---
+
+#### GEOMETRY_LENGTH(unit)
+Returns the length of the geometry in the `~geometry` field (if applicable).
+
+**Parameters:**
+- `unit` - Unit of measurement:
+  - `"M"` - Meters
+  - `"KM"` - Kilometers
+  - `"ML"` - Miles
+
+**Returns:**
+- Length in specified unit
+- Applicable to LineString and Polygon geometries
+- `null` if geometry doesn't have length
+
+**Examples:**
+```jcoql
+BUILD {
+    .pathLength: GEOMETRY_LENGTH("KM"),   // Length in kilometers
+    .roadLengthMiles: GEOMETRY_LENGTH("ML"),
+    .perimeterMeters: GEOMETRY_LENGTH("M")
+}
+```
+
+---
+
+#### GEOMETRY_AREA(unit)
+Returns the area of the geometry in the `~geometry` field (if applicable).
+
+**Parameters:**
+- `unit` - Unit of measurement:
+  - `"M"` - Square meters
+  - `"KM"` - Square kilometers
+  - `"ML"` - Square miles
+
+**Returns:**
+- Area in specified unit
+- Applicable to Polygon geometries
+- `null` if geometry doesn't have area
+
+**Examples:**
+```jcoql
+BUILD {
+    .surfaceArea: GEOMETRY_AREA("KM"),    // Area in sq. kilometers
+    .parkAreaM2: GEOMETRY_AREA("M"),      // Area in sq. meters
+    .landAreaMiles: GEOMETRY_AREA("ML")   // Area in sq. miles
 }
 ```
 
@@ -76,27 +299,33 @@ BUILD {
 
 ### String Functions
 
-| Function | Parameters | Returns | Description |
-|----------|-----------|---------|-------------|
-| **JARO_WINKLER_SIMILARITY(s1, s2)** | string, string | float | Returns the Jaro-Winkler similarity between two strings (0-1). Case-insensitive. Null if any parameter is not a string. |
+Functions for string operations and comparisons.
+
+#### JARO_WINKLER_SIMILARITY(s1, s2)
+Returns the Jaro-Winkler similarity between two strings.
+
+**Parameters:**
+- `s1`, `s2` - Two strings to compare
+
+**Returns:**
+- Similarity value between 0.0 (completely different) and 1.0 (identical)
+- The function is **case-insensitive**
+- `null` if any parameter is not a string
 
 **Examples:**
 ```jcoql
 BUILD {
     .nameSimilarity: JARO_WINKLER_SIMILARITY(.name1, .name2),
-    .match: IF(JARO_WINKLER_SIMILARITY(.text1, .text2) > 0.8, "MATCH", "NO MATCH")
+    .isMatch: (JARO_WINKLER_SIMILARITY(.text1, .text2) > 0.8),
+    .score: JARO_WINKLER_SIMILARITY("Martha", "Marhta")  // → 0.96
 }
 ```
 
----
-
-### Array Functions
-
-Documentation for array functions coming soon:
-- **MIN_ARRAY(array)** - Returns minimum value from array
-- **MAX_ARRAY(array)** - Returns maximum value from array
-- **AVG_ARRAY(array)** - Returns average value from array
-- **SUM_ARRAY(array)** - Returns sum of array values
+**Common Use Cases:**
+- Fuzzy name matching
+- Detecting typos
+- Record linkage
+- Data deduplication
 
 ---
 
