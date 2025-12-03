@@ -1,4 +1,4 @@
-# Predicate
+# Predicates
 
 The **predicateRule** defines a base predicate used in conditions. A predicate is an expression that evaluates to true or false and can take multiple forms: comparisons, range checks, null checks, field presence checks, and fuzzy set predicates.
 
