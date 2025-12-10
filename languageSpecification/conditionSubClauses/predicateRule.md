@@ -1,6 +1,21 @@
 # Predicates
 
-The **predicateRule** defines a base predicate used in conditions. A predicate is an expression that evaluates to true or false and can take multiple forms: comparisons, range checks, null checks, field presence checks, and fuzzy set predicates.
+The **predicateRule** defines a base predicate used in conditions. A predicate is an expression that evaluates to true or false. JCoQL+ supports predicates in two different contexts with distinct characteristics:
+
+## Predicate Contexts
+
+### Classic Context (Dot Notation)
+In the classic context, predicates work with document attributes using **dot notation** (`.fieldName`). This context supports:
+- **Expression comparisons** - Arithmetic expressions and field comparisons
+- **Range checks** - Value within intervals
+- **NULL checks** - Verify if fields are null or not null
+- **Field presence predicates** - WITH, WITHOUT, EXISTS to check if document has certain attributes
+
+### Fuzzy Context
+In the fuzzy context, predicates use **pure boolean expressions**. This context:
+- Uses **boolean expressions only** - No arithmetic expressions
+- Can invoke **fuzzy evaluators** - Call predefined fuzzy evaluation functions
+- Checks **fuzzy set membership** - WITHIN, KNOWN, UNKNOWN predicates
 
 ## EBNF Syntax
 
@@ -119,6 +134,104 @@ Checks membership in fuzzy sets.
 - `WITHIN FUZZY SETS youngPerson` - document has membership > 0 in youngPerson set
 - `KNOWN FUZZY SETS priceRange` - document has calculated membership in priceRange set
 - `UNKNOWN FUZZY SETS temperatureCategory` - document has NOT been evaluated for temperatureCategory
+
+---
+
+## Classic Context vs Fuzzy Context
+
+### Classic Context Predicates
+
+In the **classic context**, you work with document attributes using **dot notation**:
+
+**Available Predicates:**
+1. **Expression Comparisons** - Compare values using operators
+   ```jcoql
+   WHERE .price > 100
+   WHERE .name = "John"
+   WHERE (.quantity * .unitPrice) >= 1000
+   ```
+
+2. **Range Checks** - Verify values within intervals
+   ```jcoql
+   WHERE .age INRANGE [18, 65]
+   WHERE .temperature INRANGE (0, 100)
+   ```
+
+3. **NULL Checks** - Test for null values
+   ```jcoql
+   WHERE FIELD .email ISNULL
+   WHERE FIELD .description ISNOTNULL
+   ```
+
+4. **Field Presence** - Check if attributes exist
+   ```jcoql
+   WHERE WITH .address
+   WHERE WITH ARRAY .items
+   WHERE WITH GEOMETRY .location
+   WHERE WITHOUT .deletedAt
+   ```
+
+**Characteristics:**
+- Uses **dot notation** (`.field`)
+- Supports **arithmetic expressions** in comparisons
+- Can reference **nested fields** (`.address.city`)
+- Works with **document structure**
+
+### Fuzzy Context Predicates
+
+In the **fuzzy context**, predicates use **pure boolean expressions**:
+
+**Available Predicates:**
+1. **Fuzzy Set Membership** - Check membership in fuzzy sets
+   ```jcoql
+   WHERE WITHIN FUZZY SETS youngPerson, student
+   WHERE KNOWN FUZZY SETS temperatureCategory
+   WHERE UNKNOWN FUZZY SETS riskLevel
+   ```
+
+2. **Fuzzy Evaluator Calls** - Invoke predefined fuzzy evaluators
+   ```jcoql
+   WHERE fuzzyEvaluatorName(parameters)
+   WHERE isHighRisk()
+   WHERE matchesProfile(threshold)
+   ```
+
+3. **Boolean Combinations** - Combine fuzzy predicates with AND/OR/NOT
+   ```jcoql
+   WHERE WITHIN FUZZY SETS setA AND WITHIN FUZZY SETS setB
+   WHERE #fuzzySetA > 0.7 OR #fuzzySetB > 0.7
+   ```
+
+**Characteristics:**
+- Uses **boolean expressions only**
+- Can invoke **fuzzy evaluators** (custom functions)
+- Works with **fuzzy membership degrees** (`#fuzzySet`)
+- **No arithmetic expressions** in pure fuzzy predicates
+- Focuses on **fuzzy logic operations**
+
+### Context Comparison
+
+| Aspect | Classic Context | Fuzzy Context |
+|--------|----------------|---------------|
+| **Notation** | Dot notation (`.field`) | Boolean expressions |
+| **Expressions** | Arithmetic expressions allowed | Boolean only |
+| **Field Access** | Direct field references | Fuzzy set membership |
+| **Predicates** | Comparisons, ranges, WITH, WITHOUT | WITHIN, KNOWN, UNKNOWN, evaluators |
+| **Use Case** | Standard document filtering | Fuzzy logic evaluation |
+
+### Hybrid Usage
+
+You can combine both contexts in complex conditions:
+
+```jcoql
+FILTER
+CASE WHERE .price > 100 AND WITHIN FUZZY SETS affordableForUser
+GENERATE BUILD { .name, .price, .affordability: #affordableForUser };
+```
+
+This combines:
+- **Classic predicate**: `.price > 100` (dot notation, comparison)
+- **Fuzzy predicate**: `WITHIN FUZZY SETS affordableForUser` (fuzzy membership)
 
 ## Used In
 
