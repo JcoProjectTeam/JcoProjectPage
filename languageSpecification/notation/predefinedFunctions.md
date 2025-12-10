@@ -7,6 +7,53 @@ JCoQL+ provides a comprehensive set of predefined functions that can be used in 
 
 ---
 
+## Function Index
+
+### Standard Functions
+
+#### Type Conversion Functions
+- [TO_STRING(x)](#to_stringx) - Convert value to string
+- [TO_INT(x)](#to_intx) - Convert value to integer
+- [TO_FLOAT(x)](#to_floatx) - Convert value to float
+- [TO_BOOL(x)](#to_boolx) - Convert value to boolean
+- [SERIALIZE(x)](#serializex) - Serialize value to string
+
+#### Numeric Functions
+- [COUNT(x)](#countx) - Count elements
+- [MAX(x, y)](#maxx-y) - Maximum of two values
+- [MIN(x, y)](#minx-y) - Minimum of two values
+- [ABS(x)](#absx) - Absolute value
+- [SQRT(x)](#sqrtx) - Square root
+
+#### Geospatial Functions
+- [GEODESIC_DISTANCE(lat1, lon1, lat2, lon2)](#geodesic_distancelat1-lon1-lat2-lon2) - Distance between coordinates
+- [GEOMETRY_FIELD()](#geometry_field) - Get ~geometry field value
+- [GEOMETRY_LENGTH(unit)](#geometry_lengthunit) - Get geometry length
+- [GEOMETRY_AREA(unit)](#geometry_areaunit) - Get geometry area
+
+#### String Functions
+- [JARO_WINKLER_SIMILARITY(s1, s2)](#jaro_winkler_similaritys1-s2) - String similarity measure
+
+### Special Functions
+
+#### Fuzzy Set Membership
+- [EXTENT(f) / MEMBERSHIP_TO(f)](#extentf--membership_tof) - Get fuzzy membership degree
+- [DEGREE(f) / #f](#degreef--f-shortcut) - Get fuzzy membership (shortcut notation)
+
+#### Translation and Dictionary
+- [TRANSLATE(exp, dictionary, caseSensitive, defaultValue)](#translateexp-dictionary-casesensitive--defaultvalue) - Translate using dictionary
+
+#### Conditional Functions
+- [IF((condition), trueExp, falseExp)](#ifcondition-trueexp-falseexp) - Conditional expression
+- [IF_ERROR(exp, errValue)](#if_errorexp-errvalue) - Error handling
+
+#### Array Functions
+- [MEMBERSHIP_ARRAY(...)](#membership_arrayall--membership_arrayf1-f2---membership_arrayf-from-array-source) - Extract membership arrays
+- [EXTRACT_ARRAY(fieldY FROM ARRAY arrayX)](#extract_arrayfieldy-from-array-arrayx) - Extract field values from array
+- [ARRAY_CUMULATE(x)](#array_cumulatex) - Sum array values
+
+---
+
 ## Standard Functions
 
 These functions use standard call syntax and can be used in any expression context.
