@@ -10,7 +10,7 @@ Create an aggregator tht returns a fuzzy value form crips values.
                                 PARAMETERS parameter++
                                 [PRECONDITION condition]
                                 [SortRule]
-                                (ForAllRule | DeriveRule)**
+                                (ForAllRule | DeriveRule)*
                                 EVALUATE expression
                                 [POLYLINE '[' 
                                     ( '(' n¹, n² ')' )++
