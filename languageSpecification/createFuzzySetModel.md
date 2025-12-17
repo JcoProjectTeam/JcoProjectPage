@@ -14,8 +14,8 @@ Where x is the actual multigrade fuzzyset and y is another multigrade fuzzy set 
 
 ## EBNF Notation
     createFuzzySetModel ::= CREATE FUZZY SET MODEL id¹
-                                DEGREES (id²)**
-                                [DERIVED DEGREES (id³ AS expression)**]
+                                DEGREES (id²)++
+                                [DERIVED DEGREES (id³ AS expression)++]
                                 [CONSTRAINT condition⁴]
                                 ( OPERATOR (NOT | AND | OR)
                                   ( EVALUATE id⁴ AS expression )+ )* ;
