@@ -6,8 +6,8 @@ Create an evaluator that returns a fuzzy value form crips values.
 ## EBNF Notation
     createFuzzyEvaluator ::= CREATE FUZZY EVALUATOR id¹ 
                                 PARAMETERS parameter++
-                                [PRECONDITION condition]*
-                                [ arraySortRule | deriveRule | forAllRule ]*  
+                                [PRECONDITION condition]
+                                ( arraySortRule | deriveRule | forAllRule )*  
                                 EVALUATE expression
                                 [POLYLINE '[' 
                                     ( '(' n¹, n² ')' )++
