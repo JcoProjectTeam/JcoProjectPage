@@ -8,7 +8,7 @@ The `setFuzzySetsRule` manages which fuzzy sets from the source collections are 
 
 ```
 setFuzzySetsRule ::= SET FUZZY SETS (KEEP (ALL [resolvingRule] | LEFT | RIGHT)
-                                    | addFuzzySetRule (COMMA addFuzzySetRule)* [resolvingRule])
+                                    | addFuzzySetRule (',' addFuzzySetRule)* [resolvingRule])
 ```
 
 ---
