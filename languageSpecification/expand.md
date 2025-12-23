@@ -11,8 +11,8 @@ The final KEEP/DROP options works as for the Case Clause.
 ## EBNF Notation
     expand ::= EXPAND 
                 (UNPACK condition 
-                    ARRAY (id¹)+
-                    TO (id²)+ )+                          
+                    ARRAY fieldRef¹
+                    TO fieldRef² )+                          
                 [(KEEP | DROP) OTHERS] ;
 
 ## Syntax Diagram
@@ -20,21 +20,29 @@ The final KEEP/DROP options works as for the Case Clause.
 
 ## Semantics
 * The `condition` token (see [Base Elements](./notation/baseElements.md)) defines when the unpack operation should be applied.
-* The `id¹` token specifies the array field to be unpacked (must be an array field).
-* The `id²` token specifies the name of the field in the new document holding the single array value.
+* The `fieldRef¹` token specifies the array field to be unpacked (must be an array field). This can be a simple field reference like `.hobbies` or a nested path like `.user.preferences.tags`.
+* The `fieldRef²` token specifies the name of the field in the new document holding the single array value. This can also be a simple field like `.hobby` or a nested path like `.details.hobby`.
 * Multiple UNPACK clauses can be defined for different conditions and array fields.
 * The optional `(KEEP | DROP) OTHERS` clause works as for the Case Clause to handle documents that don't match any UNPACK condition.
 * For each value in the specified array, a new document is created containing all fields from the source document plus the new field with the single array value.
 
 ## Examples
+
+### Example 1: Simple Field Reference
       EXPAND 
           UNPACK (.type = "user") ARRAY .hobbies TO .hobby
           KEEP OTHERS;
-      
+
+### Example 2: Nested Field References
       EXPAND 
-          UNPACK (.category = "product") ARRAY .tags TO .tag
-          UNPACK (.category = "service") ARRAY .features TO .feature
+          UNPACK (.category = "product") ARRAY .details.tags TO .tag
+          UNPACK (.category = "service") ARRAY .info.features.list TO .feature
           DROP OTHERS;
+
+### Example 3: Multiple Nested Paths
+      EXPAND 
+          UNPACK (.status = "active") ARRAY .user.preferences.languages TO .language
+          KEEP OTHERS;
 
 ## Issues
 
