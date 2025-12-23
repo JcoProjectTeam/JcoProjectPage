@@ -33,6 +33,7 @@ Where x is the actual multigrade fuzzyset and y is another multigrade fuzzy set 
 * Optional derived degrees can be calculated from independent degrees using expressions.
 * Optional constraint validates the consistency of the multigrade fuzzy set.
 * Optional operator definitions specify how NOT, AND, and OR operations work for this model.
+* **Important**: Each operator (NOT, AND, OR) can be defined only once. You cannot define the same operator multiple times in a single model.
 
 ## Examples
       CREATE FUZZY SET MODEL TemperatureModel
