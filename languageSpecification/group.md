@@ -10,10 +10,9 @@ Groups documents of the current collection into one, with an array of the origin
                     BY field¹** 
                     INTO field²
                     [ DROP GROUPING FIELDS ]
-                  [ ORDER BY field³**
-                  [ KEEP UNCOMPARABLE ] ]
+                  [ ORDER BY field³** [ KEEP UNCOMPARABLE ] ]
                   [ generateSectionRule ] )+
-              [ ( KEEP | DROP ) OTHERS ]
+                [ ( KEEP | DROP ) OTHERS ]
             ;      
 
 ## Syntax Diagram

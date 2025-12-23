@@ -20,4 +20,4 @@ PARAMETERS x TYPE FLOAT, y TYPE INT
 
 ## See Also
 - [Common Clauses](./commonClauses.md)
-- [Funzioni Predefinite](./predefinedFunctions.md)
+- [Predefined Functions](./predefinedFunctions.md)

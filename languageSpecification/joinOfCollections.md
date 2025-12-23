@@ -8,7 +8,7 @@ Given a couple *(l, r)* where *l* is the alias of a document the left collection
 
 ## EBNF Notation
     joinOfCollections ::= JOIN OF COLLECTIONS 
-                            id¹@id² AS id³, id¹@id² AS id⁴
+                            id¹[@id²] [AS id³], id¹[@id²] [AS id⁴]
                             [ON GEOMETRY spatialFunctionRule]*
                             [SET GEOMETRY (INTERSECTION|RIGHT|LEFT|ALL)]*
                             [addFieldsRule]*
