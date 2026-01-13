@@ -1,9 +1,40 @@
 # JCoQL+ Language Documentation Status
 
-**Last Updated:** December 10, 2025  
+**Last Updated:** January 13, 2026  
 **Grammar Version:** 4.0.10 (May 12, 2025)
 
 This document tracks the documentation status of all JCoQL+ language specifications based on the grammar defined in `JCoQL.g`.
+
+---
+
+## Recent Updates (January 2026)
+
+### Completed Enhancements
+1. ✅ **Predicate Documentation Enhanced**
+   - Distinguished between **Classic Context** (dot notation, arithmetic expressions) and **Fuzzy Context** (boolean only)
+   - Removed WHERE keywords from predicate examples to show pure predicate syntax
+   - Clarified that fuzzy evaluator calls are used in USING context
+   - Replaced `wukFuzzyPredicateRule` references with explicit WITHIN, KNOWN, UNKNOWN
+
+2. ✅ **Parameter Documentation**
+   - Created `parameterRule.md` - Parameters for JavaScript/Java functions and operators
+   - Created `feParameterRule.md` - Parameters for fuzzy evaluators/aggregators (supports ARRAY)
+   - Clarified that parameters do NOT use dot notation (simple identifiers)
+
+3. ✅ **JOIN OF COLLECTIONS SubClauses**
+   - Created `spatialFunctionRule.md` - Spatial operations (DISTANCE, ORIENTATION, INCLUDED, MEET, INTERSECT)
+   - Created `addFieldsRule.md` - Adding calculated fields in JOIN
+   - Created `setFuzzySetsRule.md` - Managing fuzzy sets in JOIN (with resolving strategies)
+
+4. ✅ **Function Index**
+   - Added navigable index in `predefinedFunctions.md` with links to all 28+ functions
+
+5. ✅ **EXPAND Instruction**
+   - Updated to use `fieldRef` instead of `id` for array field references
+   - Added examples with nested field paths
+
+6. ✅ **CREATE FUZZY SET MODEL**
+   - Added semantic note that each operator (NOT, AND, OR) can only be defined once per model
 
 ---
 
@@ -12,21 +43,30 @@ This document tracks the documentation status of all JCoQL+ language specificati
 | Category | Total | Documented | Missing/Incomplete | Progress |
 |----------|-------|------------|-------------------|----------|
 | **Main Instructions** | 18 | 15 complete, 1 partial | 2 missing | 89% |
-| **SubClauses (General)** | 11 | 11 | 0 | 100% |
+| **SubClauses (General)** | 14 | 14 | 0 | 100% |
 | **SubClauses (Conditions)** | 4 | 4 | 0 | 100% |
 | **SubClauses (Fuzzy)** | 4 | 4 | 0 | 100% |
 | **SubClauses (Specialized)** | ~15 | 15 (inline) | 0 | 100% |
+| **SubClauses (JOIN-specific)** | 3 | 3 | 0 | 100% |
+| **SubClauses (Parameters)** | 2 | 2 | 0 | 100% |
 | **Expression Rules** | 5 | 5 | 0 | 100% |
 | **Predicate SubRules** | 5 | 5 | 0 | 100% |
 | **Predefined Functions** | 28+ | 28+ | TBD array functions | 100% |
 | **Base Elements & Tokens** | - | ✓ | - | 100% |
 
-**Overall Grammar Coverage:** ~95% Complete (60+ rules documented)
+**Overall Grammar Coverage:** ~95% Complete (65+ rules documented)
 
 **What's Actually Missing:**
 - 2 specialized instructions (LOOKUP FROM WEB, TRAJECTORY MATCHING)
 - 1 incomplete instruction (CREATE JAVA FUNCTION needs expansion)
 - Unknown number of additional array functions (user to provide list)
+
+**Key Concepts Documented:**
+- ✅ **Classic Context** - Predicates with dot notation, arithmetic expressions, field comparisons
+- ✅ **Fuzzy Context** - Pure boolean predicates, fuzzy evaluator calls in USING context
+- ✅ **Parameters** - Function/operator parameters (no dot notation), fuzzy evaluator parameters (with ARRAY support)
+- ✅ **Spatial Functions** - Complete geometric operations for JOIN
+- ✅ **Fuzzy Set Management** - Managing and resolving fuzzy sets in JOIN operations
 
 **Everything else (95% of the grammar) is fully documented!**
 
@@ -196,6 +236,37 @@ Common subclauses used across multiple instructions.
     - Used in: FILTER, GROUP, JOIN, WHERE CASE
     - Status: Complete, English
 
+12. **parameterRule** ⭐
+    - File: `subClauses/parameterRule.md`
+    - Used in: CREATE JAVASCRIPT FUNCTION, CREATE JAVA FUNCTION, CREATE FUZZY OPERATOR
+    - Grammar: `ID TYPE ID`
+    - Status: Complete, 232 lines, 5 examples
+    - Note: Parameters do NOT use dot notation
+
+13. **feParameterRule** ⭐
+    - File: `subClauses/feParameterRule.md`
+    - Used in: CREATE FUZZY EVALUATOR, CREATE FUZZY AGGREGATOR
+    - Grammar: `ID TYPE (ID | ARRAY)`
+    - Status: Complete, supports ARRAY type, 7 examples
+
+14. **spatialFunctionRule** ⭐
+    - File: `subClauses/spatialFunctionRule.md`
+    - Used in: JOIN OF COLLECTIONS (ON GEOMETRY, ADD FIELDS)
+    - Grammar: `DISTANCE | ORIENTATION | INCLUDED | MEET | INTERSECT`
+    - Status: Complete, 8 examples with spatial operations
+
+15. **addFieldsRule** ⭐
+    - File: `subClauses/addFieldsRule.md`
+    - Used in: JOIN OF COLLECTIONS
+    - Grammar: `ADD_ST FIELDS { fieldRef: value, ... }`
+    - Status: Complete, 8 examples with calculations
+
+16. **setFuzzySetsRule** ⭐
+    - File: `subClauses/setFuzzySetsRule.md`
+    - Used in: JOIN OF COLLECTIONS
+    - Grammar: `SET FUZZY SETS (KEEP ALL/LEFT/RIGHT | specific sets) [RESOLVING WITH ...]`
+    - Status: Complete, 10 examples with conflict resolution strategies
+
 ---
 
 ## SubClauses - Condition Expressions
@@ -224,10 +295,13 @@ Logical condition subclauses (newly created directory structure).
 
 4. **predicateRule** ⭐
    - File: `conditionSubClauses/predicateRule.md`
-   - Grammar: Multiple predicate types
+   - Grammar: `expressionRule [compareRule | inRangeRule] | nullPredicateRule | withPredicateRule | withoutPredicateRule | (WITHIN|KNOWN|UNKNOWN) FUZZY SETS ...`
    - Status: Complete, English, 10 examples
-   - Features: **Classic context** (dot notation) vs **Fuzzy context** (boolean expressions)
-   - Includes: Comparisons, ranges, NULL checks, WITH, WITHOUT, fuzzy predicates
+   - Features: 
+     * **Classic context** - Dot notation (`.field`), arithmetic expressions, field comparisons
+     * **Fuzzy context** - Pure boolean expressions, fuzzy evaluator calls (in USING), fuzzy set membership
+   - Updated: January 2026 - Removed WHERE from examples, clarified context distinctions
+   - Includes: Comparisons, ranges, NULL checks, WITH, WITHOUT, WITHIN, KNOWN, UNKNOWN
 
 ### 📝 SubPredicates (Referenced in predicateRule)
 

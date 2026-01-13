@@ -24,11 +24,11 @@ Given a couple *(l, r)* where *l* is the alias of a document the left collection
 * The `id²` token represents the database name.
 * The `id³` token represents the alias of the left collection.
 * The `id⁴` token represents the alias of the right collection.
-* The optional `ON GEOMETRY` clause specifies a spatial condition (see [Base Elements](./notation/baseElements.md)).
+* The optional `ON GEOMETRY` clause specifies a spatial condition using [spatialFunctionRule](./subClauses/spatialFunctionRule.md).
 * The optional `SET GEOMETRY` clause specifies the geometry of the new document.
-* The optional `addFields` (see [Base Elements](./notation/baseElements.md)) clause adds extra fields to the new document.
-* The optional `setFuzzySets` (see [Base Elements](./notation/baseElements.md)) clause sets which fuzzy sets from the source documents to keep.
-* The optional `caseClause` or `generateSection` (see [Base Elements](./notation/baseElements.md)) work exactly as for the FILTER instruction.
+* The optional `addFieldsRule` clause (see [addFieldsRule](./subClauses/addFieldsRule.md)) adds extra fields to the new document.
+* The optional `setFuzzySetsRule` clause (see [setFuzzySetsRule](./subClauses/setFuzzySetsRule.md)) sets which fuzzy sets from the source documents to keep.
+* The optional [caseClauseRule](./subClauses/caseClauseRule.md) or [generateSectionRule](./subClauses/generateSectionRule.md) work exactly as for the FILTER instruction.
 * The optional `REMOVE DUPLICATES` clause eliminates duplicate documents from the result.
 
 ## Examples

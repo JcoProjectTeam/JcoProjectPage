@@ -24,7 +24,7 @@ predicateRule ::= expressionRule [compareRule | inRangeRule]
                 | nullPredicateRule
                 | withPredicateRule
                 | withoutPredicateRule
-                | wukFuzzyPredicateRule
+                | (WITHIN | KNOWN | UNKNOWN) FUZZY SETS ID (, ID)*
 ```
 
 Where:
@@ -34,7 +34,7 @@ Where:
 - **nullPredicateRule** - NULL check (e.g., `FIELD .email ISNULL`)
 - **withPredicateRule** - Field presence check (e.g., `WITH .address`)
 - **withoutPredicateRule** - Field absence check (e.g., `WITHOUT .tempData`)
-- **wukFuzzyPredicateRule** - Fuzzy set membership check (e.g., `WITHIN FUZZY SETS setA, setB`)
+- **WITHIN | KNOWN | UNKNOWN** - Fuzzy set membership predicates (e.g., `WITHIN FUZZY SETS setA, setB`)
 
 ## Syntax Diagram
 ![Predicate Syntax](/languageSpecification/assets/rules/predicateRule.png "Predicate Syntax Diagram")
@@ -121,13 +121,15 @@ WITHOUT fieldRef (, fieldRef)*
 
 ### 6. Fuzzy Set Membership
 ```ebnf
-wukFuzzyPredicateRule
+(WITHIN | KNOWN | UNKNOWN) FUZZY SETS ID (, ID)*
 ```
 Checks membership in fuzzy sets.
 
 **Syntax:**
 ```
-(WITHIN | KNOWN | UNKNOWN) FUZZY SETS id (, id)*
+WITHIN FUZZY SETS id (, id)*   // Has membership > 0
+KNOWN FUZZY SETS id (, id)*    // Has calculated membership
+UNKNOWN FUZZY SETS id (, id)*  // NOT evaluated yet
 ```
 
 **Examples:**
@@ -146,29 +148,29 @@ In the **classic context**, you work with document attributes using **dot notati
 **Available Predicates:**
 1. **Expression Comparisons** - Compare values using operators
    ```jcoql
-   WHERE .price > 100
-   WHERE .name = "John"
-   WHERE (.quantity * .unitPrice) >= 1000
+   .price > 100
+   .name = "John"
+   (.quantity * .unitPrice) >= 1000
    ```
 
 2. **Range Checks** - Verify values within intervals
    ```jcoql
-   WHERE .age INRANGE [18, 65]
-   WHERE .temperature INRANGE (0, 100)
+   .age INRANGE [18, 65]
+   .temperature INRANGE (0, 100)
    ```
 
 3. **NULL Checks** - Test for null values
    ```jcoql
-   WHERE FIELD .email ISNULL
-   WHERE FIELD .description ISNOTNULL
+   FIELD .email ISNULL
+   FIELD .description ISNOTNULL
    ```
 
 4. **Field Presence** - Check if attributes exist
    ```jcoql
-   WHERE WITH .address
-   WHERE WITH ARRAY .items
-   WHERE WITH GEOMETRY .location
-   WHERE WITHOUT .deletedAt
+   WITH .address
+   WITH ARRAY .items
+   WITH GEOMETRY .location
+   WITHOUT .deletedAt
    ```
 
 **Characteristics:**
@@ -184,22 +186,25 @@ In the **fuzzy context**, predicates use **pure boolean expressions**:
 **Available Predicates:**
 1. **Fuzzy Set Membership** - Check membership in fuzzy sets
    ```jcoql
-   WHERE WITHIN FUZZY SETS youngPerson, student
-   WHERE KNOWN FUZZY SETS temperatureCategory
-   WHERE UNKNOWN FUZZY SETS riskLevel
+   WITHIN FUZZY SETS youngPerson, student
+   KNOWN FUZZY SETS temperatureCategory
+   UNKNOWN FUZZY SETS riskLevel
    ```
 
-2. **Fuzzy Evaluator Calls** - Invoke predefined fuzzy evaluators
+2. **Fuzzy Evaluator Calls** - Invoke predefined fuzzy evaluators (used in USING context)
    ```jcoql
-   WHERE fuzzyEvaluatorName(parameters)
-   WHERE isHighRisk()
-   WHERE matchesProfile(threshold)
+   // In CHECK FOR ... USING clause:
+   fuzzyEvaluatorName(parameters)
+   isHighRisk()
+   matchesProfile(threshold)
    ```
+   
+   **Note:** Fuzzy evaluator calls are typically used in the USING clause of CHECK FOR FUZZY SET operations, not directly as predicates in WHERE conditions.
 
 3. **Boolean Combinations** - Combine fuzzy predicates with AND/OR/NOT
    ```jcoql
-   WHERE WITHIN FUZZY SETS setA AND WITHIN FUZZY SETS setB
-   WHERE #fuzzySetA > 0.7 OR #fuzzySetB > 0.7
+   WITHIN FUZZY SETS setA AND WITHIN FUZZY SETS setB
+   #fuzzySetA > 0.7 OR #fuzzySetB > 0.7
    ```
 
 **Characteristics:**
@@ -374,14 +379,17 @@ GENERATE BUILD {
 
 ### Test Individual Predicates
 ```jcoql
-// Test comparison
-WHERE .value > 100
+// Test comparison (predicate only)
+.value > 100
 
-// Test range
-WHERE .value INRANGE [0, 100]
+// Test range (predicate only)
+.value INRANGE [0, 100]
 
-// Test existence
-WHERE WITH .field
+// Test existence (predicate only)
+WITH .field
+
+// Used in WHERE clause:
+FILTER WHERE .value > 100 GENERATE ...
 ```
 
 ### Visualize Predicate Results
@@ -395,11 +403,14 @@ BUILD {
 
 ### Handle Missing Fields Safely
 ```jcoql
-// Safe: check existence first
-WHERE WITH .optionalField AND .optionalField > 0
+// Safe: check existence first (predicate)
+WITH .optionalField AND .optionalField > 0
 
-// Unsafe: may fail if field doesn't exist
-WHERE .optionalField > 0
+// Unsafe: may fail if field doesn't exist (predicate)
+.optionalField > 0
+
+// Used in context:
+FILTER WHERE WITH .optionalField AND .optionalField > 0 GENERATE ...
 ```
 
 ## Issues
@@ -417,12 +428,7 @@ Related subclauses:
 - [orConditionRule.md](./orConditionRule.md) - OR logical conditions
 - [andConditionRule.md](./andConditionRule.md) - AND logical conditions
 - [notConditionRule.md](./notConditionRule.md) - NOT negation
-- [compareRule.md](./compareRule.md) - Comparison operators
-- [inRangeRule.md](./inRangeRule.md) - Range checks
-- [nullPredicateRule.md](./nullPredicateRule.md) - NULL checks
-- [withPredicateRule.md](./withPredicateRule.md) - Field presence
-- [withoutPredicateRule.md](./withoutPredicateRule.md) - Field absence
-- [wukFuzzyPredicateRule.md](../fuzzySubClauses/wukFuzzyPredicateRule.md) - Fuzzy predicates
+- [checkForFuzzySetRule.md](../fuzzySubClauses/checkForFuzzySetRule.md) - Fuzzy set evaluation with USING clause
 
 Base elements:
 - [baseElements.md](/languageSpecification/notation/baseElements.md)
