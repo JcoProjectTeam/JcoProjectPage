@@ -7,18 +7,16 @@ The `addFieldsRule` allows adding calculated or derived fields during a JOIN OF 
 ## EBNF Notation
 
 ```
-addFieldsRule ::= ADD_ST FIELDS LBR fieldRefRule COLON insertFieldRule 
-                  (COMMA fieldRefRule COLON insertFieldRule)* RBR
+addFieldsRule ::= ADD FIELDS '{' field ':' insertFieldRule 
+                  (',' field ':' insertFieldRule)* '}'
 ```
 
 ---
 
 ## Syntax Components
 
-- **ADD_ST FIELDS**: Keywords to start the add fields clause
-- **LBR / RBR**: Left and right braces `{ }`
+- **ADD FIELDS**: Keywords to start the add fields clause
 - **fieldRefRule**: The name of the new field to add (e.g., `.distance`, `.orientation`)
-- **COLON**: Separator between field name and value
 - **insertFieldRule**: The value or calculation for the field (spatial function or expression)
 
 ---
