@@ -1,0 +1,240 @@
+
+/*
+x.	Connecting to LGrade database
+*/
+USE DB ipmuDbPrep
+	ON SERVER MongoDB 'http://127.0.0.1:27020';
+
+/*
+x. Expand the world collection to Countries
+*/
+GET COLLECTION a3World@ipmuDbPrep;
+
+FILTER 
+	CASES
+		WHERE	WITH .children 
+			GENERATE	
+				BUILD	{
+					.placeId		: .id, 
+					.name			: .name, 
+					.depth			: 0, 
+					.granularity	: .granularity, 
+					.children		: .children, 
+					.nChildren		: COUNT(.children)	};
+
+SAVE AS b30World@ipmuDbPrep;
+
+EXPAND
+	UNPACK WITH .children
+		ARRAY .children
+		TO .nextLevel;
+		
+//SAVE AS b301WorldTEMP@ipmuDbPrep;
+
+FILTER 
+	CASES
+		WHERE 	WITH .nextLevel AND	
+				COUNT(.nextLevel.item.children) > 0  
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.children			: .nextLevel.item.children, 
+					.nChildren			: COUNT(.nextLevel.item.children)	}
+		WHERE	WITH .nextLevel 
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.nChildren			: 0 };
+
+SAVE AS b31Countries@ipmuDbPrep;
+
+
+/*
+x. Expand the Countries to Parts
+*/
+
+EXPAND
+	UNPACK WITH .children
+		ARRAY .children
+		TO .nextLevel;
+		
+//SAVE AS b311CountriesTEMP@ipmuDbPrep;
+
+FILTER 
+	CASES
+		WHERE 	WITH .nextLevel AND	
+				COUNT(.nextLevel.item.children) > 0  
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.children			: .nextLevel.item.children, 
+					.nChildren			: COUNT(.nextLevel.item.children)	}
+		WHERE	WITH .nextLevel 
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.nChildren			: 0 };
+
+SAVE AS b32Parts@ipmuDbPrep;
+
+/*
+x. Expand the Parts to Regions
+*/
+
+EXPAND
+	UNPACK WITH .children
+		ARRAY .children
+		TO .nextLevel;
+		
+//SAVE AS b321PartsTEMP@ipmuDbPrep;
+
+FILTER 
+	CASES
+		WHERE 	WITH .nextLevel AND	
+				COUNT(.nextLevel.item.children) > 0  
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.children			: .nextLevel.item.children, 
+					.nChildren			: COUNT(.nextLevel.item.children)	}
+		WHERE	WITH .nextLevel 
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.nChildren			: 0 };
+		
+SAVE AS b33Regions@ipmuDbPrep;
+
+/*
+x. Expand the Regions to Cities
+*/ 
+
+EXPAND
+	UNPACK WITH .children
+		ARRAY .children
+		TO .nextLevel;
+		
+//SAVE AS b331RegionsTEMP@ipmuDbPrep;
+
+FILTER 
+	CASES
+		WHERE 	WITH .nextLevel AND	
+				COUNT(.nextLevel.item.children) > 0  
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.children			: .nextLevel.item.children, 
+					.nChildren			: COUNT(.nextLevel.item.children)	}
+		WHERE	WITH .nextLevel 
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.nChildren			: 0 };
+		
+SAVE AS b34Cities@ipmuDbPrep;
+
+
+/*
+x. Expand the Cities to Locations
+*/
+
+EXPAND
+	UNPACK WITH .children
+		ARRAY .children
+		TO .nextLevel;
+		
+//SAVE AS b341CitiesTEMP@ipmuDbPrep;
+
+FILTER 
+	CASES
+		WHERE 	WITH .nextLevel AND	
+				COUNT(.nextLevel.item.children) > 0  
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.children			: .nextLevel.item.children, 
+					.nChildren			: COUNT(.nextLevel.item.children)	}
+		WHERE	WITH .nextLevel 
+			GENERATE	
+				BUILD	{
+					.placeId			: .nextLevel.item.id, 
+					.name				: .nextLevel.item.name, 
+					.depth				: .nextLevel.item.depth, 
+					.granularity		: .nextLevel.item.granularity, 
+					.ancestorId			: .placeId, 
+					.distance2ancestor	: 1, 
+					.ancestorHeirs		: .nChildren, 
+					.nChildren			: 0 };
+		
+SAVE AS b35Locations@ipmuDbPrep;
+
+/*
+	Merging all locations
+*/
+
+MERGE COLLECTIONS 	b30World@ipmuDbPrep,
+					b31Countries@ipmuDbPrep,
+					b32Parts@ipmuDbPrep,
+					b33Regions@ipmuDbPrep,
+					b34Cities@ipmuDbPrep,
+					b35Locations@ipmuDbPrep;
+
+SAVE AS b40WorldExpanded@ipmuDbPrep;
+
+/*
+	end
+*/

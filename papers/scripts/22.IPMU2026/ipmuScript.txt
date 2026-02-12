@@ -1,0 +1,120 @@
+/*
+1. Create fuzzy set model named L-Grade
+*/
+CREATE FUZZY SET MODEL LGradeFSM
+	DEGREES	s, 				// satisfaction
+			c				// confidence
+	DERIVED DEGREES 
+		ns AS 1-s,				//
+		nc AS 1-c
+	OPERATOR NOT				// newFuzzyset f = NOT x
+		EVALUATE s AS 1-x.s
+		EVALUATE c AS x.c
+	OPERATOR AND				// newFuzzyset f = x AND y
+		EVALUATE s AS MIN(x.s, y.s)
+		EVALUATE c AS 	IF(( x.s = 0 AND y.s = 0 ), 
+							MAX(x.c, y.c), 
+						IF((x.s = 0), 
+							x.c, 
+						IF((y.s = 0), 
+							y.c, 
+						MIN(x.c, y.c))))
+	OPERATOR OR					// newFuzzyset f = x OR y		
+		EVALUATE s AS MAX(x.s, y.s)
+		EVALUATE c AS 	IF(( x.s = 1 AND y.s = 1 ), 
+							MAX(x.c, y.c), 
+						IF((x.s = 1), 
+							x.c, 
+						IF((y.s = 1), 
+							y.c, 
+						MIN(x.c, y.c))));
+
+/*
+2.	Create a Fuzzy Evaluator to generate LGrade fuzzy set related to Sand Size
+*/
+CREATE LGradeFSM FUZZY EVALUATOR lgFuzzyfyFE
+	PARAMETERS 	numerator 		TYPE NUMERIC,	// ...
+				ancestorHeirs	TYPE NUMERIC,	// ...
+				depthDistance 	TYPE NUMERIC	// ...
+	PRECONDITION 	(numerator = 0 OR numerator = 1) AND
+					ancestorHeirs >= 1 AND
+					depthDistance >= 0	
+	EVALUATE 	s AS numerator / ancestorHeirs
+	EVALUATE 	c AS 1 / 2^depthDistance
+;
+
+CREATE EVALUATOR pippo 
+	PARAMETERS x TYPE NUMERIC
+	EVALUATE 10;
+	
+/*
+3.	Connecting to LGrade database
+*/
+USE DB ipmuDb
+	ON SERVER MongoDB 'http://127.0.0.1:27020';
+
+
+/* 
+5. LGrade Fuzzyfy query: 12552 -> southern Italy
+*/
+JOIN OF COLLECTIONS Epigrams@ipmuDb 		AS E, 
+					PlacesHierarchy@ipmuDb 	AS H
+	CASES 									// 12612 : Messina
+		WHERE 	.E.placeId = 12612 OR		// 12552 : southern Italy
+				(.E.placeId = .H.placeId AND
+				.H.ancestorId = 12612)	
+			GENERATE
+				ADD FIELDS {
+				.numerator			: 1,
+				.ancestorHeirs		: 1,
+				.distance2ancestor 	: 0 	}		
+		WHERE 	.E.placeId = .H.ancestorId AND
+				.H.placeId = 12612		
+			GENERATE
+				ADD FIELDS {
+				.numerator			: 1,
+				.ancestorHeirs		: .H.ancestorHeirs,
+				.distance2ancestor 	: .H.distance2ancestor }
+		WHERE 	.E.placeId != .H.placeId AND
+				.H.ancestorId = -1 AND
+				.H.placeId = 12612
+			GENERATE
+				ADD FIELDS {
+				.numerator			: 0,
+				.ancestorHeirs		: 1,
+				.distance2ancestor	: 0 	}
+;
+
+
+SAVE AS temp@ipmuDb;
+
+GROUP PARTITION WITH .E
+	BY .E
+	INTO .group
+	GENERATE 
+		ADD FIELDS {
+			.numerator 			: MAX_ARRAY(.group, NUMERIC, .numerator),
+			.ancestorHeirs 		: MAX_ARRAY(.group, NUMERIC, .ancestorHeirs),
+			.distance2ancestor 	: MAX_ARRAY(.group, NUMERIC, .distance2ancestor)
+		};
+SAVE AS temp2@ipmuDb;
+
+FILTER 
+	CASES WHERE WITH .E
+	GENERATE CHECK FOR LGradeFSM FUZZY SET lGrade
+			USING lgFuzzyfyFE (.numerator, .ancestorHeirs, .distance2ancestor)
+		BUILD {
+			UNNEST .E
+		};
+			
+SAVE AS LGradeEpigrams@ipmuDb;
+
+FILTER 
+	CASES WHERE 1
+	GENERATE BUILD {
+		.c:DEGREE(lGrade.c),
+		.s:DEGREE(lGrade.s) 
+		}DEFUZZIFY;
+SAVE AS ConfusionMatrixData@ipmuDb;
+SAVE TO FILE "C:\Users\Unibg\Documents\J-CO\.data\.zunTestScripts\20.IPMU 2026\outMatrix.json";
+/* end */

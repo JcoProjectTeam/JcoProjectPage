@@ -1,0 +1,221 @@
+
+/*
+x.	Connecting to LGrade database
+*/
+USE DB ipmuDbPrep
+	ON SERVER MongoDB 'http://127.0.0.1:27020';
+
+
+/*
+	building depth 2 connections
+*/
+
+JOIN OF COLLECTIONS	b40WorldExpanded@ipmuDbPrep AS anc,
+					b40WorldExpanded@ipmuDbPrep AS desc
+	CASES
+		WHERE
+				.anc.placeId = .desc.ancestorId AND
+				WITH .anc.ancestorId
+			GENERATE
+				BUILD {
+					.placeId: 			.desc.placeId, 
+					.name: 				.desc.name, 
+					.depth: 			.desc.depth, 
+					.granularity: 		.desc.granularity, 
+					.children:			.desc.children, 
+					.nChildren: 		COUNT(.desc.children), 				
+					.ancestorId: 		.anc.ancestorId, 
+					.distance2ancestor: 2
+				};
+			
+SAVE AS b41WorldDepth2Temp@ipmuDbPrep;
+
+GROUP PARTITION WITH .ancestorId
+	BY .ancestorId
+	INTO .ancestorHeirs;
+
+SAVE AS b41WorldDepth2Grouped@ipmuDbPrep;
+
+JOIN OF COLLECTIONS	b41WorldDepth2Temp@ipmuDbPrep AS loc,
+					b41WorldDepth2Grouped@ipmuDbPrep AS group
+	CASES WHERE .loc.ancestorId = .group.ancestorId
+	GENERATE BUILD{
+					.placeId: 			.loc.placeId, 
+					.name: 				.loc.name, 
+					.depth: 			.loc.depth, 
+					.granularity: 		.loc.granularity, 
+					.children: 			.loc.children, 
+					.nChildren: 		.loc.nChildren,
+					.ancestorId: 		.loc.ancestorId, 
+					.distance2ancestor:	.loc.distance2ancestor, 
+					.ancestorHeirs: 	COUNT(.group.ancestorHeirs)
+	};
+
+SAVE AS b41WorldDepth2@ipmuDbPrep;
+
+
+
+
+/*
+	building depth 3 connections
+*/
+
+JOIN OF COLLECTIONS	b40WorldExpanded@ipmuDbPrep AS anc,
+					b41WorldDepth2@ipmuDbPrep AS desc
+	CASES
+		WHERE
+				.anc.placeId = .desc.ancestorId AND
+				WITH .anc.ancestorId
+			GENERATE
+				BUILD {
+					.placeId: 			.desc.placeId, 
+					.name: 				.desc.name, 
+					.depth: 			.desc.depth, 
+					.granularity: 		.desc.granularity, 
+					.children:			.desc.children, 
+					.nChildren: 		COUNT(.desc.children), 				
+					.ancestorId: 		.anc.ancestorId, 
+					.distance2ancestor: 3
+				};
+			
+SAVE AS b42WorldDepth3Temp@ipmuDbPrep;
+
+GROUP PARTITION WITH .ancestorId
+	BY .ancestorId
+	INTO .ancestorHeirs;
+
+SAVE AS b42WorldDepth3Grouped@ipmuDbPrep;
+
+JOIN OF COLLECTIONS	b42WorldDepth3Temp@ipmuDbPrep AS loc,
+					b42WorldDepth3Grouped@ipmuDbPrep AS group
+	CASES WHERE .loc.ancestorId = .group.ancestorId
+	GENERATE BUILD{
+					.placeId: 			.loc.placeId, 
+					.name: 				.loc.name, 
+					.depth: 			.loc.depth, 
+					.granularity: 		.loc.granularity, 
+					.children: 			.loc.children, 
+					.nChildren: 		.loc.nChildren,
+					.ancestorId: 		.loc.ancestorId, 
+					.distance2ancestor:	.loc.distance2ancestor, 
+					.ancestorHeirs: 	COUNT(.group.ancestorHeirs)
+	};
+
+SAVE AS b42WorldDepth3@ipmuDbPrep;
+
+
+
+
+/*
+	building depth 4 connections
+*/
+
+JOIN OF COLLECTIONS	b40WorldExpanded@ipmuDbPrep AS anc,
+					b42WorldDepth3@ipmuDbPrep AS desc
+	CASES
+		WHERE
+				.anc.placeId = .desc.ancestorId AND
+				WITH .anc.ancestorId
+			GENERATE
+				BUILD {
+					.placeId: 			.desc.placeId, 
+					.name: 				.desc.name, 
+					.depth: 			.desc.depth, 
+					.granularity: 		.desc.granularity, 
+					.children:			.desc.children, 
+					.nChildren: 		COUNT(.desc.children), 				
+					.ancestorId: 		.anc.ancestorId, 
+					.distance2ancestor: 4
+				};
+			
+SAVE AS b43WorldDepth4Temp@ipmuDbPrep;
+
+GROUP PARTITION WITH .ancestorId
+	BY .ancestorId
+	INTO .ancestorHeirs;
+
+SAVE AS b43WorldDepth4Grouped@ipmuDbPrep;
+
+JOIN OF COLLECTIONS	b43WorldDepth4Temp@ipmuDbPrep AS loc,
+					b43WorldDepth4Grouped@ipmuDbPrep AS group
+	CASES WHERE .loc.ancestorId = .group.ancestorId
+	GENERATE BUILD{
+					.placeId: 			.loc.placeId, 
+					.name: 				.loc.name, 
+					.depth: 			.loc.depth, 
+					.granularity: 		.loc.granularity, 
+					.children: 			.loc.children, 
+					.nChildren: 		.loc.nChildren,
+					.ancestorId: 		.loc.ancestorId, 
+					.distance2ancestor:	.loc.distance2ancestor, 
+					.ancestorHeirs: 	COUNT(.group.ancestorHeirs)
+	};
+
+SAVE AS b43WorldDepth4@ipmuDbPrep;
+
+
+
+
+/*
+	building depth 5 connections
+*/
+
+JOIN OF COLLECTIONS	b40WorldExpanded@ipmuDbPrep AS anc,
+					b43WorldDepth4@ipmuDbPrep AS desc
+	CASES
+		WHERE
+				.anc.placeId = .desc.ancestorId AND
+				WITH .anc.ancestorId
+			GENERATE
+				BUILD {
+					.placeId: 			.desc.placeId, 
+					.name: 				.desc.name, 
+					.depth: 			.desc.depth, 
+					.granularity: 		.desc.granularity, 
+					.children:			.desc.children, 
+					.nChildren: 		COUNT(.desc.children), 				
+					.ancestorId: 		.anc.ancestorId, 
+					.distance2ancestor: 5
+				};
+			
+SAVE AS b44WorldDepth5Temp@ipmuDbPrep;
+
+GROUP PARTITION WITH .ancestorId
+	BY .ancestorId
+	INTO .ancestorHeirs;
+
+SAVE AS b44WorldDepth5Grouped@ipmuDbPrep;
+
+JOIN OF COLLECTIONS	b44WorldDepth5Temp@ipmuDbPrep AS loc,
+					b44WorldDepth5Grouped@ipmuDbPrep AS group
+	CASES WHERE .loc.ancestorId = .group.ancestorId
+	GENERATE BUILD{
+					.placeId: 			.loc.placeId, 
+					.name: 				.loc.name, 
+					.depth: 			.loc.depth, 
+					.granularity: 		.loc.granularity, 
+					.children: 			.loc.children, 
+					.nChildren: 		.loc.nChildren,
+					.ancestorId: 		.loc.ancestorId, 
+					.distance2ancestor:	.loc.distance2ancestor, 
+					.ancestorHeirs: 	COUNT(.group.ancestorHeirs)
+	};
+
+SAVE AS b44WorldDepth5@ipmuDbPrep;
+
+/*
+merging everything together
+*/
+
+MERGE COLLECTIONS	b40WorldExpanded@ipmuDbPrep,
+					b41WorldDepth2@ipmuDbPrep,
+					b42WorldDepth3@ipmuDbPrep,
+					b43WorldDepth4@ipmuDbPrep,
+					b44WorldDepth5@ipmuDbPrep;
+
+SAVE places@ipmuDbPrep;
+SAVE AS PlacesHierarchy@ipmuDb;
+
+/*
+	end
+*/

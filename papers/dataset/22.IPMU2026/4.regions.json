@@ -1,0 +1,539 @@
+{
+  "id": -1,
+  "name": "World",
+  "depth": 0,
+  "granularity": "world",
+  "children": [
+    {
+      "id": 12567,
+      "name": "Egypt",
+      "depth": 1,
+      "granularity": "country",
+      "children": [
+        {
+          "id": 11821,
+          "name": "Sinai",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -2,
+              "name": "Sinai (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": -3,
+                  "name": "Sinai (city)",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": [
+                    {
+                      "id": 29284,
+                      "name": "the Monastery of Saint Catherine",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11727,
+      "name": "Jerusalem",
+      "depth": 1,
+      "granularity": "country",
+      "children": []
+    },
+    {
+      "id": 12569,
+      "name": "Italy",
+      "depth": 1,
+      "granularity": "country",
+      "children": [
+        {
+          "id": 12625,
+          "name": "Tuscany",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -4,
+              "name": "Tuscany (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 12593,
+                  "name": "Florence",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12552,
+          "name": "Southern Italy",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": 12572,
+              "name": "Calabria",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 12555,
+                  "name": "Rossano",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                },
+                {
+                  "id": 12565,
+                  "name": "Reggio",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 12583,
+              "name": "Sicily",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 12612,
+                  "name": "Messina",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 28882,
+              "name": "Apulia",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 12577,
+                  "name": "Otranto",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 29023,
+              "name": "Abruzzo",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 12579,
+                  "name": "Corfinio",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28969,
+          "name": "Lazio",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -5,
+              "name": "Lazio (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 11709,
+                  "name": "Grottaferrata",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": [
+                    {
+                      "id": 28892,
+                      "name": "the Monastery of Saint Mary",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 11804,
+                  "name": "Rome",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12573,
+      "name": "Cyprus",
+      "depth": 1,
+      "granularity": "country",
+      "children": []
+    },
+    {
+      "id": 12613,
+      "name": "Thrace",
+      "depth": 1,
+      "granularity": "country",
+      "children": [
+        {
+          "id": -6,
+          "name": "Thrace (part)",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -7,
+              "name": "Thrace (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 28958,
+                  "name": "Kallipolis",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12631,
+      "name": "Greece",
+      "depth": 1,
+      "granularity": "country",
+      "children": [
+        {
+          "id": 11564,
+          "name": "Athos",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -8,
+              "name": "Athos (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": -9,
+                  "name": "Athos (city)",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": [
+                    {
+                      "id": 28830,
+                      "name": "the Monastery of Great Lavra",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    },
+                    {
+                      "id": 29281,
+                      "name": "the Pantokrator Monastery",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12581,
+          "name": "Corfu",
+          "depth": 2,
+          "granularity": "part",
+          "children": []
+        },
+        {
+          "id": 12585,
+          "name": "Chios",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -10,
+              "name": "Chios (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": -11,
+                  "name": "Chios (city)",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": [
+                    {
+                      "id": 28766,
+                      "name": "the New Monastery of the Theotokos",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12589,
+          "name": "Peloponnese",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": 28945,
+              "name": "Laconia",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 28946,
+                  "name": "Mystras",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 28970,
+              "name": "Messinia",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 28961,
+                  "name": "Kalamate",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12602,
+          "name": "Epirus",
+          "depth": 2,
+          "granularity": "part",
+          "children": []
+        },
+        {
+          "id": 12630,
+          "name": "Zakynthos",
+          "depth": 2,
+          "granularity": "part",
+          "children": []
+        },
+        {
+          "id": 28942,
+          "name": "Crete",
+          "depth": 2,
+          "granularity": "part",
+          "children": []
+        },
+        {
+          "id": 34096,
+          "name": "Central Macedonia",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -12,
+              "name": "Central Macedonia (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 11818,
+                  "name": "Serres",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": [
+                    {
+                      "id": 29285,
+                      "name": "the Monastery of Saint John Prodromos",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 34097,
+          "name": "Eastern Macedonia and Thrace",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -13,
+              "name": "Eastern Macedonia and Thrace (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 11671,
+                  "name": "Drama",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12636,
+      "name": "Russia",
+      "depth": 1,
+      "granularity": "country",
+      "children": [
+        {
+          "id": -14,
+          "name": "Russia (part)",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -15,
+              "name": "Rusia (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 11762,
+                  "name": "Moscow",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28878,
+      "name": "Turkey",
+      "depth": 1,
+      "granularity": "country",
+      "children": [
+        {
+          "id": -16,
+          "name": "Turkey (part)",
+          "depth": 2,
+          "granularity": "part",
+          "children": [
+            {
+              "id": -17,
+              "name": "Turkey (region)",
+              "depth": 3,
+              "granularity": "region",
+              "children": [
+                {
+                  "id": 11725,
+                  "name": "Izmir",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": []
+                },
+                {
+                  "id": 11839,
+                  "name": "Trabazon",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": [
+                    {
+                      "id": 29293,
+                      "name": "the Sumela Monastery",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 12553,
+                  "name": "Istanbul",
+                  "depth": 4,
+                  "granularity": "city",
+                  "children": [
+                    {
+                      "id": 28825,
+                      "name": "the Hodegon Monastery",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    },
+                    {
+                      "id": 29090,
+                      "name": "the School of Chalkoprateia",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    },
+                    {
+                      "id": 31433,
+                      "name": "the Prodromos Monastery of Petra",
+                      "depth": 5,
+                      "granularity": "location",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

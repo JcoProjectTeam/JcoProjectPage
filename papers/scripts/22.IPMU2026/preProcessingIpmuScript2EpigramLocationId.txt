@@ -1,0 +1,45 @@
+/*
+x.	Connecting to database
+*/
+
+USE DB ipmuDbPrep
+	ON SERVER MongoDB 'http://127.0.0.1:27020';
+USE DB ipmuDb
+	ON SERVER MongoDB 'http://127.0.0.1:27020';
+
+
+JOIN OF COLLECTIONS 
+	a0epigramCollection@ipmuDbPrep AS e, a4WorldExpanded@ipmuDbPrep AS w
+//SAVE AS b0epigramsTEMP@ipmuDbPrep;
+//FILTER 
+	CASES
+		WHERE 	WITH .e.region 	AND
+				FIELD .e.region IS NOT NULL AND
+				.e.region.granularity = .w.granularity AND
+				.e.region.name = .w.name  
+			GENERATE	
+				BUILD	{
+					.epigramId: .e.id, 
+					.placeId: 	.w.id, 
+					.author: 	.e.author, 
+					.date: 		.e.date, 
+					.genres: 	.e.genres, 
+					.meters: 	.e.meters, 
+					.subjects: 	.e.subjects, 
+					.text: 		.e.text	}
+		WHERE	WITHOUT .e.region OR
+				FIELD .e.region IS NULL  
+			GENERATE	
+				BUILD	{
+					.epigramId: .e.id, 
+					.placeId: 	(-1), 
+					.author: 	.e.author, 
+					.date: 		.e.date, 
+					.genres: 	.e.genres, 
+					.meters: 	.e.meters, 
+					.subjects: 	.e.subjects, 
+					.text: 		.e.text	}
+	REMOVE DUPLICATES;
+
+SAVE AS b0epigrams@ipmuDbPrep;
+SAVE AS Epigrams@ipmuDb;
