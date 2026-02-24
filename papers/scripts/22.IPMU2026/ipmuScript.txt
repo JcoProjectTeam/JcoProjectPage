@@ -84,9 +84,7 @@ JOIN OF COLLECTIONS Epigrams@ipmuDb 		AS E,
 				.ancestorHeirs		: 1,
 				.distance2ancestor	: 0 	}
 ;
-
-
-SAVE AS temp@ipmuDb;
+// SAVE AS temp@ipmuDb;   // uncomment to see partial data
 
 GROUP PARTITION WITH .E
 	BY .E
@@ -97,7 +95,9 @@ GROUP PARTITION WITH .E
 			.ancestorHeirs 		: MAX_ARRAY(.group, NUMERIC, .ancestorHeirs),
 			.distance2ancestor 	: MAX_ARRAY(.group, NUMERIC, .distance2ancestor)
 		};
-SAVE AS temp2@ipmuDb;
+
+//SAVE AS temp2@ipmuDb;   // uncomment to see partial data
+
 
 FILTER 
 	CASES WHERE WITH .E
@@ -106,9 +106,12 @@ FILTER
 		BUILD {
 			UNNEST .E
 		};
-			
+
+/* Saving Final output data*/			
 SAVE AS LGradeEpigrams@ipmuDb;
 
+
+/* Extra instructions to derive a confusion matrix data */
 FILTER 
 	CASES WHERE 1
 	GENERATE BUILD {
@@ -116,5 +119,7 @@ FILTER
 		.s:DEGREE(lGrade.s) 
 		}DEFUZZIFY;
 SAVE AS ConfusionMatrixData@ipmuDb;
-SAVE TO FILE "C:\Users\Unibg\Documents\J-CO\.data\.zunTestScripts\20.IPMU 2026\outMatrix.json";
+// saving to file
+SAVE TO FILE ".\outMatrix.json";
+
 /* end */

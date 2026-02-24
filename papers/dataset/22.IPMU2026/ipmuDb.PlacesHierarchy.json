@@ -1,0 +1,9279 @@
+[{
+  "_id": "69759cd0905e2c4353ea189f",
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "29284"
+                      },
+                      "name": "the Monastery of Saint Catherine"
+                    }
+                  ],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "-3"
+                  },
+                  "name": "Sinai (city)"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-2"
+              },
+              "name": "Sinai (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "11821"
+          },
+          "name": "Sinai"
+        }
+      ],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "12567"
+      },
+      "name": "Egypt"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "11727"
+      },
+      "name": "Jerusalem"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "12593"
+                  },
+                  "name": "Florence"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-4"
+              },
+              "name": "Tuscany (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "12625"
+          },
+          "name": "Tuscany"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "12555"
+                  },
+                  "name": "Rossano"
+                },
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "12565"
+                  },
+                  "name": "Reggio"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "12572"
+              },
+              "name": "Calabria"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "12612"
+                  },
+                  "name": "Messina"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "12583"
+              },
+              "name": "Sicily"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "12577"
+                  },
+                  "name": "Otranto"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "28882"
+              },
+              "name": "Apulia"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "12579"
+                  },
+                  "name": "Corfinio"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "29023"
+              },
+              "name": "Abruzzo"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "12552"
+          },
+          "name": "Southern Italy"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "28892"
+                      },
+                      "name": "the Monastery of Saint Mary"
+                    }
+                  ],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "11709"
+                  },
+                  "name": "Grottaferrata"
+                },
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "11804"
+                  },
+                  "name": "Rome"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-5"
+              },
+              "name": "Lazio (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "28969"
+          },
+          "name": "Lazio"
+        }
+      ],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "12569"
+      },
+      "name": "Italy"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "12573"
+      },
+      "name": "Cyprus"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "28958"
+                  },
+                  "name": "Kallipolis"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-7"
+              },
+              "name": "Thrace (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "-6"
+          },
+          "name": "Thrace (part)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "12613"
+      },
+      "name": "Thrace"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "28830"
+                      },
+                      "name": "the Monastery of Great Lavra"
+                    },
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "29281"
+                      },
+                      "name": "the Pantokrator Monastery"
+                    }
+                  ],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "-9"
+                  },
+                  "name": "Athos (city)"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-8"
+              },
+              "name": "Athos (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "11564"
+          },
+          "name": "Athos"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "12581"
+          },
+          "name": "Corfu"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "28766"
+                      },
+                      "name": "the New Monastery of the Theotokos"
+                    }
+                  ],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "-11"
+                  },
+                  "name": "Chios (city)"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-10"
+              },
+              "name": "Chios (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "12585"
+          },
+          "name": "Chios"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "28946"
+                  },
+                  "name": "Mystras"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "28945"
+              },
+              "name": "Laconia"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "28961"
+                  },
+                  "name": "Kalamate"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "28970"
+              },
+              "name": "Messinia"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "12589"
+          },
+          "name": "Peloponnese"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "12602"
+          },
+          "name": "Epirus"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "12630"
+          },
+          "name": "Zakynthos"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "28942"
+          },
+          "name": "Crete"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "29285"
+                      },
+                      "name": "the Monastery of Saint John Prodromos"
+                    }
+                  ],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "11818"
+                  },
+                  "name": "Serres"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-12"
+              },
+              "name": "Central Macedonia (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "34096"
+          },
+          "name": "Central Macedonia"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "11671"
+                  },
+                  "name": "Drama"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-13"
+              },
+              "name": "Eastern Macedonia and Thrace (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "34097"
+          },
+          "name": "Eastern Macedonia and Thrace"
+        }
+      ],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "12631"
+      },
+      "name": "Greece"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "11762"
+                  },
+                  "name": "Moscow"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-15"
+              },
+              "name": "Rusia (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "-14"
+          },
+          "name": "Russia (part)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "12636"
+      },
+      "name": "Russia"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "11725"
+                  },
+                  "name": "Izmir"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "29293"
+                      },
+                      "name": "the Sumela Monastery"
+                    }
+                  ],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "11839"
+                  },
+                  "name": "Trabazon"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "28825"
+                      },
+                      "name": "the Hodegon Monastery"
+                    },
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "29090"
+                      },
+                      "name": "the School of Chalkoprateia"
+                    },
+                    {
+                      "children": [],
+                      "depth": {
+                        "$numberLong": "5"
+                      },
+                      "granularity": "location",
+                      "id": {
+                        "$numberLong": "31433"
+                      },
+                      "name": "the Prodromos Monastery of Petra"
+                    }
+                  ],
+                  "depth": {
+                    "$numberLong": "4"
+                  },
+                  "granularity": "city",
+                  "id": {
+                    "$numberLong": "12553"
+                  },
+                  "name": "Istanbul"
+                }
+              ],
+              "depth": {
+                "$numberLong": "3"
+              },
+              "granularity": "region",
+              "id": {
+                "$numberLong": "-17"
+              },
+              "name": "Turkey (region)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "2"
+          },
+          "granularity": "part",
+          "id": {
+            "$numberLong": "-16"
+          },
+          "name": "Turkey (part)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "1"
+      },
+      "granularity": "country",
+      "id": {
+        "$numberLong": "28878"
+      },
+      "name": "Turkey"
+    }
+  ],
+  "depth": {
+    "$numberLong": "0"
+  },
+  "granularity": "world",
+  "nChildren": {
+    "$numberLong": "8"
+  },
+  "name": "World",
+  "placeId": {
+    "$numberLong": "-1"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a1",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Jerusalem",
+  "placeId": {
+    "$numberLong": "11727"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a2",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "12593"
+              },
+              "name": "Florence"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-4"
+          },
+          "name": "Tuscany (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "12625"
+      },
+      "name": "Tuscany"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "12555"
+              },
+              "name": "Rossano"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "12565"
+              },
+              "name": "Reggio"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "12572"
+          },
+          "name": "Calabria"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "12612"
+              },
+              "name": "Messina"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "12583"
+          },
+          "name": "Sicily"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "12577"
+              },
+              "name": "Otranto"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "28882"
+          },
+          "name": "Apulia"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "12579"
+              },
+              "name": "Corfinio"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "29023"
+          },
+          "name": "Abruzzo"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "12552"
+      },
+      "name": "Southern Italy"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "28892"
+                  },
+                  "name": "the Monastery of Saint Mary"
+                }
+              ],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "11709"
+              },
+              "name": "Grottaferrata"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "11804"
+              },
+              "name": "Rome"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-5"
+          },
+          "name": "Lazio (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "28969"
+      },
+      "name": "Lazio"
+    }
+  ],
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Italy",
+  "placeId": {
+    "$numberLong": "12569"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a3",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "29284"
+                  },
+                  "name": "the Monastery of Saint Catherine"
+                }
+              ],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "-3"
+              },
+              "name": "Sinai (city)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-2"
+          },
+          "name": "Sinai (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "11821"
+      },
+      "name": "Sinai"
+    }
+  ],
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Egypt",
+  "placeId": {
+    "$numberLong": "12567"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a4",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "28958"
+              },
+              "name": "Kallipolis"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-7"
+          },
+          "name": "Thrace (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "-6"
+      },
+      "name": "Thrace (part)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Thrace",
+  "placeId": {
+    "$numberLong": "12613"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a5",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "11725"
+              },
+              "name": "Izmir"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "29293"
+                  },
+                  "name": "the Sumela Monastery"
+                }
+              ],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "11839"
+              },
+              "name": "Trabazon"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "28825"
+                  },
+                  "name": "the Hodegon Monastery"
+                },
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "29090"
+                  },
+                  "name": "the School of Chalkoprateia"
+                },
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "31433"
+                  },
+                  "name": "the Prodromos Monastery of Petra"
+                }
+              ],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "12553"
+              },
+              "name": "Istanbul"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-17"
+          },
+          "name": "Turkey (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "-16"
+      },
+      "name": "Turkey (part)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Turkey",
+  "placeId": {
+    "$numberLong": "28878"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a6",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Cyprus",
+  "placeId": {
+    "$numberLong": "12573"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a7",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "28830"
+                  },
+                  "name": "the Monastery of Great Lavra"
+                },
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "29281"
+                  },
+                  "name": "the Pantokrator Monastery"
+                }
+              ],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "-9"
+              },
+              "name": "Athos (city)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-8"
+          },
+          "name": "Athos (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "11564"
+      },
+      "name": "Athos"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "12581"
+      },
+      "name": "Corfu"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "28766"
+                  },
+                  "name": "the New Monastery of the Theotokos"
+                }
+              ],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "-11"
+              },
+              "name": "Chios (city)"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-10"
+          },
+          "name": "Chios (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "12585"
+      },
+      "name": "Chios"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "28946"
+              },
+              "name": "Mystras"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "28945"
+          },
+          "name": "Laconia"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "28961"
+              },
+              "name": "Kalamate"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "28970"
+          },
+          "name": "Messinia"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "12589"
+      },
+      "name": "Peloponnese"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "12602"
+      },
+      "name": "Epirus"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "12630"
+      },
+      "name": "Zakynthos"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "28942"
+      },
+      "name": "Crete"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "depth": {
+                    "$numberLong": "5"
+                  },
+                  "granularity": "location",
+                  "id": {
+                    "$numberLong": "29285"
+                  },
+                  "name": "the Monastery of Saint John Prodromos"
+                }
+              ],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "11818"
+              },
+              "name": "Serres"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-12"
+          },
+          "name": "Central Macedonia (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "34096"
+      },
+      "name": "Central Macedonia"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "11671"
+              },
+              "name": "Drama"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-13"
+          },
+          "name": "Eastern Macedonia and Thrace (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "34097"
+      },
+      "name": "Eastern Macedonia and Thrace"
+    }
+  ],
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "9"
+  },
+  "name": "Greece",
+  "placeId": {
+    "$numberLong": "12631"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18a8",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "4"
+              },
+              "granularity": "city",
+              "id": {
+                "$numberLong": "11762"
+              },
+              "name": "Moscow"
+            }
+          ],
+          "depth": {
+            "$numberLong": "3"
+          },
+          "granularity": "region",
+          "id": {
+            "$numberLong": "-15"
+          },
+          "name": "Rusia (region)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "2"
+      },
+      "granularity": "part",
+      "id": {
+        "$numberLong": "-14"
+      },
+      "name": "Russia (part)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "1"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "country",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Russia",
+  "placeId": {
+    "$numberLong": "12636"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18aa",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12593"
+          },
+          "name": "Florence"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-4"
+      },
+      "name": "Tuscany (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Tuscany",
+  "placeId": {
+    "$numberLong": "12625"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18ab",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12555"
+          },
+          "name": "Rossano"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12565"
+          },
+          "name": "Reggio"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "12572"
+      },
+      "name": "Calabria"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12612"
+          },
+          "name": "Messina"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "12583"
+      },
+      "name": "Sicily"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12577"
+          },
+          "name": "Otranto"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "28882"
+      },
+      "name": "Apulia"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12579"
+          },
+          "name": "Corfinio"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "29023"
+      },
+      "name": "Abruzzo"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "4"
+  },
+  "name": "Southern Italy",
+  "placeId": {
+    "$numberLong": "12552"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18ac",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28892"
+              },
+              "name": "the Monastery of Saint Mary"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11709"
+          },
+          "name": "Grottaferrata"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11804"
+          },
+          "name": "Rome"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-5"
+      },
+      "name": "Lazio (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Lazio",
+  "placeId": {
+    "$numberLong": "28969"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18ad",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12567"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29284"
+              },
+              "name": "the Monastery of Saint Catherine"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "-3"
+          },
+          "name": "Sinai (city)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-2"
+      },
+      "name": "Sinai (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai",
+  "placeId": {
+    "$numberLong": "11821"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18ae",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12613"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "28958"
+          },
+          "name": "Kallipolis"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-7"
+      },
+      "name": "Thrace (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Thrace (part)",
+  "placeId": {
+    "$numberLong": "-6"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18af",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11725"
+          },
+          "name": "Izmir"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29293"
+              },
+              "name": "the Sumela Monastery"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11839"
+          },
+          "name": "Trabazon"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28825"
+              },
+              "name": "the Hodegon Monastery"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29090"
+              },
+              "name": "the School of Chalkoprateia"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "31433"
+              },
+              "name": "the Prodromos Monastery of Petra"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12553"
+          },
+          "name": "Istanbul"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-17"
+      },
+      "name": "Turkey (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Turkey (part)",
+  "placeId": {
+    "$numberLong": "-16"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b0",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28830"
+              },
+              "name": "the Monastery of Great Lavra"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29281"
+              },
+              "name": "the Pantokrator Monastery"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "-9"
+          },
+          "name": "Athos (city)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-8"
+      },
+      "name": "Athos (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Athos",
+  "placeId": {
+    "$numberLong": "11564"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b1",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29285"
+              },
+              "name": "the Monastery of Saint John Prodromos"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11818"
+          },
+          "name": "Serres"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-12"
+      },
+      "name": "Central Macedonia (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Central Macedonia",
+  "placeId": {
+    "$numberLong": "34096"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b2",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11671"
+          },
+          "name": "Drama"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-13"
+      },
+      "name": "Eastern Macedonia and Thrace (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Eastern Macedonia and Thrace",
+  "placeId": {
+    "$numberLong": "34097"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b3",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28766"
+              },
+              "name": "the New Monastery of the Theotokos"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "-11"
+          },
+          "name": "Chios (city)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-10"
+      },
+      "name": "Chios (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios",
+  "placeId": {
+    "$numberLong": "12585"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b4",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Epirus",
+  "placeId": {
+    "$numberLong": "12602"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b5",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Crete",
+  "placeId": {
+    "$numberLong": "28942"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b6",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12636"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11762"
+          },
+          "name": "Moscow"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-15"
+      },
+      "name": "Rusia (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Russia (part)",
+  "placeId": {
+    "$numberLong": "-14"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b7",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Corfu",
+  "placeId": {
+    "$numberLong": "12581"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b8",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "28946"
+          },
+          "name": "Mystras"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "28945"
+      },
+      "name": "Laconia"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "28961"
+          },
+          "name": "Kalamate"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "28970"
+      },
+      "name": "Messinia"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Peloponnese",
+  "placeId": {
+    "$numberLong": "12589"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18b9",
+  "ancestorHeirs": {
+    "$numberLong": "9"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Zakynthos",
+  "placeId": {
+    "$numberLong": "12630"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18bb",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12625"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12593"
+      },
+      "name": "Florence"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Tuscany (region)",
+  "placeId": {
+    "$numberLong": "-4"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18bc",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12555"
+      },
+      "name": "Rossano"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12565"
+      },
+      "name": "Reggio"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Calabria",
+  "placeId": {
+    "$numberLong": "12572"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18bd",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12612"
+      },
+      "name": "Messina"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sicily",
+  "placeId": {
+    "$numberLong": "12583"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18be",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12577"
+      },
+      "name": "Otranto"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Apulia",
+  "placeId": {
+    "$numberLong": "28882"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18bf",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "28969"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28892"
+          },
+          "name": "the Monastery of Saint Mary"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11709"
+      },
+      "name": "Grottaferrata"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11804"
+      },
+      "name": "Rome"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Lazio (region)",
+  "placeId": {
+    "$numberLong": "-5"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c0",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11821"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29284"
+          },
+          "name": "the Monastery of Saint Catherine"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-3"
+      },
+      "name": "Sinai (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai (region)",
+  "placeId": {
+    "$numberLong": "-2"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c1",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11564"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28830"
+          },
+          "name": "the Monastery of Great Lavra"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29281"
+          },
+          "name": "the Pantokrator Monastery"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-9"
+      },
+      "name": "Athos (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Athos (region)",
+  "placeId": {
+    "$numberLong": "-8"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c2",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11725"
+      },
+      "name": "Izmir"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29293"
+          },
+          "name": "the Sumela Monastery"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11839"
+      },
+      "name": "Trabazon"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28825"
+          },
+          "name": "the Hodegon Monastery"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29090"
+          },
+          "name": "the School of Chalkoprateia"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "31433"
+          },
+          "name": "the Prodromos Monastery of Petra"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12553"
+      },
+      "name": "Istanbul"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Turkey (region)",
+  "placeId": {
+    "$numberLong": "-17"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c3",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12585"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28766"
+          },
+          "name": "the New Monastery of the Theotokos"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-11"
+      },
+      "name": "Chios (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios (region)",
+  "placeId": {
+    "$numberLong": "-10"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c4",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "12589"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28961"
+      },
+      "name": "Kalamate"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Messinia",
+  "placeId": {
+    "$numberLong": "28970"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c5",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "34097"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11671"
+      },
+      "name": "Drama"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Eastern Macedonia and Thrace (region)",
+  "placeId": {
+    "$numberLong": "-13"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c6",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "12589"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28946"
+      },
+      "name": "Mystras"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Laconia",
+  "placeId": {
+    "$numberLong": "28945"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c7",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12579"
+      },
+      "name": "Corfinio"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Abruzzo",
+  "placeId": {
+    "$numberLong": "29023"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c8",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-6"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28958"
+      },
+      "name": "Kallipolis"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Thrace (region)",
+  "placeId": {
+    "$numberLong": "-7"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18c9",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "34096"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29285"
+          },
+          "name": "the Monastery of Saint John Prodromos"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11818"
+      },
+      "name": "Serres"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Central Macedonia (region)",
+  "placeId": {
+    "$numberLong": "-12"
+  }
+},
+{
+  "_id": "69759cd0905e2c4353ea18ca",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-14"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11762"
+      },
+      "name": "Moscow"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Rusia (region)",
+  "placeId": {
+    "$numberLong": "-15"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18cc",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-4"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Florence",
+  "placeId": {
+    "$numberLong": "12593"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18cd",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "12572"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rossano",
+  "placeId": {
+    "$numberLong": "12555"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18ce",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "12572"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Reggio",
+  "placeId": {
+    "$numberLong": "12565"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18cf",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12583"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Messina",
+  "placeId": {
+    "$numberLong": "12612"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d0",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "28882"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Otranto",
+  "placeId": {
+    "$numberLong": "12577"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d1",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "-5"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28892"
+      },
+      "name": "the Monastery of Saint Mary"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Grottaferrata",
+  "placeId": {
+    "$numberLong": "11709"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d2",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-2"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29284"
+      },
+      "name": "the Monastery of Saint Catherine"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai (city)",
+  "placeId": {
+    "$numberLong": "-3"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d3",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-8"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28830"
+      },
+      "name": "the Monastery of Great Lavra"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29281"
+      },
+      "name": "the Pantokrator Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Athos (city)",
+  "placeId": {
+    "$numberLong": "-9"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d4",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "-5"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rome",
+  "placeId": {
+    "$numberLong": "11804"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d5",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "-17"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29293"
+      },
+      "name": "the Sumela Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Trabazon",
+  "placeId": {
+    "$numberLong": "11839"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d6",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "-17"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28825"
+      },
+      "name": "the Hodegon Monastery"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29090"
+      },
+      "name": "the School of Chalkoprateia"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "31433"
+      },
+      "name": "the Prodromos Monastery of Petra"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Istanbul",
+  "placeId": {
+    "$numberLong": "12553"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d7",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-13"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Drama",
+  "placeId": {
+    "$numberLong": "11671"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d8",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "28970"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kalamate",
+  "placeId": {
+    "$numberLong": "28961"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18d9",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "-17"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Izmir",
+  "placeId": {
+    "$numberLong": "11725"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18da",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-7"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kallipolis",
+  "placeId": {
+    "$numberLong": "28958"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18db",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "29023"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Corfinio",
+  "placeId": {
+    "$numberLong": "12579"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18dc",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-10"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28766"
+      },
+      "name": "the New Monastery of the Theotokos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios (city)",
+  "placeId": {
+    "$numberLong": "-11"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18dd",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-15"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Moscow",
+  "placeId": {
+    "$numberLong": "11762"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18de",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "28945"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Mystras",
+  "placeId": {
+    "$numberLong": "28946"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18df",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-12"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29285"
+      },
+      "name": "the Monastery of Saint John Prodromos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Serres",
+  "placeId": {
+    "$numberLong": "11818"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e1",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-3"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Catherine",
+  "placeId": {
+    "$numberLong": "29284"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e2",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11709"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Mary",
+  "placeId": {
+    "$numberLong": "28892"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e3",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "-9"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Great Lavra",
+  "placeId": {
+    "$numberLong": "28830"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e4",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11839"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Sumela Monastery",
+  "placeId": {
+    "$numberLong": "29293"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e5",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "-9"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Pantokrator Monastery",
+  "placeId": {
+    "$numberLong": "29281"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e6",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "12553"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Hodegon Monastery",
+  "placeId": {
+    "$numberLong": "28825"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e7",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "12553"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the School of Chalkoprateia",
+  "placeId": {
+    "$numberLong": "29090"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e8",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "12553"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Prodromos Monastery of Petra",
+  "placeId": {
+    "$numberLong": "31433"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18e9",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-11"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the New Monastery of the Theotokos",
+  "placeId": {
+    "$numberLong": "28766"
+  }
+},
+{
+  "_id": "69759cd1905e2c4353ea18ea",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11818"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "1"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint John Prodromos",
+  "placeId": {
+    "$numberLong": "29285"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836f5",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12555"
+          },
+          "name": "Rossano"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12565"
+          },
+          "name": "Reggio"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "12572"
+      },
+      "name": "Calabria"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12612"
+          },
+          "name": "Messina"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "12583"
+      },
+      "name": "Sicily"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12577"
+          },
+          "name": "Otranto"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "28882"
+      },
+      "name": "Apulia"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12579"
+          },
+          "name": "Corfinio"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "29023"
+      },
+      "name": "Abruzzo"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "4"
+  },
+  "name": "Southern Italy",
+  "placeId": {
+    "$numberLong": "12552"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836f6",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28892"
+              },
+              "name": "the Monastery of Saint Mary"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11709"
+          },
+          "name": "Grottaferrata"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11804"
+          },
+          "name": "Rome"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-5"
+      },
+      "name": "Lazio (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Lazio",
+  "placeId": {
+    "$numberLong": "28969"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836f7",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12593"
+          },
+          "name": "Florence"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-4"
+      },
+      "name": "Tuscany (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Tuscany",
+  "placeId": {
+    "$numberLong": "12625"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836f8",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29284"
+              },
+              "name": "the Monastery of Saint Catherine"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "-3"
+          },
+          "name": "Sinai (city)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-2"
+      },
+      "name": "Sinai (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai",
+  "placeId": {
+    "$numberLong": "11821"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836f9",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "28958"
+          },
+          "name": "Kallipolis"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-7"
+      },
+      "name": "Thrace (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Thrace (part)",
+  "placeId": {
+    "$numberLong": "-6"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836fa",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11725"
+          },
+          "name": "Izmir"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29293"
+              },
+              "name": "the Sumela Monastery"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11839"
+          },
+          "name": "Trabazon"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28825"
+              },
+              "name": "the Hodegon Monastery"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29090"
+              },
+              "name": "the School of Chalkoprateia"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "31433"
+              },
+              "name": "the Prodromos Monastery of Petra"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "12553"
+          },
+          "name": "Istanbul"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-17"
+      },
+      "name": "Turkey (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Turkey (part)",
+  "placeId": {
+    "$numberLong": "-16"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836fb",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28830"
+              },
+              "name": "the Monastery of Great Lavra"
+            },
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29281"
+              },
+              "name": "the Pantokrator Monastery"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "-9"
+          },
+          "name": "Athos (city)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-8"
+      },
+      "name": "Athos (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Athos",
+  "placeId": {
+    "$numberLong": "11564"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836fc",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "29285"
+              },
+              "name": "the Monastery of Saint John Prodromos"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11818"
+          },
+          "name": "Serres"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-12"
+      },
+      "name": "Central Macedonia (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Central Macedonia",
+  "placeId": {
+    "$numberLong": "34096"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836fd",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "depth": {
+                "$numberLong": "5"
+              },
+              "granularity": "location",
+              "id": {
+                "$numberLong": "28766"
+              },
+              "name": "the New Monastery of the Theotokos"
+            }
+          ],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "-11"
+          },
+          "name": "Chios (city)"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-10"
+      },
+      "name": "Chios (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios",
+  "placeId": {
+    "$numberLong": "12585"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836fe",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Epirus",
+  "placeId": {
+    "$numberLong": "12602"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef7836ff",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11671"
+          },
+          "name": "Drama"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-13"
+      },
+      "name": "Eastern Macedonia and Thrace (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Eastern Macedonia and Thrace",
+  "placeId": {
+    "$numberLong": "34097"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783700",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Zakynthos",
+  "placeId": {
+    "$numberLong": "12630"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783701",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Crete",
+  "placeId": {
+    "$numberLong": "28942"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783702",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "28946"
+          },
+          "name": "Mystras"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "28945"
+      },
+      "name": "Laconia"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "28961"
+          },
+          "name": "Kalamate"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "28970"
+      },
+      "name": "Messinia"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Peloponnese",
+  "placeId": {
+    "$numberLong": "12589"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783703",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Corfu",
+  "placeId": {
+    "$numberLong": "12581"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783704",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "4"
+          },
+          "granularity": "city",
+          "id": {
+            "$numberLong": "11762"
+          },
+          "name": "Moscow"
+        }
+      ],
+      "depth": {
+        "$numberLong": "3"
+      },
+      "granularity": "region",
+      "id": {
+        "$numberLong": "-15"
+      },
+      "name": "Rusia (region)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "2"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "part",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Russia (part)",
+  "placeId": {
+    "$numberLong": "-14"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783705",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12593"
+      },
+      "name": "Florence"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Tuscany (region)",
+  "placeId": {
+    "$numberLong": "-4"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783706",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12577"
+      },
+      "name": "Otranto"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Apulia",
+  "placeId": {
+    "$numberLong": "28882"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783707",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12612"
+      },
+      "name": "Messina"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sicily",
+  "placeId": {
+    "$numberLong": "12583"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783708",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12579"
+      },
+      "name": "Corfinio"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Abruzzo",
+  "placeId": {
+    "$numberLong": "29023"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783709",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12555"
+      },
+      "name": "Rossano"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12565"
+      },
+      "name": "Reggio"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Calabria",
+  "placeId": {
+    "$numberLong": "12572"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78370a",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28892"
+          },
+          "name": "the Monastery of Saint Mary"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11709"
+      },
+      "name": "Grottaferrata"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11804"
+      },
+      "name": "Rome"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Lazio (region)",
+  "placeId": {
+    "$numberLong": "-5"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78370b",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12567"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29284"
+          },
+          "name": "the Monastery of Saint Catherine"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-3"
+      },
+      "name": "Sinai (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai (region)",
+  "placeId": {
+    "$numberLong": "-2"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78370c",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12613"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28958"
+      },
+      "name": "Kallipolis"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Thrace (region)",
+  "placeId": {
+    "$numberLong": "-7"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78370d",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11725"
+      },
+      "name": "Izmir"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29293"
+          },
+          "name": "the Sumela Monastery"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11839"
+      },
+      "name": "Trabazon"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28825"
+          },
+          "name": "the Hodegon Monastery"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29090"
+          },
+          "name": "the School of Chalkoprateia"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "31433"
+          },
+          "name": "the Prodromos Monastery of Petra"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12553"
+      },
+      "name": "Istanbul"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Turkey (region)",
+  "placeId": {
+    "$numberLong": "-17"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78370e",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28830"
+          },
+          "name": "the Monastery of Great Lavra"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29281"
+          },
+          "name": "the Pantokrator Monastery"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-9"
+      },
+      "name": "Athos (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Athos (region)",
+  "placeId": {
+    "$numberLong": "-8"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78370f",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29285"
+          },
+          "name": "the Monastery of Saint John Prodromos"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11818"
+      },
+      "name": "Serres"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Central Macedonia (region)",
+  "placeId": {
+    "$numberLong": "-12"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783710",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11671"
+      },
+      "name": "Drama"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Eastern Macedonia and Thrace (region)",
+  "placeId": {
+    "$numberLong": "-13"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783711",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28766"
+          },
+          "name": "the New Monastery of the Theotokos"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-11"
+      },
+      "name": "Chios (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios (region)",
+  "placeId": {
+    "$numberLong": "-10"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783712",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12636"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11762"
+      },
+      "name": "Moscow"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Rusia (region)",
+  "placeId": {
+    "$numberLong": "-15"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783713",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28961"
+      },
+      "name": "Kalamate"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Messinia",
+  "placeId": {
+    "$numberLong": "28970"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783714",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28946"
+      },
+      "name": "Mystras"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Laconia",
+  "placeId": {
+    "$numberLong": "28945"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783715",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12625"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Florence",
+  "placeId": {
+    "$numberLong": "12593"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783716",
+  "ancestorHeirs": {
+    "$numberLong": "5"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rossano",
+  "placeId": {
+    "$numberLong": "12555"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783717",
+  "ancestorHeirs": {
+    "$numberLong": "5"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Reggio",
+  "placeId": {
+    "$numberLong": "12565"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783718",
+  "ancestorHeirs": {
+    "$numberLong": "5"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Messina",
+  "placeId": {
+    "$numberLong": "12612"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783719",
+  "ancestorHeirs": {
+    "$numberLong": "5"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Otranto",
+  "placeId": {
+    "$numberLong": "12577"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78371a",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "28969"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28892"
+      },
+      "name": "the Monastery of Saint Mary"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Grottaferrata",
+  "placeId": {
+    "$numberLong": "11709"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78371b",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "28969"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rome",
+  "placeId": {
+    "$numberLong": "11804"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78371c",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11821"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29284"
+      },
+      "name": "the Monastery of Saint Catherine"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai (city)",
+  "placeId": {
+    "$numberLong": "-3"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78371d",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11564"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28830"
+      },
+      "name": "the Monastery of Great Lavra"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29281"
+      },
+      "name": "the Pantokrator Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Athos (city)",
+  "placeId": {
+    "$numberLong": "-9"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78371e",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28825"
+      },
+      "name": "the Hodegon Monastery"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29090"
+      },
+      "name": "the School of Chalkoprateia"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "31433"
+      },
+      "name": "the Prodromos Monastery of Petra"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Istanbul",
+  "placeId": {
+    "$numberLong": "12553"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78371f",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Izmir",
+  "placeId": {
+    "$numberLong": "11725"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783720",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29293"
+      },
+      "name": "the Sumela Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Trabazon",
+  "placeId": {
+    "$numberLong": "11839"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783721",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12585"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28766"
+      },
+      "name": "the New Monastery of the Theotokos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios (city)",
+  "placeId": {
+    "$numberLong": "-11"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783722",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "12589"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kalamate",
+  "placeId": {
+    "$numberLong": "28961"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783723",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "34097"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Drama",
+  "placeId": {
+    "$numberLong": "11671"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783724",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "12589"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Mystras",
+  "placeId": {
+    "$numberLong": "28946"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783725",
+  "ancestorHeirs": {
+    "$numberLong": "5"
+  },
+  "ancestorId": {
+    "$numberLong": "12552"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Corfinio",
+  "placeId": {
+    "$numberLong": "12579"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783726",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-6"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kallipolis",
+  "placeId": {
+    "$numberLong": "28958"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783727",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "34096"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29285"
+      },
+      "name": "the Monastery of Saint John Prodromos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Serres",
+  "placeId": {
+    "$numberLong": "11818"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783728",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-14"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Moscow",
+  "placeId": {
+    "$numberLong": "11762"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783729",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-5"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Mary",
+  "placeId": {
+    "$numberLong": "28892"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78372a",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-2"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Catherine",
+  "placeId": {
+    "$numberLong": "29284"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78372b",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "-8"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Great Lavra",
+  "placeId": {
+    "$numberLong": "28830"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78372c",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "-8"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Pantokrator Monastery",
+  "placeId": {
+    "$numberLong": "29281"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78372d",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-17"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Sumela Monastery",
+  "placeId": {
+    "$numberLong": "29293"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78372e",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-17"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Hodegon Monastery",
+  "placeId": {
+    "$numberLong": "28825"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef78372f",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-17"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Prodromos Monastery of Petra",
+  "placeId": {
+    "$numberLong": "31433"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783730",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-17"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the School of Chalkoprateia",
+  "placeId": {
+    "$numberLong": "29090"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783731",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-10"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the New Monastery of the Theotokos",
+  "placeId": {
+    "$numberLong": "28766"
+  }
+},
+{
+  "_id": "6975ab960393ad31ef783732",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "-12"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "2"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint John Prodromos",
+  "placeId": {
+    "$numberLong": "29285"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783775",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12612"
+      },
+      "name": "Messina"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sicily",
+  "placeId": {
+    "$numberLong": "12583"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783776",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12593"
+      },
+      "name": "Florence"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Tuscany (region)",
+  "placeId": {
+    "$numberLong": "-4"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783777",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12577"
+      },
+      "name": "Otranto"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Apulia",
+  "placeId": {
+    "$numberLong": "28882"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783778",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28892"
+          },
+          "name": "the Monastery of Saint Mary"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11709"
+      },
+      "name": "Grottaferrata"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11804"
+      },
+      "name": "Rome"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Lazio (region)",
+  "placeId": {
+    "$numberLong": "-5"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783779",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12555"
+      },
+      "name": "Rossano"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12565"
+      },
+      "name": "Reggio"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Calabria",
+  "placeId": {
+    "$numberLong": "12572"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78377a",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12579"
+      },
+      "name": "Corfinio"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Abruzzo",
+  "placeId": {
+    "$numberLong": "29023"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78377b",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29284"
+          },
+          "name": "the Monastery of Saint Catherine"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-3"
+      },
+      "name": "Sinai (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai (region)",
+  "placeId": {
+    "$numberLong": "-2"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78377c",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28958"
+      },
+      "name": "Kallipolis"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Thrace (region)",
+  "placeId": {
+    "$numberLong": "-7"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78377d",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11725"
+      },
+      "name": "Izmir"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29293"
+          },
+          "name": "the Sumela Monastery"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11839"
+      },
+      "name": "Trabazon"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28825"
+          },
+          "name": "the Hodegon Monastery"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29090"
+          },
+          "name": "the School of Chalkoprateia"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "31433"
+          },
+          "name": "the Prodromos Monastery of Petra"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "12553"
+      },
+      "name": "Istanbul"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Turkey (region)",
+  "placeId": {
+    "$numberLong": "-17"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78377e",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11671"
+      },
+      "name": "Drama"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Eastern Macedonia and Thrace (region)",
+  "placeId": {
+    "$numberLong": "-13"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78377f",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28830"
+          },
+          "name": "the Monastery of Great Lavra"
+        },
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29281"
+          },
+          "name": "the Pantokrator Monastery"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-9"
+      },
+      "name": "Athos (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Athos (region)",
+  "placeId": {
+    "$numberLong": "-8"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783780",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "29285"
+          },
+          "name": "the Monastery of Saint John Prodromos"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11818"
+      },
+      "name": "Serres"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Central Macedonia (region)",
+  "placeId": {
+    "$numberLong": "-12"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783781",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28961"
+      },
+      "name": "Kalamate"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Messinia",
+  "placeId": {
+    "$numberLong": "28970"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783782",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "depth": {
+            "$numberLong": "5"
+          },
+          "granularity": "location",
+          "id": {
+            "$numberLong": "28766"
+          },
+          "name": "the New Monastery of the Theotokos"
+        }
+      ],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "-11"
+      },
+      "name": "Chios (city)"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios (region)",
+  "placeId": {
+    "$numberLong": "-10"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783783",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "28946"
+      },
+      "name": "Mystras"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Laconia",
+  "placeId": {
+    "$numberLong": "28945"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783784",
+  "ancestorHeirs": {
+    "$numberLong": "16"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "4"
+      },
+      "granularity": "city",
+      "id": {
+        "$numberLong": "11762"
+      },
+      "name": "Moscow"
+    }
+  ],
+  "depth": {
+    "$numberLong": "3"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "region",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Rusia (region)",
+  "placeId": {
+    "$numberLong": "-15"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783785",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Florence",
+  "placeId": {
+    "$numberLong": "12593"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783786",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rossano",
+  "placeId": {
+    "$numberLong": "12555"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783787",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Reggio",
+  "placeId": {
+    "$numberLong": "12565"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783788",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Messina",
+  "placeId": {
+    "$numberLong": "12612"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783789",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Otranto",
+  "placeId": {
+    "$numberLong": "12577"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78378a",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Corfinio",
+  "placeId": {
+    "$numberLong": "12579"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78378b",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rome",
+  "placeId": {
+    "$numberLong": "11804"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78378c",
+  "ancestorHeirs": {
+    "$numberLong": "8"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28892"
+      },
+      "name": "the Monastery of Saint Mary"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Grottaferrata",
+  "placeId": {
+    "$numberLong": "11709"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78378d",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12567"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29284"
+      },
+      "name": "the Monastery of Saint Catherine"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai (city)",
+  "placeId": {
+    "$numberLong": "-3"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78378e",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12613"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kallipolis",
+  "placeId": {
+    "$numberLong": "28958"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78378f",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Izmir",
+  "placeId": {
+    "$numberLong": "11725"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783790",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29293"
+      },
+      "name": "the Sumela Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Trabazon",
+  "placeId": {
+    "$numberLong": "11839"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783791",
+  "ancestorHeirs": {
+    "$numberLong": "3"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28825"
+      },
+      "name": "the Hodegon Monastery"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29090"
+      },
+      "name": "the School of Chalkoprateia"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "31433"
+      },
+      "name": "the Prodromos Monastery of Petra"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Istanbul",
+  "placeId": {
+    "$numberLong": "12553"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783792",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28830"
+      },
+      "name": "the Monastery of Great Lavra"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29281"
+      },
+      "name": "the Pantokrator Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Athos (city)",
+  "placeId": {
+    "$numberLong": "-9"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783793",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29285"
+      },
+      "name": "the Monastery of Saint John Prodromos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Serres",
+  "placeId": {
+    "$numberLong": "11818"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783794",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Drama",
+  "placeId": {
+    "$numberLong": "11671"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783795",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28766"
+      },
+      "name": "the New Monastery of the Theotokos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios (city)",
+  "placeId": {
+    "$numberLong": "-11"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783796",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12636"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Moscow",
+  "placeId": {
+    "$numberLong": "11762"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783797",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kalamate",
+  "placeId": {
+    "$numberLong": "28961"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783798",
+  "ancestorHeirs": {
+    "$numberLong": "6"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Mystras",
+  "placeId": {
+    "$numberLong": "28946"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783799",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "28969"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Mary",
+  "placeId": {
+    "$numberLong": "28892"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78379a",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "11821"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Catherine",
+  "placeId": {
+    "$numberLong": "29284"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78379b",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "11564"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Great Lavra",
+  "placeId": {
+    "$numberLong": "28830"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78379c",
+  "ancestorHeirs": {
+    "$numberLong": "2"
+  },
+  "ancestorId": {
+    "$numberLong": "11564"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Pantokrator Monastery",
+  "placeId": {
+    "$numberLong": "29281"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78379d",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Hodegon Monastery",
+  "placeId": {
+    "$numberLong": "28825"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78379e",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Prodromos Monastery of Petra",
+  "placeId": {
+    "$numberLong": "31433"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef78379f",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Sumela Monastery",
+  "placeId": {
+    "$numberLong": "29293"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837a0",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "-16"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the School of Chalkoprateia",
+  "placeId": {
+    "$numberLong": "29090"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837a1",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12585"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the New Monastery of the Theotokos",
+  "placeId": {
+    "$numberLong": "28766"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837a2",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "34096"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "3"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint John Prodromos",
+  "placeId": {
+    "$numberLong": "29285"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837cd",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Florence",
+  "placeId": {
+    "$numberLong": "12593"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837ce",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Reggio",
+  "placeId": {
+    "$numberLong": "12565"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837cf",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rossano",
+  "placeId": {
+    "$numberLong": "12555"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d0",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Corfinio",
+  "placeId": {
+    "$numberLong": "12579"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d1",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Messina",
+  "placeId": {
+    "$numberLong": "12612"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d2",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Otranto",
+  "placeId": {
+    "$numberLong": "12577"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d3",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Rome",
+  "placeId": {
+    "$numberLong": "11804"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d4",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28892"
+      },
+      "name": "the Monastery of Saint Mary"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Grottaferrata",
+  "placeId": {
+    "$numberLong": "11709"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d5",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29284"
+      },
+      "name": "the Monastery of Saint Catherine"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Sinai (city)",
+  "placeId": {
+    "$numberLong": "-3"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d6",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kallipolis",
+  "placeId": {
+    "$numberLong": "28958"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d7",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28825"
+      },
+      "name": "the Hodegon Monastery"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29090"
+      },
+      "name": "the School of Chalkoprateia"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "31433"
+      },
+      "name": "the Prodromos Monastery of Petra"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "3"
+  },
+  "name": "Istanbul",
+  "placeId": {
+    "$numberLong": "12553"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d8",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29293"
+      },
+      "name": "the Sumela Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Trabazon",
+  "placeId": {
+    "$numberLong": "11839"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837d9",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Izmir",
+  "placeId": {
+    "$numberLong": "11725"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837da",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29285"
+      },
+      "name": "the Monastery of Saint John Prodromos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Serres",
+  "placeId": {
+    "$numberLong": "11818"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837db",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Drama",
+  "placeId": {
+    "$numberLong": "11671"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837dc",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28830"
+      },
+      "name": "the Monastery of Great Lavra"
+    },
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "29281"
+      },
+      "name": "the Pantokrator Monastery"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "2"
+  },
+  "name": "Athos (city)",
+  "placeId": {
+    "$numberLong": "-9"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837dd",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Kalamate",
+  "placeId": {
+    "$numberLong": "28961"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837de",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "children": [
+    {
+      "children": [],
+      "depth": {
+        "$numberLong": "5"
+      },
+      "granularity": "location",
+      "id": {
+        "$numberLong": "28766"
+      },
+      "name": "the New Monastery of the Theotokos"
+    }
+  ],
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "1"
+  },
+  "name": "Chios (city)",
+  "placeId": {
+    "$numberLong": "-11"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837df",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Mystras",
+  "placeId": {
+    "$numberLong": "28946"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e0",
+  "ancestorHeirs": {
+    "$numberLong": "20"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "4"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "city",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "Moscow",
+  "placeId": {
+    "$numberLong": "11762"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e1",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12569"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Mary",
+  "placeId": {
+    "$numberLong": "28892"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e2",
+  "ancestorHeirs": {
+    "$numberLong": "1"
+  },
+  "ancestorId": {
+    "$numberLong": "12567"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Catherine",
+  "placeId": {
+    "$numberLong": "29284"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e3",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Sumela Monastery",
+  "placeId": {
+    "$numberLong": "29293"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e4",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Hodegon Monastery",
+  "placeId": {
+    "$numberLong": "28825"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e5",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Prodromos Monastery of Petra",
+  "placeId": {
+    "$numberLong": "31433"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e6",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "28878"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the School of Chalkoprateia",
+  "placeId": {
+    "$numberLong": "29090"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e7",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Pantokrator Monastery",
+  "placeId": {
+    "$numberLong": "29281"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e8",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Great Lavra",
+  "placeId": {
+    "$numberLong": "28830"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837e9",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint John Prodromos",
+  "placeId": {
+    "$numberLong": "29285"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837ea",
+  "ancestorHeirs": {
+    "$numberLong": "4"
+  },
+  "ancestorId": {
+    "$numberLong": "12631"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "4"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the New Monastery of the Theotokos",
+  "placeId": {
+    "$numberLong": "28766"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837fd",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Mary",
+  "placeId": {
+    "$numberLong": "28892"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837fe",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint Catherine",
+  "placeId": {
+    "$numberLong": "29284"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef7837ff",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Prodromos Monastery of Petra",
+  "placeId": {
+    "$numberLong": "31433"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783800",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Sumela Monastery",
+  "placeId": {
+    "$numberLong": "29293"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783801",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the School of Chalkoprateia",
+  "placeId": {
+    "$numberLong": "29090"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783802",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Hodegon Monastery",
+  "placeId": {
+    "$numberLong": "28825"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783803",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Great Lavra",
+  "placeId": {
+    "$numberLong": "28830"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783804",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Monastery of Saint John Prodromos",
+  "placeId": {
+    "$numberLong": "29285"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783805",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the Pantokrator Monastery",
+  "placeId": {
+    "$numberLong": "29281"
+  }
+},
+{
+  "_id": "6975ab970393ad31ef783806",
+  "ancestorHeirs": {
+    "$numberLong": "10"
+  },
+  "ancestorId": {
+    "$numberLong": "-1"
+  },
+  "depth": {
+    "$numberLong": "5"
+  },
+  "distance2ancestor": {
+    "$numberLong": "5"
+  },
+  "granularity": "location",
+  "nChildren": {
+    "$numberLong": "0"
+  },
+  "name": "the New Monastery of the Theotokos",
+  "placeId": {
+    "$numberLong": "28766"
+  }
+}]
