@@ -1,0 +1,16 @@
+
+/*
+2.	Create a Fuzzy Evaluator to generate LGrade fuzzy set related to Sand Size
+*/
+CREATE LGradeFSM FUZZY EVALUATOR lgFuzzyfyFE
+	PARAMETERS 
+		numerator				TYPE NUMERIC,		// parameter n in Formulas (9)
+		ancestorDescendants		TYPE NUMERIC, 		//	 parameter d in Formulas (9)
+		distance2ancestor		TYPE NUMERIC			// parameter e in Formulas (9)
+	PRECONDITION (numerator = 0 OR  numerator = 1) AND
+				ancestorDescendants		>= 1 AND
+				distance2ancestor 		>= 0
+	EVALUATE s AS 	numerator / ancestorDescendants
+	EVALUATE c AS 	1 / 2^distance2ancestor
+;
+

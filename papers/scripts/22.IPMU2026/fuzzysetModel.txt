@@ -1,0 +1,18 @@
+/*
+1. Create fuzzy set model named L-Grade
+*/
+CREATE FUZZY SET MODEL LGradeFSM
+DEGREES	s, c											// s:satisfaction, c:confidence
+	OPERATOR NOT											// negation: 		z = NOT x
+		EVALUATE s AS 	1-x.s
+		EVALUATE c AS 	x.c
+	OPERATOR AND											// conjunction:		z = x AND y
+		EVALUATE s AS 	MIN(x.s, y.s)
+		EVALUATE c AS 	IF(( x.s = 0 AND y.s = 0 ), MAX(x.c, y.c), 
+										IF((x.s = 0), x.c, 
+											IF((y.s = 0), y.c, MIN(x.c, y.c))))
+	OPERATOR OR											// disjunction:		z = x OR y		
+		EVALUATE s AS 	MAX(x.s, y.s)
+		EVALUATE c AS 	IF(( x.s = 1 AND y.s = 1 ), MAX(x.c, y.c), 
+										IF((x.s = 1), x.c, 
+											IF((y.s = 1), y.c,	MIN(x.c, y.c))));
